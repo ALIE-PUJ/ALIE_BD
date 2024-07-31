@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+
+  # Servicio de BD
+  cockroachdb:
+    image: cockroachdb/cockroach
+    restart: always
+    ports:
+      - "26257:26257"
+      - "8070:8080"
+    expose:
+      - 26257
+    command: start-single-node --insecure
+
+  # Administrador de BD
+  adminer:
+    image: adminer
+    ports:
+      - 8081:8080
+    restart: always
+
+  # Servicio de Inicialización de BD
+  db_init:
+    build:
+      context: ./DB_Init  # Contexto de construcción en la carpeta DB_Init
+      dockerfile: Dockerfile
+    depends_on:
+      - cockroachdb
+    restart: on-failure
