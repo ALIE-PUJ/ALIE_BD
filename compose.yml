@@ -27,4 +27,4 @@ services:
       dockerfile: Dockerfile
     depends_on:
       - cockroachdb
-    restart: on-failure
+    restart: always
