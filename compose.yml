@@ -27,4 +27,6 @@ services:
       dockerfile: Dockerfile
     depends_on:
       - cockroachdb
-    restart: always
+    restart: on-failure
+    labels:
+      kompose.cronjob.schedule: "*/30 * * * *"
