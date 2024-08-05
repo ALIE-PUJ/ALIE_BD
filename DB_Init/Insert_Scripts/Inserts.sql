@@ -21,13 +21,6 @@ INSERT INTO Profesor (id_profesor, nombres, apellidos, email, telefono) VALUES
 (3, 'Laura', 'Hernández', 'laura.hernandez@example.com', '789321654')
 ON CONFLICT (id_profesor) DO NOTHING;
 
--- Insertar datos de ejemplo en la tabla Asignatura
-INSERT INTO Asignatura (id_asignatura, nombre, descripcion, id_profesor) VALUES 
-(1, 'Programación', 'Curso de introducción a la programación.', 1),
-(2, 'Contabilidad', 'Curso de fundamentos de contabilidad.', 2),
-(3, 'Diseño de Interfaces', 'Curso de diseño de interfaces de usuario.', 3)
-ON CONFLICT (id_asignatura) DO NOTHING;
-
 -- Insertar datos de ejemplo en la tabla Curso
 INSERT INTO Curso (id_curso, nombre, descripcion) VALUES 
 (1, 'Curso de Programación', 'Curso básico de programación en diferentes lenguajes.'),

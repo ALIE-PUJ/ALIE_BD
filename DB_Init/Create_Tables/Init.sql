@@ -31,15 +31,6 @@ CREATE TABLE IF NOT EXISTS Profesor (
     telefono VARCHAR(15)
 );
 
--- Tabla Asignatura
-CREATE TABLE IF NOT EXISTS Asignatura (
-    id_asignatura SERIAL PRIMARY KEY,
-    nombre VARCHAR(100) NOT NULL,
-    descripcion TEXT,
-    id_profesor INT NOT NULL,
-    FOREIGN KEY (id_profesor) REFERENCES Profesor(id_profesor)
-);
-
 -- Tabla Curso
 CREATE TABLE IF NOT EXISTS Curso (
     id_curso SERIAL PRIMARY KEY,
