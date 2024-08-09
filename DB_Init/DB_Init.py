@@ -1,4 +1,5 @@
 import psycopg2
+import os
 
 def execute_sql_from_file(file_path, conn):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -30,11 +31,18 @@ def query_all_tables(conn):
             print("\n")
 
 def main():
+
+    # Busca la variable de entorno USER; si no existe, asigna "root"
+    userDB = os.getenv('USER', 'root')
+
+    # Busca la variable de entorno PASS; si no existe, asigna una cadena vacía
+    passw = os.getenv('PASS', '')
+
     connection = psycopg2.connect(
         host='cockroachdb', # docker-compose service name
         port=26257,
-        user='root',
-        password='',
+        user=userDB,
+        password=passw,
         database='ALIE_DB'
     )
 
