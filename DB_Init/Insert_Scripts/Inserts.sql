@@ -367,7 +367,7 @@ INSERT INTO Estudiante (id_estudiante, nombres, apellidos, fecha_nacimiento, id_
 (358, 'Camila', 'Romero', '2001-03-18', 1, 'valenciajavier@example.net', '+57 311 052 32 42', 'Cr. 8ª # 1-9 Sur, Bodega 2, 251926, Albán, Cundinamarca'),
 (359, 'Daniela', 'Polo', '2003-11-12', 1, 'xgomez@example.net', '3191352767', 'Avenida Cabrera # 84-64, 684735, Socorro, Santander'),
 (360, 'Andrés', 'Torres', '2001-07-12', 1, 'qcuesta@example.net', '3185916435', 'Cl. 3ª # 64-10 Este, Casa 5, 668263, Quinchía, Risaralda'),
-(361, 'Andrés', 'Rodríguez', '2000-04-17', 1, 'srivera@example.org', '6087739154', 'Tr. 132 Sur # 5X-60 Sur, 275989, Río Iró, Chocó'),
+(361, 'Andrés', 'Rodríguez', '2000-04-17', 1, 'sriveraa@example.org', '6087739154', 'Tr. 132 Sur # 5X-60 Sur, 275989, Río Iró, Chocó'),
 (362, 'Jesús', 'Betancur', '2003-04-24', 1, 'fernando42@example.net', '01 8003 570 020', 'Cr. 122 # 6-4 Sur, Casa 80, 689933, San Andrés, Santander'),
 (363, 'Dora', 'Vásquez', '2002-10-20', 1, 'rafaelestrada@example.com', '+573083725418', 'Cl. 5ª # 93-1 Sur, Apartamento 2, 174986, Risaralda, Caldas'),
 (364, 'Willian', 'Méndez', '2005-03-09', 1, 'qlondono@example.org', '+57 320 704 59 13', 'Carrera 86 # 73F-31, Apartamento 45, 701682, Colosó, Sucre'),
@@ -409,7 +409,7 @@ INSERT INTO Estudiante (id_estudiante, nombres, apellidos, fecha_nacimiento, id_
 (400, 'Manuel', 'Saavedra', '2005-09-07', 1, 'andres66@example.com', '312 569 70 53', 'Diagonal 69W # 1-56 Sur, 209601, Astrea, Cesar'),
 (401, 'Adolfo', 'Rodríguez', '2002-01-03', 1, 'javier58@example.org', '(+57) 603 481 75 73', 'Transversal 49 # 16W-6, Oficina 709, 865276, Orito, Putumayo'),
 (402, 'Rafael', 'Espinosa', '2000-08-17', 1, 'psanchez@example.net', '6062803212', 'Avenida carrera 143 # 30-1 Este, 175357, Victoria, Caldas'),
-(403, 'Ana', 'Ramírez', '2005-12-16', 1, 'luis52@example.com', '166 64 31', 'Cl. 23 # 6-65 Este, Bodega 88, 685254, Mogotes, Santander'),
+(403, 'Ana', 'Ramírez', '2005-12-16', 1, 'luis53@example.com', '166 64 31', 'Cl. 23 # 6-65 Este, Bodega 88, 685254, Mogotes, Santander'),
 (404, 'Mirian', 'Quiroz', '1998-11-14', 1, 'adolfo09@example.net', '+57 317 383 57 24', 'Calle 9Y # 89-45 Este, Apartamento 91, 159680, Berbeo, Boyacá'),
 (405, 'Astrid', 'López', '2001-05-13', 1, 'nidia22@example.org', '57 324 973 05 95', 'Cr. 148 # 40-46 Este, 528493, San Andrés de Tumaco, Nariño'),
 (406, 'Óscar', 'Buitrago', '2002-12-20', 1, 'enriqueestrada@example.net', '018004915773', 'Cl. 4ª # 80T-57 Sur, 050103, La Unión, Antioquia'),
@@ -470,7 +470,7 @@ INSERT INTO Estudiante (id_estudiante, nombres, apellidos, fecha_nacimiento, id_
 (461, 'Lucía', 'Lozano', '2000-10-01', 1, 'daniel84@example.net', '313 522 64 81', 'Cr. 93 # 8-6, Torre 3 apartamento 4, 705511, Palmito, Sucre'),
 (462, 'Alfonso', 'Ramos', '2006-05-27', 1, 'ealvarez@example.net', '317 178 76 18', 'Diagonal 120 # 51-8 Sur, 524325, Contadero, Nariño'),
 (463, 'Elena', 'Rincón', '2005-10-09', 1, 'marinapena@example.net', '57 604 299 60 26', 'Tr. 9ª # 8I-22, 153360, Saboyá, Boyacá'),
-(464, 'Lucila', 'Gómez', '2003-07-09', 1, 'mzapata@example.org', '57 315 407 57 25', 'Cr. 77 # 7-62 Este, 156968, La Capilla, Boyacá'),
+(464, 'Lucila', 'Gómez', '2003-07-09', 1, 'mzapataa@example.org', '57 315 407 57 25', 'Cr. 77 # 7-62 Este, 156968, La Capilla, Boyacá'),
 (465, 'Arturo', 'Mosquera', '2004-12-06', 1, 'pinedajose@example.com', '+573062365741', 'Av. calle 108 # 55-1 Este, 919606, Puerto Arica, Amazonas'),
 (466, 'Candelaria', 'Martínez', '1999-06-14', 1, 'florezfederico@example.com', '+576012534020', 'Avenida calle 75 # 64-92 Este, Etapa 1 apartamento 34, 158868, Panqueba, Boyacá'),
 (467, 'Fernanda', 'Hoyos', '2006-02-13', 1, 'kgomez@example.com', '(+57) 607 813 58 39', 'Carrera 163 # 49-5 Sur, 252332, Cajicá, Cundinamarca'),
@@ -634,7 +634,7 @@ INSERT INTO Estudiante (id_estudiante, nombres, apellidos, fecha_nacimiento, id_
 (625, 'Michael', 'López', '1998-10-29', 1, 'karen14@example.com', '+573181253535', 'Av. carrera 6ª # 20-4 Sur, 159009, Buenavista, Boyacá'),
 (626, 'Armando', 'Murillo', '2002-07-04', 1, 'reyesandres@example.com', '326 458 91 36', 'Carrera 192 Bis B # 98-58 Este, 253273, Gachalá, Cundinamarca'),
 (627, 'Eduardo', 'Arteaga', '2003-06-28', 1, 'patinoluz@example.org', '+573291753544', 'Transversal 9M Este # 1-7, Local 82, 549548, San Calixto, Norte de Santander'),
-(628, 'Tatiana', 'Bernal', '2001-03-15', 1, 'klopez@example.org', '+573276272424', 'Cr. 140 # 3-8 Este, 477798, Fundación, Magdalena'),
+(628, 'Tatiana', 'Bernal', '2001-03-15', 1, 'klopezz@example.org', '+573276272424', 'Cr. 140 # 3-8 Este, 477798, Fundación, Magdalena'),
 (629, 'César', 'Hernández', '2006-06-16', 1, 'camilo62@example.org', '+573269789434', 'Cl. 95 # 6-5, 253203, Útica, Cundinamarca'),
 (630, 'Paulo', 'Vásquez', '2005-11-04', 1, 'avilacarlos@example.net', '4541264', 'Calle 1D # 78-5 Sur, Oficina 41, 548720, El Zulia, Norte de Santander'),
 (631, 'Abel', 'Palacios', '2000-01-07', 1, 'iblanco@example.org', '573094197103', 'Cr. 41 # 5-7 Sur, 527060, Ancuya, Nariño'),
@@ -827,7 +827,7 @@ INSERT INTO Estudiante (id_estudiante, nombres, apellidos, fecha_nacimiento, id_
 (818, 'Javier', 'Pulido', '2003-10-14', 1, 'angel31@example.org', '3032823084', 'Calle 69 # 6-73 Este, Torre 7 apartamento 7, 234702, Moñitos, Córdoba'),
 (819, 'Emilio', 'Soto', '2000-05-21', 1, 'williammorales@example.net', '603 937 12 65', 'Avenida carrera 6ª # 51V-58, 253130, San Cayetano, Cundinamarca'),
 (820, 'Sergio', 'Jiménez', '2000-10-31', 1, 'valentinavillamizar@example.net', '608 523 47 78', 'Calle 145N # 72-72, 521325, Roberto Payán, Nariño'),
-(821, 'Enrique', 'Oviedo', '2005-10-04', 1, 'imartinez@example.org', '+57 321 908 84 14', 'Av. carrera 1ª # 72-5 Este, Bodega 18, 186170, Cartagena del Chairá, Caquetá'),
+(821, 'Enrique', 'Oviedo', '2005-10-04', 1, 'imartineez@example.org', '+57 321 908 84 14', 'Av. carrera 1ª # 72-5 Este, Bodega 18, 186170, Cartagena del Chairá, Caquetá'),
 (822, 'Luz', 'Galvis', '2003-07-01', 1, 'eduardo79@example.com', '57 316 479 62 50', 'Avenida Narváez # 9-22, Apartamento 31, 631097, Calarcá, Quindío'),
 (823, 'César', 'Lozano', '2002-01-22', 1, 'lucia01@example.com', '6607463', 'Calle 57 # 1I-1 Sur, 150980, Sativanorte, Boyacá'),
 (824, 'Julio', 'Pérez', '2001-01-15', 1, 'carolina20@example.org', '+57 609 210 87 95', 'Cl. 24 # 8-39, Apartamento 4, 151024, Buenavista, Boyacá'),
@@ -1530,12 +1530,12 @@ INSERT INTO Nota (id_nota, id_estudiante, id_curso, id_clase, nota) VALUES
 (177, 27, 34809, 14920, 3.6),
 (178, 28, 34809, 6168, 4.2),
 (179, 29, 34809, 6170, 4.0),
-(180, 30, 34809, 6175, 4.5),
+(180, 30, 34809, 6175, 4.5)
 ON CONFLICT (id_nota) DO NOTHING;
 
 -- Insertar datos de ejemplo en la tabla Estudiante_Clase
 INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES 
-(1, 1),
-(2, 2),
-(3, 3)
+(1, 5198),
+(2, 5198),
+(3, 5198)
 ON CONFLICT (id_estudiante, id_clase) DO NOTHING;

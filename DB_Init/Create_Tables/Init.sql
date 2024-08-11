@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS Estudiante (
     fecha_nacimiento DATE NOT NULL,
     id_carrera INT NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
-    telefono VARCHAR(15),
+    telefono VARCHAR(30),
     direccion TEXT,
     FOREIGN KEY (id_carrera) REFERENCES Carrera(id_carrera)
 );
@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS Profesor (
     nombres VARCHAR(100) NOT NULL,
     apellidos VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
-    telefono VARCHAR(15)
+    telefono VARCHAR(30)
 );
 
 -- Tabla Curso

@@ -30,3 +30,13 @@ services:
     restart: on-failure
     labels:
       kompose.cronjob.schedule: "*/30 * * * *"
+
+  # Servicio de base de datos documental - MongoDB
+  mongodb:
+    image: mongo:latest
+    container_name: my_mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin123
+    ports:
+      - "27017:27017"
