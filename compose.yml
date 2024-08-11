@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
 
-  # Servicio de BD
+  # Servicio de BD Relacional - CockroachDB
   cockroachdb:
     image: cockroachdb/cockroach
     restart: always
@@ -13,7 +13,7 @@ services:
       - 26257
     command: start-single-node --insecure
 
-  # Administrador de BD
+  # Servicio de Administrador de BD Relacional. Docs: https://github.com/vrana/adminer
   adminer:
     image: adminer
     ports:
@@ -34,9 +34,23 @@ services:
   # Servicio de base de datos documental - MongoDB
   mongodb:
     image: mongo:latest
-    container_name: my_mongodb
+    container_name: mongodb
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: admin123
     ports:
       - "27017:27017"
+
+  # Servicio web de administrador de MongoDB. Docs: https://github.com/mongo-express/mongo-express
+  # CREDENCIALES POR DEFECTO: Username: admin. Password: pass.
+  mongo-express:
+    image: mongo-express:latest
+    container_name: mongo_express
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: admin
+      ME_CONFIG_MONGODB_ADMINPASSWORD: admin123
+      ME_CONFIG_MONGODB_SERVER: mongodb
+    ports:
+      - "8082:8081"
+    depends_on:
+      - mongodb
