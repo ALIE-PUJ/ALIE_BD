@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "title": "Canal de la Carrera TEAMS",
+  "description": "Información sobre el canal de Teams de la carrera de Ingeniería de Sistemas, dividido en cuatro secciones.",
+  "details": [
+    {
+      "subtitle": "General",
+      "content": "Sección dedicada a la información general del programa, anuncios importantes y comunicados de la carrera. Aquí encontrarás mensajes y actualizaciones relevantes para todos los estudiantes de Ingeniería de Sistemas."
+    },
+    {
+      "subtitle": "Etapas en la Carrera",
+      "content": "En esta sección se proporciona información sobre las diferentes etapas del programa de Ingeniería de Sistemas, incluyendo detalles sobre el avance académico, requisitos de curso, y hitos importantes en el trayecto académico de los estudiantes."
+    },
+    {
+      "subtitle": "Tecnología y Desarrollo Social",
+      "content": "Aquí se discuten temas relacionados con el impacto de la tecnología en el desarrollo social, así como iniciativas y proyectos que vinculan la ingeniería de sistemas con el bienestar de la sociedad. También se comparten recursos y oportunidades para involucrarse en proyectos de responsabilidad social."
+    },
+    {
+      "subtitle": "Utilitarios para la Carrera",
+      "content": "Sección que ofrece herramientas y recursos útiles para los estudiantes, incluyendo guías, tutoriales, enlaces a software necesario, y cualquier otra información práctica que facilite el proceso académico y profesional en la carrera."
+    }
+  ]
+}

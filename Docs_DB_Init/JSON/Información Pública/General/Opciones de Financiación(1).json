@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "publico",
+  "title": "Opciones de Financiación",
+  "description": "Opciones de financiación disponibles para estudiantes de la Pontificia Universidad Javeriana.",
+  "details": [
+    {
+      "type": "A corto plazo",
+      "description": "Financiación directamente con la Universidad para facilitar el pago de la matrícula en un periodo breve."
+    },
+    {
+      "type": "A mediano y largo plazo",
+      "description": "Opciones de financiación a través de entidades aliadas para pagos extendidos en el tiempo."
+    },
+    {
+      "type": "Descuentos y convenios",
+      "description": "Descuentos y acuerdos especiales con entidades públicas y privadas para facilitar el acceso a la educación."
+    }
+  ],
+  "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+}

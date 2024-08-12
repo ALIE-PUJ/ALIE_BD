@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "publico",
+  "title": "Líneas de Énfasis en Ingeniería de Sistemas",
+  "description": "Descripción de las líneas de énfasis del programa de Ingeniería de Sistemas.",
+  "details": [
+    {
+      "subtitle": "Inteligencia Artificial y Ciencia de Datos",
+      "content": "Aborda el diseño de algoritmos y estrategias con el propósito de programar máquinas que, al imitar las capacidades del ser humano, permiten automatizar procesos que apoyen significativamente la producción de las empresas y la vida de las organizaciones, así como suplantar al ser humano en tareas riesgosas y repetitivas.",
+      "link": "https://www.javeriana.edu.co/recursosdb/1372208/1933581/Plan+de+estudios+Carrera+de+Ingenier%C3%ADa+de+Sistemas+Septiembre+2021.pdf/dcd72aaf-7a98-e019-7cbb-1cdfbf25f083?t=1632151956706"
+    },
+    {
+      "subtitle": "Desarrollo Avanzado de Software y Seguridad Digital",
+      "content": "Involucra dos grandes sub-áreas: infraestructura y desarrollo; La primera se enfoca principalmente en la construcción de soluciones seguras y eficientes para las capas bajas de un sistema informático (sistemas operativos, dispositivos IoT, redes, middleware); la segunda se orienta a la construcción de aplicaciones informáticas complejas, centrándose en los módulos de software de las capas superiores.",
+      "link": "https://www.javeriana.edu.co/recursosdb/1372208/1933581/Plan+de+estudios+Carrera+de+Ingenier%C3%ADa+de+Sistemas+Septiembre+2021.pdf/dcd72aaf-7a98-e019-7cbb-1cdfbf25f083?t=1632151956706"
+    },
+    {
+      "subtitle": "Sistemas de Información y Gestión",
+      "content": "Esta línea aborda la gestión de estrategias, procesos, tecnologías y herramientas requeridos para la construcción de sistemas de información que permitan convertir los datos en información, la información en conocimiento y el conocimiento en planes que conduzcan a acciones de negocio rentables.",
+      "link": "https://www.javeriana.edu.co/recursosdb/1372208/1933581/Plan+de+estudios+Carrera+de+Ingenier%C3%ADa+de+Sistemas+Septiembre+2021.pdf/dcd72aaf-7a98-e019-7cbb-1cdfbf25f083?t=1632151956706"
+    },
+    {
+      "subtitle": "Computación Visual",
+      "content": "Aborda las diferentes tecnologías para construir modelos e imágenes por computador que simulen la realidad, permitiendo crear aplicaciones que apoyen procesos de diversas áreas como medicina, medio ambiente, entretenimiento (juegos), entre otros.",
+      "link": "https://www.javeriana.edu.co/recursosdb/1372208/1933581/Plan+de+estudios+Carrera+de+Ingenier%C3%ADa+de+Sistemas+Septiembre+2021.pdf/dcd72aaf-7a98-e019-7cbb-1cdfbf25f083?t=1632151956706"
+    }
+  ]
+}

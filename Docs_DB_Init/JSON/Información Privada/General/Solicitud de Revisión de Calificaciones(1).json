@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "title": "Solicitud de Revisión de Calificaciones",
+  "description": "Información sobre el proceso de solicitud para la revisión de calificaciones en la carrera de Ingeniería de Sistemas. El formulario debe completarse con los datos del estudiante, la información de la materia y las notas correspondientes, junto con la evidencia requerida.",
+  "details": [
+    {
+      "subtitle": "Formulario de revisión de calificaciones",
+      "content": "Este formulario está destinado a solicitar la revisión de una calificación específica. Es necesario completar todos los datos del estudiante y proporcionar la información de la materia y las notas correspondientes. Además, se debe adjuntar cualquier evidencia requerida, como fotos de las notas, para que la solicitud sea válida.",
+      "link": "https://forms.office.com/r/jDVmdHfuVL"
+    }
+  ]
+}

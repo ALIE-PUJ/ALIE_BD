@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "title": "Solicitud de Retiro de Asignaturas",
+  "description": "Formulario para solicitar el retiro de asignaturas en la carrera de Ingeniería de Sistemas. Debe completarse con los datos personales del estudiante, la materia que desea retirar y los motivos de la solicitud.",
+  "details": [
+    {
+      "subtitle": "Formulario de solicitud de retiro de asignaturas",
+      "content": "Este formulario permite a los estudiantes solicitar el retiro de asignaturas. Se requiere completar la información personal del estudiante, especificar la materia que se desea retirar y proporcionar los motivos correspondientes para la solicitud.",
+      "link": "https://forms.office.com/r/4YGpR8Wsvi"
+    }
+  ]
+}

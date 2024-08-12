@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "title": "Solicitud de Validación de Asignaturas",
+  "description": "Proceso para solicitar la validación de asignaturas en la carrera de Ingeniería de Sistemas. Se debe completar un formulario con los datos personales del estudiante, la información de la materia, la justificación y otros parámetros necesarios para la validación.",
+  "details": [
+    {
+      "subtitle": "Formulario de solicitud de validación de asignaturas",
+      "content": "Este formulario está destinado a solicitar la validación de asignaturas. Debe completarse con los datos del estudiante, la información detallada de la materia en cuestión, la justificación correspondiente y otros parámetros necesarios para el proceso de validación.",
+      "link": "https://forms.office.com/r/ccYyRLWABA"
+    }
+  ]
+}
