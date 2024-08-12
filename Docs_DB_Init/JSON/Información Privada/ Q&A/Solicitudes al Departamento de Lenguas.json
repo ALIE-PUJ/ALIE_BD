@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-21",
+  "categories": [
+    {
+      "category": "Solicitudes al Departamento de Lenguas",
+      "questions": [
+        {
+          "question": "¿Dónde puedo encontrar información sobre los requisitos de la lengua extranjera?",
+          "subquestions": [
+            "¿Dónde hallo los detalles sobre los requisitos de idioma extranjero?",
+            "¿Cómo obtengo información sobre los requisitos de lengua extranjera?",
+            "¿Dónde consulto los requisitos para cumplir con el requisito de lengua extranjera?"
+          ],
+          "answer": "Puedes encontrar información sobre los requisitos de la lengua extranjera en el portal estudiantil de la universidad, en la sección del Departamento de Lenguas. También puedes consultar con tu consejero académico o visitar la página web del departamento."
+        },
+        {
+          "question": "¿Cómo puedo certificar que he cumplido con el requisito de lengua extranjera?",
+          "subquestions": [
+            "¿Qué pasos debo seguir para certificar el cumplimiento del requisito de lengua extranjera?",
+            "¿Cómo demuestro que he cumplido con el requisito de idioma extranjero?",
+            "¿Cuál es el proceso para validar el cumplimiento del requisito de lengua extranjera?"
+          ],
+          "answer": "Para certificar que has cumplido con el requisito de lengua extranjera, debes presentar los documentos de aprobación de los cursos requeridos o los certificados de los exámenes de competencia lingüística aprobados por la universidad. Estos documentos deben ser entregados al Departamento de Lenguas para su verificación."
+        },
+        {
+          "question": "¿Qué debo hacer si tengo dudas sobre los requisitos de lengua extranjera?",
+          "subquestions": [
+            "¿Con quién puedo hablar si tengo preguntas sobre los requisitos de idioma extranjero?",
+            "¿Qué hago si no entiendo los requisitos de lengua extranjera?",
+            "¿Cómo resuelvo mis dudas sobre los requisitos de lengua extranjera?"
+          ],
+          "answer": "Si tienes dudas sobre los requisitos de lengua extranjera, puedes contactar al Departamento de Lenguas a través del portal estudiantil, enviar un correo electrónico al coordinador del departamento, o agendar una cita con tu consejero académico para obtener orientación."
+        }
+      ]
+    }
+  ]
+}

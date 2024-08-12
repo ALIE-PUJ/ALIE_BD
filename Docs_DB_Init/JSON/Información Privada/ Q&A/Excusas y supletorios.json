@@ -1,0 +1,56 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-21",
+  "categories": [
+    {
+      "category": "Excusas y Supletorios",
+      "questions": [
+        {
+          "question": "¿Qué tipos de justificaciones son aceptadas para solicitar un supletorio?",
+          "subquestions": [
+            "¿Qué motivos son válidos para pedir un supletorio?",
+            "¿Cuáles son las justificaciones aprobadas para solicitar un supletorio?",
+            "¿Qué tipo de excusas se aceptan para poder pedir un supletorio?"
+          ],
+          "answer": "Las justificaciones aceptadas para solicitar un supletorio incluyen razones médicas, eventos familiares importantes, accidentes, y cualquier otra situación imprevista que esté debidamente documentada y aprobada por la universidad. Debes presentar una solicitud formal junto con la documentación de respaldo."
+        },
+        {
+          "question": "¿Cuál es el procedimiento para enviar una excusa por inasistencia?",
+          "subquestions": [
+            "¿Cómo debo enviar una justificación por faltar a clase?",
+            "¿Qué pasos debo seguir para entregar una excusa de inasistencia?",
+            "¿Cuál es el proceso para presentar una excusa por no asistir a una actividad?"
+          ],
+          "answer": "Para enviar una excusa por inasistencia, debes completar un formulario de excusa disponible en el portal estudiantil o en la oficina de registro. Luego, debes adjuntar cualquier documentación relevante, como un certificado médico, y enviar todo a la oficina correspondiente o cargarlo en el sistema de gestión de estudiantes."
+        },
+        {
+          "question": "¿Qué pasa si mi solicitud de supletorio es rechazada?",
+          "subquestions": [
+            "¿Qué ocurre si no aceptan mi solicitud de supletorio?",
+            "¿Cuáles son las consecuencias si mi solicitud de supletorio no es aprobada?",
+            "¿Qué debo hacer si rechazan mi petición de supletorio?"
+          ],
+          "answer": "Si tu solicitud de supletorio es rechazada, no podrás presentar el examen supletorio y deberás seguir el procedimiento académico estándar, lo que puede incluir tomar el curso nuevamente. Puedes apelar la decisión si crees que hay un error o presentar una nueva solicitud con información adicional."
+        },
+        {
+          "question": "¿Dónde encuentro el formato para solicitar un supletorio?",
+          "subquestions": [
+            "¿Dónde puedo obtener el formato para pedir un supletorio?",
+            "¿Cómo accedo al documento necesario para solicitar un supletorio?",
+            "¿En qué lugar puedo descargar el formato para supletorios?"
+          ],
+          "answer": "El formato para solicitar un supletorio generalmente se encuentra en el portal estudiantil de la universidad o en la página web del departamento académico correspondiente. También puedes obtenerlo en la oficina de registro o solicitarlo a tu consejero académico."
+        },
+        {
+          "question": "¿Cómo puedo verificar el estado de mi solicitud de supletorio?",
+          "subquestions": [
+            "¿De qué manera puedo checar el estatus de mi solicitud de supletorio?",
+            "¿Cómo sigo el proceso de mi solicitud de supletorio?",
+            "¿Qué pasos sigo para revisar el estado de mi petición de supletorio?"
+          ],
+          "answer": "Puedes verificar el estado de tu solicitud de supletorio a través del portal estudiantil de la universidad, donde encontrarás una sección específica para el seguimiento de solicitudes. También puedes contactar a la oficina de registro o a tu consejero académico para obtener información actualizada."
+        }
+      ]
+    }
+  ]
+}

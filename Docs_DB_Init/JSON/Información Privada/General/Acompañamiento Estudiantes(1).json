@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "title": "Acompañamiento para el Estudiante",
+  "description": "Información sobre los servicios de escucha activa que brinda el CAPS.",
+  "access_control": "privado",
+  "details": [
+    {
+      "subtitle": "Servicios de Escucha Activa",
+      "content": "Información sobre los servicios de escucha activa que brinda el CAPS.",
+      "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FAcompa%C3%B1amiento%20Estudiantes%2FCAPS%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FAcompa%C3%B1amiento%20Estudiantes&p=true&ga=1"
+    },
+    {
+      "subtitle": "Clases para Potenciar Habilidades",
+      "content": "Información sobre diversas clases que se ofrecen para potenciar habilidades como habilidades comerciales, habilidades para el emprendimiento, entre otras.",
+      "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FAcompa%C3%B1amiento%20Estudiantes%2FCAPS%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FAcompa%C3%B1amiento%20Estudiantes&p=true&ga=1"
+    }
+    {
+      "subtitle": "Acompañamiento Departamento de Matemáticas",
+      "content": "Información sobre las aulas de acompañamiento en matemáticas para todos los estudiantes de la carrera",
+      "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FInvitaciones%2FAtenci%C3%B3n%20a%20Estudiantes%202430%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FInvitaciones&p=true&ga=1"
+    }
+    {
+      "subtitle": "Acompañamiento Departamento de Ingeniería Industrial",
+      "content": "Información sobre las aulas de acompañamiento en industrial para todos los estudiantes de la carrera",
+      "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FInvitaciones%2FMONITORIAS%20ING%2E%20INDUSTRIAL%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FInvitaciones&p=true&ga=1"
+    }
+  ]
+}

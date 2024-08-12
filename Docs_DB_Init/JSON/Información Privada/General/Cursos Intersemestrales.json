@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "title": "Cursos Intersemestrales",
+  "description": "Este apartado cuenta con la información necesaria para realizar un curso intersemestral en pregrado. Además, se muestran 5 enlaces que redirigen según la información que se esté buscando. Es importante tener en cuenta que el acceso a estos enlaces es limitado; es decir, cada enlace se activa en una fecha específica y, después de esa fecha, la información ya no es accesible.",
+  "details": [
+    {
+      "subtitle": "Procedimiento para la inscripción de los cursos",
+      "content": "Link no accesible de momento",
+      "link": ""
+    },
+    {
+      "subtitle": "Cursos ofrecidos",
+      "content": "Link no accesible de momento",
+      "link": ""
+    },
+    {
+      "subtitle": "Información con la lista de cursos abiertos",
+      "content": "Se muestran los cursos que estarán abiertos durante el intersemestral, es decir, aquellos para los cuales se han completado los cupos necesarios para que se realicen.",
+      "link": "https://intranet.javeriana.edu.co/documents/97133/170708/Pregrados+Cursos+Abierto.pdf/f1f78aa7-5171-1c01-1205-2aa9ede7944b?t=1717793099121"
+    },
+    {
+      "subtitle": "Lista de cursos pendientes",
+      "content": "Link no accesible de momento",
+      "link": ""
+    },
+    {
+      "subtitle": "Información con la lista de cursos cerrados",
+      "content": "Este link redirige a los cursos que no se ofrecerán en el intersemestral, probablemente por falta de cupos.",
+      "link": "https://intranet.javeriana.edu.co/documents/97133/170708/Pregrados+Cursos+Cerrados.pdf/ee03f39a-4a66-31df-59c8-8af6eec4a485?t=1717687373522"
+    }
+  ]
+}

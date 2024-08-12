@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "title": "Solicitud de Retiro Temporal, Retiro Definitivo y Reintegro",
+  "description": "Información sobre cómo solicitar el retiro temporal, retiro definitivo o reintegro a la carrera de Ingeniería de Sistemas.",
+  "details": [
+    {
+      "subtitle": "Formulario para solicitar retiro o reintegro",
+      "content": "Este formulario permite a los estudiantes solicitar el retiro temporal, retiro definitivo o reintegro a la carrera de Ingeniería de Sistemas. Se solicita que lean cuidadosamente toda la información requerida para evitar demoras en el proceso.",
+      "link": "https://forms.office.com/r/MBRemPAkTc"
+    }
+  ]
+}

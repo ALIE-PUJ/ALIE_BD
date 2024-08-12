@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "title": "Ajuste de Informe de Avance",
+  "description": "Instrucciones para remitir una solicitud de cambio en el informe de avance.",
+  "access_control": "privado",
+  "details": [
+    {
+      "subtitle": "Información Necesaria",
+      "content": "El estudiante debe remitir una tabla con la siguiente información: ID del estudiante, nombre y documento de identidad, cambio que desea realizar en el informe, correo al que debe enviar la solicitud.",
+      "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FCarrera%20Ing%2E%20Sistemas%2FAjuste%20Informe%20de%20Avance%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FCarrera%20Ing%2E%20Sistemas"
+    }
+  ]
+}

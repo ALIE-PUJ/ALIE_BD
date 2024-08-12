@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "publico",
+  "title": "Áreas de la Carrera - Ingeniería de Sistemas",
+  "description": "Descripción de las áreas y énfasis de la carrera de Ingeniería de Sistemas en la Universidad Javeriana.",
+  "details": [
+    {
+      "subtitle": "Pénsum de Ingeniería de Sistemas",
+      "content": "Las áreas principales de la carrera incluyen:\n- Inteligencia Artificial\n- Ciencia de Datos\n- Computación Gráfica\n- Seguridad Digital\n- Sistemas de Información\n\nA lo largo del semestre, se dictan charlas para conocer a profundidad cada énfasis.",
+      "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+    }
+  ]
+}

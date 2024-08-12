@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "title": "Solicitud de Reingreso",
+  "description": "Información sobre cómo solicitar el reingreso a la carrera de Ingeniería de Sistemas.",
+  "details": [
+    {
+      "subtitle": "Formulario para solicitar el reingreso",
+      "content": "Este formulario permite a los estudiantes solicitar el reingreso a la carrera de Ingeniería de Sistemas. Se solicita la información del estudiante y otros datos necesarios para realizar la solicitud de manera válida.",
+      "link": "https://forms.office.com/r/NErxqBJbJa"
+    }
+  ]
+}

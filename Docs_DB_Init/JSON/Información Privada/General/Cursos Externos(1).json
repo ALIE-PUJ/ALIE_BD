@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "title": "Cursos Externos",
+  "description": "Información sobre cursos externos relacionados con la carrera de ingeniería.",
+  "access_control": "privado",
+  "details": [
+    {
+      "subtitle": "Cursos del Boston College",
+      "content": "Información sobre los cursos que ofrece el Boston College, con detalles como modalidad y fecha de inicio.",
+      "link": "https://livejaverianaedu.sharepoint.com/:x:/r/sites/Ingsis/CISIST/_layouts/15/Doc.aspx?sourcedoc=%7B681BA5A0-D587-4157-B622-1567B2D55E15%7D&file=Listado%20de%20clases%20disponibles%20-%20Boston%20College%20Virtual%202023-3%20(1).xlsx&action=default&mobileredirect=true"
+    },
+    {
+      "subtitle": "Formulario de Inscripción",
+      "content": "Excel para completar los datos del estudiante interesados en los cursos del Boston College.",
+      "link": "https://livejaverianaedu.sharepoint.com/:x:/s/Ingsis/CISIST/EYz06A1kdGBFhDZW4pZyzV0Bj_vNyNXNjD1eX20_6hhY6w?e=wXDguu"
+    }
+  ]
+}

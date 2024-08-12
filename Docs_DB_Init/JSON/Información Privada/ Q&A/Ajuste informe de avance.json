@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-21",
+  "categories": [
+    {
+      "category": "Ajuste de Informe de Avance",
+      "questions": [
+        {
+          "question": "¿Qué debo hacer si encuentro un error en mi informe de avance?",
+          "subquestions": [
+            "¿Qué hago si detecto un error en mi informe de avance?",
+            "¿Cómo procedo si veo un error en mi informe de progreso?",
+            "¿Qué pasos debo seguir si mi informe de avance tiene un error?"
+          ],
+          "answer": "Si encuentras un error en tu informe de avance, debes contactar a la oficina de registro o al departamento académico correspondiente. Proporciona detalles del error y cualquier documentación que respalde tu solicitud de corrección."
+        },
+        {
+          "question": "¿Qué información es necesaria en una solicitud de ajuste del informe de avance?",
+          "subquestions": [
+            "¿Qué datos debo incluir en la solicitud para ajustar el informe de avance?",
+            "¿Qué detalles necesito para pedir un ajuste en mi informe de progreso?",
+            "¿Qué información se requiere para corregir un error en el informe de avance?"
+          ],
+          "answer": "Para redactar una solicitud de ajuste en el informe de avance, debes incluir tus datos personales, una descripción clara del error, y la corrección solicitada. Adjunta cualquier documentación de respaldo y envía la solicitud al departamento académico correspondiente o a la oficina de registro."
+        },
+        {
+          "question": "¿A quién debo enviar mi solicitud de ajuste de informe?",
+          "subquestions": [
+            "¿Dónde envío mi petición para ajustar el informe de avance?",
+            "¿A quién debo dirigir mi solicitud para corregir el informe de avance?",
+            "¿Cuál es el correo para enviar la solicitud de ajuste del informe de avance?"
+          ],
+          "answer": "Debes enviar tu solicitud de ajuste de informe al departamento académico correspondiente o a la oficina de registro de la universidad. Verifica en el portal estudiantil el contacto específico o correo electrónico al que debes dirigir tu solicitud."
+        },
+        {
+          "question": "¿Cuánto tiempo tengo para solicitar un ajuste en el informe de avance?",
+          "subquestions": [
+            "¿Cuál es el plazo para pedir un ajuste en el informe de avance?",
+            "¿Hasta cuándo puedo solicitar una corrección en mi informe de avance?",
+            "¿Cuándo es la fecha límite para pedir un ajuste en el informe de avance?"
+          ],
+          "answer": "El plazo para solicitar un ajuste en el informe de avance varía según la universidad, pero generalmente debes hacerlo tan pronto como detectes el error. Consulta el calendario académico o las políticas de la universidad para conocer los plazos específicos."
+        }
+      ]
+    }
+  ]
+}

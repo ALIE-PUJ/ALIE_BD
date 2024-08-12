@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "title": "Laboratorios",
+  "description": "Información sobre los laboratorios de la Facultad de Ingeniería, incluyendo servicios y normas.",
+  "details": [
+    {
+      "subtitle": "Edificio José Gabriel Maldonado, S.J.",
+      "content": "Un espacio vivo de aprendizaje, innovación y conocimiento con 96 espacios dotados de tecnología de punta. La ingeniería Javeriana se posiciona como un referente en Latinoamérica formando a los mejores ingenieros para el mundo.",
+      "link": "https://intranet.javeriana.edu.co/web/facultad-ingenieria/laboratorios-facultad"
+    },
+    {
+      "subtitle": "Préstamo de Equipos",
+      "content": "El préstamo de equipos de toda la Facultad se gestiona a través del Sistema Web Checkout. Para dudas o inconvenientes, contacta a Justo Hernán Barbosa Moreno."
+      "link": "https://wco.javeriana.edu.co/patron#!/"
+    },
+    {
+      "subtitle": "Software disponible para tu computador",
+      "content": "Parte del software especializado de ingeniería está disponible para instalar en tu computador. Consulta más en el documento proporcionado."
+      "link":"https://ingenieria.javeriana.edu.co/documents/97133/3021744/Uso+de+software+especializado+2023.pdf/20cfc9b9-3244-9488-8e69-56e19766b423?t=1669918890873"
+    },
+    {
+      "subtitle": "Préstamo de casilleros",
+      "content": "El préstamo de lockers se gestiona desde cada área del laboratorio. Se prioriza a los estudiantes con asignaturas o proyectos en el laboratorio. Revisa las normas generales de préstamos en el documento disponible."
+      "link":"https://ingenieria.javeriana.edu.co/documents/97133/3021744/Normas+Casilleros+2024.pdf/bd054d63-0f0d-a116-565b-ecef5da840bf?t=1706039300064"
+    },
+    {
+      "subtitle": "Préstamos salas 6 piso - Edificio Oficina",
+      "content": "Para el préstamo de salas ubicadas en el 6º piso del Edificio José Gabriel Maldonado, S.J., sigue el INSTRUCTIVO proporcionado. Las reservas deben hacerse a través del sistema y cumplir con las condiciones mencionadas."
+      "link":"https://intranet.javeriana.edu.co/documents/97133/3021744/Instructivo+Reservas+salas+de+estudio.pdf/4e22dd5a-5dfe-37d9-58a5-8a7491470942?t=1644330644528"
+    },
+    {
+      "subtitle": "Seguridad",
+      "content": "Conoce las normas de seguridad en cada laboratorio. Los accidentes suelen deberse a fallas humanas por desconocimiento de las normas y falta de destreza. En caso de emergencia, contacta a PUJ EXT: 2240 o 2250, o al celular 310 576 3002."
+    },
+    {
+      "subtitle": "Espacios de uso libre",
+      "content": "Los siguientes espacios están disponibles las 24 horas del día, los 7 días de la semana: Atrio, Aula P3-02 (con 16 equipos de cómputo y software completo), Zona de descanso Piso 5, Free Plaza Piso 11, Terra."
+    }
+  ]
+}
