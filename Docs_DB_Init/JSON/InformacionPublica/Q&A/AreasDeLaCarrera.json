@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Áreas de la Carrera - Ingeniería de Sistemas",
+      "questions": [
+        {
+          "question": "¿Cuáles son las áreas principales de la carrera de Ingeniería de Sistemas en la Universidad Javeriana?",
+          "subquestions": [
+            "¿Qué énfasis se incluyen en el pénsum de la carrera?",
+            "¿Cómo se puede conocer más sobre cada área?"
+          ],
+          "answer": "Las áreas principales de la carrera de Ingeniería de Sistemas incluyen Inteligencia Artificial, Ciencia de Datos, Computación Gráfica, Seguridad Digital y Sistemas de Información. Durante el semestre, se dictan charlas para profundizar en cada énfasis.",
+          "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+        },
+        {
+          "question": "¿Cómo se puede obtener más información sobre los énfasis de la carrera?",
+          "subquestions": [
+            "¿Dónde se realizan las charlas sobre los énfasis?",
+            "¿Qué recursos están disponibles para conocer más sobre cada área?"
+          ],
+          "answer": "Para obtener más información sobre los énfasis de la carrera, puedes asistir a las charlas dictadas a lo largo del semestre. Además, el sitio web de la Universidad Javeriana proporciona información detallada sobre cada área.",
+          "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+        },
+        {
+          "question": "¿Qué recursos están disponibles para explorar las áreas de la carrera de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Dónde se pueden encontrar los detalles sobre cada área?",
+            "¿Qué tipo de información se ofrece en las charlas sobre los énfasis?"
+          ],
+          "answer": "Puedes explorar las áreas de la carrera de Ingeniería de Sistemas a través del sitio web de la Universidad Javeriana, que proporciona detalles sobre el pénsum y los énfasis. Las charlas ofrecidas a lo largo del semestre también brindan información detallada sobre cada área específica.",
+          "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+        }
+      ]
+    }
+  ]
+}

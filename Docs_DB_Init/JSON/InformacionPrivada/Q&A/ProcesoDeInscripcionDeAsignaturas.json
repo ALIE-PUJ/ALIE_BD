@@ -1,6 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2024-07-21",
+  "last_updated": "2024-08-11",
+  "access_control": "privado",
   "categories": [
     {
       "category": "Proceso de Inscripción de Asignaturas",
@@ -12,7 +13,8 @@
             "¿Dónde puedo ir para actualizar mi información de retenciones y POS?",
             "¿Qué pasos debo seguir para asegurarme de que mis datos de retenciones y POS estén al día?"
           ],
-          "answer": "Para actualizar tus datos de retenciones y POS, debes dirigirte al módulo de servicios financieros de la universidad y seguir las instrucciones que se proporcionan en el portal oficial. Generalmente, deberás presentar ciertos documentos actualizados y completar un formulario específico."
+          "answer": "Debe ingresar a su 'Centro de Alumnado', ir a la opción de 'Retenciones' y actualizar sus Datos Personales, Datos Personales Adicionales, y POS (Plan Obligatorio de Salud). Es importante verificar que la actualización se haya guardado en el sistema.",
+          "link": "https://livejaverianaedu.sharepoint.com/:f:/s/EstudiantesIngenieradeSistemas77/EpgleR7gbOJNl5lsMObnDkwBL3SZC9ODZ24xblddpoo1fQ?e=RdgQPT"
         },
         {
           "question": "¿Por qué no puedo inscribir materias si no he actualizado mis datos?",
@@ -21,7 +23,8 @@
             "¿Qué impide la inscripción de materias si mis datos no están actualizados?",
             "¿Por qué es necesario tener los datos de retenciones y POS actualizados para inscribirse en materias?"
           ],
-          "answer": "No puedes inscribir materias si no has actualizado tus datos porque la universidad requiere que toda la información financiera y personal esté al día para evitar inconvenientes administrativos y asegurar que todos los pagos y retenciones sean procesados correctamente."
+          "answer": "Sin la actualización de sus Datos Personales, Datos Personales Adicionales y POS (Plan Obligatorio de Salud) en el 'Centro de Alumnado', no podrá inscribir asignaturas.",
+          "link": "https://livejaverianaedu.sharepoint.com/:f:/s/EstudiantesIngenieradeSistemas77/EpgleR7gbOJNl5lsMObnDkwBL3SZC9ODZ24xblddpoo1fQ?e=RdgQPT"
         },
         {
           "question": "¿Qué consecuencias tiene tener retrasos financieros al momento de inscribir asignaturas?",
@@ -30,7 +33,8 @@
             "¿Cómo me afectan los retrasos financieros durante la inscripción de asignaturas?",
             "¿Cuáles son las repercusiones de tener retrasos financieros al intentar inscribir materias?"
           ],
-          "answer": "Tener retrasos financieros puede impedirte inscribir asignaturas, ya que la universidad bloquea la inscripción hasta que todas las deudas pendientes sean saldadas. Esto puede retrasar tu avance académico y afectar tu calendario de estudios."
+          "answer": "Si tiene algún retraso financiero con ICETEX o con algún tipo de crédito con la Universidad, no se generará ciclo, cita de inscripción, ni recibo de matrícula. Debe quedar a paz y salvo en todo concepto financiero y luego solicitar su cita de inscripción de asignaturas al PBX 3208320 extensión 5555.",
+          "link": "https://livejaverianaedu.sharepoint.com/:f:/s/EstudiantesIngenieradeSistemas77/EpgleR7gbOJNl5lsMObnDkwBL3SZC9ODZ24xblddpoo1fQ?e=RdgQPT"
         },
         {
           "question": "¿Cómo sé cuáles son los prerrequisitos para una materia específica?",
@@ -39,7 +43,8 @@
             "¿Cómo puedo verificar qué materias requieren prerrequisitos?",
             "¿Qué debo hacer para asegurarme de cumplir con los prerrequisitos de una asignatura?"
           ],
-          "answer": "Puedes encontrar los prerrequisitos de una materia específica en el catálogo de cursos de la universidad, disponible en el portal estudiantil o en el sitio web oficial de la universidad. También puedes consultar a tu consejero académico."
+          "answer": "Debe verificar que el ID de la asignatura sea el correcto dentro del plan de estudios y que cumpla con los prerrequisitos. Puede consultar el plan de estudios en TEAMS.",
+          "link": "https://livejaverianaedu.sharepoint.com/:f:/s/EstudiantesIngenieradeSistemas77/EpgleR7gbOJNl5lsMObnDkwBL3SZC9ODZ24xblddpoo1fQ?e=RdgQPT"
         },
         {
           "question": "¿Qué debo hacer si no encuentro el ID correcto de una materia?",
@@ -48,7 +53,8 @@
             "¿Qué pasos debo seguir si el ID de una materia no aparece?",
             "¿A quién puedo acudir si tengo problemas para encontrar el ID correcto de una asignatura?"
           ],
-          "answer": "Si no encuentras el ID correcto de una materia, debes contactar a la oficina de registro o a tu consejero académico para obtener asistencia. Ellos pueden proporcionarte el ID correcto o guiarte en cómo encontrarlo."
+          "answer": "Es importante verificar que el ID de la asignatura sea el que se exige dentro del plan de estudios. En caso de problemas, consulte con su unidad o Departamento académico.",
+          "link": "https://livejaverianaedu.sharepoint.com/:f:/s/EstudiantesIngenieradeSistemas77/EpgleR7gbOJNl5lsMObnDkwBL3SZC9ODZ24xblddpoo1fQ?e=RdgQPT"
         },
         {
           "question": "¿Qué puedo hacer si no hay cupos disponibles en la asignatura que necesito?",
@@ -57,7 +63,8 @@
             "¿Cómo puedo inscribirme en una asignatura si todos los cupos están llenos?",
             "¿Qué debo hacer si me quedo sin cupo en una materia importante?"
           ],
-          "answer": "Si no hay cupos disponibles en la asignatura que necesitas, puedes solicitar ser añadido a una lista de espera o hablar con el profesor para ver si hay alguna posibilidad de admisión adicional. También puedes buscar otras secciones de la misma materia o consultar con tu consejero académico para alternativas."
+          "answer": "La dirección de carrera no reserva ni inscribe asignaturas; esto lo debe realizar cada estudiante. Si presenta inconvenientes durante la primera cita de inscripción, debe diligenciar un formulario para reportarlos. Sin embargo, esto no asegura la liberación o ampliación de cupos.",
+          "link": "https://forms.office.com/r/7tuTTUx0Cu"
         },
         {
           "question": "¿Cómo y cuándo puedo llenar el formulario para problemas de inscripción?",
@@ -66,7 +73,8 @@
             "¿En qué momento puedo completar el formulario para inscripciones fallidas?",
             "¿Cuál es el procedimiento para llenar el formulario de inscripción de materias?"
           ],
-          "answer": "Puedes llenar el formulario para problemas de inscripción en el portal estudiantil de la universidad. Generalmente, estos formularios están disponibles durante el período de inscripción y debes completarlo tan pronto como identifiques un problema. Sigue las instrucciones específicas proporcionadas en el portal."
+          "answer": "El formulario para reportar problemas de inscripción está disponible solo durante la primera cita (Lunes 24 de Junio desde las 07:00 a.m. al Viernes 28 de Junio a las 02:00 p.m.). Este formulario debe ser diligenciado si presenta inconvenientes durante la primera cita de inscripción.",
+          "link": "https://forms.office.com/r/7tuTTUx0Cu"
         }
       ]
     }

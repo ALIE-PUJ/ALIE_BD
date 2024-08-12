@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Certificaciones",
+      "questions": [
+        {
+          "question": "¿Cómo solicito una certificación?",
+          "subquestions": [
+            "¿Qué pasos debo seguir para completar el formulario de solicitud de certificación?",
+            "¿Qué información necesito proporcionar en el formulario para solicitar mi certificación?"
+          ],
+          "answer": "Para solicitar una certificación, debe completar el formulario disponible en el enlace proporcionado. La solicitud se procesará una vez que se haya justificado el pago correspondiente.",
+          "Link": "https://docs.google.com/forms/d/e/1FAIpQLSdA1OaRCYqa6dipmjgneDcb2-K-yLzqtFrarY3zSszsaxu-LA/viewform"
+        },
+        {
+          "question": "¿Qué sucede después de enviar mi solicitud de certificación?",
+          "subquestions": [
+            "¿Cómo y cuándo recibiré la factura para el pago de la certificación?",
+            "¿Qué debo hacer después de recibir la factura en el Sistema de Información Universitaria SAE?"
+          ],
+          "answer": "Después de guardar su solicitud, la factura se dejará en el Sistema de Información Universitaria SAE dentro de dos días hábiles. Se le notificará por email los pasos a seguir para la finalización y entrega de su certificado.",
+          "Link": "https://docs.google.com/forms/d/e/1FAIpQLSdA1OaRCYqa6dipmjgneDcb2-K-yLzqtFrarY3zSszsaxu-LA/viewform"
+        },
+        {
+          "question": "¿Por qué no está disponible la lista de certificaciones en este momento?",
+          "subquestions": [
+            "¿Cuándo estará disponible la lista de certificaciones ofrecidas?",
+            "¿Hay alguna otra forma de obtener información sobre las certificaciones disponibles en el futuro?"
+          ],
+          "answer": "La lista de certificaciones no está disponible actualmente debido al periodo del semestre. Se recomienda consultar la sección periódicamente para obtener actualizaciones sobre las certificaciones ofrecidas.",
+          "Link": "N/A"
+        }
+      ]
+    }
+  ]
+}

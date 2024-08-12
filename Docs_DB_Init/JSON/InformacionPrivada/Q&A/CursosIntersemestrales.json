@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Inscripción en Cursos Intersemestrales",
+      "questions": [
+        {
+          "question": "¿Cómo puedo inscribirme en los cursos intersemestrales de pregrado?",
+          "subquestions": [
+            "¿Dónde encuentro el procedimiento para la inscripción?",
+            "¿Qué fechas son importantes para la inscripción de los cursos?"
+          ],
+          "answer": "Actualmente, el enlace para el procedimiento de inscripción no está accesible. Asegúrate de revisar el enlace cuando esté disponible para conocer los detalles del procedimiento y las fechas importantes.",
+          "Link": ""
+        }
+      ]
+    },
+    {
+      "category": "Disponibilidad de Cursos",
+      "questions": [
+        {
+          "question": "¿Qué cursos están disponibles durante el intersemestral?",
+          "subquestions": [
+            "¿Cómo puedo ver la lista de cursos ofrecidos?",
+            "¿Qué cursos están abiertos y cuáles están cerrados?"
+          ],
+          "answer": "Puedes consultar la lista de cursos abiertos durante el intersemestral en el siguiente enlace.",
+          "Link": "https://intranet.javeriana.edu.co/documents/97133/170708/Pregrados+Cursos+Abierto.pdf/f1f78aa7-5171-1c01-1205-2aa9ede7944b?t=1717793099121"
+        }
+      ]
+    },
+    {
+      "category": "Cursos No Disponibles",
+      "questions": [
+        {
+          "question": "¿Qué hago si un curso que me interesa no está disponible?",
+          "subquestions": [
+            "¿Cómo puedo consultar la lista de cursos pendientes o cerrados?",
+            "¿Qué opciones tengo si no hay cupos disponibles en los cursos que quiero tomar?"
+          ],
+          "answer": "Para ver los cursos pendientes o cerrados, consulta los enlaces proporcionados anteriormente para los cursos cerrados. Si no hay cupos disponibles en los cursos que deseas tomar, te recomendamos estar atento a las actualizaciones de disponibilidad y considerar otras opciones de cursos disponibles.",
+          "Link": "https://intranet.javeriana.edu.co/documents/97133/170708/Pregrados+Cursos+Cerrados.pdf/ee03f39a-4a66-31df-59c8-8af6eec4a485?t=1717687373522"
+        }
+      ]
+    }
+  ]
+}

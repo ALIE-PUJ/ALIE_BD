@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Ingeniería de Sistemas",
+      "questions": [
+        {
+          "question": "¿Qué habilidades y énfasis ofrece el programa de Ingeniería de Sistemas?",
+          "answer": "El programa de Ingeniería de Sistemas ofrece habilidades en diseño, gestión y modelado de soluciones basadas en tecnologías digitales. Incluye énfasis en inteligencia artificial, computación gráfica y arquitectura de software, con el objetivo de mejorar la calidad de vida y la competitividad de las organizaciones.",
+          "link": "https://intranet.javeriana.edu.co/web/facultad-ingenieria/ingenieria-sistemas"
+        },
+        {
+          "question": "¿Cómo contribuye el programa a la mejora y transformación del país?",
+          "answer": "El programa contribuye a la mejora y transformación del país mediante el uso óptimo de tecnologías de la información y comunicaciones, facilitando el análisis, gestión segura y ética de datos, y liderando equipos con una perspectiva innovadora para resolver problemas y mejorar la calidad de vida.",
+          "link": "https://intranet.javeriana.edu.co/web/facultad-ingenieria/ingenieria-sistemas"
+        },
+        {
+          "question": "¿Qué servicios académicos y procedimientos están disponibles para los estudiantes?",
+          "answer": "Los servicios incluyen Consejería Académica, PAE, Laboratorios, Prácticas Profesionales y Sociales, Programación de Exámenes Finales, Proyecto y Trabajo de Grado. También se ofrecen procedimientos para Saber Pro, Homologaciones, Revisión Académica, entre otros.",
+          "link": "https://intranet.javeriana.edu.co/web/facultad-ingenieria/ingenieria-sistemas"
+        },
+        {
+          "question": "¿Cómo se realizan trámites como la inscripción de asignaturas y solicitudes de retiro?",
+          "answer": "Los trámites se realizan a través de formularios e instructivos disponibles en la sección de Trámites e Instructivos del sitio web del programa. Incluyen inscripción de asignaturas, solicitud de retiro temporal o definitivo, y otros procedimientos administrativos.",
+          "link": "https://intranet.javeriana.edu.co/web/facultad-ingenieria/ingenieria-sistemas"
+        },
+        {
+          "question": "¿Quién es el Director del Programa y cómo se puede contactar?",
+          "answer": "El Director del Programa es el Ing. Carlos Andrés Parra Acevedo, Ph.D. Se puede contactar a través del correo electrónico ca.parraa@javeriana.edu.co o al teléfono 320 83 20 ext. 4730.",
+          "link": "https://intranet.javeriana.edu.co/web/facultad-ingenieria/ingenieria-sistemas"
+        },
+        {
+          "question": "¿Qué actividades y espacios están disponibles para la vida estudiantil en la Facultad de Ingeniería?",
+          "answer": "La Facultad de Ingeniería ofrece espacios y actividades para la vida estudiantil, incluyendo Inducción a la Vida Universitaria, Formación Integral, Actividad Física – Deportes, y Bienestar. Estos espacios fomentan el desarrollo de talentos e intereses y la participación activa en la comunidad universitaria.",
+          "link": "https://intranet.javeriana.edu.co/web/facultad-ingenieria/ingenieria-sistemas"
+        }
+      ]
+    }
+  ]
+}

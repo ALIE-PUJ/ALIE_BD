@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Solicitudes al Departamento de Lenguas",
+      "questions": [
+        {
+          "question": "¿Dónde puedo encontrar información sobre los requisitos de la lengua extranjera?",
+          "subquestions": [
+            "¿Dónde hallo los detalles sobre los requisitos de idioma extranjero?",
+            "¿Cómo obtengo información sobre los requisitos de lengua extranjera?",
+            "¿Dónde consulto los requisitos para cumplir con el requisito de lengua extranjera?"
+          ],
+          "answer": "Puedes encontrar la información sobre los requisitos de la lengua extranjera en el formulario de radicación del certificado de validación. Este formulario está disponible en el enlace proporcionado por el Departamento de Lenguas.",
+          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FDpto%20Lenguas%2FEnlaces%20radicaci%C3%B3n%20certificados%20y%20consultas%20Depto%20Lenguas%202024%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FDpto%20Lenguas"
+        },
+        {
+          "question": "¿Cómo puedo certificar que he cumplido con el requisito de lengua extranjera?",
+          "subquestions": [
+            "¿Qué pasos debo seguir para certificar el cumplimiento del requisito de lengua extranjera?",
+            "¿Cómo demuestro que he cumplido con el requisito de idioma extranjero?",
+            "¿Cuál es el proceso para validar el cumplimiento del requisito de lengua extranjera?"
+          ],
+          "answer": "Para certificar que has cumplido con el requisito de lengua extranjera, debes completar el formulario de radicación del certificado de validación y enviarlo al Departamento de Lenguas a través del enlace proporcionado o también basta con que revises en intranet en el apartado de mis objetivos debe aparecer finalizado al lado de clasificación del idioma",
+          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FDpto%20Lenguas%2FEnlaces%20radicaci%C3%B3n%20certificados%20y%20consultas%20Depto%20Lenguas%202024%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FDpto%20Lenguas"
+        },
+        {
+          "question": "¿Qué debo hacer si tengo dudas sobre los requisitos de lengua extranjera?",
+          "subquestions": [
+            "¿Con quién puedo hablar si tengo preguntas sobre los requisitos de idioma extranjero?",
+            "¿Qué hago si no entiendo los requisitos de lengua extranjera?",
+            "¿Cómo resuelvo mis dudas sobre los requisitos de lengua extranjera?"
+          ],
+          "answer": "Si tienes dudas sobre los requisitos de lengua extranjera, puedes utilizar el formulario de consultas y solicitudes disponible en el enlace proporcionado para comunicarte con el Departamento de Lenguas y resolver tus preguntas.",
+          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FDpto%20Lenguas%2FEnlaces%20radicaci%C3%B3n%20certificados%20y%20consultas%20Depto%20Lenguas%202024%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FDpto%20Lenguas"
+        }
+      ]
+    }
+  ]
+}

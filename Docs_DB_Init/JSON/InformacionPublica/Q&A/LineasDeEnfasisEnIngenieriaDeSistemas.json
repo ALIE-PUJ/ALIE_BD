@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "publico",
+  "categories": [
+    {
+      "category": "Líneas de Énfasis en Ingeniería de Sistemas",
+      "questions": [
+        {
+          "question": "¿Qué abarca la línea de Inteligencia Artificial y Ciencia de Datos?",
+          "subquestions": [
+            "¿Qué es la Inteligencia Artificial en esta línea?",
+            "¿Qué aspectos cubre la Ciencia de Datos?",
+            "¿Cómo se aplican estas áreas en la industria y en la vida diaria?"
+          ],
+          "answer": "La línea de **Inteligencia Artificial y Ciencia de Datos** se centra en: \n- **Inteligencia Artificial:** Diseño de algoritmos y estrategias para crear sistemas que imiten capacidades humanas, automatizando procesos y realizando tareas riesgosas o repetitivas.\n- **Ciencia de Datos:** Análisis y gestión de grandes volúmenes de datos para extraer información útil y apoyar la toma de decisiones.\nEstas áreas se aplican en la industria para mejorar la eficiencia operativa y en la vida diaria para optimizar servicios y productos."
+        },
+        {
+          "question": "¿Qué comprende la línea de Desarrollo Avanzado de Software y Seguridad Digital?",
+          "subquestions": [
+            "¿Qué incluye la sub-área de infraestructura?",
+            "¿Qué abarca la sub-área de desarrollo?",
+            "¿Cómo contribuye esta línea a la seguridad digital?"
+          ],
+          "answer": "La línea de **Desarrollo Avanzado de Software y Seguridad Digital** incluye: \n- **Infraestructura:** Construcción de soluciones seguras y eficientes para capas bajas de sistemas informáticos, como sistemas operativos, dispositivos IoT y redes.\n- **Desarrollo:** Creación de aplicaciones informáticas complejas enfocadas en módulos de software de capas superiores.\n- **Seguridad Digital:** Implementación de medidas para proteger sistemas informáticos y datos de accesos no autorizados y ciberataques."
+        },
+        {
+          "question": "¿Qué se estudia en la línea de Sistemas de Información y Gestión?",
+          "subquestions": [
+            "¿Qué estrategias se gestionan en esta línea?",
+            "¿Cómo se utilizan las tecnologías para construir sistemas de información?",
+            "¿Qué beneficios trae la gestión de la información para las empresas?"
+          ],
+          "answer": "La línea de **Sistemas de Información y Gestión** se enfoca en: \n- **Estrategias y Tecnologías:** Gestión de procesos y herramientas necesarias para construir sistemas de información efectivos.\n- **Conversión de Datos:** Transformar datos en información y conocimiento útil para la toma de decisiones y planificación empresarial.\n- **Beneficios:** Mejora la eficiencia y rentabilidad de las empresas al proporcionar información precisa para la toma de decisiones."
+        },
+        {
+          "question": "¿Qué temas se tratan en la línea de Computación Visual?",
+          "subquestions": [
+            "¿Qué tecnologías se utilizan para construir modelos visuales?",
+            "¿Cómo se simula la realidad mediante imágenes por computador?",
+            "¿Qué aplicaciones prácticas tiene la computación visual en diferentes áreas?"
+          ],
+          "answer": "La línea de **Computación Visual** aborda: \n- **Tecnologías de Modelado:** Utilización de técnicas y herramientas para crear modelos e imágenes por computador.\n- **Simulación de Realidad:** Creación de aplicaciones que replican la realidad en diversas áreas como medicina, entretenimiento y medio ambiente.\n- **Aplicaciones Prácticas:** Desarrollo de soluciones para diagnóstico médico, visualización de datos ambientales y creación de gráficos para videojuegos, entre otros."
+        }
+      ]
+    }
+  ]
+}

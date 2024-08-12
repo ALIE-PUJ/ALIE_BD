@@ -1,0 +1,89 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "publico",
+  "title": "Información sobre Becas para Estudiantes Regulares de Pregrado",
+  "description": "Esta sección proporciona información sobre las becas disponibles para estudiantes regulares de pregrado en la Pontificia Universidad Javeriana.",
+  "details": [
+    {
+      "subtitle": "Información Asociada a Estudiantes",
+      "content": "Esta sección permite encontrar las becas que ofrece la universidad Javeriana si ya se es estudiante regular de pregrado.",
+      "link": "https://becas.javeriana.edu.co/estudiantes"
+    },
+    {
+      "subtitle": "Becas por Excelencia Académica",
+      "content": "La Beca Semestral por Excelencia Académica otorga una beca equivalente al 80% del valor de la matrícula al estudiante con el más alto promedio ponderado acumulado en cada carrera. En caso de empate, la beca se otorga al estudiante con el promedio ponderado más alto del período académico.",
+      "link": "https://www.javeriana.edu.co/estudia-en-la-javeriana/becas-excelencia-academica#EXCELENCIASEMESTRAL"
+    },
+    {
+      "subtitle": "Condiciones de los Candidatos para la Beca Semestral por Excelencia Académica",
+      "content": "Para obtener la Beca Semestral por Excelencia Académica, el estudiante debe ser regular, haber cursado y pagado matrícula completa en el período académico, y tener el promedio ponderado acumulado más alto de la carrera.",
+      "link": ""
+    },
+    {
+      "subtitle": "Proceso de Asignación de la Beca Semestral por Excelencia Académica",
+      "content": "La Dirección de Asuntos Estudiantiles generará el listado de beneficiarios y procederá a su notificación por escrito el primer día de labores académicas de cada período. No se requiere postulación por parte de los estudiantes.",
+      "link": ""
+    },
+    {
+      "subtitle": "Otras Disposiciones Relacionadas con la Beca Semestral por Excelencia Académica",
+      "content": "El beneficiario no puede ceder la beca a otro estudiante. La beca solo aplica para programas de pregrado de la Pontificia Universidad Javeriana - Bogotá. La beca se considera una devolución del 80% de la última matrícula cancelada. Si el estudiante ha financiado la matrícula, el valor de la beca se aplicará primero contra el monto financiado.",
+      "link": ""
+    },
+    {
+      "subtitle": "Unidad Responsable",
+      "content": "Dirección de Asuntos Estudiantiles. Teléfono: 3208320, extensiones 2074 o 2093. Correo electrónico: becaexcelencia@javeriana.edu.co",
+      "link": ""
+    },
+    {
+      "subtitle": "Becas por Necesidad Económica",
+      "content": "El Fondo de Becas de la Rectoría atiende solicitudes de ayuda para estudiantes con dificultades económicas. Los casos excepcionales serán considerados por el Rector.",
+      "link": "https://intranet.javeriana.edu.co/web/rectoria/asistencia-rectoria"
+    },
+    {
+      "subtitle": "Proceso de Asignación de Becas del Fondo de la Rectoría",
+      "content": "El estudiante debe diligenciar el formulario de solicitud en la intranet, y luego será entrevistado y evaluado por el Comité de Becas de la Rectoría. Se puede requerir información adicional. Una vez aceptada la beca, se realizarán los trámites administrativos de la matrícula.",
+      "link": ""
+    },
+    {
+      "subtitle": "Criterios para la Asignación de Becas del Fondo de la Rectoría",
+      "content": "Se conceden a estudiantes regulares que hayan cursado al menos dos semestres, con un promedio ponderado acumulado igual o superior a 3.7 y sin pérdida de asignaturas en el último período. El estudiante debe demostrar necesidad económica y no haber sido objeto de sanciones disciplinarias graves. La beca no cubre el 100% de la matrícula y se debe realizar un servicio social.",
+      "link": ""
+    },
+    {
+      "subtitle": "Financiación a Largo Plazo con la Universidad",
+      "content": "La financiación a largo plazo se otorga según la capacidad financiera del Fondo de Préstamos de la Pontificia Universidad Javeriana. Requiere un promedio acumulado de 3.5 (3.6 para Psicología) y no tener otra modalidad de pago alterna. La tasa de interés es del 1,5% mensual vencida durante el periodo de amortización.",
+      "link": "https://www.javeriana.edu.co/estudia-en-la-javeriana/apoyo-financiero#MEDIANOYLARGOPRE"
+    },
+    {
+      "subtitle": "Requisitos de los Deudores Solidarios",
+      "content": "Los deudores solidarios deben cumplir ciertos requisitos de ingreso y edad. Puede ser un deudor sin vínculo familiar con un bien raíz, o dos deudores con ingresos superiores a 4 SMMLV. Deben presentar documentación que certifique sus ingresos y situación financiera.",
+      "link": ""
+    },
+    {
+      "subtitle": "Enlaces de Interés para la Formalización de Solicitudes y Renovaciones de Becas",
+      "content": "Guía para la formalización de solicitudes, tutorial de solicitud, y enlaces para la construcción de la carpeta virtual de la solicitud.",
+      "link": ""
+    },
+    {
+      "subtitle": "Guía para la Formalización de la Solicitud",
+      "content": "En esta guía se encuentran las alternativas de apoyo financiero ofrecidas por la universidad, los pasos a seguir y los documentos requeridos.",
+      "link": "https://intranet.javeriana.edu.co/documents/51573/8140274/INSTRUCTIVO-SOLICITUDES-POR-PRIMERA-VEZ-1-DE-SEPTIEMBRE-2023pdf.pdf/1a0121ea-8308-206e-0f43-900bdbbdc5b5?t=1693587414910"
+    },
+    {
+      "subtitle": "Tutorial Solicitud Apoyo Económico Rectoría",
+      "content": "Un video que ayuda al estudiante a entender el proceso a seguir.",
+      "link": ""
+    },
+    {
+      "subtitle": "Instructivo para Solicitudes de Renovación",
+      "content": "Instructivo para la renovación de solicitudes de becas.",
+      "link": "https://intranet.javeriana.edu.co/documents/51573/8140274/INSTRUCTIVO-SOLICITUDES-RENOVACION-2023.pdf/32dd1e07-4619-23e2-8881-633ba0b35c76?t=1693587643513"
+    },
+    {
+      "subtitle": "Instructivo para Renovación de Beca Ingresa",
+      "content": "Instructivo específico para la renovación de la Beca Ingresa.",
+      "link": "https://intranet.javeriana.edu.co/documents/51573/8140274/INSTRUCTIVO-SOLICITUD-RENOVACION-BECA-INGRESA.pdf/0dd15b94-a9c5-de2d-c5d0-9dd778ead10c?t=1676405339175"
+    }
+  ]
+}

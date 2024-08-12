@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Solicitud de Revisión de Calificaciones",
+      "questions": [
+        {
+          "question": "¿Cómo solicito la revisión de una calificación específica?",
+          "subquestions": [
+            "¿Qué información debo proporcionar en el formulario para solicitar la revisión?",
+            "¿Qué tipo de evidencia debo adjuntar al formulario para que la solicitud sea válida?"
+          ],
+          "answer": "Para solicitar la revisión de una calificación, debes completar el formulario con los datos del estudiante, la información de la materia, las notas correspondientes, y adjuntar cualquier evidencia requerida.",
+          "Link": "https://forms.office.com/r/jDVmdHfuVL"
+        },
+        {
+          "question": "¿Qué pasos debo seguir después de completar el formulario?",
+          "subquestions": [
+            "¿Cómo y cuándo recibiré una respuesta sobre la revisión de mi calificación?",
+            "¿Qué sucede si la evidencia proporcionada no es suficiente?"
+          ],
+          "answer": "Después de completar el formulario, debes esperar la respuesta sobre la revisión. La revisión se procesará una vez que se haya recibido toda la información y evidencia necesaria. Si la evidencia no es suficiente, se te puede solicitar información adicional.",
+          "Link": "https://forms.office.com/r/jDVmdHfuVL"
+        },
+        {
+          "question": "¿Dónde encuentro el formulario para la solicitud de revisión de calificaciones?",
+          "subquestions": [
+            "¿Cómo accedo al formulario específico para la revisión de calificaciones en Ingeniería de Sistemas?",
+            "¿Qué debo hacer si tengo problemas para acceder al formulario?"
+          ],
+          "answer": "El formulario para la revisión de calificaciones se encuentra en el enlace proporcionado. Si tienes problemas para acceder al formulario, verifica el enlace o contacta a la oficina administrativa de Ingeniería de Sistemas para asistencia.",
+          "Link": "https://forms.office.com/r/jDVmdHfuVL"
+        }
+      ]
+    }
+  ]
+}

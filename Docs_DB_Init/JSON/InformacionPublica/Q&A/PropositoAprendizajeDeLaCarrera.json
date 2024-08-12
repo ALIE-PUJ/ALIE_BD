@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Propósito y Aprendizaje de la Carrera - Ingeniería de Sistemas",
+      "questions": [
+        {
+          "question": "¿Cuál es el propósito de la carrera de Ingeniería de Sistemas en la Universidad Javeriana?",
+          "subquestions": [
+            "¿Qué habilidades y competencias se buscan desarrollar en los estudiantes?",
+            "¿Cómo se enfoca la carrera en el uso de tecnologías de la información y comunicaciones?"
+          ],
+          "answer": "El propósito de la carrera es modelar, diseñar y gestionar soluciones basadas en tecnologías de la información y comunicaciones. También busca generar soluciones a partir del análisis y gestión eficiente, segura y ética de datos, liderar equipos con una perspectiva global e innovadora, y profundizar en áreas como inteligencia artificial, computación gráfica y arquitectura de software.",
+          "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+        },
+        {
+          "question": "¿Qué áreas específicas se profundizan en la carrera de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Cuáles son las principales áreas de enfoque en el programa?",
+            "¿Qué importancia tienen estas áreas para el desarrollo profesional de los estudiantes?"
+          ],
+          "answer": "Las áreas específicas que se profundizan en la carrera incluyen inteligencia artificial, computación gráfica y arquitectura de software. Estas áreas son clave para el desarrollo profesional de los estudiantes, ya que proporcionan habilidades avanzadas necesarias para enfrentar desafíos tecnológicos y liderar en el campo de la ingeniería de sistemas.",
+          "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+        },
+        {
+          "question": "¿Cómo se promueve la perspectiva global e innovadora en la carrera de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Qué métodos se utilizan para desarrollar una perspectiva global en los estudiantes?",
+            "¿Cómo se fomenta la innovación dentro del programa académico?"
+          ],
+          "answer": "La carrera promueve una perspectiva global e innovadora a través de la formación en liderazgo de equipos y la integración de soluciones tecnológicas avanzadas. Los estudiantes son expuestos a proyectos internacionales y enfoques innovadores en el desarrollo de tecnologías, lo que les permite estar al tanto de las últimas tendencias y desafíos en el campo.",
+          "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+        }
+      ]
+    }
+  ]
+}

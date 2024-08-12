@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Solicitud de Validación de Asignaturas",
+      "questions": [
+        {
+          "question": "¿Cómo solicito la validación de asignaturas?",
+          "subquestions": [
+            "¿Qué información debo incluir en el formulario para la validación de asignaturas?",
+            "¿Cuáles son los parámetros necesarios para completar la solicitud?"
+          ],
+          "answer": "Para solicitar la validación de asignaturas, debes completar el formulario con tus datos personales, la información detallada de la materia en cuestión, la justificación correspondiente y otros parámetros necesarios para el proceso.",
+          "Link": "https://forms.office.com/r/ccYyRLWABA"
+        },
+        {
+          "question": "¿Qué sucede después de enviar el formulario de validación de asignaturas?",
+          "subquestions": [
+            "¿Cómo y cuándo recibiré la respuesta sobre mi solicitud de validación?",
+            "¿Qué pasos debo seguir si mi solicitud es incompleta o requiere corrección?"
+          ],
+          "answer": "Después de enviar el formulario, tu solicitud será revisada para el proceso de validación. Recibirás una respuesta con la decisión sobre tu solicitud. Si la solicitud es incompleta o requiere corrección, se te indicarán los pasos a seguir para completar o ajustar la solicitud.",
+          "Link": "https://forms.office.com/r/ccYyRLWABA"
+        },
+        {
+          "question": "¿Dónde encuentro el formulario para solicitar la validación de asignaturas?",
+          "subquestions": [
+            "¿Cómo accedo al formulario específico para la carrera de Ingeniería de Sistemas?",
+            "¿Qué hago si tengo problemas para acceder al formulario?"
+          ],
+          "answer": "El formulario para solicitar la validación de asignaturas está disponible en el enlace proporcionado. Si tienes problemas para acceder al formulario, verifica el enlace o contacta a la oficina administrativa de Ingeniería de Sistemas para asistencia.",
+          "Link": "https://forms.office.com/r/ccYyRLWABA"
+        }
+      ]
+    }
+  ]
+}

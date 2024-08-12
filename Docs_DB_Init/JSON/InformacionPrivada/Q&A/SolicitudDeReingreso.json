@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Solicitud de Reingreso",
+      "questions": [
+        {
+          "question": "¿Cómo puedo solicitar el reingreso a la carrera de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Dónde encuentro el formulario para solicitar el reingreso?",
+            "¿Qué información necesito proporcionar en el formulario de reingreso?",
+            "¿Qué pasos debo seguir después de completar el formulario de solicitud?"
+          ],
+          "answer": "Para solicitar el reingreso a la carrera de Ingeniería de Sistemas, debes completar el formulario de reingreso disponible en el enlace proporcionado. En el formulario, se solicita la información del estudiante y otros datos necesarios para realizar la solicitud de manera válida. Una vez completado el formulario, debes enviarlo según las instrucciones proporcionadas en el formulario.",
+          "Link": "https://forms.office.com/r/NErxqBJbJa"
+        },
+        {
+          "question": "¿Qué requisitos debo cumplir para solicitar el reingreso?",
+          "subquestions": [
+            "¿Hay requisitos específicos para los estudiantes que solicitan el reingreso?",
+            "¿Necesito presentar algún documento adicional junto con el formulario?"
+          ],
+          "answer": "La información específica sobre los requisitos para solicitar el reingreso no se detalla . Sin embargo, es importante llenar el formulario con la información requerida.",
+          "Link": "https://forms.office.com/r/NErxqBJbJa"
+        },
+        {
+          "question": "¿Qué hacer si encuentro problemas al completar la solicitud de reingreso?",
+          "subquestions": [
+            "¿A quién debo contactar si tengo problemas con el formulario?",
+            "¿Dónde puedo obtener asistencia si tengo dudas sobre la solicitud de reingreso?"
+          ],
+          "answer": "Para resolver problemas con el formulario de reingreso o si tienes dudas sobre el proceso, debes contactar a la oficina de admisiones o al departamento de la carrera de Ingeniería de Sistemas de la universidad.",
+          "Link": "https://forms.office.com/r/NErxqBJbJa"
+        }
+      ]
+    }
+  ]
+}
