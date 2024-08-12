@@ -2206,7 +2206,7 @@ INSERT INTO Horario_Clase (id_clase, dia, hora_inicio, hora_fin) VALUES
 (3984, 'Viernes', '14:00', '17:00'),
 (12461, 'Martes', '16:00', '19:00'),
 (4293, 'Martes', '17:00', '20:00'),
-(3823, 'Miércoles', '14:00', '17:00'),
+(3823, 'Miércoles', '14:00', '17:00')
 ON CONFLICT (id_clase, dia, hora_inicio, hora_fin) DO NOTHING;
 
 
