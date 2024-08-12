@@ -1690,6 +1690,20 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (26, 1499)
 ON CONFLICT (id_estudiante, id_clase) DO NOTHING;
 
+
+INSERT INTO Prerequisito_Curso(id_curso,id_prerequisito_curso) VALUES
+(1297,1295),
+(33700,33518),
+(34801,33518),
+(4196,33518),
+(33699,33698),
+(4190,33698),
+(34580,33698),
+(4082,4075),
+(33733,33763),
+(22586,34809),
+ON CONFLICT (id_curso, id_prerequisito_curso) DO NOTHING;
+
 INSERT INTO Horario_Clase (id_clase, dia, hora_inicio, hora_fin) VALUES
 (5198, 'Martes', '07:00', '09:00'),
 (5198, 'Jueves', '07:00', '09:00'),
@@ -1841,7 +1855,7 @@ INSERT INTO Horario_Clase (id_clase, dia, hora_inicio, hora_fin) VALUES
 (1492, 'Miércoles', '11:00', '13:00'),
 (1494, 'Martes', '11:00', '13:00'),
 (1662, 'Viernes', '07:00', '09:00'),
-(1498, 'Miércoles', '18:00', '20:00'),
+(1498, 'Miércoles', '18:00', '20:00')
 ON CONFLICT (id_clase, dia, hora_inicio, hora_fin) DO NOTHING;
 
 
