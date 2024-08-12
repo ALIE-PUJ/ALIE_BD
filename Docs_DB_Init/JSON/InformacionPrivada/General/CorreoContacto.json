@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "title": "Correo Asociado al Programa de Ingeniería de Sistemas",
+  "description": "Información sobre el correo asociado al programa de la carrera de ingeniería de sistemas.",
+  "access_control": "privado",
+  "details": [
+    {
+      "subtitle": "Correo de Contacto",
+      "content": "Correo electrónico para contactar el programa de ingeniería de sistemas.",
+      "link": "ingsistemas@javeriana.edu.co"
+    }
+  ]
+}

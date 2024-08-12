@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "privado",
+  "title": "Canal de la carrera TEAMS",
+  "description": "Información sobre el canal de TEAMS para la carrera de ingeniería de sistemas.",
+  "details": [
+    {
+      "subtitle": "Secciones del Canal",
+      "content": "El canal de TEAMS se divide en cuatro secciones: General, Etapas en la carrera, Tecnología y desarrollo social, y Utilitarios para la carrera.",
+      "link": ""
+    },
+    {
+      "subtitle": "Estado de las Secciones",
+      "content": "La única sección con información actualizada es la sección General, donde se realizan anuncios por parte del director de carrera y del canal de la carrera de ingeniería de sistemas. La última publicación fue el 26 de junio de 2024; la publicación anterior a esta fue el 27 de noviembre de 2023. Las otras tres secciones no tienen publicaciones desde el año 2021.",
+      "link": ""
+    },
+    {
+      "subtitle": "Última Publicación",
+      "content": "La última publicación en la sección General fue un recordatorio sobre el formulario a completar en caso de algún inconveniente durante la primera cita de inscripción de asignaturas. Esta publicación recalca que el formulario se encuentra en el boletín de la carrera de ese mes y que es el único medio habilitado para atender dichas solicitudes.",
+      "link": ""
+    }
+  ]
+}

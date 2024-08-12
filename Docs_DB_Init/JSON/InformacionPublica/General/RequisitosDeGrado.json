@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "publico",
+  "title": "Requisitos de Grado",
+  "description": "Requisitos necesarios para obtener el grado en Ingeniería de Sistemas.",
+  "details": [
+    {
+      "subtitle": "Requisito de Lengua Extranjera",
+      "content": "Nivel B2. Puede conseguirse mediante la presentación de un examen, cursando cierta cantidad de créditos en un idioma, o presentando una acreditación externa que sea válida."
+    },
+    {
+      "subtitle": "Saber Pro",
+      "content": "Es un requisito adicional para obtener el grado, el cual implica presentar y aprobar el examen Saber Pro como parte del proceso de graduación."
+    }
+  ]
+}

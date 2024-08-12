@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Fechas de Solicitud",
+      "questions": [
+        {
+          "question": "¿Cuáles son las fechas límites para presentar la solicitud de apoyo económico?",
+          "subquestions": [
+            "Renovación Primer Semestre",
+            "Renovación Segundo Semestre",
+            "Primera Vez Primer Semestre",
+            "Primera Vez Segundo Semestre"
+          ],
+          "answer": "Renovación: Primer semestre del año lectivo: En la fecha hábil anterior al 15 de octubre. Segundo semestre del año lectivo: En la fecha hábil anterior al 30 de abril. Primera Vez: Primer semestre del año lectivo: En la fecha hábil anterior al 15 de noviembre. Segundo semestre del año lectivo: En la fecha hábil anterior al 30 de mayo."
+        }
+      ]
+    },
+    {
+      "category": "Ciclo Lectivo",
+      "questions": [
+        {
+          "question": "¿Cuál es el ciclo lectivo que debo colocar al momento de diligenciar el formulario de solicitud en el sistema?",
+          "answer": "El número de 4 dígitos se compone por los dos últimos números del año y el período académico correspondiente. Ejemplo: Primer semestre del año 2021: 2110 (donde 21 corresponde al año y 10 al primer ciclo lectivo). Segundo semestre del año 2021: 2130 (donde 21 corresponde al año y 30 al tercer ciclo lectivo)."
+        }
+      ]
+    },
+    {
+      "category": "Becas para Comunidades Específicas",
+      "questions": [
+        {
+          "question": "¿Existen becas para comunidades afrocolombianas o negritudes?",
+          "answer": "Sí, los aspirantes admitidos a programas de pregrado y posgrado de comunidades NARP (negros, afros, raizales y palenqueros) que ingresen a la Universidad, a partir del segundo semestre del 2018, podrán aplicar a una Beca del 10%. Más información a través del programa Contacto (contacto@javeriana.edu.co) y deben postularse a través de la Asistencia de la Rectoría (asistenciarectoria@javeriana.edu.co)."
+        },
+        {
+          "question": "¿Existen becas para indígenas?",
+          "answer": "Sí, los pertenecientes a comunidades indígenas interesados en ingresar a un programa de pregrado pueden aplicar al Crédito Condonable del Convenio ICETEX-ONIC-PUJ. La postulación se formaliza a través de ONIC, organización que presenta los candidatos a la Universidad y a Icetex (educacion@onic.org.co)."
+        }
+      ]
+    },
+    {
+      "category": "Becas para Estudiantes de Primer Semestre",
+      "questions": [
+        {
+          "question": "¿Existen becas para estudiantes de 1° semestre de programas de pregrado?",
+          "answer": "Sí, los aspirantes que deseen ingresar a 1° semestre de un programa de pregrado de la Sede Central, que no cuenten con los recursos suficientes para el pago de la matrícula, pueden postularse a través de la Dirección de la Carrera a la que fueron admitidos. La Facultad presentará las postulaciones a consideración del comité respectivo."
+        }
+      ]
+    },
+    {
+      "category": "Documentos y Proceso de Solicitud",
+      "questions": [
+        {
+          "question": "¿Qué documentos debo presentar para la solicitud de renovación?",
+          "answer": "Los mismos documentos que se radicaron cuando se hizo la solicitud por primera vez, actualizando la información y complementándola con los certificados correspondientes si ha surgido alguna nueva información o situación."
+        },
+        {
+          "question": "¿Cómo radico la solicitud?",
+          "answer": "Debe diligenciar el formulario en el sistema. Una vez incluida la información, se debe guardar el formulario y, junto con los documentos soporte, conformar la carpeta digital que será remitida vía correo electrónico."
+        }
+      ]
+    },
+    {
+      "category": "Becas para Medias Matrículas",
+      "questions": [
+        {
+          "question": "¿Existen becas para cursar medias matrículas?",
+          "answer": "Los apoyos están dirigidos fundamentalmente a estudiantes que cursan carga académica completa. Cualquier circunstancia especial será evaluada por el Comité de becas respectivo."
+        }
+      ]
+    },
+    {
+      "category": "Porcentaje de Beca",
+      "questions": [
+        {
+          "question": "¿Qué porcentaje de beca ofrece la Universidad?",
+          "answer": "El porcentaje de ayuda se establece de manera particular, dependiendo de la situación del estudiante y los recursos disponibles del fondo de becas de la Rectoría. En el caso de patrocinadores externos, el porcentaje se determinará según lo establecido por el programa."
+        }
+      ]
+    }
+  ]
+}

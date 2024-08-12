@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Propuesta Académica - Ingeniería de Sistemas",
+      "questions": [
+        {
+          "question": "¿Qué información general se proporciona sobre la carrera de Ingeniería de Sistemas en la Universidad Javeriana?",
+          "subquestions": [
+            "¿Cuál es el título que se obtiene al finalizar la carrera?",
+            "¿Cuánto dura el programa y cuál es su modalidad?"
+          ],
+          "answer": "La carrera de Ingeniería de Sistemas en la Universidad Javeriana ofrece el título de Ingeniero(a) de Sistemas. Es un programa de pregrado con una duración de ocho semestres, ofrecido en modalidad presencial y diurna. La inversión semestral es de $16,971,000.",
+          "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+        },
+        {
+          "question": "¿Qué es el SNIES y cuál es el número asignado a la carrera de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Qué importancia tiene el SNIES en la educación superior en Colombia?",
+            "¿Dónde se puede verificar esta información?"
+          ],
+          "answer": "El SNIES (Sistema Nacional de Información de la Educación Superior) es el registro que certifica que los programas académicos cumplen con los requisitos legales y académicos en Colombia. La carrera de Ingeniería de Sistemas tiene el número SNIES 3079. Esta información puede ser verificada en el enlace proporcionado.",
+          "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+        },
+        {
+          "question": "¿Qué información se proporciona sobre la Resolución de Registro Calificado de la carrera de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Qué es la Resolución de Registro Calificado?",
+            "¿Cuál es la vigencia de esta resolución?"
+          ],
+          "answer": "La Resolución de Registro Calificado es un documento que autoriza oficialmente la oferta del programa académico. Para la carrera de Ingeniería de Sistemas, la resolución es la 13945 del 15 de agosto de 2018, con vigencia hasta el 12 de marzo de 2026.",
+          "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "publico",
+  "categories": [
+    {
+      "category": "¿Por qué estudiar Ingeniería de Sistemas en la Javeriana?",
+      "questions": [
+        {
+          "question": "¿Qué acreditaciones tiene el programa de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Qué significa la Acreditación de Alta Calidad?",
+            "¿Qué implica la acreditación ABET?"
+          ],
+          "answer": "El programa cuenta con Acreditación de Alta Calidad, que garantiza un alto estándar en la educación y formación, y la acreditación ABET, que asegura el cumplimiento de rigurosos estándares globales de calidad educativa."
+        },
+        {
+          "question": "¿Qué oportunidades de doble titulación ofrece el programa?",
+          "subquestions": [
+            "¿Con qué universidades en Italia y Francia tiene acuerdos?",
+            "¿Qué beneficios aporta la doble titulación?"
+          ],
+          "answer": "El programa ofrece la posibilidad de obtener títulos adicionales en universidades asociadas en Italia y Francia, lo que enriquece la formación académica y profesional del estudiante."
+        },
+        {
+          "question": "¿Cómo se fomenta la investigación en el programa?",
+          "subquestions": [
+            "¿Qué son los semilleros de investigación?",
+            "¿Cómo se puede participar en ellos?"
+          ],
+          "answer": "Se fomenta la participación en semilleros de investigación que permiten a los estudiantes explorar y desarrollar nuevos conocimientos en áreas innovadoras."
+        },
+        {
+          "question": "¿Qué apoyo se brinda para el emprendimiento?",
+          "subquestions": [
+            "¿Qué es el Centro de Emprendimiento?",
+            "¿Cómo ayuda a los estudiantes en sus proyectos?"
+          ],
+          "answer": "El Centro de Emprendimiento ofrece apoyo a los estudiantes para desarrollar y ejecutar ideas innovadoras, facilitando recursos y mentoría."
+        },
+        {
+          "question": "¿Qué tipo de tecnología se utiliza en el programa?",
+          "subquestions": [
+            "¿Qué laboratorios están disponibles?",
+            "¿Qué tecnologías se pueden explorar?"
+          ],
+          "answer": "El programa cuenta con laboratorios especializados en redes, ciberseguridad, realidad virtual, robótica, control de drones y visión artificial, permitiendo a los estudiantes trabajar con tecnología de vanguardia."
+        },
+        {
+          "question": "¿Cómo es el enfoque de aprendizaje del programa?",
+          "subquestions": [
+            "¿Qué tipo de cursos se ofrecen?",
+            "¿Cómo se articulan con otros programas de pregrado?"
+          ],
+          "answer": "El programa ofrece cursos prácticos y flexibles que se articulan con otros programas de pregrado, como Ciencia de Datos e Ingeniería en Redes y Telecomunicaciones, promoviendo un aprendizaje innovador."
+        }
+      ]
+    }
+  ]
+}

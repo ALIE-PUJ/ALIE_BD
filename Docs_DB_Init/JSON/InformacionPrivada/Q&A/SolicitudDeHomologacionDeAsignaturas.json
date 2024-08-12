@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Solicitud de Homologación de Asignaturas",
+      "questions": [
+        {
+          "question": "¿Cómo solicito la homologación de asignaturas?",
+          "subquestions": [
+            "¿Qué información debo proporcionar en el formulario para solicitar la homologación?",
+            "¿Qué datos personales son necesarios para completar la solicitud de homologación?"
+          ],
+          "answer": "Para solicitar la homologación de asignaturas, debes completar el formulario con tus datos personales, la información de la materia que deseas homologar y la calificación obtenida en esa materia.",
+          "Link": "https://forms.office.com/r/QNC7RCPkFT"
+        },
+        {
+          "question": "¿Qué debo hacer después de enviar el formulario de homologación de asignaturas?",
+          "subquestions": [
+            "¿Cómo y cuándo recibiré una respuesta sobre mi solicitud?",
+            "¿Qué pasa si mi solicitud es incompleta o incorrecta?"
+          ],
+          "answer": "Después de enviar el formulario, tu solicitud será revisada para asegurar que el proceso se ejecute correctamente. Recibirás una respuesta con la decisión sobre tu solicitud. Si la solicitud es incompleta o incorrecta, se te pedirá que proporciones la información faltante o corrige los errores.",
+          "Link": "https://forms.office.com/r/QNC7RCPkFT"
+        },
+        {
+          "question": "¿Dónde encuentro el formulario para solicitar la homologación de asignaturas?",
+          "subquestions": [
+            "¿Cómo accedo al formulario específico para la solicitud en Ingeniería de Sistemas?",
+            "¿Qué hago si tengo problemas para acceder al formulario?"
+          ],
+          "answer": "El formulario para solicitar la homologación de asignaturas está disponible en el enlace proporcionado. Si tienes problemas para acceder al formulario, verifica el enlace o contacta a la oficina administrativa de Ingeniería de Sistemas para asistencia.",
+          "Link": "https://forms.office.com/r/QNC7RCPkFT"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Departamento de Ingeniería de Sistemas",
+      "questions": [
+        {
+          "question": "¿Cuál es la historia del Departamento de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Cuándo fue fundado el Departamento?",
+            "¿Cuántos profesores y de qué tipo tiene actualmente el Departamento?"
+          ],
+          "answer": "El Departamento de Ingeniería de Sistemas fue fundado en 1990. Actualmente, cuenta con 23 profesores, de los cuales 21 son de planta y 3 son planta temporal.",
+          "Link": "https://intranet.javeriana.edu.co/web/facultad-ingenieria/ingenieria-de-sistemas"
+        },
+        {
+          "question": "¿Cómo está estructurado el Departamento de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿En cuántas secciones se divide el Departamento?",
+            "¿Cuáles son las secciones del Departamento?"
+          ],
+          "answer": "El Departamento de Ingeniería de Sistemas se divide en cuatro secciones: Ofimática, Tecnologías de la Información y Comunicaciones, Gestión y Sistemas de la Información, y Programación y Desarrollo de Software.",
+          "Link": "https://intranet.javeriana.edu.co/web/facultad-ingenieria/ingenieria-de-sistemas"
+        },
+        {
+          "question": "¿Quién es el actual Director del Departamento de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Cuál es el nombre del Director actual?",
+            "¿Cuál es la trayectoria o información relevante sobre el Director?"
+          ],
+          "answer": "El actual Director del Departamento de Ingeniería de Sistemas es el Ingeniero César Julio Bustacara Medina."
+        }
+      ]
+    }
+  ]
+}

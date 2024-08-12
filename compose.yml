@@ -54,3 +54,12 @@ services:
       - "8082:8081"
     depends_on:
       - mongodb
+
+  # Servicio de Inicialización de BD Documental
+  docs_db_init:
+    build:
+      context: ./Docs_DB_Init  # Contexto de construcción en la carpeta Docs_DB_Init
+      dockerfile: Dockerfile
+    depends_on:
+      - mongodb
+    restart: on-failure

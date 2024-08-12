@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Proceso de Inscripción - Ingeniería de Sistemas",
+      "questions": [
+        {
+          "question": "¿Cuál es el primer paso para inscribirse en la carrera de Ingeniería de Sistemas en la Universidad Javeriana?",
+          "subquestions": [
+            "¿Dónde se crea la cuenta para la inscripción?",
+            "¿Qué información es necesaria para crear la cuenta?"
+          ],
+          "answer": "El primer paso es crear una cuenta en la plataforma de inscripción. La cuenta se debe crear en el sitio web de la Universidad Javeriana, y se requiere proporcionar información personal y de contacto.",
+          "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+        },
+        {
+          "question": "¿Qué se debe hacer después de crear la cuenta para inscribirse en la carrera?",
+          "subquestions": [
+            "¿Cómo se diligencia el formulario de inscripción?",
+            "¿Qué información se debe proporcionar para el pago de los derechos de admisión?"
+          ],
+          "answer": "Después de crear la cuenta, se debe diligenciar el formulario de inscripción y pagar el recibo de los derechos de admisión. El formulario se completa en línea y el pago se realiza a través de los métodos habilitados en la plataforma.",
+          "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+        },
+        {
+          "question": "¿Qué actividades se deben completar como parte del proceso de admisión?",
+          "subquestions": [
+            "¿Dónde se agendan las actividades del proceso de admisión?",
+            "¿Qué tipo de actividades se incluyen en el proceso?"
+          ],
+          "answer": "Las actividades del proceso de admisión deben ser agendadas y completadas siguiendo las instrucciones proporcionadas en la plataforma de inscripción. Estas actividades incluyen entrevistas, exámenes de admisión o cualquier otro requisito especificado por la universidad.",
+          "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+        }
+      ]
+    }
+  ]
+}

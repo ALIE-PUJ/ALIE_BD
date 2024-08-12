@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-21",
+  "access_control": "público",
+  "title": "Becas",
+  "description": "Esta sección informa al estudiante sobre las oportunidades de becas que la Universidad Javeriana ofrece. En desarrollo de su Misión y Proyecto Educativo, la universidad ha establecido diferentes modalidades de apoyos económicos para fortalecer la Comunidad Universitaria. A continuación se detalla la información sobre las becas disponibles, su procedimiento de asignación, y las condiciones para mantener el beneficio.",
+  "details": [
+    {
+      "subtitle": "Información asociada a Aspirantes",
+      "content": "Se pueden encontrar todas las becas y apoyos económicos que ofrece la Universidad Javeriana si deseas iniciar tus estudios de pregrado y posgrado.",
+      "link": "https://becas.javeriana.edu.co/aspirantes"
+    },
+    {
+      "subtitle": "Becas por excelencia académica",
+      "content": "Beca Bachiller Destacado: La Pontificia Universidad Javeriana asigna semestralmente once (11) Becas Bachiller Destacado por el 80% del valor de la matrícula. La convocatoria se realiza conforme a lo dispuesto en la Circular No. 012/2020 emitida por el Rector de la Universidad.",
+      "link": "https://www.javeriana.edu.co/estudia-en-la-javeriana/becas-excelencia-academica#BACHILLERDESTACADO"
+    },
+    {
+      "subtitle": "Procedimiento de asignación",
+      "content": "Cada candidato admitido puede postularse para concursar por una beca en un único programa de pregrado si cumple con los requisitos establecidos en la convocatoria y ha entregado los documentos requeridos."
+    },
+    {
+      "subtitle": "Condiciones para mantener la beca",
+      "content": "El estudiante beneficiario debe realizar matrícula completa, no incurrir en prueba académica, y no ser sujeto de sanciones disciplinarias. La beca cubre únicamente los periodos académicos del programa inicial al que fue admitido. Si el estudiante cursa un programa múltiple, la beca cubrirá el valor del programa inicial, y el estudiante deberá pagar la diferencia del programa más costoso."
+    },
+    {
+      "subtitle": "Reserva de la beca",
+      "content": "La beca se puede reservar hasta por máximo un año si se reserva el cupo y hasta por máximo dos años en caso de retiro temporal."
+    },
+    {
+      "subtitle": "Convocatoria",
+      "content": "La convocatoria para el segundo semestre de 2024 estará abierta desde el 21 de febrero de 2024 hasta el 31 de mayo de 2024 a las 5:00 p.m. hora de Colombia.",
+      "link": "https://www.javeriana.edu.co/estudia-en-la-javeriana/becas-excelencia-academica#BACHILLERDESTACADO"
+    },
+    {
+      "subtitle": "Beca Bachiller Destacado Colegios ACODESI",
+      "content": "La Universidad otorga anualmente una Beca Bachiller Destacado por el 80% del valor de la matrícula a un egresado de cada colegio perteneciente a la Asociación de Colegios Jesuitas de Colombia (ACODESI).",
+      "link": "https://www.javeriana.edu.co/estudia-en-la-javeriana/becas-excelencia-academica#ACODESI"
+    },
+    {
+      "subtitle": "Convocatoria Beca Bachiller Destacado Colegios ACODESI",
+      "content": "Para quienes realicen el proceso de admisión para el segundo semestre de 2024, se asignarán 5 Becas Bachiller Destacado Colegios ACODESI. La lista de colegios que podrán presentar candidatos incluye el Colegio de San Bartolomé La Merced – Bogotá, Colegio San José – Barranquilla, entre otros."
+    },
+    {
+      "subtitle": "Convocatoria Beca Bachiller Destacado Colegios Fe y Alegría",
+      "content": "La convocatoria para las Becas Bachiller Destacado Colegios Fe y Alegría se abre anualmente. La próxima convocatoria será en octubre de 2024 para el primer semestre de 2025.",
+      "link": "https://www.javeriana.edu.co/estudia-en-la-javeriana/becas-excelencia-academica#ACODESI"
+    },
+    {
+      "subtitle": "Beca Bachiller Destacado FE Y ALEGRÍA",
+      "content": "Se otorgan anualmente dos (2) Becas Bachiller Destacado por el 80% del valor de la matrícula entre los Colegios de la Fundación Fe y Alegría Bogotá. Los candidatos serán seleccionados por la Fundación y presentados a la Dirección de Asuntos Estudiantiles de la Universidad."
+    },
+    {
+      "subtitle": "Becas por necesidad económica",
+      "content": "Beca Ingresa: Se otorgan becas hasta del 50% del valor de la matrícula a los aspirantes admitidos por primera vez a un programa de pregrado. Los criterios de selección incluyen excelencia académica y dificultad económica.",
+      "link": "https://becas.javeriana.edu.co/aspirantes"
+    },
+    {
+      "subtitle": "Condiciones para mantener el beneficio",
+      "content": "Para mantener y renovar semestralmente el apoyo económico, los estudiantes deben cumplir con varias condiciones, incluyendo no incurrir en prueba académica, no ser sujeto de sanciones disciplinarias, y mantener una carga académica completa."
+    },
+    {
+      "subtitle": "Proceso de postulación",
+      "content": "Los candidatos deben presentar un formulario de postulación y varios documentos que certifiquen su situación económica y académica. La postulación debe ser coordinada con el director del pregrado correspondiente."
+    },
+    {
+      "subtitle": "Renovación de la beca",
+      "content": "Las becas se renovarán semestralmente si se cumple con las condiciones para mantener el apoyo económico."
+    },
+    {
+      "subtitle": "Becas Plan Especial Banda y Orquesta - Carrera de Estudios Musicales",
+      "content": "Esta beca está dirigida a aspirantes y estudiantes regulares de la Carrera de Estudios Musicales. Los beneficiarios recibirán semestralmente el 50% del valor de la matrícula.",
+      "link": "https://www.javeriana.edu.co/estudia-en-la-javeriana/becas-excelencia-academica#ACODESI"
+    },
+    {
+      "subtitle": "Apoyos para estudiantes de grupos étnicos",
+      "content": "Alianza entre ICETEX, la Pontificia Universidad Javeriana y la ONIC para promover el acceso a estudiantes indígenas a programas académicos de pregrado con condiciones de reconocimiento y respeto de sus lógicas, formas de vida y saberes."
+    }
+  ]
+}

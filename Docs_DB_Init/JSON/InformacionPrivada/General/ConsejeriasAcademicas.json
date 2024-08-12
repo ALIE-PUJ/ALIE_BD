@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "title": "Consejerías Académicas",
+  "description": "Información sobre cuándo y cómo solicitar consejerías académicas.",
+  "access_control": "privado",
+  "details": [
+    {
+      "subtitle": "Solicitud de Consejería",
+      "content": "Información sobre cuándo es necesario pedir una consejería académica y cómo solicitarla.",
+      "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430%2FConsejeros%202430%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430&p=true&ga=1"
+    },
+    {
+      "subtitle": "Docentes",
+      "content": "Listado de docentes que realizan consejerías académicas.",
+      "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430%2FConsejeros%202430%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430&p=true&ga=1"
+    }
+  ]
+}

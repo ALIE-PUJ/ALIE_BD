@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "publico",
+  "categories": [
+    {
+      "category": "Plan de estudios de Ingeniería de Sistemas",
+      "questions": [
+        {
+          "question": "¿Dónde puedo consultar el plan de estudios de la carrera de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Qué información está disponible en el plan de estudios?",
+            "¿El plan de estudios está actualizado?"
+          ],
+          "answer": "Puedes consultar el plan de estudios de la carrera de Ingeniería de Sistemas en el siguiente enlace: [Plan de estudios](https://www.javeriana.edu.co/recursosdb/1372208/1933581/Plan+de+estudios+Carrera+de+Ingenier%C3%ADa+de+Sistemas+Septiembre+2021.pdf/dcd72aaf-7a98-e019-7cbb-1cdfbf25f083?t=1632151956706). Este documento contiene la estructura del programa, las asignaturas ofrecidas y otros detalles relevantes sobre el currículo.",
+          "link": "https://www.javeriana.edu.co/recursosdb/1372208/1933581/Plan+de+estudios+Carrera+de+Ingenier%C3%ADa+de+Sistemas+Septiembre+2021.pdf/dcd72aaf-7a98-e019-7cbb-1cdfbf25f083?t=1632151956706"
+        }
+      ]
+    }
+  ]
+}

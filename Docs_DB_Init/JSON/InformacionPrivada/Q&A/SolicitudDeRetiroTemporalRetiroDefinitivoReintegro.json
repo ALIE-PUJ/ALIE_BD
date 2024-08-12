@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Solicitud de Retiro Temporal, Retiro Definitivo y Reintegro",
+      "questions": [
+        {
+          "question": "¿Cómo puedo solicitar un retiro temporal, retiro definitivo o reintegro a la carrera de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Dónde encuentro el formulario para realizar estas solicitudes?",
+            "¿Qué información debo proporcionar en el formulario para asegurar que mi solicitud sea procesada correctamente?",
+            "¿Qué pasos debo seguir después de enviar el formulario?"
+          ],
+          "answer": "Para solicitar un retiro temporal, retiro definitivo o reintegro a la carrera de Ingeniería de Sistemas, debes completar el formulario disponible en el enlace proporcionado. Asegúrate de leer cuidadosamente toda la información requerida para evitar demoras en el proceso.",
+          "Link": "https://forms.office.com/r/MBRemPAkTc"
+        },
+        {
+          "question": "¿Qué diferencias existen entre un retiro temporal y un retiro definitivo?",
+          "subquestions": [
+            "¿Cómo afecta cada tipo de retiro a mi estatus académico?",
+            "¿Qué condiciones debo cumplir para solicitar un retiro temporal o definitivo?"
+          ],
+          "answer": "Un retiro temporal permite al estudiante ausentarse de la carrera por un período determinado, con la posibilidad de reingresar en el futuro. Un retiro definitivo implica la salida permanente de la carrera. Las condiciones para cada tipo de retiro pueden variar y deben ser revisadas en el formulario y en las políticas de la universidad.",
+          "Link": "https://forms.office.com/r/MBRemPAkTc"
+        },
+        {
+          "question": "¿Qué debo hacer si necesito asistencia o tengo problemas con la solicitud de retiro o reintegro?",
+          "subquestions": [
+            "¿A quién debo contactar si tengo problemas con el formulario?",
+            "¿Dónde puedo obtener ayuda adicional si tengo dudas sobre el proceso?"
+          ],
+          "answer": "Si necesitas asistencia o tienes problemas con el formulario de solicitud de retiro o reintegro, debes contactar al departamento de admisiones o al área administrativa de la carrera de Ingeniería de Sistemas.",
+          "Link": "https://forms.office.com/r/MBRemPAkTc"
+        }
+      ]
+    }
+  ]
+}

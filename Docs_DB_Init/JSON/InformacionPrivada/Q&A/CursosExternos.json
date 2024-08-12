@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Cursos Relacionados a la Carrera",
+      "questions": [
+        {
+          "question": "¿Cómo me inscribo en los cursos ofrecidos por Boston College?",
+          "subquestions": [
+            "¿Cuál es el proceso de inscripción para los cursos de Boston College?",
+            "¿Cómo puedo registrarme en los cursos que ofrece Boston College?",
+            "¿Qué debo hacer para inscribirme en los cursos de Boston College?"
+          ],
+          "answer": "Para inscribirte en los cursos ofrecidos por Boston College, debes completar el formulario de inscripción proporcionado en el enlace. Asegúrate de ingresar todos tus datos correctamente para ser considerado en el proceso de inscripción.",
+          "link": "https://livejaverianaedu.sharepoint.com/:x:/s/Ingsis/CISIST/EYz06A1kdGBFhDZW4pZyzV0Bj_vNyNXNjD1eX20_6hhY6w?e=wXDguu"
+        },
+        {
+          "question": "¿Qué tipo de cursos ofrece Boston College?",
+          "subquestions": [
+            "¿Qué clases puedo tomar en Boston College?",
+            "¿Cuáles son los cursos disponibles en Boston College?",
+            "¿Qué tipos de cursos están disponibles a través de Boston College?"
+          ],
+          "answer": "Boston College ofrece una variedad de cursos relacionados con la ingeniería. Puedes consultar la lista completa de cursos, incluyendo detalles sobre la modalidad y la fecha de inicio, en el enlace proporcionado.",
+          "link": "https://livejaverianaedu.sharepoint.com/:x:/r/sites/Ingsis/CISIST/_layouts/15/Doc.aspx?sourcedoc=%7B681BA5A0-D587-4157-B622-1567B2D55E15%7D&file=Listado%20de%20clases%20disponibles%20-%20Boston%20College%20Virtual%202023-3%20(1).xlsx&action=default&mobileredirect=true"
+        },
+        {
+          "question": "¿Cómo puedo obtener más información sobre los cursos de Boston College?",
+          "subquestions": [
+            "¿Dónde puedo buscar más detalles sobre los cursos de Boston College?",
+            "¿Cómo encuentro información adicional sobre los cursos ofrecidos por Boston College?",
+            "¿A quién puedo preguntar para saber más sobre los cursos de Boston College?"
+          ],
+          "answer": "Para obtener más información sobre los cursos de Boston College, puedes consultar el listado de cursos en el enlace proporcionado o contactar al departamento académico encargado.",
+          "link": "https://livejaverianaedu.sharepoint.com/:x:/r/sites/Ingsis/CISIST/_layouts/15/Doc.aspx?sourcedoc=%7B681BA5A0-D587-4157-B622-1567B2D55E15%7D&file=Listado%20de%20clases%20disponibles%20-%20Boston%20College%20Virtual%202023-3%20(1).xlsx&action=default&mobileredirect=true"
+        }
+      ]
+    }
+  ]
+}

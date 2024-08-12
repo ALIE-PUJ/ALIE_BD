@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "publico",
+  "categories": [
+    {
+      "category": "Organización del Plan de Estudios y Créditos Totales",
+      "questions": [
+        {
+          "question": "¿Cuál es la organización del plan de estudios para la carrera de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Cuántos créditos se asignan al Núcleo de Formación Fundamental?",
+            "¿Qué áreas están incluidas en la organización del plan de estudios?",
+            "¿Cuántos créditos se destinan a las electivas?"
+          ],
+          "answer": "La organización del plan de estudios de la carrera de Ingeniería de Sistemas incluye las siguientes categorías: \n- **Núcleo de Formación Fundamental (NFF):** 113 créditos\n- **Ciencias Básicas:** Enfocado en el desarrollo del pensamiento lógico y las propiedades entre entidades abstractas.\n- **Ingeniería Aplicada:** Se centra en la concepción, apropiación y aplicación del conocimiento científico y técnico.\n- **Socio-humanística:** Proporciona formación social y humana relevante para la trayectoria profesional y personal.\n- **Énfasis:** 11 créditos para especialización en un campo específico de la carrera.\n- **Opciones Complementarias:** 6 créditos para cursos de otras disciplinas que complementen la formación del estudiante.\n- **Electivas:** 8 créditos para cursos libres ofrecidos por todos los departamentos de la Universidad según los intereses personales del estudiante."
+        }
+      ]
+    }
+  ]
+}

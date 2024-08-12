@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "publico",
+  "categories": [
+    {
+      "category": "Requisitos de Grado en Ingeniería de Sistemas",
+      "questions": [
+        {
+          "question": "¿Qué es el requisito de lengua extranjera para obtener el grado?",
+          "subquestions": [
+            "¿Qué nivel de lengua extranjera se requiere?",
+            "¿Cómo se puede obtener el nivel requerido?",
+            "¿Qué opciones están disponibles para cumplir con este requisito?"
+          ],
+          "answer": "El **requisito de lengua extranjera** para obtener el grado en Ingeniería de Sistemas es alcanzar el nivel **B2**. Puedes cumplir con este requisito mediante: \n- **Presentación de un examen de certificación** en el idioma requerido.\n- **Cursar cierta cantidad de créditos** en un curso de idioma dentro del programa académico.\n- **Presentación de una acreditación externa** que sea válida y equivalente al nivel B2."
+        },
+        {
+          "question": "¿Qué es el examen Saber Pro y cuál es su importancia?",
+          "subquestions": [
+            "¿Qué es el examen Saber Pro?",
+            "¿Cuándo se debe presentar el examen Saber Pro?",
+            "¿Cuál es el propósito de este examen en el proceso de graduación?"
+          ],
+          "answer": "El **examen Saber Pro** es un requisito adicional para obtener el grado en Ingeniería de Sistemas. Se debe: \n- **Presentar y aprobar el examen** como parte del proceso de graduación.\n- **Objetivo:** Evaluar competencias genéricas y específicas de los estudiantes para asegurar que cumplen con los estándares necesarios para su formación profesional."
+        }
+      ]
+    }
+  ]
+}

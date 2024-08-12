@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Solicitud de Retiro de Asignaturas",
+      "questions": [
+        {
+          "question": "¿Cómo solicito el retiro de una asignatura?",
+          "subquestions": [
+            "¿Qué información debo proporcionar en el formulario de retiro de asignaturas?",
+            "¿Qué datos personales y detalles de la asignatura necesito incluir?"
+          ],
+          "answer": "Para solicitar el retiro de una asignatura, debes completar el formulario con tus datos personales, la materia que deseas retirar y los motivos de la solicitud.",
+          "Link": "https://forms.office.com/r/MBRemPAkTc"
+        },
+        {
+          "question": "¿Qué sucede después de enviar el formulario de solicitud de retiro de asignaturas?",
+          "subquestions": [
+            "¿Cómo y cuándo recibiré una confirmación o respuesta sobre mi solicitud de retiro?",
+            "¿Qué pasos debo seguir si mi solicitud requiere correcciones o información adicional?"
+          ],
+          "answer": "Después de enviar el formulario, recibirás una confirmación y la respuesta sobre tu solicitud de retiro. Si se requiere información adicional o correcciones, se te indicará cómo proceder.",
+          "Link": "https://forms.office.com/r/MBRemPAkTc"
+        },
+        {
+          "question": "¿Dónde encuentro el formulario para solicitar el retiro de asignaturas?",
+          "subquestions": [
+            "¿Cómo accedo al formulario específico para la carrera de Ingeniería de Sistemas?",
+            "¿Qué hacer si encuentro problemas para acceder o completar el formulario?"
+          ],
+          "answer": "El formulario para solicitar el retiro de asignaturas está disponible en el enlace proporcionado. Si tienes problemas para acceder o completar el formulario, contacta a la oficina administrativa de Ingeniería de Sistemas para asistencia.",
+          "Link": "https://forms.office.com/r/MBRemPAkTc"
+        }
+      ]
+    }
+  ]
+}

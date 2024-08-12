@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "publico",
+  "categories": [
+    {
+      "category": "Preguntas frecuentes sobre la carrera",
+      "questions": [
+        {
+          "question": "¿Cuál es el perfil de ingreso al programa?",
+          "answer": "Tu carrera es Ingeniería de Sistemas si consideras que tienes una visión amplia de las cosas, gran creatividad, imaginación e ingenio. También, debes tener sensibilidad social y una buena disposición para el trabajo en equipo. Es importante que valores la importancia de la organización, los métodos y las estrategias para la resolución de problemas, y demostrar un buen desempeño en matemáticas, lenguaje y física."
+        },
+        {
+          "question": "¿Qué debo tener en cuenta al momento de realizar la inscripción?",
+          "answer": "Si ingresas a primer semestre podrás realizar la entrevista sin cargar los documentos. Sin embargo, el resultado del proceso solo estará disponible cuando hayas cargado la información correspondiente al componente de conocimientos. Si vienes de otra universidad o programa, es necesario que prepares todos tus syllabus (contenidos programáticos) para revisar qué cursos se te homologarán una vez matriculado."
+        },
+        {
+          "question": "¿En cuánto tiempo obtengo mi resultado de admisión?",
+          "answer": "Una vez hayas completado el proceso de entrevista y cargado los documentos correspondientes, los resultados serán enviados por correo en un periodo de 10 a 15 días."
+        },
+        {
+          "question": "¿En qué me puedo desempeñar siendo ingeniero(a) de sistemas?",
+          "answer": "La ingeniería de sistemas es una carrera muy versátil. Puedes desempeñarte en roles como ingeniero de software, ingeniero de seguridad digital, líder de transformación digital, gerente de proyectos de TI, gerente de TI, ingeniero de datos, analista de sistemas, arquitecto de software, científico de datos, desarrollador de videojuegos, entre otros."
+        },
+        {
+          "question": "¿Qué oportunidades para desarrollarme profesionalmente tendré?",
+          "answer": "Tendrás la posibilidad de realizar prácticas profesionales, en investigación y prácticas sociales. Adicionalmente, en todas nuestras asignaturas y espacios extracurriculares desarrollarás competencias como liderazgo, trabajo en equipo, comunicación asertiva, entre otros."
+        },
+        {
+          "question": "Quiero conocer el Edificio de Ingeniería, ¿cómo puedo hacerlo?",
+          "answer": "En nuestras redes sociales y en la página de relacionamiento anunciamos los tours presenciales programados, donde podrás conocer nuestras instalaciones en compañía de estudiantes de nuestros programas. Página de relacionamiento de la universidad: [https://www.javeriana.edu.co/relacionamiento/](https://www.javeriana.edu.co/relacionamiento/)"
+        },
+        {
+          "question": "Quiero hacer un intercambio o aprender una nueva lengua, ¿cómo puedo hacerlo?",
+          "answer": "Puedes hacer doble titulación con una universidad en Francia o Italia. La Javeriana cuenta con más de 390 convenios internacionales de colaboración en 40 países para vivir experiencias personales, culturales y académicas. También puedes tomar cursos de idiomas como francés, italiano, mandarín, portugués, entre otros, y cursos intensivos de preparación para intercambios. Estos tienen cupos limitados."
+        },
+        {
+          "question": "Estoy interesado en la investigación, ¿qué oferta tiene el programa?",
+          "answer": "Podrás hacer parte de los semilleros de investigación SEKIA, Computación Visual y White Lab, donde desarrollarás proyectos y tus habilidades en el campo de la investigación."
+        },
+        {
+          "question": "¿Puedo realizar doble programa?",
+          "answer": "Sí, una vez matriculado en el primer programa, puedes realizar la inscripción por múltiple programa sin costo adicional. El estudiante paga matrícula del programa de mayor valor."
+        },
+        {
+          "question": "¿Puedo hacer doble titulación con una universidad extranjera?",
+          "answer": "Sí, tendrás la oportunidad de obtener tu título en nuestra Universidad y uno de una universidad en Francia o Italia."
+        },
+        {
+          "question": "¿Cuáles son los requisitos de inscripción y admisión al programa?",
+          "answer": "Para iniciar el proceso de inscripción, debes hacerlo por medio del formulario de inscripción. Debes elegir entre tus resultados de las Pruebas Saber 11, notas del colegio o un examen internacional. Si vienes de otra universidad, debes presentar las notas y un certificado de procesos disciplinarios. Los criterios son: ACTITUD 25% (Entrevista, Actitudes específicas), HABILIDAD 5% (Entrevista, Capacidad de comunicación), CONOCIMIENTO 70% (Prueba Saber 11, examen extranjero, certificado de notas del colegio). Página de inscripción: [https://cs.javeriana.edu.co:9443/psp/CSADGST/EMPLOYEE/SA/c/UJ_INSCRIPCIONES_AUTOSERVICIO.UJ_AUTO_BIENVENIDO.GBL?cmd=login&languageCd=ENG&](https://cs.javeriana.edu.co:9443/psp/CSADGST/EMPLOYEE/SA/c/UJ_INSCRIPCIONES_AUTOSERVICIO.UJ_AUTO_BIENVENIDO.GBL?cmd=login&languageCd=ENG&)"
+        },
+        {
+          "question": "¿Qué necesita un aspirante extranjero para ingresar al programa de Ingeniería de Sistemas?",
+          "answer": "Para facilitar el proceso de formalización como estudiante internacional o nacional con estudios en el exterior, debes cargar los siguientes documentos: Diploma o Acta de Grado de bachillerato apostillado o autenticado, Convalidación del título de secundaria ante el Ministerio de Educación Nacional (excepto España), Resultados del examen SABER-11 o exámenes extranjeros reconocidos, Pasaporte, VISA y Cédula de Extranjería para no nacionales colombianos, y Seguro médico con cobertura global."
+        }
+      ]
+    }
+  ]
+}
