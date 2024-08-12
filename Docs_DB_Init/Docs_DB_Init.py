@@ -100,7 +100,7 @@ def main():
     # Obtener usuario y contraseña desde variables de entorno
     user = os.getenv('MONGO_USER', 'admin') # Si no se encuentra la variable de entorno, se asigna el valor 'admin'
     password = os.getenv('MONGO_PASS', 'admin123') # Si no se encuentra la variable de entorno, se asigna el valor 'admin123'
-    host = "mongodb" # mongodb si se ejecuta en contenedor, localhost si se ejecuta en local
+    host = os.getenv('MONGO_HOST', 'mongodb') # mongodb si se ejecuta en contenedor, localhost si se ejecuta en local
 
     # Construir la URI de conexión
     mongo_uri = f"mongodb://{user}:{password}@{host}:27017"
