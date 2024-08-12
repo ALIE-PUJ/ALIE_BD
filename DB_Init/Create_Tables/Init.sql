@@ -68,3 +68,24 @@ CREATE TABLE IF NOT EXISTS Estudiante_Clase (
     FOREIGN KEY (id_estudiante) REFERENCES Estudiante(id_estudiante),
     FOREIGN KEY (id_clase) REFERENCES Clase(id_clase)
 );
+
+
+-- Tabla Prerequisito_Curso
+CREATE TABLE IF NOT EXISTS Prerequisito_Curso(
+    id_curso INT NOT NULL,
+    id_prerequisito_curso INT NOT NULL,
+    PRIMARY KEY (id_curso, id_prerequisito_curso),
+    FOREIGN KEY (id_curso) REFERENCES Curso(id_curso),
+    FOREIGN KEY (id_prerequisito_curso) REFERENCES Curso(id_curso)
+);
+
+-- Tabla Horario_Clase
+CREATE TABLE IF NOT EXISTS Horario_Clase (
+    id_clase INT NOT NULL,
+    dia VARCHAR(10) NOT NULL, 
+    hora_inicio TIME NOT NULL,
+    hora_fin TIME NOT NULL,
+    PRIMARY KEY (id_clase, dia, hora_inicio, hora_fin),
+    FOREIGN KEY (id_clase) REFERENCES Clase(id_clase)
+);
+

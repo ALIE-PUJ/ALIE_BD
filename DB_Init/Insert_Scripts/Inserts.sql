@@ -1689,3 +1689,10 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (25, 1498),
 (26, 1499)
 ON CONFLICT (id_estudiante, id_clase) DO NOTHING;
+
+INSERT INTO Horario_Clase (id_clase, dia, hora_inicio, hora_fin) VALUES
+(1, 'Lunes', '07:00', '09:00'),
+(1, 'Miercoles', '07:00', '09:00')
+ON CONFLICT (id_clase, dia, hora_inicio, hora_fin) DO NOTHING;
+
+
