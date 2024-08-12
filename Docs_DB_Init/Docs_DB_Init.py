@@ -80,7 +80,7 @@ def insert_json_files(db, folder_path, collection_name):
             except IOError as e:
                 print(f"Error al abrir el archivo '{file_path}': {e}")
 
-    print(f"Documentos insertados en la colección '{collection_name}' desde '{folder_path}'.")
+    print(f"----> Documentos insertados en la colección '{collection_name}' desde '{folder_path}'.\n")
 
 if __name__ == "__main__":
 
@@ -108,5 +108,12 @@ if __name__ == "__main__":
 
 
 
+    # Verificar el contenido de las colecciones
+    '''
+    print("<---> Verificacion del contenido de las colecciones")
     # Obtener todos los documentos de la colección y mostrarlos
-    fetch_and_print_documents_in_collection("admin", "system.users", mongo_uri)
+    fetch_and_print_documents_in_collection("ALIE_DB", "InformacionPrivada_QA", mongo_uri)
+    fetch_and_print_documents_in_collection("ALIE_DB", "InformacionPrivada_General", mongo_uri)
+    fetch_and_print_documents_in_collection("ALIE_DB", "InformacionPublica_QA", mongo_uri)
+    fetch_and_print_documents_in_collection("ALIE_DB", "InformacionPublica_General", mongo_uri)
+    '''
