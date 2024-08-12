@@ -1,0 +1,20 @@
+# Usa una imagen base de Python
+FROM python:3.10
+
+# Establece el directorio de trabajo
+WORKDIR /app
+
+# Copia el archivo de dependencias al directorio de trabajo
+COPY requirements.txt .
+
+# Copia todos los archivos y carpetas del contexto de construcción al contenedor
+COPY . .
+
+# Instala las dependencias necesarias
+RUN pip install -r requirements.txt
+
+# Define el comando a ejecutar
+CMD ["python", "Docs_DB_Init.py"]
+
+# Para construir la imagen individualmente, ejecuta el siguiente comando: docker build -t my-docsdb-init-image .
+# Para ejecutar el contenedor, ejecuta el siguiente comando: docker run my-docsdb-init-image

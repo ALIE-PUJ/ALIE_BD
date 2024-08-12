@@ -2,6 +2,9 @@ import psycopg2
 import os
 
 def execute_sql_from_file(file_path, conn):
+
+    print(f"Ejecutando script SQL: {file_path}")
+
     with open(file_path, 'r', encoding='utf-8') as file:
         sql = file.read()
     
