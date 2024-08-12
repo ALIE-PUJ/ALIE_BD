@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Solicitud de Segundo Calificador",
+      "questions": [
+        {
+          "question": "¿Cómo solicito un segundo calificador para una actividad académica?",
+          "subquestions": [
+            "¿Qué información debo proporcionar en el formulario para solicitar un segundo calificador?",
+            "¿Qué datos personales son necesarios para completar la solicitud?"
+          ],
+          "answer": "Para solicitar un segundo calificador, debes completar el formulario con tus datos personales, la información de la materia y la actividad para la que deseas el segundo calificador.",
+          "Link": "https://forms.office.com/r/XHWqp6QHWM"
+        },
+        {
+          "question": "¿Qué pasos debo seguir después de enviar la solicitud de segundo calificador?",
+          "subquestions": [
+            "¿Cómo y cuándo recibiré una respuesta sobre mi solicitud?",
+            "¿Qué hago si necesito más información o seguimiento sobre mi solicitud?"
+          ],
+          "answer": "Después de enviar la solicitud, debes esperar una respuesta sobre la asignación del segundo calificador. Si necesitas más información o seguimiento, contacta a la oficina administrativa de Ingeniería de Sistemas.",
+          "Link": "https://forms.office.com/r/XHWqp6QHWM"
+        },
+        {
+          "question": "¿Dónde encuentro el formulario para solicitar un segundo calificador?",
+          "subquestions": [
+            "¿Cómo accedo al formulario específico para la solicitud en Ingeniería de Sistemas?",
+            "¿Qué hago si tengo problemas para acceder al formulario?"
+          ],
+          "answer": "El formulario para solicitar un segundo calificador está disponible en el enlace proporcionado. Si tienes problemas para acceder al formulario, verifica el enlace o contacta a la oficina administrativa de Ingeniería de Sistemas para asistencia.",
+          "Link": "https://forms.office.com/r/XHWqp6QHWM"
+        }
+      ]
+    }
+  ]
+}

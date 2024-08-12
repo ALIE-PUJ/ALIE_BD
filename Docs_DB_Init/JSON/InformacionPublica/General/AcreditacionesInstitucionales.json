@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "publico",
+  "title": "Acreditaciones Institucionales",
+  "description": "Información sobre las acreditaciones de calidad otorgadas a la Universidad Javeriana.",
+  "details": [
+    {
+      "subtitle": "Acreditación Institucional de Alta Calidad por 10 años (2020)",
+      "content": "La Acreditación Institucional de Alta Calidad es un reconocimiento otorgado por el Ministerio de Educación Nacional de Colombia a las instituciones de educación superior que cumplen con altos estándares de calidad en sus programas académicos, infraestructura, cuerpo docente, investigación y procesos administrativos. Esta acreditación, válida por 10 años desde 2020, garantiza que la Universidad Javeriana ofrece una educación de excelencia, comprometida con la formación integral de sus estudiantes y el desarrollo académico y social del país."
+    },
+    {
+      "subtitle": "ABET (Acreditación de Alta Calidad)",
+      "content": "ABET (Accreditation Board for Engineering and Technology) es una prestigiosa organización internacional que acredita programas de educación superior en disciplinas de ciencias aplicadas, computación, ingeniería y tecnología. La acreditación ABET asegura que el programa de Ingeniería de Sistemas de la Universidad Javeriana cumple con los rigurosos estándares globales de calidad educativa, preparándose para enfrentar desafíos profesionales y destacarse en un entorno internacional. Contar con esta acreditación permite que el título obtenido sea reconocido y valorado en diferentes países alrededor del mundo."
+    }
+  ]
+}

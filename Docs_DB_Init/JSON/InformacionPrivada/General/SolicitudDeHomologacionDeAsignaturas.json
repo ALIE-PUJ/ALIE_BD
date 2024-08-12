@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "title": "Solicitud de Homologación de Asignaturas",
+  "description": "Información sobre el proceso para solicitar la homologación de asignaturas en la carrera de Ingeniería de Sistemas. Se debe completar un formulario con los datos personales del estudiante, la información de la materia que se desea homologar y la calificación obtenida en esa materia.",
+  "details": [
+    {
+      "subtitle": "Formulario de solicitud de homologación de asignaturas",
+      "content": "Este formulario permite a los estudiantes solicitar la homologación de asignaturas. Se deben completar los campos con los datos personales del estudiante, la información de la materia que se desea homologar y la calificación correspondiente. La información será revisada para asegurar que el proceso se ejecute correctamente.",
+      "link": "https://forms.office.com/r/QNC7RCPkFT"
+    }
+  ]
+}

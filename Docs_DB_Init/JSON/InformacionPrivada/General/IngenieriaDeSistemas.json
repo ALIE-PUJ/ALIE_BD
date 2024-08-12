@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "title": "Ingeniería de Sistemas",
+  "description": "Información sobre el programa de Ingeniería de Sistemas, incluyendo detalles del programa, contacto, y servicios ofrecidos.",
+  "details": [
+    {
+      "subtitle": "Descripción del Programa",
+      "content": "El programa de Ingeniería de Sistemas se enfoca en diseñar soluciones basadas en tecnologías digitales para mejorar la calidad de vida y la competitividad de las organizaciones. Aprenderás a modelar, diseñar y gestionar soluciones con tecnologías de la información y comunicaciones, usando laboratorios de clase mundial. Desarrollarás habilidades en análisis, gestión segura y ética de datos, y liderazgo en equipos con una perspectiva innovadora. Ofrecemos énfasis en áreas como inteligencia artificial, computación gráfica y arquitectura de software.",
+      "link": "https://intranet.javeriana.edu.co/web/facultad-ingenieria/ingenieria-sistemas"
+    },
+    {
+      "subtitle": "Director del Programa",
+      "content": "Ing. Carlos Andrés Parra Acevedo, Ph.D",
+      "email": "ca.parraa@javeriana.edu.co",
+      "phone": "320 83 20 ext. 4730"
+    },
+    {
+      "subtitle": "Información Académica",
+      "content": "Esta sección incluye información sobre Consejería Académica, PAE, Laboratorios, Prácticas Profesionales, Prácticas Sociales, Programación de Exámenes Finales, Proyecto y Trabajo de Grado."
+    },
+    {
+      "subtitle": "Trámites e Instructivos",
+      "content": "Incluye procedimientos y formularios para Saber Pro, Homologaciones, Revisión Académica, Cálculo de Promedio, Actualización de Datos y Cobertura en Salud POS, Inscripción de Asignaturas, Requisito de Lengua Extranjera, Cambio de Carga Académica, Solicitud de Retiro Temporal o Definitivo, Solicitud de Cartas de Presentación, Solicitud de Excusas, Solicitud de Supletorios, y Reserva de Salones/Auditorios/Salas de Cómputo."
+    },
+    {
+      "subtitle": "Vida Estudiantil",
+      "content": "En la Facultad de Ingeniería se promueve la formación integral y el bienestar a través de Inducción a la Vida Universitaria, Formación Integral, Actividad Física – Deportes, y Bienestar. Estos espacios, junto con el área de Proyección Social, fomentan el desarrollo de talentos e intereses y la participación de estudiantes, docentes y personal administrativo."
+    },
+    {
+      "subtitle": "Equipo Humano",
+      "content": "Director de Carrera: Ing. Carlos Andrés Parra Acevedo, Ph.D, ingsistemas@javeriana.edu.co, 320 83 20 ext. 5308\nAsistente de la Carrera: Diana Marcela Forero Rodríguez, carrera.ing.ind@javeriana.edu.co, 320 83 20 ext. 5992\nSecretaria de Carrera: Zenaida Carlina Cruz Bernal, 320 83 20 ext. 5308"
+    }
+  ]
+}

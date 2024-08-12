@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "publico",
+  "title": "Proceso de Inscripción - Ingeniería de Sistemas",
+  "description": "Pasos necesarios para la inscripción en la carrera de Ingeniería de Sistemas en la Universidad Javeriana.",
+  "details": [
+    {
+      "subtitle": "Proceso de Inscripción",
+      "content": "Para inscribirse en la carrera de Ingeniería de Sistemas, sigue estos pasos:\n1. Crear una cuenta en la plataforma de inscripción.\n2. Diligenciar el formulario de inscripción y pagar el recibo de los derechos de admisión.\n3. Agendar y completar las actividades del proceso de admisión.",
+      "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+    }
+  ]
+}

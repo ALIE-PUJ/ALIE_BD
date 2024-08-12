@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "title": "Certificaciones",
+  "description": "Información sobre las certificaciones disponibles y los pasos para solicitarlas. Actualmente, no se muestra la lista de certificaciones ya que en esta fecha del semestre no están disponibles.",
+  "details": [
+    {
+      "subtitle": "Información general",
+      "content": "Esta sección proporciona información sobre las certificaciones ofrecidas y las consideraciones a tener en cuenta al realizar las solicitudes. En este momento, la lista de certificaciones no está disponible debido al periodo del semestre.",
+      "link": "N/A"
+    },
+    {
+      "subtitle": "Formulario de solicitud de certificación",
+      "content": "Para solicitar su certificación, deberá completar el formulario disponible en el siguiente enlace. La solicitud se procesará una vez que se haya justificado el pago correspondiente. La factura se dejará en el Sistema de Información Universitaria SAE dentro de dos días hábiles después de guardar la solicitud. Se notificará por email los pasos a seguir para la finalización y entrega del certificado.",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSdA1OaRCYqa6dipmjgneDcb2-K-yLzqtFrarY3zSszsaxu-LA/viewform"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Preguntas frecuentes sobre Grados",
+      "questions": [
+        {
+          "question": "¿Cuáles son los requisitos para inscribirme al proceso de grado?",
+          "subquestions": [],
+          "answer": "Debe tener su Informe de Avance con un máximo de 20 créditos pendientes entre inscritos y aprobados para el programa del cual desea graduarse. También debe tener registrado el género en el sistema, estar 'Activo' en el plan programa del cual se va a graduar, y autorizar el tratamiento de sus datos para su rol como graduado.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿Qué diferencia hay entre Fecha de Grado y Ceremonia de Graduación?",
+          "subquestions": [],
+          "answer": "La Fecha de Grado es el momento en que la Universidad otorga el título de educación superior y envía los documentos oficiales digitales. La Ceremonia de Graduación es el acto de celebración que se realiza en una fecha y hora determinadas, informadas posteriormente por la Universidad.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿Qué precio tienen los Derechos de Grado?",
+          "subquestions": [],
+          "answer": "El valor para 2024 es de $765,000. Para estudiantes de múltiples programas que obtengan su título en la misma fecha, se ofrece un 50% de descuento en uno de los programas.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿Puedo pagar en línea mis derechos de grado?",
+          "subquestions": [],
+          "answer": "Sí, una vez esté a paz y salvo por todos los conceptos, el sistema generará automáticamente el recibo que puede pagar en línea a través de su Autoservicio o en la página de la Universidad.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿Qué debo hacer si aparece alguno de mis paz y salvos en estado pendiente?",
+          "subquestions": [],
+          "answer": "Si un paz y salvo está en estado 'Pendiente' o 'En Revisión' por mucho tiempo, haga clic en el paz y salvo correspondiente para ver el detalle y acerque a la unidad correspondiente.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿En qué momento debo cancelar los derechos de mi Grado Privado?",
+          "subquestions": [],
+          "answer": "No realice ningún pago hasta que su solicitud de grado privado sea aprobada. Una vez reciba la notificación de aprobación, podrá cancelar los derechos.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿Cuál es la fecha para realizar su proceso de grado?",
+          "subquestions": [],
+          "answer": "Todas las ceremonias de grado están publicadas desde el año anterior. Debe inscribirse a la que desee, teniendo en cuenta la fecha límite para estar a paz y salvo.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿Cómo puedo consultar y/o actualizar mis datos académicos?",
+          "subquestions": [],
+          "answer": "Consulte sus datos a través de Intranet > Autoservicio > Centro del Alumnado > Mis Datos Académicos > Informe de Orientación > Ver Informe de Avance. Si hay errores, contacte con su Director de Programa.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿Hay ensayo para la Ceremonia de Graduación?",
+          "subquestions": [],
+          "answer": "No hay ensayo presencial. Debe llegar al coliseo una hora antes de la ceremonia. Recibirá un enlace con la información sobre la silla asignada una semana antes.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿Cuántos invitados pueden acompañarme a la Ceremonia de Graduación?",
+          "subquestions": [],
+          "answer": "Cada graduando puede tener hasta tres invitados. La entrada se realiza mediante plataforma electrónica y el graduando debe presentar su documento de identificación.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿Debo registrar a mis invitados para que puedan ingresar a la Ceremonia Institucional de Graduación?",
+          "subquestions": [],
+          "answer": "Sí, debe registrar a sus invitados en la plataforma electrónica desarrollada por la Universidad. El enlace se envía desde la Oficina de Protocolo una semana antes de la ceremonia.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "Si por razones de fuerza mayor no puedo asistir a la ceremonia, ¿es posible que alguien más reciba el diploma en mi nombre?",
+          "subquestions": [],
+          "answer": "Sí, puede autorizar a un tercero enviando una comunicación escrita al correo protocolo@javeriana.edu.co, anexando copias de los documentos de identidad del graduando y del autorizado.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿Quién preside la Ceremonia Institucional de Graduación?",
+          "subquestions": [],
+          "answer": "La ceremonia es presidida por el Rector de la Universidad, acompañado de los Vicerrectores, el Secretario General y los Decanos de las facultades correspondientes.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿Quién me entrega el diploma de grado?",
+          "subquestions": [],
+          "answer": "Los diplomas son entregados por los Decanos de cada facultad.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿Los profesores de mi Facultad pueden asistir a la Ceremonia Institucional de Graduación?",
+          "subquestions": [],
+          "answer": "Sí, los profesores y directivos que deseen asistir tendrán una ubicación especial. El Secretario de Facultad hará el registro en la plataforma desarrollada por la Universidad.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "Si definitivamente no asisto a la Ceremonia de Grado, ¿dónde puedo reclamar mi Diploma y Acta de Grado?",
+          "subquestions": [],
+          "answer": "Los documentos se pueden reclamar al siguiente día hábil de la ceremonia en la Oficina de Admisiones y Registro Académico en el Edificio Jorge Hoyos Vásquez S.J. También puede autorizar a un tercero enviando un correo a autorizar@javeriana.edu.co.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        },
+        {
+          "question": "¿Cómo puedo obtener mis documentos de grado originales y oficiales?",
+          "subquestions": [],
+          "answer": "El diploma y el acta de grado, digitales y oficiales, se enviarán el día de su graduación a su correo electrónico institucional y número de teléfono celular registrado como preferido en el SIU.",
+          "link": "https://intranet.javeriana.edu.co/migrado/preguntas-frecuentes#"
+        }
+      ]
+    }
+  ]
+}

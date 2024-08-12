@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Profesores de la Facultad de Ingeniería",
+      "questions": [
+        {
+          "question": "¿Quién es el director del programa de Ingeniería de Sistemas en la Pontificia Universidad Javeriana?",
+          "subquestions": [
+            "¿Cuál es su formación académica?",
+            "¿Cuál es su experiencia profesional relevante?"
+          ],
+          "answer": "El director del programa de Ingeniería de Sistemas es Carlos Andrés Parra Acevedo, Ph.D. Su formación incluye ser Ingeniero de Sistemas de la Universidad Distrital Francisco José de Caldas, Magíster en Ingeniería de Sistemas y Computación de la Universidad de Los Andes, y Doctor en Informática de INRIA y la Universidad de Lille 1, Francia.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué información se tiene sobre los profesores titulares del programa de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Qué títulos académicos tienen?",
+            "¿En qué instituciones obtuvieron sus grados?"
+          ],
+          "answer": "Los profesores titulares incluyen a: Rafael Andrés González Rivera, Ph.D., con formación en la Pontificia Universidad Javeriana y Delft University of Technology; Jaime Andrés Pavlich Mariscal, Ph.D., con formación en la Universidad Católica del Norte y The University of Connecticut; y César Julio Bustacara Medina, Ph.D., con formación en la Universidad Nacional y la Pontificia Universidad Javeriana.",
+          "link": ""
+        },
+        {
+          "question": "¿Cuáles son los títulos académicos de los profesores asistentes y temporales en la Facultad de Ingeniería?",
+          "subquestions": [
+            "¿Cuáles son sus áreas de especialización?",
+            "¿Qué formación académica poseen?"
+          ],
+          "answer": "Entre los profesores asistentes están Edgar Enrique Ruíz García, MSc., con formación en la Pontificia Universidad Javeriana, y Efraín Ortíz Pabón, Ph.D., con múltiples grados de universidades en Colombia, Canadá, y España. Los profesores temporales incluyen a John Jairo Corredor Franco, Ph.D., y Julio Omar Palacio Niño, MSc., ambos con formación internacional en informática y telecomunicaciones.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué títulos académicos tienen los profesores de la Facultad de Ingeniería?",
+          "subquestions": [
+            "¿Qué áreas de estudio abarcan?",
+            "¿Qué instituciones han otorgado sus grados?"
+          ],
+          "answer": "Los profesores tienen una amplia gama de títulos académicos. Por ejemplo, Carlos Andrés Parra Acevedo tiene un Ph.D. en Informática de INRIA y la Universidad de Lille 1. Alexandra Pomares Quimbaya tiene un Ph.D. en Ingeniería de la Universidad de Los Andes y la Universidad de Grenoble. Rafael Andrés González Rivera tiene un Ph.D. en Ingeniería de Sistemas de Delft University of Technology. Jaime Andrés Pavlich Mariscal posee un Ph.D. en Ciencias de la Computación de The University of Connecticut. Otros profesores, como Mariela Josefina Curiel Huérfano, Andrea del Pilar Rueda Olarte, y Luis Carlos Díaz Chaparro, tienen grados de universidades en Venezuela, Brasil, y Alemania, entre otros.",
+          "link": ""
+        },
+        {
+          "question": "¿Cuál es la formación académica de los profesores de la Facultad de Ingeniería?",
+          "subquestions": [
+            "¿Qué grados tienen?",
+            "¿De qué instituciones provienen?"
+          ],
+          "answer": "La formación académica de los profesores incluye grados como el Ph.D. en diversas especializaciones, como el de Cécile Eugenie Gauthier Umaña en Ciencias Biomédicas y Biológicas, y el de Luis Gabriel Moreno Sandoval en Ingeniería de Sistemas. Otros títulos relevantes incluyen el Magíster en Bioingeniería y el Doctorado en Digital Media. Los grados provienen de instituciones como la Pontificia Universidad Javeriana, la Universidad Nacional de Colombia, la Universidad de Los Andes, y universidades internacionales como la Universidad de Grenoble y la Universidad de Mánchester.",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}

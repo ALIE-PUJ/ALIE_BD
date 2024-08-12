@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Acompañamiento para el Estudiante",
+      "questions": [
+        {
+          "question": "¿Qué servicios de acompañamiento ofrece el CAPS a los estudiantes?",
+          "subquestions": [
+            "¿Qué es la escucha activa proporcionada por el CAPS?",
+            "¿Cómo puedo acceder a estos servicios?"
+          ],
+          "answer": "El CAPS ofrece servicios de escucha activa para apoyar a los estudiantes en su bienestar emocional y académico. Puedes acceder a estos servicios contactando directamente al CAPS a través de los canales oficiales proporcionados por la universidad.",
+          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FAcompa%C3%B1amiento%20Estudiantes%2FCAPS%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FAcompa%C3%B1amiento%20Estudiantes&p=true&ga=1"
+        },
+        {
+          "question": "¿Qué apoyo ofrece el departamento de Matemáticas y el departamento de Ingeniería Industrial a los estudiantes?",
+          "subquestions": [
+            "¿Cómo funcionan las aulas de acompañamiento en estos departamentos?",
+            "¿Qué tipo de ayuda puedo recibir en estas aulas?"
+          ],
+          "answer": "Ambos departamentos ofrecen aulas de acompañamiento para apoyar a los estudiantes con dificultades en sus cursos. En estas aulas, los estudiantes pueden recibir ayuda adicional, resolver dudas y trabajar en sus asignaturas con el apoyo de tutores especializados.",
+          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FInvitaciones%2FAtenci%C3%B3n%20a%20Estudiantes%202430%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FInvitaciones&p=true&ga=1"
+        },
+        {
+          "question": "¿Cómo puedo acceder a las clases ofrecidas por el CAPS para desarrollar habilidades?",
+          "subquestions": [
+            "¿Qué tipos de habilidades se pueden aprender?",
+            "¿Dónde encuentro el enlace para acceder a los códigos asociados a las clases?"
+          ],
+          "answer": "El CAPS ofrece clases para desarrollar diversas habilidades, incluyendo habilidades comerciales y para el emprendimiento. Puedes acceder a estas clases utilizando los códigos proporcionados en el enlace correspondiente.",
+          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FAcompa%C3%B1amiento%20Estudiantes%2FCAPS%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FAcompa%C3%B1amiento%20Estudiantes&p=true&ga=1"
+        }
+      ]
+    }
+  ]
+}

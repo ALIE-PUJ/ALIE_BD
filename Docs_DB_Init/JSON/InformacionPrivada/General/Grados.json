@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "title": "Grados",
+  "description": "Información referente a la gestión de grados y paz y salvo necesarios.",
+  "details": [
+    {
+      "subtitle": "Guía paso a paso para la gestión de grados",
+      "content": "Proporciona una guía intuitiva con imágenes sobre cómo acceder al Sistema de Gestión de Grado a través del Autoservicio del Estudiante y los pasos adicionales para el seguimiento del proceso de grado.",
+      "link": "https://intranet.javeriana.edu.co/migrado/pasos"
+    },
+    {
+      "subtitle": "Cronograma grados 2024",
+      "content": "Información sobre la realización de grados, incluyendo fechas asociadas, facultad relacionada, fechas de pago y la distribución del proceso de grado. Incluye detalles sobre la fecha de grado y la ceremonia de graduación.",
+      "link": "https://intranet.javeriana.edu.co/proximosgrados"
+    },
+    {
+      "subtitle": "Paz y salvos",
+      "content": "Un video presenta detalladamente la información necesaria para realizar los trámites de paz y salvo, con ayudas visuales que ilustran los pasos a seguir. Incluye descripciones de los diferentes tipos de paz y salvo:",
+      "details": [
+        {
+          "subtitle": "Paz y salvo académico",
+          "description": "Constancia registrada por el Director del Programa que indica si el estudiante tiene requisitos académicos pendientes para obtener su título profesional. El estudiante debe tener 0 créditos pendientes en el Sistema Académico."
+        },
+        {
+          "subtitle": "Paz y salvo documental",
+          "description": "Constancia registrada por las Secretarías de Facultad que indica si el estudiante tiene documentos pendientes por entregar para el grado."
+        },
+        {
+          "subtitle": "Paz y salvo específico",
+          "description": "Constancia registrada por las unidades encargadas por programa que indica si el estudiante tiene pendientes específicos por entregar en dicha unidad."
+        },
+        {
+          "subtitle": "Paz y salvo de Biblioteca",
+          "description": "Constancia que valida si el estudiante tiene multas o libros pendientes por devolver en la Biblioteca."
+        },
+        {
+          "subtitle": "Paz y salvo de Centro Ático",
+          "description": "Constancia que valida si el estudiante tiene equipos pendientes por devolver al Centro Ático."
+        },
+        {
+          "subtitle": "Paz y salvo financiero",
+          "description": "Constancia que valida si el estudiante tiene deudas pendientes en el Sistema de Finanzas Estudiantiles que impidan continuar con el proceso de grado."
+        },
+        {
+          "subtitle": "Paz y salvo de derechos de grado",
+          "description": "Registro del pago de los derechos de grado en el sistema."
+        }
+      ],
+      "link": "https://intranet.javeriana.edu.co/pazysalvo"
+    }
+  ]
+}

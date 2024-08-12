@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Saber Pro",
+      "questions": [
+        {
+          "question": "¿Qué pasos debo seguir para presentar la prueba Saber Pro?",
+          "subquestions": [
+            "¿Dónde puedo encontrar la información actualizada sobre los pasos para presentar la prueba?",
+            "¿Hay algún requisito previo que deba cumplir antes de presentar la prueba Saber Pro?"
+          ],
+          "answer": "En este momento, no hay información disponible sobre los pasos específicos para presentar la prueba Saber Pro debido a que las fechas correspondientes aún no se han definido. Se recomienda revisar esta sección periódicamente para obtener actualizaciones.",
+          "Link": ""
+        },
+        {
+          "question": "¿Cuándo se publicará la información sobre la prueba Saber Pro?",
+          "subquestions": [
+            "¿Cómo puedo estar al tanto de las fechas y actualizaciones relacionadas con la prueba Saber Pro?",
+            "¿Qué debo hacer si necesito información urgente sobre la prueba antes de que se publiquen las fechas?"
+          ],
+          "answer": "La información sobre la prueba Saber Pro se actualizará cuando se definan las fechas correspondientes. Se recomienda consultar regularmente esta sección y los canales oficiales de la facultad para obtener las últimas actualizaciones.",
+          "Link": ""
+        },
+        {
+          "question": "¿Dónde puedo encontrar recursos o preparación para la prueba Saber Pro?",
+          "subquestions": [
+            "¿Hay materiales de estudio o recursos disponibles para preparar la prueba Saber Pro?",
+            "¿Qué recomendaciones se pueden seguir para prepararse de manera efectiva para esta prueba?"
+          ],
+          "answer": "Actualmente no hay enlaces disponibles para recursos de preparación debido a la falta de información sobre las fechas. Se sugiere estar atento a las actualizaciones y consultar los recursos proporcionados por la facultad una vez que la información esté disponible.",
+          "Link": ""
+        }
+      ]
+    }
+  ]
+}

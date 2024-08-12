@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "title": "Solicitud de Segundo Calificador",
+  "description": "Información sobre el proceso para solicitar un segundo calificador para una actividad académica en la carrera de Ingeniería de Sistemas. El formulario debe ser completado con los datos personales del estudiante y la información detallada sobre la materia y la actividad que se desea revisar.",
+  "details": [
+    {
+      "subtitle": "Formulario de solicitud de segundo calificador",
+      "content": "Este formulario permite a los estudiantes solicitar un segundo calificador para una actividad académica. Es necesario completar los campos con los datos personales del estudiante, así como la información de la materia y la actividad en la que se desea un segundo calificador.",
+      "link": "https://forms.office.com/r/XHWqp6QHWM"
+    }
+  ]
+}

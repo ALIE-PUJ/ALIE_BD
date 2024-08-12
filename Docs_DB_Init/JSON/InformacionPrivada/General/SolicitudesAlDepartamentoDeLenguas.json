@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "title": "Solicitudes al Departamento de Lenguas",
+  "description": "Formulario asociado para realizar trámites con el departamento de lenguas.",
+  "access_control": "privado",
+  "details": [
+    {
+      "subtitle": "Certificado de Validación",
+      "content": "Formulario para la radicación del certificado de validación del cumplimiento del requisito de la lengua extranjera.",
+      "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FDpto%20Lenguas%2FEnlaces%20radicaci%C3%B3n%20certificados%20y%20consultas%20Depto%20Lenguas%202024%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FDpto%20Lenguas"
+    },
+    {
+      "subtitle": "Consultas y Solicitudes",
+      "content": "Formulario para las consultas, peticiones y solicitudes.",
+      "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FDpto%20Lenguas%2FEnlaces%20radicaci%C3%B3n%20certificados%20y%20consultas%20Depto%20Lenguas%202024%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FDpto%20Lenguas"
+    }
+  ]
+}

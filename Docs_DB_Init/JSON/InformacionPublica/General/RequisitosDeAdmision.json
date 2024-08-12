@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "publico",
+  "title": "Requisitos de Admisión - Ingeniería de Sistemas",
+  "description": "Requisitos necesarios para la admisión al programa de Ingeniería de Sistemas en la Universidad Javeriana.",
+  "details": [
+    {
+      "subtitle": "Requisitos de Admisión",
+      "content": "Los requisitos de admisión al programa de Ingeniería de Sistemas se dividen en las siguientes categorías:\n1. **Actitud (25%)**: Evaluación a través de una entrevista, enfocada en actitudes específicas.\n2. **Conocimiento (70%)**: Evaluación basada en la prueba Saber 11, examen extranjero, o certificado de notas del colegio.\n3. **Habilidad (5%)**: Evaluación durante la entrevista, centrada en la capacidad de comunicación.",
+      "link": "https://www.javeriana.edu.co/carrera-ingenieria-de-sistemas"
+    }
+  ]
+}

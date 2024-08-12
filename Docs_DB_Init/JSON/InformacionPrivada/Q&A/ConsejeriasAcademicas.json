@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Consejerías Académicas",
+      "questions": [
+        {
+          "question": "¿Qué temas se pueden tratar en una consejería académica?",
+          "subquestions": [
+            "¿Qué asuntos puedo discutir en una consejería académica?",
+            "¿Qué tipos de problemas se abordan en las consejerías académicas?",
+            "¿Qué puedo preguntar durante una consejería académica?"
+          ],
+          "answer": "En una consejería académica se pueden tratar temas relacionados con tu rendimiento académico, dificultades en materias específicas, planificación de estudios, orientación sobre carreras, y cualquier otro asunto que afecte tu progreso académico. Para más información, consulta el listado de docentes disponibles para consejerías en el enlace proporcionado.",
+          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430%2FConsejeros%202430%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430&p=true&ga=1"
+        },
+        {
+          "question": "¿Cómo agendo una cita para una consejería académica?",
+          "subquestions": [
+            "¿Cómo puedo programar una cita para una consejería académica?",
+            "¿Cuál es el proceso para agendar una consejería académica?",
+            "¿Dónde puedo solicitar una cita para una consejería académica?"
+          ],
+          "answer": "Para agendar una cita para una consejería académica, revisa el procedimiento en el enlace proporcionado, donde encontrarás información sobre cuándo y cómo solicitarla.",
+          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430%2FConsejeros%202430%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430&p=true&ga=1"
+        },
+        {
+          "question": "¿Cuáles son los beneficios de asistir a una consejería académica?",
+          "subquestions": [
+            "¿Qué ventajas obtengo al asistir a una consejería académica?",
+            "¿Por qué debería asistir a una consejería académica?",
+            "¿Qué beneficios tiene una consejería académica para mi progreso académico?"
+          ],
+          "answer": "Asistir a una consejería académica te ofrece numerosos beneficios, como orientación personalizada para mejorar tu rendimiento, apoyo en la toma de decisiones académicas, y estrategias para superar obstáculos en tu educación. Estos beneficios pueden impactar positivamente en tu progreso académico.",
+          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430%2FConsejeros%202430%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430&p=true&ga=1"
+        }
+      ]
+    }
+  ]
+}

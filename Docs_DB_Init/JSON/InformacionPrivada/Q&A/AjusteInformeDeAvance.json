@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Ajuste de Informe de Avance",
+      "questions": [
+        {
+          "question": "¿Qué debo hacer si encuentro un error en mi informe de avance?",
+          "subquestions": [
+            "¿Qué hago si detecto un error en mi informe de avance?",
+            "¿Cómo procedo si veo un error en mi informe de progreso?",
+            "¿Qué pasos debo seguir si mi informe de avance tiene un error?"
+          ],
+          "answer": "Debes remitir una solicitud formal de ajuste, detallando el error encontrado, y adjuntar la información requerida. Esta solicitud se debe enviar al correo ingsistemas@javeriana.edu.co",
+          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FCarrera%20Ing%2E%20Sistemas%2FAjuste%20Informe%20de%20Avance%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FCarrera%20Ing%2E%20Sistemas"
+        },
+        {
+          "question": "¿Cómo redacto una solicitud de ajuste en el informe de avance?",
+          "subquestions": [
+            "¿Qué debo incluir en una solicitud de corrección del informe de avance?",
+            "¿Cómo escribo una petición para ajustar mi informe de avance?",
+            "¿Qué información es necesaria en una solicitud de ajuste del informe de avance?"
+          ],
+          "answer": "La solicitud debe incluir tu ID de estudiante, nombre, documento de identidad, el cambio que deseas realizar en el informe, y el correo al que debes enviar la solicitud es ingsistemas@javeriana.edu.co. Asegúrate de adjuntar todos los detalles en una tabla.",
+          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FCarrera%20Ing%2E%20Sistemas%2FAjuste%20Informe%20de%20Avance%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FCarrera%20Ing%2E%20Sistemas"
+        },
+        {
+          "question": "¿A quién debo enviar mi solicitud de ajuste de informe?",
+          "subquestions": [
+            "¿Dónde envío mi petición para ajustar el informe de avance?",
+            "¿A quién debo dirigir mi solicitud para corregir el informe de avance?",
+            "¿Cuál es el correo para enviar la solicitud de ajuste del informe de avance?"
+          ],
+          "answer": "La solicitud de ajuste debe ser enviada al correo ingsistemas@javeriana.edu.co. Es importante que la información esté completa y enviada dentro del plazo establecido.",
+          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FCarrera%20Ing%2E%20Sistemas%2FAjuste%20Informe%20de%20Avance%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FCarrera%20Ing%2E%20Sistemas"
+        },
+        {
+          "question": "¿Cuánto tiempo tengo para solicitar un ajuste en el informe de avance?",
+          "subquestions": [
+            "¿Cuál es el plazo para pedir un ajuste en el informe de avance?",
+            "¿Hasta cuándo puedo solicitar una corrección en mi informe de avance?",
+            "¿Cuándo es la fecha límite para pedir un ajuste en el informe de avance?"
+          ],
+          "answer": "El plazo para solicitar un ajuste en el informe de avance no está especificado. Es fundamental que envíes tu solicitud antes de la fecha límite que tengas prevista para asegurar que sea considerada a tiempo.",
+          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FCarrera%20Ing%2E%20Sistemas%2FAjuste%20Informe%20de%20Avance%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FCarrera%20Ing%2E%20Sistemas"
+        }
+      ]
+    }
+  ]
+}

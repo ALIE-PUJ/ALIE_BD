@@ -1,0 +1,129 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "publico",
+  "title": "Profesores de la Facultad de Ingeniería",
+  "description": "Información sobre los profesores de la Facultad de Ingeniería de la Pontificia Universidad Javeriana.",
+  "details": [
+    {
+      "subtitle": "Carlos Andrés Parra Acevedo, Ph.D.",
+      "content": "Director del programa. Ingeniero de Sistemas de la Universidad Distrital Francisco José de Caldas. Magíster en Ingeniería de Sistemas y Computación de la Universidad de Los Andes. Doctor en Informática de INRIA (Institut National de Recherche en Informatique et en Automatique) y la Universidad de Lille 1, Francia.",
+      "link": ""
+    },
+    {
+      "subtitle": "Alexandra Pomares Quimbaya, Ph.D.",
+      "content": "Profesora titular. Ingeniera de Sistemas de la Pontificia Universidad Javeriana. Magíster en Ingeniería de Sistemas y Computación de la Universidad de Los Andes. Doctora en Ingeniería de la Universidad de Los Andes. Doctora en Informática de la Universidad de Grenoble, Francia.",
+      "link": ""
+    },
+    {
+      "subtitle": "Rafael Andrés González Rivera, Ph.D.",
+      "content": "Profesor titular. Ingeniero de Sistemas de la Pontificia Universidad Javeriana. Magíster en Ciencias de la Computación de Delft University of Technology, Holanda. Doctor en Ingeniería de Sistemas de Delft University of Technology, Holanda.",
+      "link": ""
+    },
+    {
+      "subtitle": "Jaime Andrés Pavlich Mariscal, Ph.D.",
+      "content": "Profesor titular. Ingeniero en Computación e Informática de la Universidad Católica del Norte, Chile. Doctor en Ciencias de la Computación e Ingeniería de The University of Connecticut, Estados Unidos.",
+      "link": ""
+    },
+    {
+      "subtitle": "Angela Cristina Carrillo Ramos, Ph.D.",
+      "content": "Profesora titular. Ingeniera de Sistemas y Computación de la Universidad de Los Andes. Magíster en Ingeniería de Sistemas y Computación de la Universidad de los Andes. Doctor en Informática de Université Joseph Fourier, Francia.",
+      "link": ""
+    },
+    {
+      "subtitle": "Enrique González Guerrero, Ph.D.",
+      "content": "Profesor titular. Ingeniero Eléctrico de la Universidad de Los Andes. Magíster en Ingeniería Eléctrica de la Universidad de Los Andes. DEA en Robótica, Universidad Paris 6, Francia. Doctorado en Informática de la Universidad de Evry, Francia.",
+      "link": ""
+    },
+    {
+      "subtitle": "Mariela Josefina Curiel Huérfano, Ph.D.",
+      "content": "Profesora asociada. Ingeniera en Computación de la Universidad Simón Bolívar, Venezuela. Magíster en Ciencias de la Computación de la Universidad Simón Bolívar, Venezuela. Doctora en Computación, Balearic Islands University, España. Post-Doctorado, Universidad Federal de Minas Gerais, Brasil.",
+      "link": ""
+    },
+    {
+      "subtitle": "Andrea del Pilar Rueda Olarte, Ph.D.",
+      "content": "Profesora asociada. Ingeniera de Sistemas de la Universidad Nacional de Colombia. Magíster en Ingeniería, Ingeniería de Sistemas, y Computación de la Universidad Nacional de Colombia. Doctorado en Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia, Bogotá, Colombia.",
+      "link": ""
+    },
+    {
+      "subtitle": "Leonardo Flórez Valencia, Ph.D.",
+      "content": "Profesor titular. Ingeniero de Sistemas y Computación de la Universidad de Los Andes. Maestría en Ingeniería de Sistemas y Computación de la Universidad de los Andes. DEA Images et Systèmes INSA de Lyon, Francia. Doctor en Imágenes y Sistemas, INSA de Lyon, Francia.",
+      "link": ""
+    },
+    {
+      "subtitle": "Luis Carlos Díaz Chaparro, Ph.D.",
+      "content": "Profesor asociado. Ingeniero de Sistemas de la Universidad Nacional de Colombia. Magíster en Ingeniería de Sistemas y Computación de la Universidad de Los Andes. Doctor en Digital Media de la Universidad Bremen, Alemania.",
+      "link": ""
+    },
+    {
+      "subtitle": "Andrés Dario Moreno Barbosa, Ph.D.",
+      "content": "Profesor temporal. Ingeniero de Sistemas y Computación de la Universidad de Los Andes. Magíster en Ingeniería de Sistemas y Computación de la Universidad de Los Andes. Doctor en Informática, Université de Nice Sophia Antipolis, Francia.",
+      "link": ""
+    },
+    {
+      "subtitle": "Cécile Eugenie Gauthier Umaña, Ph.D.",
+      "content": "Profesora temporal. Ingeniera Electrónica con opción en bioingeniería de la Universidad de Los Andes. Magíster en Ingeniería Electrónica y de Computadores de la Universidad de los Andes. Estudiante de Doctorado en Ciencias Biomédicas y Biológicas de la Universidad del Rosario.",
+      "link": ""
+    },
+    {
+      "subtitle": "César Julio Bustacara Medina, Ph.D.",
+      "content": "Profesor titular. Ingeniero de Sistemas de la Universidad Nacional. Magíster en Ingeniería Eléctrica de la Universidad de Los Andes. Doctor en Ingeniería de la Pontificia Universidad Javeriana.",
+      "link": ""
+    },
+    {
+      "subtitle": "Edgar Enrique Ruíz García, MSc.",
+      "content": "Profesor asistente. Ingeniero de Sistemas del Politécnico Grancolombiano. Magíster en Ingeniería de Sistemas y Computación de la Pontificia Universidad Javeriana.",
+      "link": ""
+    },
+    {
+      "subtitle": "Efraín Ortíz Pabón, Ph.D.",
+      "content": "Profesor asistente. Ingeniero de Sistemas de la Universidad Autónoma de Colombia. Magíster en Gestión de Organizaciones de Université du Québec à Chicoutimi – UQAC, Canadá. Magíster en Gestión de Organizaciones de la Universidad EAN. MBA. Magíster en Administración de Empresas de la Universidad Politécnica de Madrid, España. Doctor en Gestión de la Universidad EAN.",
+      "link": ""
+    },
+    {
+      "subtitle": "Javier Francisco López Parra, MSc.",
+      "content": "Profesor asistente. Ingeniero de Sistemas de la Universidad Nacional de Colombia. Magíster en Gestión Ambiental y Desarrollo Sostenible de la Pontificia Universidad Javeriana. Magíster en Producción de Información Geográfica de la Pontificia Universidad Javeriana.",
+      "link": ""
+    },
+    {
+      "subtitle": "John Jairo Corredor Franco, Ph.D.",
+      "content": "Profesor temporal. Ingeniero de Sistemas de la Universidad de Los Andes, Venezuela. Magíster en Computación Avanzada y Procesamiento Paralelo de la Universidad Autónoma de Barcelona. Doctor en Ciencias Computacionales de la Universidad Autónoma de Barcelona.",
+      "link": ""
+    },
+    {
+      "subtitle": "José Hernando Hurtado Rojas, MSc.",
+      "content": "Profesor asistente. Ingeniero de Sistemas de la Universidad Nacional de Colombia. Magíster en Educación con énfasis en Cognición y Creatividad de la Pontificia Universidad Javeriana.",
+      "link": ""
+    },
+    {
+      "subtitle": "Juan Erasmo Gómez Morantes, Ph.D.",
+      "content": "Profesor asociado. Ingeniero de Sistemas y Computación de la Universidad de Los Andes. Magíster en Ingeniería de Sistemas y Computación de la Universidad de Los Andes. Doctor en Políticas y Gestión del Desarrollo de la Universidad de Mánchester, Reino Unido.",
+      "link": ""
+    },
+    {
+      "subtitle": "Julio Ernesto Carreño Vargas, MSc.",
+      "content": "Profesor asistente. Ingeniero de Sistemas de la Universidad Francisco de Paula Santander. Magíster en Ingeniería de Sistemas y Computación de la Universidad de Los Andes.",
+      "link": ""
+    },
+    {
+      "subtitle": "Julio Omar Palacio Niño, MSc.",
+      "content": "Profesor temporal. Ingeniero de Sistemas de la Universidad Nacional de Colombia. Magíster en Ingeniería de Telecomunicaciones de la Universidad Nacional de Colombia. Magíster Universitario en Soft Computing y Sistemas Inteligentes de la Universidad de Granada. Estudiante de Doctorado en Tecnologías de la Información y la Comunicación de la Universidad de Granada.",
+      "link": ""
+    },
+    {
+      "subtitle": "Luis Gabriel Moreno Sandoval, Ph.D.",
+      "content": "Profesor temporal. Ingeniero de Sistemas de la Fundación Universitaria Los Libertadores. Magíster en Ciencias de la Información y las Comunicaciones de la Universidad Distrital Francisco José de Caldas. MBA - Magíster en Administración de Empresas de la Universidad Externado de Colombia. Magíster en Commercial Management and Digital Marketing, ENAE Business School, Campus de Espinardo, España. Estudiante de Doctorado en Ingeniería - Ph.D. (C) de la Pontificia Universidad Javeriana.",
+      "link": ""
+    },
+    {
+      "subtitle": "Oscar Danilo Martínez Bernal, MSc.",
+      "content": "Profesor asistente. Ingeniero Electrónico de la Pontificia Universidad Javeriana. Magíster en Bioingeniería de la Pontificia Universidad Javeriana. Magíster en Ingeniería Electrónica de la Pontificia Universidad Javeriana.",
+      "link": ""
+    },
+    {
+      "subtitle": "Rafael Vicente Páez Méndez, Ph.D.",
+      "content": "Profesor asociado. Ingeniero de Sistemas de la Universidad Católica de Colombia. Especialista en Seguridad de Redes Informáticas de la Universidad Católica de Colombia. Doctor en Ingeniería Telemática de la Universidad Politécnica de Cataluña, España.",
+      "link": ""
+    }
+  ]
+}

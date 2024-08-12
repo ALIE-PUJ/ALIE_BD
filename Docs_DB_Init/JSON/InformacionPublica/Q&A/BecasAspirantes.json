@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "publico",
+  "categories": [
+    {
+      "category": "Becas",
+      "questions": [
+        {
+          "question": "¿Qué oportunidades de becas ofrece la Pontificia Universidad Javeriana?",
+          "subquestions": [],
+          "answer": "La Pontificia Universidad Javeriana ofrece varias oportunidades de becas, incluyendo becas por excelencia académica, por necesidad económica, para estudiantes de grupos étnicos, y becas especiales para carreras específicas como la Carrera de Estudios Musicales. Estas becas buscan atraer y mantener estudiantes de alta calidad académica y de diversas condiciones socioeconómicas.",
+          "link": "https://becas.javeriana.edu.co/aspirantes"
+        },
+        {
+          "question": "¿Qué es la Beca Bachiller Destacado?",
+          "subquestions": [],
+          "answer": "La Beca Bachiller Destacado cubre el 80% del valor de la matrícula para estudiantes con alto rendimiento académico. Se asigna semestralmente a once estudiantes según la Circular No. 012/2020 emitida por el Rector de la Universidad.",
+          "link": "https://www.javeriana.edu.co/estudia-en-la-javeriana/becas-excelencia-academica#BACHILLERDESTACADO"
+        },
+        {
+          "question": "¿Cómo se puede mantener la Beca Bachiller Destacado?",
+          "subquestions": [],
+          "answer": "Para mantener la Beca Bachiller Destacado, el estudiante debe: realizar matrícula completa, no incurrir en prueba académica, y no ser sujeto de sanciones disciplinarias. La beca cubre únicamente los periodos académicos del programa inicial al que fue admitido.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué requisitos se deben cumplir para obtener la Beca Bachiller Destacado Colegios ACODESI?",
+          "subquestions": [],
+          "answer": "Para obtener la Beca Bachiller Destacado Colegios ACODESI, se debe: haber sido admitido al primer semestre de un programa de pregrado, haber obtenido un promedio mínimo de 4,0 sobre 5,0 en el colegio, y estar en los primeros puestos del último grado cursado.",
+          "link": "https://www.javeriana.edu.co/estudia-en-la-javeriana/becas-excelencia-academica#ACODESI"
+        },
+        {
+          "question": "¿Qué es la Beca Ingresa y cuáles son sus requisitos?",
+          "subquestions": [],
+          "answer": "La Beca Ingresa otorga hasta el 50% del valor de la matrícula a aspirantes admitidos que carecen de recursos suficientes. Los candidatos deben postularse ante el director del pregrado, presentando documentos de soporte sobre su situación económica y académica.",
+          "link": "https://becas.javeriana.edu.co/aspirantes"
+        },
+        {
+          "question": "¿Qué condiciones deben cumplir los beneficiarios de la Beca Ingresa para mantener el beneficio?",
+          "subquestions": [],
+          "answer": "Los beneficiarios deben: no incurrir en prueba académica, cumplir con las obligaciones del Reglamento de Estudiantes, no ser sujetos de sanciones disciplinarias, y cursar carga académica completa. La beca no se extenderá más allá del número máximo de períodos académicos del programa.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué es la Beca Plan Especial Banda y Orquesta?",
+          "subquestions": [],
+          "answer": "La Beca Plan Especial Banda y Orquesta otorga el 50% del valor de la matrícula a aspirantes y estudiantes regulares de la Carrera de Estudios Musicales que no pueden asumir el costo total de la matrícula. Está dirigida a estudiantes con énfasis en interpretación de cuerdas, vientos y percusión.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué apoyos están disponibles para estudiantes de grupos étnicos?",
+          "subquestions": [],
+          "answer": "Los estudiantes indígenas pueden acceder a programas de pregrado a través de una alianza entre ICETEX, la Pontificia Universidad Javeriana y la ONIC. ICETEX y la Universidad cubren el 50% del valor de la matrícula, mientras que la ONIC cubre el 100% del sostenimiento en la ciudad.",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}

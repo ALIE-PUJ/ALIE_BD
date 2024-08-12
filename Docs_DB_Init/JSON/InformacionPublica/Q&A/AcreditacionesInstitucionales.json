@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Acreditaciones Institucionales",
+      "questions": [
+        {
+          "question": "¿Qué significa la Acreditación Institucional de Alta Calidad por 10 años para la Universidad Javeriana?",
+          "subquestions": [
+            "¿Cómo garantiza esta acreditación la calidad educativa en la Universidad Javeriana?",
+            "¿Qué criterios se evaluaron para otorgar esta acreditación?"
+          ],
+          "answer": "La Acreditación Institucional de Alta Calidad por 10 años asegura que la Universidad Javeriana cumple con altos estándares en programas académicos, infraestructura, cuerpo docente, investigación y procesos administrativos. Esta acreditación garantiza una educación de excelencia y un compromiso con la formación integral de los estudiantes y el desarrollo académico y social del país.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué es la acreditación ABET y por qué es importante para el programa de Ingeniería de Sistemas?",
+          "subquestions": [
+            "¿Qué estándares globales asegura la acreditación ABET?",
+            "¿Cómo impacta la acreditación ABET en el reconocimiento internacional del título?"
+          ],
+          "answer": "ABET es una organización internacional que acredita programas en ciencias aplicadas, computación, ingeniería y tecnología. La acreditación ABET asegura que el programa de Ingeniería de Sistemas de la Universidad Javeriana cumple con rigurosos estándares globales de calidad, lo que permite que el título sea reconocido y valorado en diferentes países.",
+          "link": ""
+        },
+        {
+          "question": "¿Cómo afectan estas acreditaciones a la formación de los estudiantes y a la calidad de los programas académicos?",
+          "subquestions": [
+            "¿Qué beneficios obtienen los estudiantes y egresados de una universidad con estas acreditaciones?",
+            "¿Cómo influyen estas acreditaciones en la reputación de la Universidad Javeriana?"
+          ],
+          "answer": "Las acreditaciones garantizan que los programas académicos cumplen con altos estándares de calidad, lo que proporciona a los estudiantes una educación robusta y confiable. Estas acreditaciones mejoran la reputación de la Universidad Javeriana, ayudan a los estudiantes a obtener empleos en el ámbito nacional e internacional, y aseguran la calidad y relevancia de los programas académicos.",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}

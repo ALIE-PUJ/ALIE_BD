@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-07-28",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Laboratorios",
+      "questions": [
+        {
+          "question": "¿Qué instalaciones y servicios ofrece el Edificio José Gabriel Maldonado, S.J.?",
+          "subquestions": [
+            "¿Qué tipo de tecnología está disponible en el edificio?",
+            "¿Cuál es el enfoque del edificio en cuanto a aprendizaje e innovación?"
+          ],
+          "answer": "El Edificio José Gabriel Maldonado, S.J. cuenta con 96 espacios dotados de tecnología de punta, lo que permite que la ingeniería Javeriana sea un referente en Latinoamérica y forme a los mejores ingenieros para el mundo.",
+          "link": "https://intranet.javeriana.edu.co/web/facultad-ingenieria/laboratorios-facultad"
+        },
+        {
+          "question": "¿Cómo se gestiona el préstamo de equipos en la Facultad?",
+          "subquestions": [
+            "¿Qué sistema se utiliza para el préstamo de equipos?",
+            "¿A quién contactar en caso de problemas con el préstamo de equipos?"
+          ],
+          "answer": "El préstamo de equipos se gestiona a través del Sistema Web Checkout. Para dudas o inconvenientes, contacta a Justo Hernán Barbosa Moreno.",
+          "link": "https://wco.javeriana.edu.co/patron#!/"
+        },
+        {
+          "question": "¿Qué software está disponible para los estudiantes?",
+          "subquestions": [
+            "¿Dónde se puede encontrar información sobre el software especializado disponible para instalar en los computadores?"
+          ],
+          "answer": "Parte del software especializado de ingeniería está disponible para instalar en el computador de los estudiantes. Consulta más en el documento proporcionado.",
+          "link": "https://ingenieria.javeriana.edu.co/documents/97133/3021744/Uso+de+software+especializado+2023.pdf/20cfc9b9-3244-9488-8e69-56e19766b423?t=1669918890873"
+        },
+        {
+          "question": "¿Cómo se puede solicitar el préstamo de casilleros?",
+          "subquestions": [
+            "¿Cómo se gestionan los préstamos de lockers?",
+            "¿Qué prioridades se tienen en cuenta para la asignación de casilleros?",
+            "¿Dónde se pueden revisar las normas generales de préstamos de casilleros?"
+          ],
+          "answer": "El préstamo de lockers se gestiona desde cada área del laboratorio. Se prioriza a los estudiantes con asignaturas o proyectos en el laboratorio. Revisa las normas generales de préstamos en el documento disponible.",
+          "link": "https://ingenieria.javeriana.edu.co/documents/97133/3021744/Normas+Casilleros+2024.pdf/bd054d63-0f0d-a116-565b-ecef5da840bf?t=1706039300064"
+        },
+        {
+          "question": "¿Cómo se gestionan las reservas de salas en el 6º piso del Edificio José Gabriel Maldonado?",
+          "subquestions": [
+            "¿Qué instrucciones se deben seguir para reservar las salas en el 6º piso?",
+            "¿Cuáles son las condiciones para hacer una reserva?"
+          ],
+          "answer": "Para el préstamo de salas ubicadas en el 6º piso del Edificio José Gabriel Maldonado, S.J., sigue el INSTRUCTIVO proporcionado. Las reservas deben hacerse a través del sistema y cumplir con las condiciones mencionadas.",
+          "link": "https://intranet.javeriana.edu.co/documents/97133/3021744/Instructivo+Reservas+salas+de+estudio.pdf/4e22dd5a-5dfe-37d9-58a5-8a7491470942?t=1644330644528"
+        },
+        {
+          "question": "¿Cuáles son las normas de seguridad en los laboratorios?",
+          "subquestions": [
+            "¿Qué se debe conocer sobre las normas de seguridad en los laboratorios?",
+            "¿Cómo se deben manejar las emergencias en los laboratorios?"
+          ],
+          "answer": "Conoce las normas de seguridad en cada laboratorio. Los accidentes suelen deberse a fallas humanas por desconocimiento de las normas y falta de destreza. En caso de emergencia, contacta a PUJ EXT: 2240 o 2250, o al celular 310 576 3002."
+        },
+        {
+          "question": "¿Qué espacios de uso libre están disponibles para los estudiantes?",
+          "subquestions": [
+            "¿Qué espacios se pueden usar libremente y cuáles son sus características?"
+          ],
+          "answer": "Los siguientes espacios están disponibles las 24 horas del día, los 7 días de la semana: Atrio, Aula P3-02 (con 16 equipos de cómputo y software completo), Zona de descanso Piso 5, Free Plaza Piso 11, Terra."
+        }
+      ]
+    }
+  ]
+}

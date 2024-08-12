@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-11",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Canal de la carrera TEAMS",
+      "questions": [
+        {
+          "question": "¿Qué información puedo encontrar en el canal de TEAMS para mi carrera?",
+          "subquestions": [
+            "¿Qué secciones están disponibles en el canal de TEAMS?",
+            "¿Qué tipo de anuncios se publican en la sección General?"
+          ],
+          "answer": "El canal de TEAMS se divide en cuatro secciones: General, Etapas en la carrera, Tecnología y desarrollo social, y Utilitarios para la carrera. La sección General publica anuncios por parte del director de carrera y del canal de la carrera de ingeniería de sistemas.",
+          "link": ""
+        },
+        {
+          "question": "¿Con qué frecuencia se actualizan las secciones del canal de TEAMS?",
+          "subquestions": [
+            "¿Con qué frecuencia se actualiza la sección General?",
+            "¿Cómo puedo saber si hay nuevas actualizaciones en el canal de TEAMS?"
+          ],
+          "answer": "La sección General del canal se actualiza de manera irregular; la última publicación fue el 26 de junio de 2024, y la anterior el 27 de noviembre de 2023. Las otras tres secciones no han tenido actualizaciones desde el año 2021.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué debo hacer si la información en el canal de TEAMS no está actualizada o no encuentro lo que necesito?",
+          "subquestions": [
+            "¿Cómo encuentro información adicional si el canal de TEAMS no tiene lo que busco?",
+            "¿Cuál es el procedimiento alternativo si el formulario en el boletín no está disponible?"
+          ],
+          "answer": "Si la información en el canal de TEAMS no está actualizada o no encuentras lo que necesitas, consulta el boletín de la carrera para obtener el formulario requerido. La última publicación en la sección General recordó que el formulario está en el boletín y es el único medio para atender solicitudes relacionadas con la inscripción de asignaturas.",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}
