@@ -19,6 +19,12 @@ pipeline {
             env:
               - name: DOCKER_HOST
                 value: "tcp://localhost:2376"
+              - name: DOCKER_TLS_CERTDIR
+                value: '/certs'
+              - name: DOCKER_CERT_PATH
+                value: '/certs/client'
+              - name: DOCKER_TLS_VERIFY
+                value: "1"
             tty: true
             securityContext:
               privileged: true
