@@ -6,7 +6,7 @@ pipeline {
         kind: Pod
         spec:
           containers:
-          - name: dind
+          - name: docker
             image: docker:dind
             ports:
               - name: dind-con-port
