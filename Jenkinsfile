@@ -22,6 +22,10 @@ pipeline {
             tty: true
             securityContext:
               privileged: true
+          volumes:
+          - name: dind-storage
+            persistentVolumeClaim:
+              claimName: dind-storage
         '''
     }
   }
