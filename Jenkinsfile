@@ -6,11 +6,22 @@ pipeline {
         kind: Pod
         spec:
           containers:
-          - name: docker
+          - name: dind
             image: docker:dind
-            command:
-            - cat
-            tty: true 
+            ports:
+              - name: dind-con-port
+                containerPort: 2376
+                hostPort: 2376
+                protocol: TCP
+            volumeMounts:
+              - name: dind-storage
+                mountPath: /var/lib/docker
+            env:
+              - name: DOCKER_HOST
+                value: "tcp://localhost:2376"
+            tty: true
+            securityContext:
+              privileged: true
         '''
     }
   }
