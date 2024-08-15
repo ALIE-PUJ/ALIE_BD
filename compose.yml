@@ -22,7 +22,7 @@ services:
 
   # Servicio de Inicialización de BD
   db_init:
-    image: zot.zot.svc.cluster.local:5000/db-init:latestsvc.cluster.localsvc.cluster.local
+    image: zot.zot.svc.cluster.local:5000/db-init:latest
     build:
       context: ./DB_Init  # Contexto de construcción en la carpeta DB_Init
       dockerfile: Dockerfile
