@@ -25,8 +25,6 @@ pipeline {
                 value: '/certs/client'
               - name: DOCKER_TLS_VERIFY
                 value: "1"
-              - name: DOCKER_OPTS
-                value: "--insecure-registry=zot.zot.svc.cluster.local:5000"
             tty: true
             securityContext:
               privileged: true
