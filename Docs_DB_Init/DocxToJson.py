@@ -73,9 +73,50 @@ def save_json(json_data, output_file):
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write(json_data)
 
+def process_folder(input_folder, output_folder):
+    """Processes all .docx files in the input folder and generates JSON files in the output folder."""
+    # Obtener la ruta absoluta al script
+    script_path = os.path.abspath(__file__)
+    # Obtener el directorio del script
+    script_dir = os.path.dirname(script_path)
+    
+    # Construir las rutas absolutas a las carpetas
+    input_folder_path = os.path.join(script_dir, input_folder)
+    output_folder_path = os.path.join(script_dir, output_folder)
+
+    # Verificar si la carpeta de salida existe, si no, crearla
+    if not os.path.exists(output_folder_path):
+        os.makedirs(output_folder_path)
+    
+    # Verificar si la carpeta de entrada existe
+    if not os.path.isdir(input_folder_path):
+        print(f"La carpeta '{input_folder_path}' no existe.")
+        return
+
+    print(f"Verificando archivos en: {input_folder_path}")
+
+    for file_name in os.listdir(input_folder_path):
+        if file_name.endswith(".docx"):
+            docx_file = os.path.join(input_folder_path, file_name)
+            title = os.path.splitext(file_name)[0]
+            
+            # Read document content
+            sections = read_docx(docx_file)
+            
+            # Get last updated date
+            last_updated = get_last_updated(docx_file)
+            
+            # Convert to JSON
+            json_data = convert_to_json(sections, title, last_updated)
+            
+            # Save JSON to the output folder with the same name as the .docx file
+            output_json_file = os.path.join(output_folder_path, f"{title}.json")
+            save_json(json_data, output_json_file)
+            print(f"Converted {file_name} to {output_json_file}")
+
 if __name__ == "__main__":
-    docx_file = "Docs_DB_Init/DOCX/MateriaDeEjemplo_Codigo1234.docx"  # Path to your .docx file
-    output_json_file = "output.json"  # Output JSON file name
+    input_folder = "DOCX"  # Path to the folder containing .docx files
+    output_folder = "JSON/Syllabus"  # Path to the folder where JSON files will be saved
 
     # List of section keywords to look for
     section_keywords = [
@@ -94,19 +135,5 @@ if __name__ == "__main__":
         "Recursos Bibliográficos"
     ]
 
-    # Extract title from the file name
-    title = os.path.splitext(os.path.basename(docx_file))[0]
-
-    # Read document content
-    sections = read_docx(docx_file)
-    
-    # Get last updated date
-    last_updated = get_last_updated(docx_file)
-
-    # Convert to JSON
-    json_data = convert_to_json(sections, title, last_updated)
-    
-    # Save JSON to file
-    save_json(json_data, output_json_file)
-
-    print(f"Conversion complete. JSON saved to {output_json_file}")
+    # Process all .docx files in the input folder
+    process_folder(input_folder, output_folder)
