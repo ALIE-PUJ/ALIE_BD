@@ -22,6 +22,7 @@ services:
 
   # Servicio de Inicialización de BD
   db_init:
+    image: core.harbor.domain/db-init:latest
     build:
       context: ./DB_Init  # Contexto de construcción en la carpeta DB_Init
       dockerfile: Dockerfile

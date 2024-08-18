@@ -17,7 +17,7 @@ spec:
             io.kompose.service: db-init
         spec:
           containers:
-            - image: db-init
+            - image: zot.zot.svc.cluster.local:5000/db-init:latest
               name: db-init
           restartPolicy: OnFailure
   schedule: '*/30 * * * *'
