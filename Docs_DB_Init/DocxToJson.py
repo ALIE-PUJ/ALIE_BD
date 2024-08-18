@@ -16,7 +16,7 @@ def extract_all_text(doc):
 
     return "\n".join(full_text)
 
-def find_section_content(text, section_name):
+def find_section_content(text, section_name, section_keywords):
     """Finds the content of a section by its name."""
     start_idx = text.find(section_name)
     if start_idx == -1:
@@ -33,14 +33,14 @@ def find_section_content(text, section_name):
     section_content = text[start_idx:end_idx].strip()
     return section_content if section_content else None
 
-def read_docx(file_path):
+def read_docx(file_path, section_keywords):
     """Reads the .docx file and extracts required sections."""
     doc = Document(file_path)
     full_text = extract_all_text(doc)
     
     sections = {}
     for section_name in section_keywords:
-        sections[section_name] = find_section_content(full_text, section_name)
+        sections[section_name] = find_section_content(full_text, section_name, section_keywords)
     
     return sections
 
@@ -73,7 +73,7 @@ def save_json(json_data, output_file):
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write(json_data)
 
-def process_folder(input_folder, output_folder):
+def process_folder(input_folder, output_folder, section_keywords):
     """Processes all .docx files in the input folder and generates JSON files in the output folder."""
     # Obtener la ruta absoluta al script
     script_path = os.path.abspath(__file__)
@@ -101,7 +101,7 @@ def process_folder(input_folder, output_folder):
             title = os.path.splitext(file_name)[0]
             
             # Read document content
-            sections = read_docx(docx_file)
+            sections = read_docx(docx_file, section_keywords)
             
             # Get last updated date
             last_updated = get_last_updated(docx_file)
@@ -136,4 +136,4 @@ if __name__ == "__main__":
     ]
 
     # Process all .docx files in the input folder
-    process_folder(input_folder, output_folder)
+    process_folder(input_folder, output_folder, section_keywords)
