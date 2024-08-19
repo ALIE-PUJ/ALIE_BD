@@ -577,7 +577,7 @@ INSERT INTO Clase (id_clase, id_curso, periodo, fecha_inicio, fecha_final) VALUE
 (13992, 31339, '2024-3', '2024-07-15', '2024-11-23')
 ON CONFLICT (id_clase) DO NOTHING;
 
-
+-- Notas
 INSERT INTO Nota (id_nota, id_estudiante, id_curso, id_clase, nota) VALUES 
 (1, 1, 1295, 5198, 4.5),
 (2, 2, 1295, 5378, 3.7),
@@ -1726,8 +1726,17 @@ INSERT INTO Nota (id_nota, id_estudiante, id_curso, id_clase, nota) VALUES
 ON CONFLICT (id_nota) DO NOTHING;
 
 -- Insertar datos de ejemplo en la tabla Estudiante_Clase
+-- Organizacion de estudiantes:
+-- Semestre 1: 1 - 25
+-- Semestre 2: 26 - 51
+-- Semestre 3: 52 - 77
+-- Semestre 4: 78 - 103
+-- Semestre 5: 104 - 129
+-- Semestre 6: 130 - 155
+-- Semestre 7: 156 - 181
+-- Semestre 8: 182 - 208
 INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
-(1, 5198),
+(1, 5198), -- Primer Semestre
 (2, 5378),
 (3, 5385),
 (4, 5391),
@@ -1882,7 +1891,7 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (23, 1494),
 (24, 1662),
 (25, 1498),
-(26, 1499),
+(26, 1499), -- Segundo semestre
 (27, 6193),
 (28, 6199),
 (29, 14920),
@@ -2012,7 +2021,7 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (49, 4293),
 (50, 3823),
 (51, 4293),
-(52, 3823),
+(52, 3823), -- Tercer semestre
 (53, 4466),
 (54, 4277),
 (55, 4320),
@@ -2142,7 +2151,7 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (75, 2369),
 (76, 2395),
 (77, 2294),
-(78, 2296),
+(78, 2296), -- Cuarto semestre
 (79, 1557),
 (80, 1558),
 (81, 1561),
@@ -2272,7 +2281,7 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (101, 1520),
 (102, 1664),
 (103, 1520),
-(104, 1664),
+(104, 1664), -- Quinto semestre
 (105, 6296),
 (106, 6302),
 (107, 6306),
@@ -2376,7 +2385,7 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (127, 1507),
 (128, 12503),
 (129, 1507),
-(130, 12503),
+(130, 12503), -- Sexto semestre
 (131, 8110),
 (132, 8155),
 (133, 8077),
@@ -2558,7 +2567,7 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (153, 2354),
 (154, 2355),
 (155, 2302),
-(156, 2356),
+(156, 2356), -- Septimo semestre
 (157, 4938),
 (158, 4941),
 (159, 4946),
@@ -2714,7 +2723,7 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (179, 7878),
 (180, 7879),
 (181, 7877),
-(182, 7878),
+(182, 7878), -- Octavo semestre
 (183, 1544),
 (184, 1545),
 (185, 1546),
@@ -2847,8 +2856,8 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (208, 7946)
 ON CONFLICT (id_estudiante, id_clase) DO NOTHING;
 
-
-INSERT INTO Prerequisito_Curso(id_curso,id_prerequisito_curso) VALUES
+-- Prerrequisitos de cursos
+INSERT INTO Prerrequisito_Curso(id_curso,id_prerrequisito_curso) VALUES
 (1297,1295),
 (33700,33518),
 (34801,33518),
@@ -2905,8 +2914,9 @@ INSERT INTO Prerequisito_Curso(id_curso,id_prerequisito_curso) VALUES
 (4185,34808),
 (34814,31339),
 (34814,4185)
-ON CONFLICT (id_curso, id_prerequisito_curso) DO NOTHING;
+ON CONFLICT (id_curso, id_prerrequisito_curso) DO NOTHING;
 
+-- Horarios de clase
 INSERT INTO Horario_Clase (id_clase, dia, hora_inicio, hora_fin) VALUES
 (5198, 'Martes', '07:00', '09:00'),
 (5198, 'Jueves', '07:00', '09:00'),
@@ -3302,5 +3312,3 @@ INSERT INTO Horario_Clase (id_clase, dia, hora_inicio, hora_fin) VALUES
 (7937, 'Viernes', '11:00', '13:00'),
 (7938, 'Lunes', '11:00', '13:00')
 ON CONFLICT (id_clase, dia, hora_inicio, hora_fin) DO NOTHING;
-
-

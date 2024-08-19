@@ -70,13 +70,13 @@ CREATE TABLE IF NOT EXISTS Estudiante_Clase (
 );
 
 
--- Tabla Prerequisito_Curso
-CREATE TABLE IF NOT EXISTS Prerequisito_Curso(
+-- Tabla Prerrequisito_Curso
+CREATE TABLE IF NOT EXISTS Prerrequisito_Curso(
     id_curso INT NOT NULL,
-    id_prerequisito_curso INT NOT NULL,
-    PRIMARY KEY (id_curso, id_prerequisito_curso),
+    id_prerrequisito_curso INT NOT NULL,
+    PRIMARY KEY (id_curso, id_prerrequisito_curso),
     FOREIGN KEY (id_curso) REFERENCES Curso(id_curso),
-    FOREIGN KEY (id_prerequisito_curso) REFERENCES Curso(id_curso)
+    FOREIGN KEY (id_prerrequisito_curso) REFERENCES Curso(id_curso)
 );
 
 -- Tabla Horario_Clase
