@@ -120,7 +120,8 @@ if __name__ == "__main__":
 
     # List of section keywords to look for
     section_keywords = [
-        "Nombre de la Asignatura",
+        "Nombre Corto de la Asignatura",
+        "Nombre Largo de la Asignatura",
         "Código de la asignatura",
         "Grado",
         "Descripción",
