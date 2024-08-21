@@ -54,7 +54,8 @@ def convert_to_json(sections, title, last_updated):
     """Converts the extracted sections and additional metadata into JSON format."""
     # Split the title into name and code
     try:
-        materia_name, codigo = title.rsplit('_', 1)
+        # Suponiendo que titulo tiene el formato "numero_materia_codigo"
+        _, materia_name, codigo = title.rsplit('_', 2)
     except ValueError:
         materia_name, codigo = title, "Unknown"
 

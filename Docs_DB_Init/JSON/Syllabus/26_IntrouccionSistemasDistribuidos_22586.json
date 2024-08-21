@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-20",
+    "title": "26_IntrouccionSistemasDistribuidos_22586",
+    "description": "Syllabus de la materia 'IntrouccionSistemasDistribuidos' con código '22586'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Introducción distribuidos",
+        "Nombre Largo de la Asignatura": "Introducción a los sistemas distribuidos",
+        "Código de la asignatura": "22586",
+        "Grado": "Pregrado",
+        "Descripción": "La asignatura es una introducción a los paradigmas de computación distribuida. Estos conceptos les permitirán implementar sistemas que tengan en cuenta problemas de concurrencia, sincronización y tolerancia a fallos. Esta asignatura tiene una metodología de clase magistral interactiva, además el estudiante pondrá en práctica los conceptos adquiridos a través de la solución de problemáticas desarrolladas en la implementación de proyectos realizados en grupo.",
+        "Número de Créditos": "2",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "Requisitos: Para Ing. Sistemas: Comunicaciones y redes /y/ Sistemas Operativos /y/ Seguridad de la información /y/ Análisis y diseño de software /o/ Para Cs. De Datos: Sistemas Operativos /y/ Comunicaciones y redes",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "Presentar las propiedades generales, desafíos, características y modelos arquitectónicos de los sistemas distribuidos \nExponer problemas típicos de un entorno distribuido, junto con soluciones algorítmicas para la sincronización y concurrencia, coordinación y acuerdo, transacciones y replicación   \nBrindar herramientas para el desarrollo de un sistema distribuido aplicando técnicas de control de fallos, paralelismo y concurrencia",
+        "Resultados de Aprendizaje Esperados (RAE)": "Al finalizar el curso el estudiante estará en capacidad de:\n1. Explicar estrategias para el diseño de sistemas distribuidos eficientes, resilientes y con alta disponibilidad (Disciplinar 2,3 y 4) (CDIO 4.5) \n2. Desarrollar soluciones para problemas de estructura distribuida (Disciplinar 1,2,3 y 5) (CDIO 2.1) \n3. Utiliza herramientas adecuadas para evaluar el rendimiento de soluciones distribuidas (Disciplinar 2,3 y 4) (CDIO 2.2) \n4. Utilizar estrategias adecuadas de comunicación oral para explicar las formas en las cuales los sistemas distribuidos afectan y potencian el uso de la tecnología en un contexto empresarial, industrial y de negocio (Disciplinar 1,2,3 y 4) (CDIO 3.2)",
+        "Contenidos temáticos": "1. Fundamentos de Sistemas Distribuidos: Definición, principios de diseño, modelos, desafíos. \n2. Comunicación y coordinación entre procesos.\n3. Consistencia y replicación.\n4. Tolerancia de fallas.\n5. Transacciones distribuidas.",
+        "Estrategias Pedagógicas": "Durante el curso se utilizarán 5 estrategias. La primera de ellas será el aprendizaje directivo que se hará mediante clases magistrales. La segunda será el autoaprendizaje en donde se dejarán lecturas que complementen lo visto en clase. La tercera será la investigación en donde se plantearán problemas que el estudiante debe solucionar con técnicas o herramientas adicionales a las vistas en clase para dar solución a una problemática particular. La cuarta serán prácticas dirigidas en las que pondrán en práctica los temas vistos en clase. Por último, se utilizará el aprendizaje basado en problemas mediante casos reales, los cuáles se plantearán a los estudiantes para que le den solución mediante el desarrollo de una aplicación distribuida",
+        "Evaluación": "Las estrategias de evaluación están centradas en la valoración de los resultados de aprendizaje esperado de la asignatura; las cuales pueden ser formativas que suscitan la comprensión y construcción de conocimiento, y sumativas que incluyen porcentajes de evaluación con el fin de corroborar el logro de los aprendizajes y el desarrollo de las competencias en los estudiantes. Las estrategias de evaluación de la asignatura son: \n\nPrimer Parcial 20%\nSegundo Parcial 20%\nQuices, tareas y talleres 10%\nExposición final 10% \nPrimera entrega del proyecto 15%\nSegunda entrega - Implementación completa 15%\nSegunda entrega ¿ Informe de pruebas 10%",
+        "Recursos Bibliográficos": "Textos Básicos \n\n1. VAN STEEN, Maarten; TANENBAUM, Andrew S. A brief introduction to distributed systems. Computing, 2016, vol. 98, no 10, p. 967-1009.\n2. Roberto Vitillo. Understanding Distributed Systems. April 2021   \n3. Coulouris G. et al., ¿Sistemas Distribuidos: Conceptos y Diseños¿, Addison Wesley, 5ta Edición, 2012.\n4. Tanenbaum A., ¿Sistemas Operativos Distribuidos¿, Prentice Hall. Segunda Edición"
+    }
+}

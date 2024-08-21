@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-20",
+    "title": "2_LogicayMatematicasDiscretas_33518",
+    "description": "Syllabus de la materia 'LogicayMatematicasDiscretas' con código '33518'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Matemáticas Discretas",
+        "Nombre Largo de la Asignatura": "Lógica y Matemáticas Discretas",
+        "Código de la asignatura": "33518",
+        "Grado": "Pregrado",
+        "Descripción": "El curso de Matemáticas discretas introduce la rama de las matemáticas que ayuda a modelar y a entender los procesos discretos, como, por ejemplo, los procesos finitos o procesos enumerables.\nExisten en matemáticas varias herramientas para describir los objetos discretos como son los números naturales, los conjuntos y las sucesiones, las matrices entre otros. Actualmente hay varias aplicaciones de la matemática discreta en ciencias de la computación, ingeniería y ciencias sociales. Estas aplicaciones van desde el almacenamiento de información, manejo de la información, análisis de algoritmos, seguridad informática hasta problemas de control de tráfico y transporte o modelamiento de redes sociales. Este curso busca resolver la pregunta: ¿Como entender, caracterizar y resolver procesos discretos?",
+        "Número de Créditos": "3",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "Sin condiciones",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "Presentar los conceptos fundamentales y la terminología de la lógica matemática\nAbrir un panorama sobre el estudio de las matemáticas discretas y sus aplicaciones. \nBrindar herramientas teóricas para el desarrollo de demostraciones matemáticas.\nIlustrar la utilidad de las matemáticas discretas en varios contextos de aplicación en ingeniería y ciencia de datos.\nPresentar las principales herramientas matemáticas que soportan las estructuras discretas.",
+        "Resultados de Aprendizaje Esperados (RAE)": "Al finalizar el curso el estudiante estará en capacidad de:\nAnalizar las diferentes alternativas para la demostración de un enunciado matemático usando las reglas de la lógica proposicional\nResolver problemas en el campo de la computación usando herramientas de las matemáticas discretas.\nUsar las técnicas de conteo como pérmutaciones, combinaciones y el principio de las casillas para resolver problemas de enumeración. \nModelar problemas usando estructuras discretas (Conjuntos parcialmente ordenados, árboles y grafos)",
+        "Contenidos temáticos": "¿Cual es el lenguaje de las matemáticas? Lógica Proposicional. Métodos de demostración. Conjuntos. Inducción matemática.\n¿Como se clasifican los algoritmos de acuerdo a su complejidad? Comparación asintótica de funciones. La notación O grande. Complejidad algorítmica.\n¿Cual es la naturaleza de los números naturales? Teoría de números: divisibilidad, algoritmo de la división, aritmética modular, criptografía. \n¿Como contar?  Conteo. Variaciones, permutaciones y combinaciones. Particiones. Coeficientes binomiales. Funciones generatrices. Inclusión y exclusión.\n¿Como modelar problemas? Relaciones y conjuntos y clases de equivalencia. Conjuntos parcialmente ordenados, diagramas de Hasse, retículos. Grafos.   arboles. Aplicaciones.",
+        "Estrategias Pedagógicas": "Durante el curso se utilizarán  estrategias centradas en el aprendizaje activo del estudiante, entre otras están: clase magistral interactiva. El aprendizaje basado en problemas. El aprendizaje por proyectos. Sesiones de trabajo colaborativo",
+        "Evaluación": "Las estrategias de evaluación están centradas en la valoración de los resultados de aprendizaje esperado de la asignatura; las cuales pueden ser formativas en las que se brindará retroalimentación por parte del profesor y los estudiantes, que suscitan la comprensión y construcción de conocimiento, y sumativas, las cuales incluyen porcentajes de evaluación con el fin de corroborar el logro de los aprendizajes y el desarrollo de las competencias en los estudiantes.\nLas estrategias de evaluación de la asignatura son:                                                   \n75% Tres parciales, cada uno con valor del 25%.                                                                   \n25% Pueden consistir en talleres, tareas, quices y presentaciones, entre otras.",
+        "Recursos Bibliográficos": "Requerido: K. H. Rosen, Discrete Mathematics and its Applications, 8th Edition, McGraw-Hill. 2019.     \nProfundización: N. L. Biggs. Discrete Mathematics, 2nd Edition, Oxford University Press. 2003. ¿ K. A. Ross and C. R. B. Wright, Discrete Mathematics, Seven Edition, McGraw-Hill Science, 2011."
+    }
+}

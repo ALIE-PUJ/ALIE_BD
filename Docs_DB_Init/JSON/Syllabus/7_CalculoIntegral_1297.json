@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-20",
+    "title": "7_CalculoIntegral_1297",
+    "description": "Syllabus de la materia 'CalculoIntegral' con código '1297'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Cálculo Integral",
+        "Nombre Largo de la Asignatura": "Cálculo Integral",
+        "Código de la asignatura": "1297",
+        "Grado": "Pregrado",
+        "Descripción": "El curso de cálculo Integral tiene estudia el proceso de integración que es necesario en la práctica de la ingeniería, ya que muchos problemas se pueden representar y solucionar mediante los conceptos de áreas bajo la curva y volúmenes de sólidos. Además, se aborda el teorema fundamental del cálculo que permite conectar el cálculo diferencial con el concepto de la integral, lo cual complementa la capacidad del estudiante para modelar y resolver problemas de ingeniería. También se introducen los conceptos de sucesiones y series, algunos criterios de convergencia, y las aplicaciones de las series de potencias a la representación de funciones (serie de Taylor). Esta asignatura tiene una metodología de clase magistral interactiva, en la cual se realizará la presentación de los temas, acompañada de ejercicios demostrativos en clase. Adicionalmente, los estudiantes tendrán la oportunidad de realizar talleres en clase con el fin de resolver dudas y afianzar los conceptos.",
+        "Número de Créditos": "3",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "Requisitos de Inscripción: //Cálculo Diferencial// o //Matemáticas para Contadores// o //Matemática Aplicada I Admón// o //Matemáticas para Ciencias// o //Matemáticas I Est. Musicales//o //calculo I// ó //Matemáticas I//",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "Mostrar la utilidad práctica del cálculo integral en una variable a través del planteamiento y resolución de problemas de ingeniería.\nBrindar los conceptos y las herramientas para generar un vínculo analítico entre el razonamiento conceptual y la representación gráfica de la integral definida.\nMostrar los mecanismos para abordar problemas complejos mediante casos de aplicación de series y sucesiones, y la convergencia de las mismas hacia soluciones aproximadas",
+        "Resultados de Aprendizaje Esperados (RAE)": "Al finalizar el curso el estudiante estará en capacidad de:\nDescribir fenómenos asociados a problemas básicos de ingeniería mediante el concepto de integración.\nDeterminar la solución de un problema básico de ingeniería mediante técnicas de integración.\nConstruir una representación de un problema básico de ingeniería usando transformaciones a sistemas de coordenadas polares.\nDefinir la solución de problemas básicos de ingeniería a través de funciones representadas mediante sucesiones y series numéricas.",
+        "Contenidos temáticos": "La integral y sus aplicaciones en problemas de ingeniería.\nLa integral.\nAreas y distancias.\nLa integral definida.\nTeorema fundamental del cálculo.\nIntegrales indefinidas\n\nAplicaciones de la integral\nArea entre curvas\nVolúmenes\nValor promedio de una función\nAplicaciones a la física y a la ingeniería\n\nTécnicas de integración \nIntegración por partes\nIntegrales trigonométricas\nSustitución trigonométrica\nIntegración de funciones racionales mediante fracciones parciales\nEstrategias para la integración\nIntegrales impropias\n\nCoordenadas polares \nSistema de coordenadas polares\nAreas y longitudes en coordenadas polares\n\nSucesiones y Series\nSucesiones\nSeries\nLa prueba de la integral y estimación de sumas\nPruebas por comparación\nSeries alternantes\nSeries de potencias.\nSerie de Taylor.",
+        "Estrategias Pedagógicas": "Clase magistral a cargo del profesor.\nRealización de tareas y talleres por parte del estudiante.",
+        "Evaluación": "periódica\nLecturas por parte del estudiante de material asignado por el profesor.",
+        "Recursos Bibliográficos": "Cálculo, Trascendentes Tempranas, Zill Dennis and Wright Warren. McGraw¿Hill/Interamericana editores, S.A. de C.V. Cuarta edición, Copyright 2011.\nCalculus, Early Transcendental, by William Briggs and Lyle Cochran. Editorial Pearson. 2th edition. Copyright   2014\nCalculus: Early Transcendental. James Stewart, 8th Edition. Brooks Cole; 8th edition. Copyright 2015."
+    }
+}

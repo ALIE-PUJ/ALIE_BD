@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-20",
+    "title": "31_DesarrolloWeb_34807",
+    "description": "Syllabus de la materia 'DesarrolloWeb' con código '34807'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Desarrollo web",
+        "Nombre Largo de la Asignatura": "Desarrollo web",
+        "Código de la asignatura": "34807",
+        "Grado": "Pregrado",
+        "Descripción": "Las tecnologías web son un pilar fundamental en el desarrollo de software moderno porque la mayoría de los sistemas están basados en Aplicaciones Web. Esta asignatura enseña aspectos esenciales del desarrollo web y computación distribuida, a través de proyectos, talleres y clases magistrales interactivas.",
+        "Número de Créditos": "3",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "Requisitos de inscripción: Teoría de la computación /y/ Bases de datos /y/ Comunicaciones y redes /y/ Fundamentos de ingeniería de software",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "1. Presentar las principales técnicas para desarrollar aplicaciones web \n2. Presentar las principales herramientas para desarrollar aplicaciones web \n3. Presentar herramientas para automatizar pruebas sobre aplicaciones web",
+        "Resultados de Aprendizaje Esperados (RAE)": "Al finalizar el curso el estudiante estará en capacidad de:\n1. Conocer los conceptos de interoperabilidad y aplicaciones cliente-servidor (Disciplinar 1)  \n2. Entender los procedimientos para desarrollar una solución basada en aplicaciones web, aprendiendo de forma autónoma (Disciplinar 2, 3) (CDIO 4.4, CDIO 2.4, CDIO 2.1) \n3. Entender los procedimientos para desarrollar una solución basada en servicios web y de intercambio de datos entre servidor y aplicación, aprendiendo de forma autónoma (Disciplinar 2, 3) (CDIO 4.4, CDIO 2.4, CDIO 2.1) \n4. Entender los procedimientos para evaluar la calidad de aplicaciones y servicios web (Disciplinar 4) (CDIO 4.4)",
+        "Contenidos temáticos": "1. Conceptos esenciales de computación distribuida \n2. Aspectos esenciales de desarrollo web \n3. Empaquetamiento, despliegue y ejecución \n4. Pruebas",
+        "Estrategias Pedagógicas": "Esta asignatura se centrará en la apropiación del conocimiento para la resolución de problemas relacionados con el desarrollo web. Se centra en dos estrategias: clase magistral expositiva, centrada en explicar la teoría detrás de los contenidos del curso y aprendizaje por proyectos, donde los estudiantes aplicarán dichos conceptos teóricos.",
+        "Evaluación": "Las estrategias de evaluación están centradas en la valoración de los resultados de aprendizaje esperado de la asignatura; las cuales pueden ser formativas que suscitan la comprensión y construcción de conocimiento, y sumativas que incluyen porcentajes de evaluación con el fin de corroborar el logro de los aprendizajes y el desarrollo de las competencias en los estudiantes.  \n\nLas estrategias de evaluación sumativas de la asignatura son: \n1. Taller (10%) \n2. Proyecto semestral \n2.1 Primera Entrega (10%) \n2.2 Segunda Entrega (20%) \n2.3 Entrega Final (30%) \n3.",
+        "Recursos Bibliográficos": "Básicos \n1. Baeldung. https://www.baeldung.com/ \n2. MDN Web Docs. https://developer.mozilla.org/en-US/  \n3. Angular Docs. https://angular.io/docs  \n4. Spring Guides. https://spring.io/guides  \n5. RxJS. https://rxjs.dev/ \n\nComplementarios \n1. Bainomugisha, E., Carreton, A. L., Cutsem, T. van, Mostinckx, S., & Meuter, W. de. (2013). A survey on reactive programming. ACM Computing Surveys (CSUR), 45(4), 52. https://doi.org/10.1145/2501654.2501666 \n2. Filman, R., & Friedman, D. (2000). Aspect-Oriented Programming is Quantification and Obliviousness. Retrieved from citeseer.ist.psu.edu/filman00aspectoriented.html \n3. ReactiveX. (n.d.). Retrieved August 26, 2019, from http://reactivex.io/  \n4. Balachandar, B. M. (2017). RESTful Java Web Services: A pragmatic guide to designing and building RESTful APIs using Java. Packt Publishing Ltd."
+    }
+}

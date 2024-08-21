@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-20",
+    "title": "10_GestionFinancieraDeProyectosDeTI_34816",
+    "description": "Syllabus de la materia 'GestionFinancieraDeProyectosDeTI' con código '34816'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Gestión financiera en TI",
+        "Nombre Largo de la Asignatura": "Gestión financiera de proyectos de tecnología de información",
+        "Código de la asignatura": "34816",
+        "Grado": "Pregrado",
+        "Descripción": "El Ingeniero de sistemas por su naturaleza es un gestor de proyectos que requiere conocimientos relacionados con la gestión financiera útiles para garantizar el cumplimiento exitoso del ciclo de vida de un proyecto de diseño e implementación de sistemas. \n\nEl curso apoya el proceso de aprendizaje de los elementos básicos que debe comprender un Ingeniero de sistemas sobre matemáticas financieras, y su aplicación durante las fases de concepción, diseño, implementación y operación de un proyecto de Ingeniería.\n\nLa metodología del curso se basa en clases magistrales, trabajo colaborativo y análisis de casos aplicados.",
+        "Número de Créditos": "2",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "Prg Ingeniería de Sistemas",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "Presentar los conceptos fundamentales utilizados en la gestión financiera de un proyecto de TI. \nPresentar algunas herramientas de software disponibles para gestionar financieramente un proyecto de ingeniería. \nGenerar discusiones alrededor de casos de estudio, con el fin de reforzar conceptos teóricos aprendidos en clase.",
+        "Resultados de Aprendizaje Esperados (RAE)": "Al finalizar el curso el estudiante estará en capacidad de:\nRAE 1: Entender el contexto empresarial y de negocio para comprender los estados financieros de una organización. (CDIO 4.2)  \nRAE 2: Priorizar elementos que afectan la viabilidad económica de un proyecto, con el objetivo de evaluar la alternativa que ofrece mejor relación costo/beneficio. (CDIO 4.2) (Utilizar la información financiera de una organización en el proceso de toma de decisiones). \nRAE 3: Determinar a partir del contexto empresarial, las herramientas financieras aplicables para apoyar el seguimiento de un proyecto de Ingeniería de sistemas. (CDIO 4.2). Transformar tasas de interés en diferentes tipos basando en la lógica de la variación del dinero en el tiempo (VDT).  \nRAE 4: Calcular los resultados de la aplicación de los indicadores de bondad económica a problemas relacionados con el desarrollo de proyectos de Ingeniería de Sistemas. (CDIO 4.2)",
+        "Contenidos temáticos": "LOS ESTADOS FINANCIEROS \nPROVISIONES Y DEPRECIACIONES \nRAZONES Y PROPORCIONES FINANCIERAS \nEL PRESUPUESTO DE TECNOLOGIA \nTASA DE INTERES; EL COSTO DEL DINERO \nVALOR PRESENTE Y VALOR FUTURO \nHERRAMIENTAS PARA EVALUACION FINANCIERA DE PROYECTOS \nOPCIONES DE ACCESO A INFRAESTRUCTURA TECNOLOGICA",
+        "Estrategias Pedagógicas": "Durante el curso se utilizarán 3 estrategias:  \n\nLa primera será el aprendizaje basado en conferencias y discusiones en clase.  \nLa segunda está basada en el  aprendizaje colaborativo, en el cual, a través de grupos de trabajo se logrará el análisis de casos y el desarrollo de talleres aplicativos. \nLa tercera será el aprendizaje por proyectos, donde se propone el análisis de un proyecto aplicado que responda a una necesidad o problema.",
+        "Evaluación": "Las estrategias de evaluación están centradas en la valoración de los resultados de aprendizaje esperado de la asignatura; las cuales pueden ser formativas que suscitan la comprensión y construcción de conocimiento, y sumativas que incluyen porcentajes de evaluación con el fin de corroborar el logro de los aprendizajes y el desarrollo de las competencias en los estudiantes. Las estrategias de evaluación de la asignatura son:\nParcial 1 : 20% \nParcial 2:  20% \nProyecto:  20% \nQuices: 15% \nExamen Final: 25%",
+        "Recursos Bibliográficos": "BLANK LELAND & TARQUIN, ANTHONY. Ingeniería Económica. McGrawHill. 2012.  \nROSILLO, JORGE. Matemáticas Financieras para decisiones de inversión y financiación.¿ Cengage Learning Editores. 2009.  \nVELEZ,¿ IGNACIO,¿ Decisiones de Inversiones: una aproximación al análisis de alternativas. CEJA. Pontificia Universidad Javeriana. 2002. \nINFANTE VILLARREAL, ARTURO,"
+    }
+}
