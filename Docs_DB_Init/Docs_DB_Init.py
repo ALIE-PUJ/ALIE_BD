@@ -143,7 +143,8 @@ def main():
 
     # Lista de palabras clave de sección a buscar
     section_keywords = [
-        "Nombre de la Asignatura",
+        "Nombre Corto de la Asignatura",
+        "Nombre Largo de la Asignatura",
         "Código de la asignatura",
         "Grado",
         "Descripción",
@@ -157,6 +158,7 @@ def main():
         "Evaluación",
         "Recursos Bibliográficos"
     ]
+    
     # Procesar los archivos .docx para convertirlos en JSON
     DocxToJson.process_folder(input_folder, output_folder, section_keywords)
     # Insertar los archivos JSON generados a partir de los .docx en la base de datos
