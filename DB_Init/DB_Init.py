@@ -42,11 +42,11 @@ def main():
     passw = os.getenv('PASS', '')
 
     connection = psycopg2.connect(
-        host='cockroachdb', # docker-compose service name
+        host='cockroachdb', # docker-compose service name. Use localhost to run locally
         port=26257,
         user=userDB,
         password=passw,
-        database='ALIE_DB'
+        database='alie_db' # lowercase
     )
 
     execute_sql_from_file('Create_Tables/Init.sql', connection)
