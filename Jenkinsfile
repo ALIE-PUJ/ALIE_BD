@@ -8,7 +8,7 @@ pipeline {
           containers:
           - name: docker
             image: docker:dind
-	    command: [ '--insecure-registry=zot.zot.svc.cluster.local:5000' ]
+            command: ["--insecure-registry=zot.zot.svc.cluster.local:5000"]
             ports:
               - name: dind-con-port
                 containerPort: 2376
