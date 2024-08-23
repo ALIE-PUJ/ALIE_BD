@@ -30,7 +30,7 @@ services:
       - cockroachdb
     restart: on-failure
     labels:
-      kompose.cronjob.schedule: "*/30 * * * *"
+      kompose.cronjob.schedule: "0 7 * * *"
 
   # Servicio de base de datos documental - MongoDB
   mongodb:
