@@ -16,8 +16,8 @@ pipeline {
                 protocol: TCP
             hostAliases:
               - ip: 10.195.34.20
-	        hostnames:
-		  - harbor.alie.javeriana.edu.co
+                hostnames:
+                  - harbor.alie.javeriana.edu.co
             volumeMounts:
               - name: dind-storage
                 mountPath: /var/lib/docker
