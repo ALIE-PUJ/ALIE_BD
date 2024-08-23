@@ -58,7 +58,7 @@ pipeline {
     stage('Push-Images-Docker-to-Harbor') {
       steps {
         container('docker') {
-          sh 'docker login -u "robot\$images+jenkins" -p ycYyOteUdlwU3JBec3tt0oK6i1JQAbgV harbor.alie.javeriana.edu.co && docker compose push'
+          sh 'docker login -u "robot\\\$images+jenkins" -p ycYyOteUdlwU3JBec3tt0oK6i1JQAbgV harbor.alie.javeriana.edu.co && docker compose push'
         }
       }
     }
