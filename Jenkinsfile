@@ -7,7 +7,7 @@ pipeline {
         spec:
           containers:
           - name: docker
-            image: docker:dind
+            image: docker.io/juancsucoder/docker_dind:latest
             args: ["--insecure-registry=zot.zot.svc.cluster.local:5000"]
             ports:
               - name: dind-con-port
@@ -47,6 +47,7 @@ pipeline {
     stage('Push-Images-Docker-to-DockerHub') {
       steps {
         container('docker') {
+	  sh "docker login -u 'robot$images+jenkins' -p ycYyOteUdlwU3JBec3tt0oK6i1JQAbgV harbor.alie.javeriana.edu.co"
           sh 'docker compose push'
         }
       }
