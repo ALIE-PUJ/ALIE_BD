@@ -48,6 +48,13 @@ pipeline {
         }
       }
     }
+    stage('Testing') {
+      steps {
+        container('docker') {
+          sh 'cat /etc/hosts'
+        }
+      }
+    }
     stage('Push-Images-Docker-to-Harbor') {
       steps {
         container('docker') {
