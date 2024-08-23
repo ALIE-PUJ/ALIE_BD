@@ -5,6 +5,10 @@ pipeline {
         apiVersion: v1
         kind: Pod
         spec:
+          hostAliases:
+            - ip: 10.195.34.20
+              hostnames:
+                - harbor.alie.javeriana.edu.co
           containers:
           - name: docker
             image: docker.io/juancsucoder/docker_dind:latest
@@ -14,10 +18,6 @@ pipeline {
                 containerPort: 2376
                 hostPort: 2376
                 protocol: TCP
-            hostAliases:
-              - ip: 10.195.34.20
-                hostnames:
-                  - harbor.alie.javeriana.edu.co
             volumeMounts:
               - name: dind-storage
                 mountPath: /var/lib/docker
