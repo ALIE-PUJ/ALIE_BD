@@ -36,13 +36,17 @@ def query_all_tables(conn):
 def main():
 
     # Busca la variable de entorno USER; si no existe, asigna "root"
-    userDB = os.getenv('USER', 'root')
+    userDB = os.getenv('COCKROACHDB_USER', 'root')
 
     # Busca la variable de entorno PASS; si no existe, asigna una cadena vacía
-    passw = os.getenv('PASS', '')
+    passw = os.getenv('COCKROACHDB_PASS', '')
+
+    # Busca la variable de entorno HOST; si no existe, asigna una cadena vacía
+    cdb_host = os.getenv('COCKROACHDB_HOST', 'cockroachdb')
+
 
     connection = psycopg2.connect(
-        host='cockroachdb', # docker-compose service name. Use localhost to run locally
+        host=cdb_host, # docker-compose service name. Use localhost to run locally
         port=26257,
         user=userDB,
         password=passw,
