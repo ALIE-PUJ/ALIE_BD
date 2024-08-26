@@ -28,7 +28,7 @@ spec:
                 - name: COCKROACHDB_PASS
                   valueFrom:
                     secretKeyRef:
-                      name: db-creds
+                      name: db-secret
                       key: db-pass
                 - name: COCKROACHDB_HOST
                   valueFrom:
