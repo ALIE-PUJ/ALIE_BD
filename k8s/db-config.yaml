@@ -3,5 +3,6 @@ kind: ConfigMap
 metadata:
   name: db-config
 data:
-  db-user: "root"
+  db-user: "postgres"
   db-host: "postgresdb-postgresql-ha-pgpool.postgresdb.svc.cluster.local"
+  db-port: 5432

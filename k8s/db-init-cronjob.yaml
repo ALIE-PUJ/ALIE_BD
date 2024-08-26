@@ -19,5 +19,26 @@ spec:
           containers:
             - image: harbor.alie.javeriana.edu.co/images/db-init:latest
               name: db-init
+              env:
+                - name: COCKROACHDB_USER
+                  valueFrom:
+                    configMapKeyRef:
+                      name: db-config
+                      key: db-user
+                - name: COCKROACHDB_PASS
+                  valueFrom:
+                    secretKeyRef:
+                      name: db-creds
+                      key: db-pass
+                - name: COCKROACHDB_HOST
+                  valueFrom:
+                    configMapKeyRef:
+                      name: db-config
+                      key: db-host
+                - name: COCKROACHDB_PORT
+                  valueFrom:
+                    configMapKeyRef:
+                      name: db-config
+                      key: db-port
           restartPolicy: OnFailure
   schedule: 0 7 * * *
