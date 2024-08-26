@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-config
+data:
+  db-user: "root"
+  db-host: "postgresdb-postgresql-ha-pgpool.postgresdb.svc.cluster.local"
