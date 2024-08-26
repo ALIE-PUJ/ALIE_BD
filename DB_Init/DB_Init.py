@@ -44,10 +44,13 @@ def main():
     # Busca la variable de entorno HOST; si no existe, asigna una cadena vacía
     cdb_host = os.getenv('COCKROACHDB_HOST', 'cockroachdb')
 
+    # Busca el puerto en la variable de entorno
+    cdb_port = os.getenv('COCKROACHDB_PORT', 26257)
+
 
     connection = psycopg2.connect(
         host=cdb_host, # docker-compose service name. Use localhost to run locally
-        port=26257,
+        port=cdb_port,
         user=userDB,
         password=passw,
         database='alie_db' # lowercase
