@@ -100,13 +100,20 @@ def insert_json_files(db, folder_path, collection_name):
 
 def main():
     
-    # Obtener usuario y contraseña desde variables de entorno
-    user = os.getenv('MONGO_USER', 'admin') # Si no se encuentra la variable de entorno, se asigna el valor 'admin'
-    password = os.getenv('MONGO_PASS', 'admin123') # Si no se encuentra la variable de entorno, se asigna el valor 'admin123'
-    host = os.getenv('MONGO_HOST', 'mongodb') # mongodb si se ejecuta en contenedor, localhost si se ejecuta en local
+    # Obtener la URI de conexión desde variables de entorno
+    mongo_uri = os.getenv('MONGO_URI')  # Si no se encuentra la variable de entorno, se construye la URI
 
-    # Construir la URI de conexión
-    mongo_uri = f"mongodb://{user}:{password}@{host}:27017"
+    # Si la URI no se encuentra, se construye
+    if not mongo_uri:
+        print("URI de conexión no encontrada. Construyendo URI de conexión...")
+        user = os.getenv('MONGO_USER', 'admin')  # Si no se encuentra la variable de entorno, se asigna 'admin'
+        password = os.getenv('MONGO_PASS', 'admin123')  # Si no se encuentra la variable de entorno, se asigna 'admin123'
+        host = os.getenv('MONGO_HOST', 'mongodb')  # 'mongodb' si se ejecuta en contenedor, 'localhost' si se ejecuta localmente
+        mongo_uri = f"mongodb://{user}:{password}@{host}:27017"
+
+    # Ahora mongo_uri contiene la URI de conexión
+
+    # Conectarse a la base de datos
     db = connect_to_mongodb(mongo_uri, "ALIE_DB")
 
 
