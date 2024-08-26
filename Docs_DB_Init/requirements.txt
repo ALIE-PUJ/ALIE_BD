@@ -1,1 +1,4 @@
+# Docs_DB_Init requirements
 pymongo==4.8.0
+# DocxToJSON requirements
+python-docx==1.1.2

@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-20",
+    "title": "25_ProyectoDeInnovacionYEmprendimiento_34810",
+    "description": "Syllabus de la materia 'ProyectoDeInnovacionYEmprendimiento' con código '34810'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Proyecto de Innovación en TI",
+        "Nombre Largo de la Asignatura": "Proyecto de innovación y emprendimiento",
+        "Código de la asignatura": "34810",
+        "Grado": "Pregrado",
+        "Descripción": "En este curso se desarrolla un proyecto de innovación y emprendimiento digital por medio del cual se aplican conceptos de tecnologías de la información y comunicaciones, utilizando una metodología de innovación y metodologías de desarrollo de software (si aplican).  También se desarrollan habilidades como trabajo en equipo, comunicación, liderazgo, y solución de problemas. \n\nLa asignatura es de naturaleza práctica. A partir de un contexto establecido, cada grupo de estudiantes debe identificar un problema pertinente. Además, deben concebir, diseñar alternativas de solución y desarrollar un prototipo.",
+        "Número de Créditos": "3",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "Requisito de inscripción: /Proyecto de Diseño en Ingeniería/ y /Sistemas de Información/ Y/Gestión de Proy. de Inn. Y Emprendimiento de TI/ O /",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "Brindar herramientas metodológicas para planear un proyecto de innovación y emprendimiento digital. \nGenerar los escenarios para que los estudiantes, al interactuar dentro de su grupo, desarrollen habilidades de comunicación, trabajo en equipo y liderazgo.",
+        "Resultados de Aprendizaje Esperados (RAE)": "Al finalizar el curso el estudiante estará en capacidad de:\nDescribir el problema de manera holística, priorizando y focalizando los elementos que conforman el sistema o artefacto (CDIO 2.3), (Disciplinar 1) \nEntender el proceso de innovación orientado a concebir, diseñar e introducir productos y servicios al mercado (CDIO 4.7, 4.8) (Disciplinar 1-4) \nEntender formas novedosas para concebir y diseñar productos y servicios alrededor de nuevas tecnologías de información y comunicaciones (CDIO 4.8) (Disciplinar 3)  \nUtilizar estrategias de comunicación oral para presentar los resultados de un proyecto, su modelo de negocio y estimaciones financieras y comerciales (CDIO 3.2) (Disciplinar 4)",
+        "Contenidos temáticos": "Módulo 1 - Etapa de Contextualización Proyecto  \nMódulo 2 - Etapa de Análisis \nMódulo 3 - Etapa de Ciclo Diseño \nMódulo 4 - Etapa de Proyección",
+        "Estrategias Pedagógicas": "La metodología del curso es de aprendizaje activo mediante la realización de talleres, proyectos, ensayos y exposiciones en la mayoría de las clases (ideal un bloque semanal de 3 horas seguidas). También se utiliza aprendizaje basado en proyectos y problemas.",
+        "Evaluación": "de proyectos/ y / Fundamentos de Ingeniería de Software/",
+        "Recursos Bibliográficos": "Hevner, A. R. (2007). A three cycle view of design science research.¿Scandinavian journal of information systems,¿19(2), 4. \nPhaal, R., Farrukh, C. J., & Probert, D. R. (2010).¿Roadmapping for Strategy and Innovation: Aligning technology and markets in a dynamic world. Institute for Manufacturing. \nBrown, T. (2008). Design thinking.¿Harvard business review,¿86(6), 84. \nCuredale, R. (2019). Design Thinking Process & Methods 5th Edition, DCC \nhttps://blog.intive-fdv.com.ar/las-5-etapas-del-design-thinking-y-sus-tecnicas/"
+    }
+}

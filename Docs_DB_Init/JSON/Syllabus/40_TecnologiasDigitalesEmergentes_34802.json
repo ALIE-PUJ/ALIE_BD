@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-21",
+    "title": "40_TecnologiasDigitalesEmergentes_34802",
+    "description": "Syllabus de la materia 'TecnologiasDigitalesEmergentes' con código '34802'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Tecnologías emergentes",
+        "Nombre Largo de la Asignatura": "Tecnologías digitales emergentes",
+        "Código de la asignatura": "34802",
+        "Grado": "Pregrado",
+        "Descripción": "La idea de la asignatura es proveer a los estudiantes información (conceptos y aplicaciones) sobre tecnologías digitales emergentes (lenguajes, herramientas frameworks, etc) que en su momento se estén utilizando en la industria. La idea es que los conceptos sean impartidos, tanto por académicos como por profesionales de la industria. Este contacto con conceptos y herramientas usados en la industria ofrecerá una mejor preparación a los estudiantes en el campo laboral. Esta asignatura tiene una metodología de clase magistral interactiva, en la cual se realizará la presentación de los temas, acompañada de ejercicios demostrativos en clase. Adicionalmente, los estudiantes podrán resolver casos de estudio.",
+        "Número de Créditos": "2",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "Requisito de inscripción: Ingeniería de Sistemas nuevo plan //45 créditos aprobados// o Ingeniería de Sistemas ant plan //102 créditos aprobados//",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "Exponer los conceptos fundamentales de una o varias tecnologías digitales de amplio uso en la actualidad, así como sus aplicaciones.\nBrindar al estudiante criterios que les permitan comparar diferentes implementaciones de la misma tecnología digital.",
+        "Resultados de Aprendizaje Esperados (RAE)": "Al finalizar el curso el estudiante estará en capacidad de:\nIdentificar nuevas tecnologías digitales de amplio uso en la actualidad, así como sus aplicaciones. (Disciplinar 1) (CDIO 4.2) \nComparar diferentes implementaciones de una misma tecnología, a fin de encontrar la más adecuada para un determinado problema. (Disciplinar 2) (CDIO 2.1)",
+        "Contenidos temáticos": "Tecnologías/herramientas y sus aplicaciones (las tecnologías variarán para dar oportunidad a diferentes áreas y según las tendencias en la industria) \nCriterios para evaluar determinado tipo de tecnología.",
+        "Estrategias Pedagógicas": "Durante el curso se utilizarán 3 estrategias. La primera de ellas será el aprendizaje directivo mediado por clases magistrales interactivas. La segunda es el aprendizaje basado en problemas mediante talleres individuales o grupales, donde se exponen a los estudiantes problemas de complejidad sencilla donde las tecnologías digitales presentadas en el curso pueden aplicarse de forma directa. Como tercera estrategia se utilizará el aprendizaje colaborativo, en el cual, a través de grupos de trabajo se busca un intercambio de conocimientos por pares para reforzar el aprendizaje significativo.",
+        "Evaluación": "Las estrategias de evaluación están centradas en la valoración de los resultados de aprendizaje esperado de la asignatura; las cuales pueden ser formativas, que suscitan la comprensión y construcción de conocimiento, y sumativas, las cuales incluyen porcentajes de evaluación con el fin de corroborar el logro de los aprendizajes y el desarrollo de las competencias en los estudiantes.\nLa  evaluación final de la asignatura se calcula a partir del promedio de las calificaciones obtenidas en cada uno de los módulos:  \n\nMódulo 1 50%\nMódulo 2 50%",
+        "Recursos Bibliográficos": "1. Rogers (2016), The Digital Transformation PlayBook, Rethink Your Business for the Digital Age, Columbia University Press.\n2. Schwab (2016), The four Industrial Revolution. Crown Business\n3. Metzker, M. L. (2005). Emerging technologies in DNA sequencing. Genome research, 15(12), 1767-1776.\n4.Daim, T. U., Rueda, G., Martin, H., & Gerdsri, P. (2006). Forecasting emerging technologies: Use of bibliometrics and patent analysis. Technological Forecasting and Social Change, 73(8), 981-1012.\n5. Ng'ambi, D., & Bozalek, V. (2013). Emerging technologies and changing learning/teaching practices. British Journal of Educational Technology, 44(4), 531-535.\n6. Adner, R., & Levinthal, D. A. (2002). The emergence of emerging technologies. California management review, 45(1), 50-66."
+    }
+}

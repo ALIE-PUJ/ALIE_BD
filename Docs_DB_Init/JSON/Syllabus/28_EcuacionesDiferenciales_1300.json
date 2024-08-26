@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-20",
+    "title": "28_EcuacionesDiferenciales_1300",
+    "description": "Syllabus de la materia 'EcuacionesDiferenciales' con código '1300'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Ecuaciones Diferenciales",
+        "Nombre Largo de la Asignatura": "Ecuaciones Diferenciales",
+        "Código de la asignatura": "1300",
+        "Grado": "Pregrado",
+        "Descripción": "Históricamente las ecuaciones diferenciales surgen de la búsqueda de modelos matemáticos que representan fenómenos de la Física, problemas de la Geometría y posteriormente han sido utilizadas en muchos más campos del conocimiento como la Economía, incluyendo por supuesto aquellos relacionados con la Ingeniería. De aquí el interés y la importancia de estudiar aspectos cuantitativos y cualitativos de estas ecuaciones; que permiten describir, explicar y en muchos casos hasta predecir el comportamiento de las soluciones a estos modelos.",
+        "Número de Créditos": "3",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "Requisito de inscripción: (//Álgebra Lineal// ó Álgebra lineal I ID 1180//) y (//Cálculo Integral// ó // Cálculo infinitesimal II ID 001184//)",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "Proveer al estudiante de herramientas y técnicas matemáticas para el modelamiento de situaciones problema en la física y la ingeniería, mediante ecuaciones o sistemas de ecuaciones diferenciales en una variable. En la mayoría de los temas tratados se presenta la situación problema, se modela y se establecen las condiciones iniciales para analizar el comportamiento dinámico del problema.",
+        "Resultados de Aprendizaje Esperados (RAE)": "Al finalizar el curso el estudiante estará en capacidad de:\nDescribir fenómenos asociados a problemas básicos de ingeniería mediante el uso de ecuaciones diferenciales ordinarias y sistemas de ecuaciones diferenciales ordinarias.\nExplicar el comportamiento de la solución de un problema de ingeniería modelado a través de una ecuación diferencial o de un sistema de ecuaciones diferenciales, respecto de sus condiciones iniciales y la estructura diferencial que lo caracteriza.\nDeterminar la solución de un problema de ingeniería por medio de la transformada de Laplace, empleando propiedades de la transformada.",
+        "Contenidos temáticos": "Introducción a las ecuaciones diferenciales ordinarias.\nEcuaciones diferenciales de primer orden.\nEcuaciones lineales de segundo orden.\nSolución en series de ecuaciones lineales de segundo orden.\nTransformada de Laplace.\nSistemas de ecuaciones lineales de primer orden.",
+        "Estrategias Pedagógicas": "Clase magistral a cargo del profesor.\nRealización de tareas y talleres por parte del estudiante.",
+        "Evaluación": "periódica\nLecturas por parte del estudiante de material asignado por el profesor.",
+        "Recursos Bibliográficos": "Zill, Dennis. A First Course in Differential Equations with Modeling Applications. Cengage Learning; 11th edition, 2017.\nBoyce DiPrima. Ecuaciones Diferenciales y Problemas con Valores en la Frontera, 5 ed. Limusa Wiley 2012.\nMoya, L, Rojas, E.  Notas de Curso Ecuaciones Diferenciales Ordinarias, 2018."
+    }
+}

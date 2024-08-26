@@ -22,6 +22,7 @@ services:
 
   # Servicio de Inicialización de BD
   db_init:
+    image: harbor.alie.javeriana.edu.co/images/db-init:latest
     build:
       context: ./DB_Init  # Contexto de construcción en la carpeta DB_Init
       dockerfile: Dockerfile
@@ -29,7 +30,7 @@ services:
       - cockroachdb
     restart: on-failure
     labels:
-      kompose.cronjob.schedule: "*/30 * * * *"
+      kompose.cronjob.schedule: "0 7 * * *"
 
   # Servicio de base de datos documental - MongoDB
   mongodb:
@@ -57,6 +58,7 @@ services:
 
   # Servicio de Inicialización de BD Documental
   docs_db_init:
+    image: harbor.alie.javeriana.edu.co/images/docs-db-init:latest
     build:
       context: ./Docs_DB_Init  # Contexto de construcción en la carpeta Docs_DB_Init
       dockerfile: Dockerfile

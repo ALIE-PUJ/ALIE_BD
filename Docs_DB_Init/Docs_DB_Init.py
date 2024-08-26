@@ -3,6 +3,9 @@ import json
 from pymongo import MongoClient
 from pymongo.errors import OperationFailure
 
+# Programa auxiliar para conversion de Docx a JSON
+import DocxToJson
+
 def connect_to_mongodb(uri, database_name):
     client = MongoClient(uri)
     db = client[database_name]
@@ -107,6 +110,7 @@ def main():
     db = connect_to_mongodb(mongo_uri, "ALIE_DB")
 
 
+    # DOCUMENTOS JSON
 
     # Insertar documentos en las colecciones
     paths_and_collections = {
@@ -120,8 +124,6 @@ def main():
     for relative_path, collection_name in paths_and_collections.items():
         insert_json_files(db, relative_path, collection_name)
 
-
-
     # Verificar el contenido de las colecciones
     '''
     print("<---> Verificacion del contenido de las colecciones")
@@ -132,6 +134,46 @@ def main():
     fetch_and_print_documents_in_collection("ALIE_DB", "InformacionPublica_General", mongo_uri)
     '''
 
+
+
+    # SYLLABUS
+    # Insertar Syllabus utilizando el programa auxiliar Docs_DB_Init/DocxToJson.py
+    input_folder = "DOCX"  # Path a la carpeta que contiene los archivos .docx
+    output_folder = "JSON/Syllabus"  # Path a la carpeta donde se guardarán los archivos JSON
+
+    # Lista de palabras clave de sección a buscar
+    section_keywords = [
+        "Nombre Corto de la Asignatura",
+        "Nombre Largo de la Asignatura",
+        "Código de la asignatura",
+        "Grado",
+        "Descripción",
+        "Número de Créditos",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)",
+        "Período Académico de Vigencia",
+        "Objetivos de Formación",
+        "Resultados de Aprendizaje Esperados (RAE)",
+        "Contenidos temáticos",
+        "Estrategias Pedagógicas",
+        "Evaluación",
+        "Recursos Bibliográficos"
+    ]
+    
+    # Procesar los archivos .docx para convertirlos en JSON
+    DocxToJson.process_folder(input_folder, output_folder, section_keywords)
+    # Insertar los archivos JSON generados a partir de los .docx en la base de datos
+    syllabus_path_and_collection = {
+        "JSON/Syllabus": "Syllabus"
+    }
+    # Insertar todos los archivos JSON en las respectivas colecciones
+    for relative_path, collection_name in syllabus_path_and_collection.items():
+        insert_json_files(db, relative_path, collection_name)
+    # Verificar el contenido de la coleccion de syllabus
+    '''
+    print("<---> Verificacion del contenido de la colección de syllabus")
+    # Obtener todos los documentos de la colección y mostrarlos
+    fetch_and_print_documents_in_collection("ALIE_DB", "Syllabus", mongo_uri)
+    '''
 
 if __name__ == "__main__":
     main()

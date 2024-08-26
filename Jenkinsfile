@@ -5,9 +5,14 @@ pipeline {
         apiVersion: v1
         kind: Pod
         spec:
+          hostAliases:
+            - ip: 10.195.34.20
+              hostnames:
+                - harbor.alie.javeriana.edu.co
           containers:
-          - name: dind
-            image: docker:dind
+          - name: docker
+            image: docker.io/juancsucoder/docker_dind:latest
+            args: ["--insecure-registry=zot.zot.svc.cluster.local:5000"]
             ports:
               - name: dind-con-port
                 containerPort: 2376
@@ -19,6 +24,12 @@ pipeline {
             env:
               - name: DOCKER_HOST
                 value: "tcp://localhost:2376"
+              - name: DOCKER_TLS_CERTDIR
+                value: '/certs'
+              - name: DOCKER_CERT_PATH
+                value: '/certs/client'
+              - name: DOCKER_TLS_VERIFY
+                value: "1"
             tty: true
             securityContext:
               privileged: true
@@ -37,10 +48,17 @@ pipeline {
         }
       }
     }
-    stage('Push-Images-Docker-to-DockerHub') {
+    stage('Testing') {
       steps {
         container('docker') {
-          sh 'docker compose push'
+          sh 'cat /etc/hosts'
+        }
+      }
+    }
+    stage('Push-Images-Docker-to-Harbor') {
+      steps {
+        container('docker') {
+          sh 'docker login -u "robot\\\$images+jenkins" -p ycYyOteUdlwU3JBec3tt0oK6i1JQAbgV harbor.alie.javeriana.edu.co && docker compose push'
         }
       }
     }

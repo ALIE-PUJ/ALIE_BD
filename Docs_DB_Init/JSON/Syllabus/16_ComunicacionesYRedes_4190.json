@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-20",
+    "title": "16_ComunicacionesYRedes_4190",
+    "description": "Syllabus de la materia 'ComunicacionesYRedes' con código '4190'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Comunicaciones y redes",
+        "Nombre Largo de la Asignatura": "Comunicaciones y redes",
+        "Código de la asignatura": "4190",
+        "Grado": "Pregrado",
+        "Descripción": "La asignatura aborda el estudio de los modelos de referencia OSI y TCP/IP, dando particular importancia a las capas superiores de estos modelos, así como a las implicaciones de seguridad asociadas a éstas. Los cuales son necesarios para el uso y desarrollo de aplicaciones de red que hagan uso de protocolos estándar, así como para el diseño básico de una red de datos de área local, logrando identificar los posibles problemas que se pueden presentar en su funcionamiento.",
+        "Número de Créditos": "4",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "Requisitos de inscripción: Introducción a la programación",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "1. Presentar las diferentes capas de los modelos de referencia OSI y TCP/IP identificando las funciones que cumple cada uno de los diferentes protocolos y equipos de red involucrados en una topología de red de área local. \n2. Brindar los elementos necesarios para la implementación de un protocolo de capa de aplicación estándar, utilizando un lenguaje de programación para adquirir habilidades en el desarrollo de aplicaciones que involucren comunicación de datos. \n3. Ofrecer experiencias prácticas que permitan apropiar los conceptos y aplicarlos en el diseño básico y configuración de una red de datos de área local.",
+        "Resultados de Aprendizaje Esperados (RAE)": "Al finalizar el curso el estudiante estará en capacidad de:\nConocer los dispositivos necesarios para hacer un diseño básico de una red de datos a nivel de Red de  rea Local. (Disciplinar 2,4,5) (CDIO 4.4) \nConocer protocolos estándar para el desarrollo de aplicaciones que involucren la comunicación de datos entre diferentes dispositivos (Disciplinar 1, 2 y 3) (CDIO 4.4)\nConocer estrategias adecuadas para expresar en forma técnica las soluciones planteadas (Disciplinar 1-5) (CDIO 3.2)",
+        "Contenidos temáticos": "Capa física\nCapa de Enlace de Datos \nCapa de red, direccionamiento y enrutamiento IP \nCapas de Aplicación y Transporte del modelo de referencia TCP/IP",
+        "Estrategias Pedagógicas": "Durante el curso se utilizarán 4 estrategias. La primera de ellas será el aprendizaje directivo mediado por clases magistrales interactivas, en las cuales se presentarán los temas acompañados de ejercicios demostrativos. La segunda, el aprendizaje basado en problemas mediante talleres desarrollados en el laboratorio. La tercera será el aprendizaje por proyectos, donde se propone la elaboración de una solución que responda a un problema acotado y en donde se utilicen protocolos de comunicaciones estándar.  Por último, se tendrá la elaboración de un artículo técnico de acuerdo a un tema de investigación que se abordará desde el inicio del semestre y que será presentado al finalizar el semestre.",
+        "Evaluación": "Las estrategias de evaluación están centradas en la valoración de los resultados de aprendizaje esperado de la asignatura; las cuales pueden ser formativas que suscitan la comprensión y construcción de conocimiento, y sumativas que incluyen porcentajes de evaluación con el fin de corroborar el logro de los aprendizajes y el desarrollo de las competencias en los estudiantes. Las estrategias de evaluación de la asignatura son: \n\nParcial 1 (20%) \nParcial 2 (20%) \nProyecto1 - Diseño y montaje de una red (20%) \nProyecto2 - Desarrollo de una aplicación (20%) \nQuices/Talleres (5%) \nArtículo técnico y exposición (15%)\nArtículo (10%)\nExposición (5%)",
+        "Recursos Bibliográficos": "Andrew S. Tanenbaum - Computer Networks -  5th Edition - Prentice Hall International Editions \nWilliam Stallings - Data & Computer Communications - 6th Edition. \nJohn Y. Hsu -  Computer Networks: architectures, protocols and software  -  Boston Artech House. \nFred Halsall - Comunicación de datos, redes de computadores y sistemas abiertos - Pearson Education Addison Wesley \nDouglas E. Comer. - Internet Working with TCP/IP - Volumen I; Principles, Protocols and Architectures - Second Edition. Prentice Hall International \nW. Richard Stevens - Unix Network Programming  -  Prentice Hall Software Series \nW. Richard Stevens TCP/IP Illustrated \nUyless D. Black - Data Networks Concepts, Theory, and Practice - Prentice Hall"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-20",
+    "title": "23_CalculoVectorial_1299",
+    "description": "Syllabus de la materia 'CalculoVectorial' con código '1299'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Cálculo Vectorial",
+        "Nombre Largo de la Asignatura": "Cálculo Vectorial",
+        "Código de la asignatura": "1299",
+        "Grado": "Pregrado",
+        "Descripción": "Estudio de las funciones en varias variables reales, comenzando con sistema de coordenadas, representación de funciones escalares y vectoriales. Derivadas direccionales, parciales y diferencial, regla de la cadena y derivación implícita. Optimización de funciones escalares, restringidas y no restringidas. Integración múltiple y sus aplicaciones. Integral de línea y de superficie, culminando con los teoremas clásicos del cálculo vectorial: Green, Stokes y Gauss.",
+        "Número de Créditos": "3",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "Req. inscripción: ( Álgebra Lineal ID 1290 /o/ Álgebra Lineal I ID 001180 /o/ Matemáticas I ID 32683) /Y/ ( Cálculo integral ID 1297 /o/ Calculo infinitesimal II ID 001184 /o/ Matemáticas II ID 030888) /O/ Para ciencia de datos: Matemáticas I ID 32683",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "Brindar los conceptos y las herramientas para generar vínculos analíticos entre el razonamiento conceptual, la representación gráfica y la aplicación de los conceptos en situaciones problema de la física y la ingeniería.\nMostrar la utilidad del cálculo en varias variables, a través del planteamiento y resolución de problemas en ingeniería.",
+        "Resultados de Aprendizaje Esperados (RAE)": "Describir fenómenos asociados a problemas básicos de ingeniería mediante el uso de funciones escalares y vectoriales.\nExplicar el comportamiento de la solución de un problema básico de ingeniería a través del concepto de derivada (direccional y diferencial) de la función, escalar o vectorial, que lo caracteriza.\nDeterminar la solución de un problema de ingeniería por medio de la integral múltiple, la integral de línea y de superficie.\nAplicar los conceptos de integrales de línea y de superficie en el tratamiento de flujos.",
+        "Contenidos temáticos": "Superficies.  Superficies cuadráticas. Trazas.\nFunciones de valor vectorial, trayectorias. álgebra y cálculo sobre funciones de valor vectorial.\nEspacio vectorial euclidiano.  Curvas y Movimiento en el Espacio.  \nCampos escalares. Límites y continuidad. Propiedades.\nDerivadas parciales.  Interpretación, propiedades. Planos tangentes.  Aproximaciones lineales. \nRegla de la cadena. Derivación implícita. Derivadas direccionales y vector gradiente. \nAplicaciones del gradiente. Máximos y mínimos locales y puntos críticos, Hessiano. Valores extremos. Multiplicadores de Lagrange.  Problemas de optimización. \nIntegral doble sobre Rectángulos.  Propiedades de la integral doble.  \nIntegrales dobles en coordenadas polares. \nAplicaciones con integrales dobles.\nIntegrales triples.  Propiedades de la integral triple. Integrales triples en coordenadas cilíndricas, esféricas. Cambio de coordenadas en integrales Múltiples.\nIntegrales de línea.  Campos escalares y campos vectoriales.  Teoremas básicos.  Independencia de trayectoria. Campos conservativos y potenciales. \nTeorema de Green.  \nSuperficies parametrizadas y sus áreas.  Superficies parametrizadas, propiedades.   Integrales de superficie. Integral de superficie de campos escalares y propiedades.  \nTeorema de Gauss y Teorema de Stokes.",
+        "Estrategias Pedagógicas": "Clase magistral a cargo del profesor.\nRealización de tareas y talleres por parte del estudiante.",
+        "Evaluación": "periódica\nLecturas por parte del estudiante de material asignado por el profesor.",
+        "Recursos Bibliográficos": "Texto guía:\nCálculo de varias variables, trascendentes tempranas, Séptima edición. Stewart James. Cengage Learning, 2012. ISBN: 978-607-481-898-7\n\nTextos complementarios\nCalculus, Early Transcendentals, by William Briggs and Lyle Cochran, copyright   2014. Editorial Pearson. Second edition. \nCalculus, Larson Ron, 10th Edition. Cengage Learning.\nCalculus, George B. Thomas Jr., Maurice D. Weir, Joel R. Hass, 13th Edition. Pearson 2014.\nCálculo, Trascendentes Tempranas, Zill Dennis and Wright Warren. McGraw¿Hill/Interamericana editores, S.A. de C.V. Cuarta edición, Copyright 2011."
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-20",
+    "title": "14_BasesDeDatos_33700",
+    "description": "Syllabus de la materia 'BasesDeDatos' con código '33700'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Bases de datos",
+        "Nombre Largo de la Asignatura": "Bases de datos: Teoría y aplicaciones",
+        "Código de la asignatura": "33700",
+        "Grado": "Pregrado",
+        "Descripción": "Esta asignatura brinda a los estudiantes capacidades de manipulación y diseño de bases de datos utilizando sistemas manejadores de bases de datos. Se enseñan las bases de datos relacionales, incluyendo el modelo relacional, álgebra relacional y el lenguaje SQL utilizado para definir y manipular bases de datos relacionales.\n\nTambién el diseño de bases de datos relacionales partiendo de modelos conceptuales y llevándolos a diseños físicos.\n\nAdicionalmente se estudian alternativas diferentes a las bases de datos relacionales, siendo capaces de comparar estas alternativas a las bases de datos relacionales, estudiando los diferentes tipos de bases de datos no relacionales y usando sistemas manejadores de bases de datos no relacionales.\n\nLa asignatura combina las clases magistrales interactivas con el trabajo en equipo en proyectos y talleres a lo largo del semestre.",
+        "Número de Créditos": "4",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "Requisitos de inscripción: Programación avanzada /y/ (Lógica y Matemáticas Discretas /o/\nMatemáticas Discretas Sistemas /o/ Fundamentos de matemáticas II  /o/ Matemáticas II)",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "Brindar los conceptos necesarios para el diseño y manipulación de Bases de Datos relacionales. \nExplicar diferentes tipos de bases de datos y los criterios para escoger la más adecuada en el marco de un problema específico. \nExplicar los mecanismos que mejoran el desempeño de las Bases de Datos y las consecuencias de utilizar dichos mecanismos.",
+        "Resultados de Aprendizaje Esperados (RAE)": "Al finalizar el curso el estudiante estará en capacidad de:\nIdentificar estrategias para representar un problema, utilizando el modelo relacional y el lenguaje de manipulación de bases de datos (CDIO 2.1.2, Disciplinar 1,2).  \nInterpretar la metodología de diseño y evaluación de bases de datos, aplicándola bajo un escenario establecido. (CDIO 3.2.1, 3.2.3 y 4.4, Disciplinar 2,3,4)  \nComparar nuevas tecnologías de bases de datos, utilizando gestores de bases de datos relacionales (CDIO 4.2.4 Disciplinar 4)  \nConocer los mecanismos necesarios para operar y optimizar el desempeño de una base de datos (CDIO 4.3, Disciplinar 2,3,4)",
+        "Contenidos temáticos": "Modelo relacional \nSQL \nDiseño de Bases de Datos relacionales \nBases de Datos no relacionales",
+        "Estrategias Pedagógicas": "Durante el curso se utilizarán múltiples estrategias pedagógicas. Una de ellas es la clase magistral interactiva mediante la cual se presentan nuevos contenidos a los estudiantes y se discute con ellos la aplicación de los mismos realizando ejercicios en los cuales ellos participen de forma activa. \n\nTambién se aprenderá mediante un proyecto práctico el cual servirá para aplicar los conceptos teóricos en un escenario práctico. \n\nEn algunos temas se empleará una estrategia de salón invertido, buscando la preparación previa de los estudiantes del tema y haciendo talleres durante la clase.",
+        "Evaluación": "Las estrategias de evaluación están centradas en la valoración de los resultados de aprendizaje esperado de la asignatura; las cuales pueden ser formativas que suscitan la comprensión y construcción de conocimiento, y sumativas que incluyen porcentajes de evaluación con el fin de corroborar el logro de los aprendizajes y el desarrollo de las competencias en los estudiantes.  \n\nLas estrategias de evaluación de la asignatura son: \n\nProyecto \nPrimera entrega 10% \nSegunda entrega 10% \nTercera entrega 10% \n\nExamen parcial 1 20% \nExamen Parcial 2 15% \nExamen Final 15% \nTalleres y quices 20%",
+        "Recursos Bibliográficos": "Bases de datos relacionales \nDatabase system concepts / Abraham Silberschatz, Henry F. Korth and S. Sudarshan. 2011 \nFundamentos de diseño de bases de datos / Abraham Silberschatz, Henry F. Korth y S. Sudarshan \nFundamentos de SQL / Andy Oppel, Robert Sheldon ; traducción Carlos Fabián Jiménez Castillo. 2010 \n\nBases de datos no relacionales \nNoSQL distilled a brief guide to the emerging world of polyglot persistence / Pramod J. Sadalage and Martin Fowler. 2013"
+    }
+}
