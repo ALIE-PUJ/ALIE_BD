@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-20",
+    "title": "6_FundamentosSeguridadDeLaInformacion_34809",
+    "description": "Syllabus de la materia 'FundamentosSeguridadDeLaInformacion' con código '34809'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Seguridad de la información",
+        "Nombre Largo de la Asignatura": "Fundamentos de seguridad de la información",
+        "Código de la asignatura": "34809",
+        "Grado": "Pregrado",
+        "Descripción": "En esta asignatura se desarrollan los conceptos básicos generales que permiten entender la seguridad de la información en contexto y que le permiten a un estudiante adquirir los conocimientos a nivel de usuario, de diferentes técnicas de ataque y defensa relacionados con la seguridad de la información, de manera que posteriormente se puedan aplicar los conceptos adquiridos en otras asignaturas. Este curso se desarrolla por medio de clases magistrales interactivas, así como el desarrollo de talleres y proyectos en un entorno de trabajo colaborativo.",
+        "Número de Créditos": "2",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "Sin condiciones",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "Explicar los principales conceptos asociados a la seguridad de la información.\nExponer el uso de los algoritmos criptográficos para proteger la confidencialidad e integridad de la información.\nDar a conocer las técnicas de ataque y defensa en diferentes contextos con el fin de generar conciencia en seguridad de la información.\nExplicar el impacto de los incidentes de seguridad de la información a nivel personal, empresarial y gubernamental.",
+        "Resultados de Aprendizaje Esperados (RAE)": "Al finalizar el curso el estudiante estará en capacidad de:\nReconocer las implicaciones profesionales y éticas en el contexto de la seguridad de la Información (Disciplinar 1) (CDIO 2.5) \nDescribir las principales funciones, estrategias y principios de la seguridad de la Información. (Disciplinar 2) (CDIO 2.1)\nIdentificar los elementos necesarios para comunicar una idea o resultado en el contexto de la seguridad de la información (Disciplinar 1-4) (CDIO 3.2) \nIdentificar roles y responsabilidades del Ingeniero de Sistemas en el tratamiento de la información propia y de terceros. (Disciplinar 1,3,5) (CDIO 4.1)",
+        "Contenidos temáticos": "1. Conceptos básicos de Seguridad (Contexto)\n2. Dimensiones de seguridad \n3. Estados y clasificación de la Información\n4. Clasificación y categorización de ataques \n5. Tipos de malware y síntomas \n6. Software libre\n7. Controles \n8. Awareness",
+        "Estrategias Pedagógicas": "Durante el curso se utilizarán las siguientes estrategias. La primera de ellas será el aprendizaje directivo mediado por clases magistrales interactivas. La segunda es el aprendizaje basado en problemas mediante talleres individuales o grupales y casos de estudio, donde se expone a los estudiantes a problemas de complejidad sencilla, que refuerzan los conceptos. La tercera será el aprendizaje por proyectos, donde se propone la elaboración de una solución que responda a un problema acotado. Como cuarta estrategia se utilizará el aprendizaje colaborativo, en el cual, a través de grupos de trabajo se busca un intercambio de conocimientos por pares para reforzar el aprendizaje significativo.",
+        "Evaluación": "Las estrategias de evaluación están centradas en la valoración de los resultados de aprendizaje esperado de la asignatura; las cuales pueden ser formativas que suscitan la comprensión y construcción de conocimiento, y sumativas que incluyen porcentajes de evaluación con el fin de corroborar el logro de los aprendizajes y el desarrollo de las competencias en los estudiantes.  \n\nLas estrategias de evaluación de la asignatura son:\n\n-\tPrimer Parcial        20% \n-\tSegundo Parcial    20% \n-\tTalleres                   20% \n-\tProyecto                 20% \n-\tQuices, ejercicios en clase 20%",
+        "Recursos Bibliográficos": "Seguridad informática / José Fabián Roa Buendía. Madrid, España McGraw-Hill Interamericana Editores c2013. ISBN: 9788448183967\nIEEE Standard - Adoption of ISO/IEC 20000-1:2011, Information technology -- Service management -- Part 1: Service management system requirements. New York, NY, USA: IEEE, 2013. ISBN: 978-0-7381-8428-9. DOI: 10.1109/IEEESTD.2013.6517857\nImplementing the ISO/IEC 27001 ISMS Standard,    Humphreys, Ted. Serie: Artech House Information Security and Privacy Series. Ed.: Second edition. Boston: Artech House. 2016. eBook. ISBN: 9781608079308. 9781608079315."
+    }
+}

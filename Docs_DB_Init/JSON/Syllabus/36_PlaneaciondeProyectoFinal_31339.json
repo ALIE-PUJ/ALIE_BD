@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-21",
+    "title": "36_PlaneaciondeProyectoFinal_31339",
+    "description": "Syllabus de la materia 'PlaneaciondeProyectoFinal' con código '31339'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Planeación del Proyecto Final",
+        "Nombre Largo de la Asignatura": "Planeación del Proyecto Final",
+        "Código de la asignatura": "31339",
+        "Grado": "Pregrado",
+        "Descripción": "Un componente esencial en ingeniería es la formulación de proyectos. En este curso los estudiantes aplican todos sus conocimientos para lograr dicho objetivo, el cual da como resultado una propuesta de proyecto que realizarán posteriormente como trabajo de grado.",
+        "Número de Créditos": "2",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "Req ins: Inglés B2 y //Sist Infor./ y /Eva. de proy/ o / G proy inn y emp/ O /Ing Sist (antiguo p) Pre o Corr Ing SW/ o /Fund Ing SW/ y /Inglés B2/ y /Aná Num/ y /Comun y R/ y /Eval proy/ o /G proy inn y emp/ y /SS OO/ y /Estr D//",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "Aplicar los conocimientos obtenidos durante la carrera en la formulación de un proyecto de Ingeniería de Sistemas \nBrindar herramientas metodológicas para planear un proyecto de TI. \nGenerar los escenarios para que los estudiantes, al interactuar dentro de su grupo desarrollen habilidades de comunicación, trabajo en equipo y liderazgo. \nPresentar estándares y restricciones asociadas a los proyectos de ingeniería de sistemas.",
+        "Resultados de Aprendizaje Esperados (RAE)": "Al finalizar el curso el estudiante estará en capacidad de:\nFormular colaborativamente una propuesta de un proyecto de ingeniería de sistemas, a partir de fuentes en inglés (disciplinar 1, CDIO 2.1, 2.2, 2.3., 3.1, 3.3, 4.4, 4.7.) \nPlanear colaborativamente un proyecto de ingeniería de sistemas (disciplinar 2, CDIO 4.2, 4.3, 3.1) \nDeterminar colaborativamente los requerimientos de un proyecto de ingeniería de sistemas (disciplinar 3, CDIO 2.1, 3.1) \nUtilizar estrategias adecuadas para comunicar el resultado de su trabajo de acuerdo con el perfil de la audiencia, argumentando sus decisiones, utilizando estrategias adecuadas de comunicación (CDIO 3.2)",
+        "Contenidos temáticos": "Creación de propuesta de trabajo de grado \nCreación de plan de proyecto \nCreación de especificación de requerimientos",
+        "Estrategias Pedagógicas": "Esta asignatura se centrará en la aplicación del conocimiento obtenido durante la carrera para la formulación y planeación de un proyecto de ingeniería de sistemas. Se centra en dos estrategias: clase magistral expositiva, centrada en explicar la teoría detrás de los contenidos del curso, y aprendizaje por proyectos donde los estudiantes aplicarán dichos conceptos teóricos.",
+        "Evaluación": "Las estrategias de evaluación están centradas en la valoración de los resultados de aprendizaje esperado de la asignatura, las cuales pueden ser formativas que suscitan la comprensión y construcción de conocimiento, y sumativas que incluyen porcentajes de evaluación con el fin de corroborar el logro de los aprendizajes y el desarrollo de las competencias en los estudiantes.  \n\nLas estrategias de evaluación sumativas de la asignatura son: \nBúsqueda y organización de información 8% \nVersión parcial de la propuesta 10%",
+        "Recursos Bibliográficos": "Básicos \nBourque, Pierre, and Richard E. Fairley. Guide to the software engineering body of knowledge (SWEBOK (R)): Version 3.0. IEEE Computer Society Press, 2014. https://www.computer.org/web/swebok/index  \nStevens. Guide to the Systems Engineering Body of Knowledge (SEBoK). 2016. http://sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK)  \nSchmidt, Michael E. Implementing the IEEE software engineering standards. Sams, 2000. \nPMI. Project Management Body of Knowledge (PMBOK Guide). 5th Edition. 2013. \n\nComplementarios \nIEEE-SA, The IEEE Standards Association ¿ Home. 2016. http://standards.ieee.org/ \nMutafelija, Boris, and Harvey Stromberg. Process Improvement with CMMI  v1. 2 and ISO Standards. CRC Press, 2008. \nLand, Susan K., Douglas B. Smith, and John W. Walz. Practical support for lean six sigma software process definition: using IEEE software engineering standards. Vol. 70. John Wiley & Sons, 2012. \nPete Chapman, Julian Clinton, Randy Kerber, et al., CRISP-DM 1.0 Step-by-step data mining guide. August 2000. \nIBM, IBM Analytics Solutions Unified Method (ASUM) - External, November 2015, https://www-01.ibm.com/marketing/iwm/iwm/web/pick.do?source=swerpba-basimext&lang=en_US"
+    }
+}

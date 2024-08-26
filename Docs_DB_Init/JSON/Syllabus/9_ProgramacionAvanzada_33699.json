@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "last_updated": "2024-08-20",
+    "title": "9_ProgramacionAvanzada_33699",
+    "description": "Syllabus de la materia 'ProgramacionAvanzada' con código '33699'",
+    "access_control": "privado",
+    "content": {
+        "Nombre Corto de la Asignatura": "Programación avanzada",
+        "Nombre Largo de la Asignatura": "Programación avanzada",
+        "Código de la asignatura": "33699",
+        "Grado": "Pregrado",
+        "Descripción": "En esta asignatura se enseña el análisis, diseño e implementación de algoritmos usando estructuras estáticas y dinámicas, teniendo como base previa los métodos básicos de la programación para resolver problemas. Se desarrollan algoritmos con manejo eficiente de la persistencia de la información y se aplican los conceptos fundamentales de programación orientada a objetos.\n\nLa asignatura se realiza por medio de clases magistrales interactivas, talleres y trabajo en equipo para desarrollar un proyecto en diferentes fases.",
+        "Número de Créditos": "3",
+        "Condiciones Académicas de Inscripción (Pre-requisitos)": "33698 Introducción a la programación /o/ 4206 Pensamiento Algorítmico /o/ 18805 Matemática Computacional",
+        "Período Académico de Vigencia": "2430",
+        "Objetivos de Formación": "Presentar estrategias en la solución de problemas usando el computador como herramienta para diseñar algoritmos que utilicen estructuras de datos básicas.\nBrindar los conceptos y herramientas para solución de problemas, que utilicen una metodología de diseño orientado a objetos.",
+        "Resultados de Aprendizaje Esperados (RAE)": "Al finalizar el curso el estudiante estará en capacidad de:\nDesarrollar algoritmos en un lenguaje de programación usando los conceptos de estructuras de datos y recursividad (Disciplinar 1,2,3) (CDIO 2.1 y 4.5)\nDesarrollar algoritmos diseñados en el lenguaje de programación orientado a objetos, incluyendo las fases de análisis y diseño de dicho paradigma. (Disciplinar 4) (CDIO 2.1 y 4.5)\nReconocer estrategias y habilidades clave para desarrollar de manera autónoma algoritmos (CDIO 2.5) (Disciplinar 1-4)",
+        "Contenidos temáticos": "1. Estructuras -  Registros\n2. Archivos\n3. Apuntadores\n4. Cadenas de Caracteres\n5. Memoria Dinámica\n6. Conceptos de Programación Orientada a Objetos",
+        "Estrategias Pedagógicas": "Durante el desarrollo de la asignatura se utilizan estrategias como el aprendizaje directivo realizando clases magistrales, el aprendizaje colaborativo a través del trabajo en grupo en los diferentes proyectos de la asignatura y el aprendizaje basado en problemas mediante los diferentes talleres individuales.",
+        "Evaluación": null,
+        "Recursos Bibliográficos": "Textos Básicos\n1. Luís Joyanes Aguilar, Ignacio Zahonero Martínez, Algoritmos y Estructuras de Datos: Una perspectiva en C, McGraw Hill, 2004.\n2. Jorge A. Villalobos S. Diseño y Manejo de Estructuras de Datos en C. McGraw Hill. 1996.\n3. Mark Allen Weiss, Data Structures and Algorithms Analysis in C++, Addison- Wesley\n4. H.M. Deitel / P.J. Deitel. C++ How to Program. Cuarta Edición. Prentice Hall. 2003.\n5. H.M. Deitel / P.J. Deitel, C/C++ y Java: Cómo Programar, Prentice Hall, 2004.\n6. David Vandevoorde, Nicolai M. Josuttis, C++ Templates: The Complete Guide, Addison Wesley, 2003\n7. Eckel, Bruce. Piensa en JAVA, cuarta edición, Prentice Hall, 2007 \n\nTextos Complementarios\n8. An introduction to object-oriented programming with JavaWu, C. Thomas. 2006.\n9. Introduction to JAVA programming comprehensive version. Liang, Y. Daniel. 2007.\n10.Java in two semesters.Charatan, Quentin. 2006\n11.Java generics and collections. Naftalin, Maurice. 2007.\n12.Java the complete reference, J2SE 5 edition. Schildt, Herbert.2005.\n13.Java an introduction to problem solving & programming.2005.\n14.Savitch, Walter. Resolución de Problemas con C++, Segunda Edición. Prentice Hall, 2000\n15.Larman, Craig, UML y Patrones, Segunda Edición, Pearson Educación, 2002.\n16.Thomas Wu, Introduccion a la Programacion Orientada a Objetos con Java, McGraw Hill, 2001.\n17.Booch, G., Rumbaugh, J. y Jacobson, I. El Lenguaje Unificado de Modelado UML, Pearson Educación, Segunda Edición 2006.\n18.Joyanes Luis, Programación Orientada a Objetos, McGraw Hill, 1998\n19.Barker Jacquie, Beginning Java Objects: From concepts to Code, Wrox, 2000. ISBN 1861004176.\n20.Terrence W. Pratt, Marvin V. Zelkowitz, \"Lenguajes de Programación. Diseño e Implementación\". Prentice Hall. 3ra. Ed.1996"
+    }
+}
