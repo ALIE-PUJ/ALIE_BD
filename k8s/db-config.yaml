@@ -5,4 +5,4 @@ metadata:
 data:
   db-user: "postgres"
   db-host: "postgresdb-postgresql-ha-pgpool.postgresdb.svc.cluster.local"
-  db-port: 5432
+  db-port: "5432"
