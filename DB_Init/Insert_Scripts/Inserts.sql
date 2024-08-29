@@ -1,5 +1,3 @@
-USE ALIE_DB;
-
 -- Insertar datos  en la tabla Carrera (únicamente ingeniería de sistemas)
 INSERT INTO Carrera (id_carrera, nombre, descripcion) VALUES 
 (1, 'Ingeniería en Sistemas', 'Carrera enfocada en el desarrollo de software y sistemas informáticos.')
