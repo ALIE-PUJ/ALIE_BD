@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: adminer-ingress
+spec:
+  ingressClassName: traefik
+  rules:
+  - host: adminer.alie.javeriana.edu.co
+    http:
+      paths:
+      - frontend:
+          service:
+            name: adminer
+            port:
+              name: http
+        path: /
+        pathType: Prefix
