@@ -8,7 +8,7 @@ spec:
   - host: adminer.alie.javeriana.edu.co
     http:
       paths:
-      - frontend:
+      - backend:
           service:
             name: adminer
             port:
