@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: adminer-ingress
+spec:
+  ingressClassName: traefik
+  rules:
+  - host: mongex.alie.javeriana.edu.co
+    http:
+      paths:
+      - backend:
+          service:
+            name: mongo-express
+            port:
+              name: "8082"
+        path: /
+        pathType: Prefix
