@@ -22,15 +22,21 @@ spec:
     spec:
       containers:
         - env:
-            - name: ME_CONFIG_MONGODB_ADMINPASSWORD
-              value: admin123
-            - name: ME_CONFIG_MONGODB_ADMINUSERNAME
-              value: admin
-            - name: ME_CONFIG_MONGODB_SERVER
-              value: mongodb
+            - name: ME_CONFIG_MONGODB_URL
+              valueFrom:
+                secretKeyRef:
+                  key: connectionString.standard
+                  name: connection-str
           image: mongo-express:latest
           name: mongo-express
           ports:
             - containerPort: 8081
               protocol: TCP
+          resources:
+            limits:
+              cpu: "0.5"
+              memory: "512Mi"
+            requests:
+              cpu: "0.1"
+              memory: "256Mi"
       restartPolicy: Always
