@@ -19,5 +19,11 @@ spec:
           containers:
             - image: harbor.alie.javeriana.edu.co/images/docs-db-init:latest
               name: docs-db-init
+              env:
+                - name: MONGO_URI
+                  valueFrom:
+                    secretKeyRef:
+                      name: connection-str
+                      key: connectionString.standard
           restartPolicy: OnFailure
   schedule: 0 7 * * *
