@@ -12,6 +12,6 @@ spec:
           service:
             name: mongo-express
             port:
-              name: "8082"
+              name: "http"
         path: /
         pathType: Prefix
