@@ -1,0 +1,29 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -o k8s
+    kompose.cronjob.schedule: 0 7 * * *
+    kompose.version: 1.34.0 (cbf2835db)
+  labels:
+    io.kompose.service: docs-db-init
+  name: docs-db-init
+spec:
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            io.kompose.service: docs-db-init
+        spec:
+          containers:
+            - image: harbor.alie.javeriana.edu.co/images/docs-db-init:latest
+              name: docs-db-init
+              env:
+                - name: MONGO_URI
+                  valueFrom:
+                    secretKeyRef:
+                      name: connection-str
+                      key: connectionString.standard
+          restartPolicy: OnFailure
+  schedule: 0 7 * * *

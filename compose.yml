@@ -65,3 +65,5 @@ services:
     depends_on:
       - mongodb
     restart: on-failure
+    labels:
+      kompose.cronjob.schedule: "0 7 * * *"  # Ejecutar a las 7:00 AM

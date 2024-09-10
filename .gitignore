@@ -1,3 +1,5 @@
 .gitsecret/keys/random_seed
 !*.secret
+k8s/db-secret.yamlk8s/docs-db-secret.yaml
 k8s/db-secret.yaml
+k8s/docs-db-secret.yaml
