@@ -22,11 +22,15 @@ spec:
     spec:
       containers:
         - env:
-            - name: ME_CONFIG_MONGODB_URL
-              valueFrom:
-                secretKeyRef:
-                  key: connectionString.standard
-                  name: connection-str
+          - name: ME_CONFIG_BASICAUTH_USERNAME
+            value: admin
+          - name: ME_CONFIG_BASICAUTH_PASSWORD
+            value: admin
+          - name: ME_CONFIG_MONGODB_URL
+            valueFrom:
+              secretKeyRef:
+                key: connectionString.standard
+                name: connection-str
           image: mongo-express:latest
           name: mongo-express
           ports:
