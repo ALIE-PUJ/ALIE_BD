@@ -4,7 +4,7 @@ services:
 
   # Servicio de BD Relacional - CockroachDB
   cockroachdb:
-    image: cockroachdb/cockroach
+    image: cockroachdb/cockroach:v23.2.10 # LTS. Las versiones "Latest" solo soportan ARM? :(
     restart: always
     ports:
       - "26257:26257"

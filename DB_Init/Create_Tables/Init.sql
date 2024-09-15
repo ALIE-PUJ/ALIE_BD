@@ -1,3 +1,7 @@
+-- Crear la DB si no existe
+CREATE DATABASE IF NOT EXISTS alie_db;
+USE alie_db;
+
 -- Tabla Carrera
 CREATE TABLE IF NOT EXISTS Carrera (
     id_carrera SERIAL PRIMARY KEY,
