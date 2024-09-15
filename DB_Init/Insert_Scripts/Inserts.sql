@@ -1,7 +1,3 @@
--- Crear la DB si no existe
-CREATE DATABASE IF NOT EXISTS alie_db;
-USE alie_db;
-
 -- Insertar datos  en la tabla Carrera (únicamente ingeniería de sistemas)
 INSERT INTO Carrera (id_carrera, nombre, descripcion) VALUES 
 (1, 'Ingeniería en Sistemas', 'Carrera enfocada en el desarrollo de software y sistemas informáticos.')

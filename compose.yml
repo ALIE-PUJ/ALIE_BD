@@ -2,16 +2,16 @@ version: '3.8'
 
 services:
 
-  # Servicio de BD Relacional - CockroachDB
-  cockroachdb:
-    image: cockroachdb/cockroach:v23.2.10 # LTS. Las versiones "Latest" solo soportan ARM? :(
+  # Servicio de BD Relacional - PostgreSQL
+  postgres:
+    image: postgres:15 # LTS actual de PostgreSQL
     restart: always
     ports:
-      - "26257:26257"
-      - "8070:8080"
-    expose:
-      - 26257
-    command: start-single-node --insecure
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: alie_db # Debe estar en minúsculas.
 
   # Servicio de Administrador de BD Relacional. Docs: https://github.com/vrana/adminer
   adminer:
@@ -27,7 +27,7 @@ services:
       context: ./DB_Init  # Contexto de construcción en la carpeta DB_Init
       dockerfile: Dockerfile
     depends_on:
-      - cockroachdb
+      - postgres
     restart: on-failure
     labels:
       kompose.cronjob.schedule: "0 7 * * *"

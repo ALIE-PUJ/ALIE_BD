@@ -39,13 +39,13 @@ def main():
     userDB = os.getenv('COCKROACHDB_USER', 'root')
 
     # Busca la variable de entorno PASS; si no existe, asigna una cadena vacía
-    passw = os.getenv('COCKROACHDB_PASS', '')
+    passw = os.getenv('COCKROACHDB_PASS', 'pass')
 
-    # Busca la variable de entorno HOST; si no existe, asigna una cadena vacía
-    cdb_host = os.getenv('COCKROACHDB_HOST', 'cockroachdb')
+    # Busca la variable de entorno HOST; si no existe, asigna postgres
+    cdb_host = os.getenv('COCKROACHDB_HOST', 'postgres')
 
     # Busca el puerto en la variable de entorno
-    cdb_port = os.getenv('COCKROACHDB_PORT', 26257)
+    cdb_port = os.getenv('COCKROACHDB_PORT', 5432)
 
 
     connection = psycopg2.connect(
