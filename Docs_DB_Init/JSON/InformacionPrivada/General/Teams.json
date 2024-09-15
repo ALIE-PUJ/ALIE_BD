@@ -1,24 +1,57 @@
 {
   "version": "1.0",
-  "last_updated": "2024-08-11",
+  "last_updated": "2024-08-26",
   "access_control": "privado",
   "title": "Canal de la carrera TEAMS",
-  "description": "Información sobre el canal de TEAMS para la carrera de ingeniería de sistemas.",
+  "description": "Información sobre el canal de TEAMS de la carrera, dividido en cuatro secciones: General, Etapas en la carrera, Tecnología y desarrollo social, y Utilitarios para la carrera.",
   "details": [
     {
-      "subtitle": "Secciones del Canal",
-      "content": "El canal de TEAMS se divide en cuatro secciones: General, Etapas en la carrera, Tecnología y desarrollo social, y Utilitarios para la carrera.",
-      "link": ""
+      "subtitle": "General",
+      "content": "Sección donde normalmente se transmiten los anuncios importantes del director de carrera."
     },
     {
-      "subtitle": "Estado de las Secciones",
-      "content": "La única sección con información actualizada es la sección General, donde se realizan anuncios por parte del director de carrera y del canal de la carrera de ingeniería de sistemas. La última publicación fue el 26 de junio de 2024; la publicación anterior a esta fue el 27 de noviembre de 2023. Las otras tres secciones no tienen publicaciones desde el año 2021.",
-      "link": ""
+      "subtitle": "Etapas en la carrera",
+      "content": "Sección donde se suben los archivos con información reciente, como electivas y guías de procesos estudiantiles."
     },
     {
-      "subtitle": "Última Publicación",
-      "content": "La última publicación en la sección General fue un recordatorio sobre el formulario a completar en caso de algún inconveniente durante la primera cita de inscripción de asignaturas. Esta publicación recalca que el formulario se encuentra en el boletín de la carrera de ese mes y que es el único medio habilitado para atender dichas solicitudes.",
-      "link": ""
+      "subtitle": "Electivas ciencias básicas",
+      "content": "PDF que contiene los códigos asociados a las electivas de ciencias básicas disponibles, de las cuales el estudiante debe cursar una en cualquier semestre académico.",
+      "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/EdGaiVj8HdVDrb09RW67ChkB-XY4gLn55tUB3WU1QmwGdw?e=4uAqZr"
+    },
+    {
+      "subtitle": "Electivas y Complementarias",
+      "content": "PDF que describe las asignaturas libres del catálogo de la universidad, donde el estudiante puede seleccionar 9 créditos entre más de 700 cursos. También describe las asignaturas complementarias, que promueven la apropiación de conocimientos en otras áreas. Si el estudiante decide hacer una opción complementaria, debe tomar mínimo 6 créditos en asignaturas de un mismo departamento de los 70 departamentos (Administración, Antropología, Arquitectura, Medicina, Microbiología, Nutrición, Piscología, Comunicación, etc.). No cuenta el departamento de ingeniería de sistemas, ni deportes",
+      "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/Eb9CfcfGlpxOmjKPZ_0PQgEBfYcsHMxZMzn9-vwzZx2poA?e=wElZP1"
+    },
+    {
+      "subtitle": "Guía para procesos estudiantiles",
+      "content": "Esta guía paso a paso indica con imágenes al estudiante como debe ser el proceso para la actualización y registro del cubrimiento del POS.",
+      "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/Edju6wTYbYBImvS3K1KWW3IBHbKjQkOsdhRz6xy9Y_lxqg?e=zCPG81"
+    },
+    {
+      "subtitle": "Guía informe de avance",
+      "content": "PDF que describe el paso a paso con ayuda de imágenes ayuda al estudiante a conocer el proceso que debe realizar para su informe de avance en las áreas de su plan de estudio, ahí mismo el estudiante podrá encontrar el historial de cursos que ha cursado y que está cursando",
+      "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/EduwbaAMv5pDvu5E_f8qpwAB09V5PYpWEp9Lu4AD4sSc0A?e=O6wNzq"
+    },
+    {
+      "subtitle": "Guía Inscripción de clases",
+      "content": "PDF que guía al estudiante paso a paso en como debe ingresar al sistema, consultar la fecha de la cita de inscripción correspondiente, como debe realizar la actualización los dato y como se inscribe, se cambia  o se elimina una asignatura",
+      "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/Ec4Qg2ngLlNJkGuX0REHQEUBo4xowAn6zUNzkYo5mw-ztQ?e=yCfJHB"
+    },
+    {
+      "subtitle": "Información NeoJaverianos",
+      "content": "Este PDF adjunta la información necesaria que un estudiante nuevo debe conocer, respecto a su facultad y a su carrera, como el plan de estudios, los requisitos fundamentales en la segunda lengua, doble programa, coterminales, grupos de investigación y semilleros y practica profesional.",
+      "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/Ee4MB98QBMBDqcnPkOypeSkBlHhCXR6i193Yycj5s1bE1g?e=EXmad2"
+    },
+    {
+      "subtitle": "Instructivo de calificaciones",
+      "content": "Este PDF enseña brevemente cómo el estudiante puede acceder por medio de la intranet a sus calificaciones, tanto materia a materia como todas en general y como a su vez puede conocer su promedio total acumulado.",
+      "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/EValUKBok61Os1xrK0AbRhsBC1IWhrnvOnGAEej2doy59A?e=6h8ea4"
+    },
+    {
+      "subtitle": "Plan de estudios",
+      "content": "Este PDF muestra el plan de estudios de la carrera de ingenieria de sistemas de 8 semestres, el cual cuenta con los códigos de cada materia que el estudiante debe cursar a lo largo de su carrera.",
+      "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/ESe5mJflOs5MlWn5yiKRTmEBVnDWom1dRpi8b3s4c_QBaw?e=o9WriW"
     }
   ]
 }

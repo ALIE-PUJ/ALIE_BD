@@ -1,0 +1,66 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "title": "Programa de Doble Titulación con el Politécnico de Milán",
+  "description": "Descripción general del programa de doble titulación entre la Pontificia Universidad Javeriana y el Politécnico de Milán.",
+  "details": [
+    {
+      "subtitle": "Descripción General",
+      "content": "El programa de doble titulación con el Politécnico de Milán está dirigido a estudiantes javerianos de pregrado en carreras de ingeniería que hayan completado o estén cursando su cuarto año y el 100% de los créditos del núcleo de formación fundamental, excepto las asignaturas relacionadas con el trabajo de grado. Los estudiantes deben completar 4 años en la Pontificia Universidad Javeriana (PUJ) y 2 años de Laurea Magistrale en el Politécnico de Milán (PoliTo), incluyendo un trabajo de grado realizado en Italia. Al finalizar, obtendrán títulos de ambas instituciones.",
+      "link": ""
+    },
+    {
+      "subtitle": "Requisitos Generales",
+      "content": [
+        "Ser estudiante activo en el momento de la postulación.",
+        "Haber cursado o estar cursando el 100% de los créditos del núcleo de formación fundamental, exceptuando las asignaturas relacionadas con el trabajo de grado.",
+        "Tener créditos pendientes en la PUJ al momento de la postulación y al inicio de los estudios en la universidad de destino.",
+        "Tener un promedio acumulado igual o superior a 3.8.",
+        "No haber perdido más de 21 créditos académicos.",
+        "Presentar exámenes de dominio de idioma según el idioma del programa.",
+        "Cumplir con el requisito de Lengua Extranjera en la PUJ.",
+        "No tener antecedentes disciplinarios.",
+        "Se recomienda haber presentado la prueba SABER PRO."
+      ],
+      "link": ""
+    },
+    {
+      "subtitle": "Requisitos de Idioma",
+      "content": [
+        "Para programas en Laurea Magistrale en italiano: Examen oficial de dominio de italiano B2 (PLIDA, CILS, CELI) y examen (IELTS académico o TOEFL) de inglés B2.",
+        "Para programas en Laurea Magistrale en inglés: Examen (IELTS académico o TOEFL) de inglés B2 y examen oficial de dominio de italiano B1 (PLIDA, CILS, CELI).",
+        "Para programas en ambos idiomas: Certificación de nivel B2 en ambos idiomas."
+      ],
+      "link": ""
+    },
+    {
+      "subtitle": "Requisitos para la Obtención del Título",
+      "content": [
+        "Presentar la prueba SABER PRO.",
+        "Cumplir el requisito de lengua extranjera de la PUJ.",
+        "Cumplir al 100% el acuerdo de aprendizaje pactado con el director del programa antes del viaje.",
+        "Entregar y aprobar el trabajo de grado en la universidad de destino."
+      ],
+      "link": ""
+    },
+    {
+      "subtitle": "Requisitos Específicos para el Trabajo de Grado",
+      "content": "El trabajo de grado realizado en la universidad de destino debe incluir componentes de diseño según el currículo de la PUJ. Se requiere autorización previa del proyecto por parte de la Dirección de cada carrera, con la descripción del proyecto enviada para su aval.",
+      "link": ""
+    },
+    {
+      "subtitle": "Aspectos Financieros",
+      "content": [
+        "En la PUJ: Pago de media matrícula si faltan de cero a 10 créditos para finalizar el programa o un semestre de matrícula completa si faltan más de 10 créditos.",
+        "En la universidad de destino: Costos adicionales incluyen: Costo de vida de estudio (aproximadamente 50 euros), tiquetes a Milán (aproximadamente 1.600 euros), vivienda y alimentación (mínimo 830 euros mensuales), seguro médico (aproximadamente 250 euros por año), transporte (aproximadamente 250 euros por año), impuesto a estudiantes extranjeros (aproximadamente 160 euros por año)."
+      ],
+      "link": ""
+    },
+    {
+      "subtitle": "Inscripción al Programa",
+      "content": "El estudiante interesado debe enviar los siguientes documentos al Director de Programa correspondiente en formato digital, en un solo archivo PDF: Formulario de Inscripción diligenciado, copia de la hoja de datos biográficos del pasaporte vigente, carta de motivación en español (máximo una página), carta de los padres o acudientes, hoja de vida en español con foto (máximo 2 páginas), certificado histórico de calificaciones, certificado de italiano (B1 o B2 dependiendo del idioma del programa), certificado de inglés (B2 dependiendo del idioma del programa).",
+      "link": ""
+    }
+  ]
+}

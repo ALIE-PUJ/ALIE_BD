@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "público",
+  "title": "Apoyo Financiero a Corto Plazo",
+  "description": "Información sobre el crédito a corto plazo para el pago de matrícula en la Universidad Javeriana.",
+  "details": [
+    {
+      "subtitle": "Condiciones",
+      "content": "La Universidad permite pagar la matrícula en hasta seis cuotas mensuales durante el periodo académico a partir del primer semestre de carrera. La solicitud debe hacerse antes de la fecha de vencimiento de la matrícula ordinaria para evitar costos adicionales por extemporaneidad. El pago inicial debe realizarse en la fecha establecida para formalizar la matrícula. El incumplimiento causará sanciones e intereses de mora a la tasa máxima permitida por la Superintendencia Financiera.",
+      "link": "https://www.javeriana.edu.co/financiamiento-corto-plazo"
+    },
+    {
+      "subtitle": "Beneficios",
+      "content": "El crédito ofrece una tasa de interés preferencial del 1.2% mensual vencida, la posibilidad de pagar en cuotas mensuales sin cobros adicionales (costos administrativos, seguro, aval) y un proceso fácil, rápido y seguro.",
+      "link": "https://www.javeriana.edu.co/financiamiento-corto-plazo"
+    },
+    {
+      "subtitle": "Pasos y Guía para Solicitud de Crédito",
+      "content": "Para realizar la solicitud, se debe completar el formulario en el Sistema de Inscripción y Selección de Aspirantes para nuevos estudiantes o en el Centro del Alumnado para estudiantes actuales. La guía para la solicitud de crédito se puede encontrar en el enlace proporcionado.",
+      "link": "https://www.javeriana.edu.co/guia-solicitud-credito"
+    },
+    {
+      "subtitle": "Requisitos",
+      "content": "Los requisitos incluyen estar a paz y salvo con la universidad, presentar un deudor solidario con ingresos mensuales certificables o dos deudores solidarios que sumen al menos $4.000.000, y no estar en prueba académica si se solicita el crédito a partir del segundo semestre.",
+      "link": "https://www.javeriana.edu.co/financiamiento-corto-plazo"
+    },
+    {
+      "subtitle": "Documentos a Entregar",
+      "content": "Se deben entregar copias digitales de los documentos de identidad del estudiante y los deudores solidarios, certificación de ingresos mensuales de los deudores, y firmar electrónicamente un pagaré en blanco y una carta de instrucciones.",
+      "link": "https://www.javeriana.edu.co/documentos-creditos"
+    },
+    {
+      "subtitle": "Simulador de Crédito",
+      "content": "Puedes realizar la simulación del crédito o plan de pagos en el siguiente enlace.",
+      "link": "https://www.javeriana.edu.co/simulador-credito"
+    },
+    {
+      "subtitle": "Renovación del Crédito",
+      "content": "Para renovar el crédito, es necesario haber presentado un buen comportamiento en los pagos del semestre anterior y no estar en prueba académica. La oficina de Apoyo Financiero informará sobre las fechas de convocatoria para la renovación.",
+      "link": "https://www.javeriana.edu.co/guia-renovacion-credito"
+    }
+  ]
+}

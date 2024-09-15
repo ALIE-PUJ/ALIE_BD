@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "title": "Préstamo de Espacios y Ambientes de Estudio - Pontificia Universidad Javeriana",
+  "description": "Las bibliotecas de la Pontificia Universidad Javeriana ofrecen diversos espacios para el estudio, tanto de libre acceso como con reserva, para la comunidad javeriana. Los ambientes disponibles incluyen espacios para estudio individual, grupal, formación, y lúdicos.",
+  "details": [
+    {
+      "subtitle": "Ambientes de Estudio Libre de Acceso",
+      "content": "Todas las bibliotecas cuentan con ambientes de estudio libre de acceso, incluyendo estudio individual, grupal, ambientes de formación y lúdicos."
+    },
+    {
+      "subtitle": "Salas de Estudio Individual",
+      "content": "Espacios diseñados para quienes necesitan estudiar de manera individual, promoviendo el silencio. Incluyen salas en diferentes pisos y con horarios específicos.",
+      "link": "https://www.javeriana.edu.co/bibliotecas/salas-de-estudio-individual"
+    },
+    {
+      "subtitle": "Salas de Estudio con Tecnología",
+      "content": "Salas equipadas con computadoras para estudio individual. Disponibles en varios pisos, con horarios específicos para su uso.",
+      "link": "https://www.javeriana.edu.co/bibliotecas/salas-de-estudio-tecnologia"
+    },
+    {
+      "subtitle": "Salas de Investigación",
+      "content": "Cubículos para investigación disponibles para docentes e investigadores javerianos. Se requiere reserva previa por correo electrónico.",
+      "link": "https://www.javeriana.edu.co/bibliotecas/salas-de-investigacion"
+    },
+    {
+      "subtitle": "Bibliotecas Específicas",
+      "content": "Incluye la Biblioteca de Filosofía y Teología Mario Valenzuela, S.J., y la Biblioteca de Bioética Alfonso Llano Escobar, S.J., con espacios dedicados para estudio individual.",
+      "link": "https://www.javeriana.edu.co/bibliotecas/bibliotecas-especificas"
+    },
+    {
+      "subtitle": "Cubículos de Estudio Individual",
+      "content": "La Biblioteca General ofrece 57 cubículos de estudio individual para préstamo. La reserva se puede realizar en puntos de atención o en línea.",
+      "link": "https://biblioreservas.javeriana.edu.co/r"
+    }
+  ]
+}

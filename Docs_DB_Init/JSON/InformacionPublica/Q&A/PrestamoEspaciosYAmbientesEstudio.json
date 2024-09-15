@@ -1,0 +1,81 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Préstamo de Espacios y Ambientes de Estudio",
+      "questions": [
+        {
+          "question": "¿Qué tipos de espacios están disponibles en las bibliotecas de la Pontificia Universidad Javeriana?",
+          "subquestions": [
+            "¿Cuáles son los espacios de estudio individual?",
+            "¿Qué ambientes de formación están disponibles?",
+            "¿Qué espacios lúdicos se ofrecen?"
+          ],
+          "answer": "Las bibliotecas ofrecen diversos espacios, tanto de libre acceso como con reserva, incluyendo estudio individual, estudio grupal, ambientes de formación y ambientes lúdicos.",
+          "link": "N/A"
+        },
+        {
+          "question": "¿Cuáles son las salas de estudio individual y sus horarios?",
+          "subquestions": [
+            "¿Dónde se encuentra la sala de estudio individual Miramón y cuáles son sus horarios?",
+            "¿Dónde se encuentra la sala de estudio individual Lievano y cuáles son sus horarios?",
+            "¿Dónde se encuentra la sala de estudio individual Esguerra y cuáles son sus horarios?",
+            "¿Dónde se encuentra la sala de lectura y cuáles son sus horarios?",
+            "¿Dónde se encuentra la sala de estudio individual Gaitán y cuáles son sus horarios?"
+          ],
+          "answer": "Las salas de estudio individual incluyen: Miramón (Piso 4), Lievano (Piso 3), Esguerra (Piso 3), lectura (Piso 1), y Gaitán (Piso 0). Los horarios generales son de lunes a viernes de 6:00 a.m. a 10:00 p.m., sábados de 7:00 a.m. a 7:00 p.m., y domingos y festivos de 8:00 a.m. a 2:00 p.m.",
+          "link": "N/A"
+        },
+        {
+          "question": "¿Dónde están ubicadas las salas especializadas y cuáles son sus horarios?",
+          "subquestions": [
+            "¿Dónde se encuentra la sala de Profesores Zuleta y cuáles son sus horarios?",
+            "¿Dónde se encuentra la sala de libros valiosos Arboleda, S.J. y cuáles son sus horarios?",
+            "¿Dónde se encuentra la sala de música Briceño y cuáles son sus horarios?",
+            "¿Dónde se encuentra la sala de Tesis y Hemeroteca Olaya y cuáles son sus horarios?"
+          ],
+          "answer": "Las salas especializadas incluyen: Profesores Zuleta (Piso 4), libros valiosos Arboleda, S.J. (Piso 2), música Briceño (Sótano 2), y Tesis y Hemeroteca Olaya (Sótano 2). Los horarios varían, pero en general son de lunes a viernes de 7:00 a.m. a 9:00 p.m. y sábados de 7:00 a.m. a 7:00 p.m.",
+          "link": "N/A"
+        },
+        {
+          "question": "¿Dónde se encuentran las salas de tecnología y cuáles son sus horarios?",
+          "subquestions": [
+            "¿Dónde se encuentra la sala de tecnología en el Piso 4 y cuáles son sus horarios?",
+            "¿Dónde se encuentra la sala de tecnología en el Piso 3 y cuáles son sus horarios?",
+            "¿Dónde se encuentra la sala de tecnología en el Piso 2 y cuáles son sus horarios?",
+            "¿Dónde se encuentra la sala de estudio individual con tecnología en el Piso 1 y cuáles son sus horarios?",
+            "¿Dónde se encuentra la Hemeroteca en el Sótano 2 y cuáles son sus horarios?"
+          ],
+          "answer": "Las salas de tecnología incluyen: Piso 4, Piso 3, y Piso 2, cada una dotada con computadores. Los horarios son de lunes a viernes de 6:00 a.m. a 10:00 p.m., sábados de 7:00 a.m. a 7:00 p.m., y domingos y festivos de 8:00 a.m. a 2:00 p.m.",
+          "link": "N/A"
+        },
+        {
+          "question": "¿Cómo se pueden reservar los cubículos de estudio individual?",
+          "subquestions": [],
+          "answer": "Los cubículos de estudio individual deben ser reservados en los puntos de atención de cada piso o a través del módulo de reserva en línea. El tiempo máximo de préstamo es de tres horas.",
+          "link": "https://biblioreservas.javeriana.edu.co/r"
+        },
+        {
+          "question": "¿Cómo se puede reservar un cubículo para investigación?",
+          "subquestions": [],
+          "answer": "Docentes e investigadores pueden reservar un cubículo para investigación enviando un correo a salasbiblioteca@javeriana.edu.co con su número de identificación, facultad o dependencia, tiempo de préstamo y justificación. El plazo máximo para el préstamo es de un año.",
+          "link": "N/A"
+        },
+        {
+          "question": "¿Qué espacios están disponibles en la Biblioteca de Filosofía y Teología Mario Valenzuela, S.J.?",
+          "subquestions": [],
+          "answer": "La biblioteca cuenta con espacios para estudio individual en el Mesanini y en el Piso 1. Se promueve el silencio en estos espacios.",
+          "link": "N/A"
+        },
+        {
+          "question": "¿Qué espacios están disponibles en la Biblioteca de Bioética Alfonso Llano Escobar, S.J.?",
+          "subquestions": [],
+          "answer": "La biblioteca ofrece espacios para estudio individual con sofás y mesas de estudio.",
+          "link": "N/A"
+        }
+      ]
+    }
+  ]
+}

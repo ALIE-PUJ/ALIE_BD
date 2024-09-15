@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Centro Pastoral San Francisco Javier",
+      "questions": [
+        {
+          "question": "¿Dónde puedo encontrar las publicaciones del Centro Pastoral?",
+          "answer": "Las publicaciones escritas del Centro Pastoral San Francisco Javier están disponibles en un enlace específico, organizadas por año y plataforma de comunicación, siguiendo el modelo de espiritualidad ignaciana.",
+          "Link": "https://www.javeriana.edu.co/medio-universitario/espiritualidad-sentido-vida/publicaciones"
+        },
+        {
+          "question": "¿Qué es el acompañamiento espiritual ignaciano y cómo puedo inscribirme?",
+          "answer": "El acompañamiento espiritual ignaciano permite a cada estudiante explorar su vida espiritual. Un póster con detalles está disponible en el enlace proporcionado, donde también se incluye un formulario de inscripción para asistir.",
+          "Link": "https://www.javeriana.edu.co/medio-universitario/acompanamiento-espiritual-ignaciano"
+        },
+        {
+          "question": "¿Dónde encuentro información sobre los ejercicios espirituales ignacianos?",
+          "answer": "La información sobre los ejercicios espirituales ignacianos, incluyendo horarios y lugares de los encuentros, está disponible en el siguiente enlace.",
+          "Link": "https://www.javeriana.edu.co/medio-universitario/ejercicios-espirituales-ignacianos/"
+        },
+        {
+          "question": "¿Qué son los 'Bálsamos para el espíritu' y cómo puedo escucharlos?",
+          "answer": "'Bálsamos para el espíritu' es una experiencia diaria de oración que se emite tres veces al día a través de la emisora Javeriana Estéreo, ofreciendo reflexiones basadas en el Evangelio para alimentar el sentido de la vida.",
+          "Link": "https://javerianaestereo.com/balsamos-para-el-espiritu"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Doble Titulación - ParisTech",
+      "questions": [
+        {
+          "question": "¿Qué es el programa de doble titulación con ParisTech?",
+          "subquestions": [],
+          "answer": "El programa de doble titulación con ParisTech permite a los estudiantes de ciertas carreras de la Universidad Javeriana obtener títulos tanto de la PUJ como de ParisTech. Los estudiantes deben completar el 75% de los créditos en la PUJ y pasar 2 años en una de las escuelas de ParisTech, además de realizar un trabajo de grado.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué carreras pueden participar en el programa de doble titulación con ParisTech?",
+          "subquestions": [],
+          "answer": "El programa está disponible para estudiantes de las carreras de Ingeniería, Nutrición, Matemática y Ciencias de Datos.",
+          "link": ""
+        },
+        {
+          "question": "¿Cuántos años se deben pasar en ParisTech y cuántos en la PUJ?",
+          "subquestions": [],
+          "answer": "Los estudiantes deben cursar el 75% de los créditos del pregrado en la PUJ y pasar 2 años en una escuela de ParisTech.",
+          "link": ""
+        },
+        {
+          "question": "¿Cuál es el proceso para obtener el título de la PUJ y el Diplôme d’ingénieur de ParisTech?",
+          "subquestions": [],
+          "answer": "Al finalizar el programa, los estudiantes obtendrán el título del pregrado de origen en la PUJ y el Diplôme d’ingénieur de ParisTech.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué escuelas forman parte de la red ParisTech?",
+          "subquestions": [],
+          "answer": "La red ParisTech incluye AgroParisTech, Arts et Métiers, Chimie ParisTech - PSL, École des Ponts ParisTech, ESPCI Paris - PSL, Institut d'Optique y Mines Paris - PSL.",
+          "link": ""
+        },
+        {
+          "question": "¿Puedo elegir en qué escuela de ParisTech estudiar, o hay restricciones?",
+          "subquestions": [],
+          "answer": "Sí, puedes elegir entre las escuelas de ParisTech que forman parte del convenio con la PUJ, pero hay que seguir los procedimientos específicos establecidos para la selección.",
+          "link": ""
+        },
+        {
+          "question": "¿Cuáles son los requisitos generales para postularse al programa?",
+          "subquestions": [
+            "¿Qué promedio mínimo se requiere para postularse?",
+            "¿Qué nivel de francés se necesita para la postulación?",
+            "¿Cómo se debe acreditar el nivel A2 de francés?"
+          ],
+          "answer": "Los requisitos generales incluyen ser estudiante activo, tener un promedio igual o superior a 4.0, haber cursado o estar cursando 100 créditos al momento de la postulación, y acreditar un nivel A2 de francés.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué significa que debo haber aprobado el 75% de los créditos y el Núcleo de Formación Fundamental?",
+          "subquestions": [],
+          "answer": "Antes de iniciar en ParisTech, debes haber cursado y aprobado al menos el 75% de los créditos requeridos para tu título en la PUJ, incluyendo el 100% del Núcleo de Formación Fundamental, exceptuando asignaturas relacionadas con el trabajo de grado.",
+          "link": ""
+        },
+        {
+          "question": "¿Cómo puedo acreditar el nivel B2 de francés?",
+          "subquestions": [],
+          "answer": "Debes acreditar un nivel B2 de francés mediante el DELF o el TCF antes del 15 de junio de 2025.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué sucede si tengo sanciones disciplinarias antes de comenzar en ParisTech?",
+          "subquestions": [],
+          "answer": "No debes tener sanciones disciplinarias vigentes. Si has sido sancionado, la Dirección de Carrera analizará tu caso y determinará la viabilidad de tu candidatura.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué requisitos debe cumplir el trabajo de grado realizado en ParisTech?",
+          "subquestions": [],
+          "answer": "El trabajo de grado debe cumplir con los componentes definidos por la PUJ. La descripción del proyecto debe ser enviada para su autorización a la Dirección de la carrera, y el trabajo puede presentarse en francés o inglés si es aprobado.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué pasos debo seguir para obtener el título de la PUJ?",
+          "subquestions": [
+            "¿Cuándo debo presentar la prueba SABER PRO?",
+            "¿Qué implica cumplir con el acuerdo de aprendizaje con el director del programa?"
+          ],
+          "answer": "Debes presentar la prueba SABER PRO, cumplir con el requisito de lengua extranjera, completar el acuerdo de aprendizaje pactado con el director del programa, y entregar y aprobar el trabajo de grado.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué costos debo cubrir para el semestre en la PUJ antes de irme a ParisTech?",
+          "subquestions": [],
+          "answer": "Debes pagar el semestre en la PUJ al momento de irte (último semestre a pagar es 2025-3). A partir del segundo semestre en ParisTech, no pagarás matrícula en la PUJ, pero continuarás siendo estudiante activo.",
+          "link": ""
+        },
+        {
+          "question": "¿Cuáles son los aspectos financieros relacionados con el estudio en ParisTech?",
+          "subquestions": [
+            "¿Cómo se cubren los costos de vivienda y alimentación en ParisTech?",
+            "¿Qué tipo de prácticas remuneradas están disponibles para los estudiantes en el último semestre?",
+            "¿Qué son las becas Eiffel y cómo puedo competir por ellas?"
+          ],
+          "answer": "Los aspectos financieros incluyen tiquetes a Paris, vivienda y alimentación (ParisTech apoya con alojamiento), seguro médico y transporte. Los estudiantes del último semestre pueden conseguir prácticas remuneradas entre 500 y 1500 euros por mes y competir por las becas Eiffel.",
+          "link": ""
+        },
+        {
+          "question": "¿Qué documentos necesito para la postulación?",
+          "subquestions": [
+            "¿Dónde puedo encontrar el formulario de inscripción para el programa?",
+            "¿Qué debe incluir la carta de motivación?",
+            "¿Cómo debo presentar la hoja de vida en formato europeo?"
+          ],
+          "answer": "Para la postulación necesitas llenar un formulario de inscripción, presentar una carta de motivación, una carta de los padres, hoja de vida, certificado histórico de calificaciones y un certificado de francés nivel A2.",
+          "link": "https://www.javeriana.edu.co/recursosdb/725922/786359/Formulario+de+postulaci%C3%B3n+DT+%281%29.pdf/8c90f7b3-fa53-a397-fe4d-e6c89df74322?t=1675458505568"
+        },
+        {
+          "question": "¿Cómo debo presentar la hoja de vida en formato europeo?",
+          "subquestions": [],
+          "answer": "Para la hoja de vida, usa el formato europeo proporcionado en el siguiente enlace.",
+          "link": "https://europass.europa.eu/select-language?destination=/node/1"
+        }
+      ]
+    }
+  ]
+}

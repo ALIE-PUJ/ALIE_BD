@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Talleres de Refuerzo",
+      "questions": [
+        {
+          "question": "¿Qué materias cuentan con talleres de refuerzo?",
+          "subquestions": [
+            "¿Cómo me inscribo a un taller de refuerzo?",
+            "¿Quién organiza los talleres de refuerzo?"
+          ],
+          "answer": "Los talleres de refuerzo están disponibles para las materias de Introducción a la Programación, Programación Avanzada y Estructuras de Datos. Estos talleres son organizados por el Capítulo Javeriano ACM y están diseñados para ayudar a los estudiantes a superar dificultades en estas materias. Puedes inscribirte a través de los links proporcionados para cada materia.",
+          "link": "https://forms.gle/XrEreti5JWh4nqB7A"
+        },
+        {
+          "question": "¿Qué se hace en los talleres de refuerzo?",
+          "answer": "En los talleres de refuerzo se resuelven dudas puntuales sobre los temas de cada materia, se ofrecen explicaciones breves y se practican exámenes anteriores de manera conjunta. Esto ayuda a los estudiantes a prepararse mejor para sus evaluaciones.",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}

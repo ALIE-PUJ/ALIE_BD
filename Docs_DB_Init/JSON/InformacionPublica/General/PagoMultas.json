@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "title": "Pago de Multas",
+  "description": "Información sobre las modalidades de pago de multas en la Biblioteca General.",
+  "details": [
+    {
+      "subtitle": "Modalidades de Pago",
+      "content": "Existen tres modalidades de pagos a la Biblioteca General por distintos conceptos, entre otros, las sanciones dadas por el retraso del material bibliográfico en préstamo externo. \n\nPago en línea: Solicitar el recibo para pago en línea, en la oficina de Circulación y préstamo, piso cero de la Biblioteca General, o desde la cuenta de correo electrónico institucional de la Universidad.\n\nImpresión de recibo para pago en oficina bancaria: Misma metodología de la anterior opción.",
+      "link": ""
+    }
+  ]
+}

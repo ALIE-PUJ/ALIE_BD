@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "privado",
+  "title": "Consultorio Médico Universitario y Clínica para dejar de fumar",
+  "description": "Información sobre los servicios ofrecidos por el Consultorio Médico Universitario y la Clínica para dejar de fumar de la Pontificia Universidad Javeriana.",
+  "details": [
+    {
+      "subtitle": "Consultorio Médico Universitario",
+      "content": "El Consultorio Médico Universitario (CMU) ofrece un servicio de atención primaria e integral basado en un modelo de Medicina Familiar. Se enfoca en la promoción de la salud y la prevención de enfermedades para la Comunidad Educativa Javeriana.",
+      "link": "https://intranet.javeriana.edu.co/web/vicerrectoria-medio-universitario/consultorio-medico-universitario"
+    },
+    {
+      "subtitle": "Cómo solicitar su cita en el Consultorio Médico Universitario",
+      "content": "Las citas son presenciales y se asignan el mismo día en la sede de Javesalud. Horarios: Lunes a viernes de 7:00 a.m. a 6:30 p.m., sábados de 7:00 a.m. a 12:30 p.m. Es necesario presentar el carné de la Universidad y un documento de identidad. Se debe llegar 20 minutos antes de la cita para realizar el proceso de admisión.",
+      "link": ""
+    },
+    {
+      "subtitle": "Clínica para dejar de fumar",
+      "content": "La Clínica para dejar de fumar ofrece apoyo interdisciplinario para miembros de la Comunidad Educativa Javeriana que deseen cesar el consumo de cigarrillos. Se ofrecen servicios de orientación, intervención médica y psicoterapéutica, acompañamiento y seguimiento durante el proceso de cesación.",
+      "link": ""
+    },
+    {
+      "subtitle": "Cómo solicitar una cita en la Clínica para dejar de fumar",
+      "content": "Las citas se pueden solicitar diligenciando un formulario en el que se debe llenar la información personal y el estado del proceso para dejar de fumar. Las citas se agendan en un transcurso de 48 horas hábiles.",
+      "link": ""
+    }
+  ]
+}

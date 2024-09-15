@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "público",
+  "title": "Centro de Escritura Javeriano",
+  "description": "Es un espacio en el que se brinda acompañamiento tanto a estudiantes de pregrado y posgrado como a docentes e investigadores que deseen contar con lectores reales para sus textos académicos. Los textos se comparten y se leen desde el punto de vista de un par, o para afianzar aspectos de la planeación, la redacción o la revisión.",
+  "details": [
+    {
+      "subtitle": "Información General",
+      "content": "Solo se pueden tomar un máximo de 5 tutorías por semestre, cada una con una duración de una hora y solo se puede tomar una por día. Los horarios son desde 8:00 am hasta 4:00 pm de manera presencial o virtual y desde 5:00 pm hasta 8:00 pm únicamente de manera virtual. El servicio inicia el 1 de agosto del 2024 y termina el 22 de noviembre de 2024.",
+      "link": ""
+    },
+    {
+      "subtitle": "Agendamiento de Tutorías",
+      "content": "El agendamiento de tutorías se realiza a través del siguiente enlace, donde se debe diligenciar la tutoría que se desea realizar, el horario correspondiente y con qué persona se desea hacer la solicitud.",
+      "link": "https://outlook.office365.com/book/BookingsCentrodeEscritura@javeriana.edu.co/?ae=true&login_hint"
+    },
+    {
+      "subtitle": "Tutorías de Escritura",
+      "content": "Son realizadas por pares académicos que se han formado previamente como tutores en una asignatura electiva. Estos estudiantes de pregrado tienen competencias consistentes para apoyar a otros en sus escritos.",
+      "link": ""
+    },
+    {
+      "subtitle": "Temáticas y Horarios",
+      "content": "En el enlace principal del Centro de Escritura se encuentran diversos horarios asociados a diferentes temáticas de interés como: Escritura académica desde el uso crítico de herramientas de IA generativa, Importancia de la puntuación en la escritura académica, ¿Cómo escribir una ponencia?, Uso de normas de citación APA.",
+      "link": "https://comunicacionylenguaje.javeriana.edu.co/centroescritura"
+    },
+    {
+      "subtitle": "Recursos Adicionales",
+      "content": "En el enlace principal también se encuentra una sección de recursos con diversos posters que incluyen consejos e información importante para la elaboración de escritos, como: Guía para usar el estilo APA, ¿Cómo citar medios audiovisuales?, Formulación de objetivos, Consejos de puntuación.",
+      "link": "https://comunicacionylenguaje.javeriana.edu.co/centroescritura"
+    }
+  ]
+}

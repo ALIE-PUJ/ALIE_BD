@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "privado",
+  "title": "JaveSalud - Servicios Médicos y de Salud",
+  "description": "Información detallada sobre los servicios médicos y de salud ofrecidos por JaveSalud, incluyendo medicina general, medicina especializada, radiología, odontología, y laboratorio clínico.",
+  "details": [
+    {
+      "subtitle": "JaveSalud",
+      "content": "JaveSalud es el centro de salud de la Pontificia Universidad Javeriana que ofrece una amplia gama de servicios médicos y de salud a la comunidad universitaria. Puede acceder a más información a través del siguiente enlace.",
+      "link": "https://www.javesalud.com.co/"
+    },
+    {
+      "subtitle": "Medicina General",
+      "content": "Para la primera vez que se desea solicitar una cita de medicina general en JaveSalud, se puede realizar por medio de call center, de manera presencial o por medio de la página web. Recuerde que debe presentar resultados de exámenes diagnósticos previos. Si toma medicamentos, por favor presente las fórmulas enviadas e indique al médico horarios y dosis que toma. Es importante llegar 30 minutos antes de su atención, tomar un turno de facturación de cita antes de la atención, y llevar los resultados de exámenes previos. Las consultas al día son aquellas que se asignan dentro de las primeras 24 horas a su solicitud, para atención médica por presentar síntomas no mayores a 72 horas de aparición y que no puede esperar una cita médica programada. Medicina general NO es atención de urgencias. Genera pago de cuota moderadora o copago según corresponda. En esta consulta no se realiza transcripción de medicamentos, y se realiza la remisión a especialidades que sean pertinentes de acuerdo con el motivo de consulta y diagnóstico. Para solicitar una cita general, puede acceder al siguiente enlace.",
+      "link": "https://www.javesalud.com.co/servicios/medicina-general/"
+    },
+    {
+      "subtitle": "Medicina Especializada",
+      "content": "En JaveSalud, las citas con medicina especializada se pueden solicitar a través del formulario disponible en la página web, por call center o de manera presencial. En su cita, no olvide llevar los siguientes documentos: Orden médica vigente (no mayor a 30 días), documento de identificación, y llegar 30 minutos antes de su atención. Es necesario presentarse con la orden médica, tomar un turno de facturación de cita y llevar los resultados de exámenes previos. Para solicitar una cita con medicina especializada, puede acceder al siguiente enlace.",
+      "link": "https://www.javesalud.com.co/servicios/medicina-especializada/"
+    },
+    {
+      "subtitle": "Radiología",
+      "content": "El servicio de radiología en el Centro Médico Toberín de JaveSalud está disponible de lunes a viernes de 7:00 am a 7:00 pm, y los sábados de 7:00 am a 1:00 pm. Se requiere cita previa. La entrega de resultados se realiza con la imagen en DVD 10 minutos después de la toma del examen, y la lectura de la imagen está disponible en 3 días hábiles. Los módulos de servicio están ubicados en el segundo piso del centro médico.",
+      "link": "https://www.javesalud.com.co/servicios/radiologia/"
+    },
+    {
+      "subtitle": "Ecografía",
+      "content": "Para solicitar una cita de ecografía en el Centro Médico Toberín, es necesario contar con una orden médica. Las citas se asignan presencialmente, y los resultados se entregan 10 minutos luego de la toma de la ecografía.",
+      "link": "https://www.javesalud.com.co/servicios/radiologia/"
+    },
+    {
+      "subtitle": "Odontología",
+      "content": "JaveSalud ofrece una variedad de tratamientos dentales, incluyendo implantología oral, ortodoncia, periodoncia, endodoncia, estética dental, rehabilitación oral, prótesis, cirugía oral, odontopediatría, y odontología general. Los estudiantes de la Universidad Javeriana tienen un descuento del 5% en tratamientos dentales, mientras que los colaboradores de Javesalud reciben un descuento del 10%. Además, hay un plan de referidos que ofrece un kit de higiene oral más una profilaxis al traer a un amigo, familiar o compañero de trabajo que inicie un tratamiento de ortodoncia.",
+      "link": "https://www.javesalud.com.co/servicios/odontologia/"
+    },
+    {
+      "subtitle": "Laboratorio Clínico",
+      "content": "El laboratorio clínico de JaveSalud ofrece la posibilidad de realizar exámenes sin necesidad de preparación, de lunes a viernes desde las 6:00 am hasta las 4:00 pm. Para los exámenes que requieren preparación, el horario de toma de muestras es de lunes a viernes desde las 6:00 am hasta las 10:00 am. La entrega de resultados de laboratorios se realiza en cada sede correspondiente. En el Centro Médico Toberín, el módulo electrónico está ubicado en el primer piso, disponible desde las 6:00 am hasta las 7:00 pm de lunes a viernes, y los sábados de 6:00 am a 1:00 pm. La entrega de resultados presenciales se realiza en el tercer piso del centro médico de 10:00 am hasta las 7:00 pm de lunes a viernes, y los sábados de 10:00 am a 1:00 pm. En el Centro Médico Javeriana, la entrega de resultados presenciales se realiza en el sótano de lunes a viernes de 10:00 am a 4:00 pm, y los sábados de 10:00 am a 12:00 pm. Los resultados de citología se entregan en el piso 4, oficina de Promoción y Prevención, de lunes a viernes de 7:00 am a 5:00 pm, y los sábados de 7:00 am a 12:00 pm. En el Centro Médico Santa Beatriz, la entrega de resultados de laboratorio presencial se realiza en el primer piso de lunes a viernes de 10:00 am a 4:00 pm, y los sábados de 10:00 am a 1:00 pm. Los resultados de electrocardiogramas y espirometrías se entregan en el primer piso de enfermería de lunes a viernes de 7:00 am a 5:00 pm.",
+      "link": "https://www.javesalud.com.co/servicios/laboratorio-clinico/"
+    },
+    {
+      "subtitle": "Apoyo Terapéutico y Rehabilitación",
+      "content": "JaveSalud ofrece citas de apoyo terapéutico y rehabilitación a través del call center o de forma presencial en el centro médico de preferencia, dentro de los horarios de atención. No olvide llevar los documentos necesarios, como la orden médica vigente (no mayor a 30 días) y su documento de identificación. Los servicios disponibles incluyen fisioterapia, fonoaudiología, terapia ocupacional, terapia respiratoria y nutrición. Estos servicios están disponibles en el Centro Médico Toberín, Centro Médico Santa Beatriz, Centro Médico Javeriana, y Centros Médicos Allianz Norte y Allianz Salitre.",
+      "link": "https://www.javesalud.com.co/"
+    }
+  ]
+}

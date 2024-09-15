@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "publico",
+  "categories": [
+    {
+      "category": "Servicios en el Campus Universitario",
+      "questions": [
+        {
+          "question": "¿Dónde puedo obtener más detalles sobre el servicio de impresión?",
+          "subquestions": [
+            "¿Dónde están ubicados los puntos de impresión?",
+            "¿Cuáles son los horarios de los puntos de impresión?"
+          ],
+          "answer": "Puedes obtener más detalles sobre el servicio de impresión, incluyendo ubicación, horarios y preguntas frecuentes, en el siguiente enlace.",
+          "link": "https://www.javeriana.edu.co/servicios-generales#IMPRESION"
+        },
+        {
+          "question": "¿Qué productos ofrece la Tienda Javeriana?",
+          "subquestions": [
+            "¿Dónde está ubicada la Tienda Javeriana?",
+            "¿Hay descuentos para estudiantes?"
+          ],
+          "answer": "La Tienda Javeriana ofrece productos como libros, papelería, música, películas, uniformes, boletería y artículos de la marca Javeriana. Está ubicada en el Edificio 21 Emilio Arango, S.J., piso 1. Los estudiantes pueden acceder a descuentos especiales presentando su carné institucional.",
+          "link": "https://www.javeriana.edu.co/tienda/"
+        },
+        {
+          "question": "¿Qué debo hacer en caso de una emergencia dentro del campus universitario?",
+          "subquestions": [
+            "¿A quién debo notificar?",
+            "¿Cuáles son los números de contacto para emergencias?"
+          ],
+          "answer": "En caso de emergencia dentro del campus, debes notificar al personal de seguridad más cercano o comunicarte a la línea de emergencias PUJ *123 o al número celular 310 576 30 02. También puedes utilizar las torres de emergencia para reportar un accidente o actividad sospechosa.",
+          "link": ""
+        },
+        {
+          "question": "¿Dónde puedo obtener información sobre los parqueaderos de la universidad?",
+          "subquestions": [
+            "¿Cuál es la ubicación de la oficina de parqueaderos?",
+            "¿Cuáles son los horarios de atención?"
+          ],
+          "answer": "La información sobre tarifas y funcionamiento de los parqueaderos está disponible en la oficina de parqueaderos ubicada en el Edificio 67, José Rafael Arboleda, S.J., Piso 3. Puedes consultar más detalles en el enlace proporcionado.",
+          "link": "https://www.javeriana.edu.co/servicios-generales#PARQUEADEROS"
+        }
+      ]
+    }
+  ]
+}

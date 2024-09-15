@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "privado",
+  "title": "Talleres de Refuerzo y Generales del Capítulo Javeriano ACM",
+  "description": "Información privada sobre los talleres de refuerzo y talleres generales organizados por el Capítulo Javeriano ACM para apoyar a los estudiantes en materias específicas y en el desarrollo de habilidades tecnológicas.",
+  "details": [
+    {
+      "subtitle": "Talleres de Refuerzo",
+      "content": "Los talleres de refuerzo se ofrecen para materias en las que los estudiantes suelen tener dificultades. Estas materias incluyen Introducción a la Programación, Programación Avanzada y Estructuras de Datos. Los talleres son dirigidos por el Capítulo Javeriano ACM y están diseñados para preparar a los estudiantes para las actividades de cada materia. Los estudiantes interesados deben inscribirse a través de los links proporcionados.",
+      "link": "https://forms.gle/XrEreti5JWh4nqB7A"  // Introducción a la Programación
+    },
+    {
+      "subtitle": "Programación Avanzada",
+      "content": "Taller dirigido por el Capítulo Javeriano ACM para resolver dudas puntuales y trabajar en conjunto en la resolución de exámenes anteriores.",
+      "link": "https://forms.gle/WZAeNqzfeDmjMBZR6"
+    },
+    {
+      "subtitle": "Estructuras de Datos",
+      "content": "Taller enfocado en resolver dudas y practicar exámenes anteriores para mejorar la comprensión de Estructuras de Datos.",
+      "link": "https://forms.gle/Cqmk9eSARSp5cGDy8"
+    },
+    {
+      "subtitle": "Talleres Generales",
+      "content": "El Capítulo Javeriano ACM también ofrece cursos como el Taller de Git y Front End, y Python Orientado a Machine Learning. Estos talleres están diseñados para mejorar las habilidades de los estudiantes en áreas específicas y son promovidos a través de posters que incluyen horarios y detalles del curso.",
+      "link": ""
+    },
+    {
+      "subtitle": "Taller de Git y Front End",
+      "content": "Curso práctico a lo largo del semestre para aprender desarrollo front-end y manejo de versiones de proyectos con Git y GitHub.",
+      "link": ""
+    },
+    {
+      "subtitle": "Python Orientado a Machine Learning",
+      "content": "Curso para estudiantes interesados en aprender Python desde cero y aplicarlo a la implementación de modelos de Machine Learning. Más información y el link de inscripción están disponibles en el poster adjunto.",
+      "link": "https://livejaverianaedu.sharepoint.com/:b:/r/sites/Ingsis/CISIST/Boletn/2024/Invitaciones/PYTHON.pdf?csf=1&web=1&e=JvajNY"
+    }
+  ]
+}

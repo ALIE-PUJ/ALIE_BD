@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Aulas de Acompañamiento Académico",
+      "questions": [
+        {
+          "question": "¿Qué son las aulas de acompañamiento académico en la Pontificia Universidad Javeriana?",
+          "answer": "Las aulas de acompañamiento buscan apoyar al estudiante de manera permanente mediante tutorías en las materias que suelen producir más dificultad, ayudando a mejorar el rendimiento académico del estudiante. Más información está disponible en el enlace proporcionado.",
+          "link": "https://www.javeriana.edu.co/estudiantes/apoyos-academicos/"
+        },
+        {
+          "question": "¿Dónde puedo encontrar información sobre las tutorías disponibles?",
+          "answer": "La información sobre las tutorías disponibles se encuentra en la página de apoyo académico de la universidad. Sin embargo, algunos formularios y páginas, como los de inglés, ingeniería, matemáticas, química y física, no están disponibles en este momento. La tutoría de escritura redirige a la sección principal del Centro de Escritura Javeriano.",
+          "link": "https://www.javeriana.edu.co/estudiantes/apoyos-academicos/"
+        },
+        {
+          "question": "¿Qué servicios ofrece el Centro de Escritura?",
+          "answer": "El Centro de Escritura ofrece tutorías personalizadas para la planeación, redacción y revisión de textos académicos, así como talleres virtuales sobre comprensión, argumentación, estructura de textos y uso de normas APA. El enlace para solicitar citas está actualmente no disponible.",
+          "link": "https://comunicacionylenguaje.javeriana.edu.co/centroescritura"
+        },
+        {
+          "question": "¿Qué es la consejería académica y cuándo debo consultarla?",
+          "answer": "El servicio de consejería académica orienta a los estudiantes en la toma de decisiones para alcanzar objetivos curriculares y proyección profesional. Es recomendable consultar con tu consejero cuando tomes decisiones académicas importantes, tengas dudas sobre retiro de asignaturas, quieras conocer más sobre tu ruta académica, tengas dificultades con evaluaciones o desees conocer los apoyos de la universidad.",
+          "link": "https://www.javeriana.edu.co/estudiantes/apoyos-academicos/"
+        }
+      ]
+    }
+  ]
+}

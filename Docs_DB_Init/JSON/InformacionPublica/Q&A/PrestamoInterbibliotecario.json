@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Préstamo Interbibliotecario",
+      "questions": [
+        {
+          "question": "¿Cómo puedo solicitar un préstamo interbibliotecario?",
+          "subquestions": [],
+          "answer": "Puedes solicitar un préstamo interbibliotecario acercándote a Circulación y préstamo de la Biblioteca General o ingresando al formulario en línea proporcionado en el enlace. Recibirás un mensaje de confirmación en tu correo electrónico.",
+          "link": "https://www.javeriana.edu.co/biblos/prestamos#interbibliotecario"
+        },
+        {
+          "question": "¿Cuáles son las condiciones generales para el préstamo interbibliotecario?",
+          "subquestions": [
+            "¿Cuántos libros se pueden pedir?",
+            "¿Por cuánto tiempo se prestan los libros?",
+            "¿Dónde se realiza el préstamo?",
+            "¿Qué sucede si entrego los libros tarde?"
+          ],
+          "answer": "Las condiciones generales son: no debes tener multas pendientes, puedes pedir de uno a tres libros por siete días hábiles, el préstamo se realiza solo en la ciudad de Bogotá, y se aplicará una multa si los libros se entregan tarde. Las multas pueden resultar en la suspensión del servicio.",
+          "link": "N/A"
+        },
+        {
+          "question": "¿Dónde puedo encontrar las bibliotecas que participan en el préstamo interbibliotecario?",
+          "subquestions": [],
+          "answer": "Puedes consultar el documento con las instituciones que tienen convenio para el préstamo interbibliotecario en el enlace proporcionado.",
+          "link": "https://www.javeriana.edu.co/recursosdb/720941/831833/Instituciones+convenio+prestamo+interbibliotecario.pdf/5de06ca7-631b-c8e2-1ed5-b56573cb0e18?t=1663185337116"
+        },
+        {
+          "question": "¿Cómo accedo a los catálogos de otras bibliotecas?",
+          "subquestions": [],
+          "answer": "Puedes acceder a los catálogos de otras bibliotecas a través del enlace proporcionado.",
+          "link": "https://www.javeriana.edu.co/biblos/catalogos-otras-bibliotecas"
+        }
+      ]
+    }
+  ]
+}

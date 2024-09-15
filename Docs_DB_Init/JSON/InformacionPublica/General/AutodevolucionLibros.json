@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "title": "Autodevolución de Libros",
+  "description": "Información sobre el buzón de autodevolución de libros en la Biblioteca General.",
+  "details": [
+    {
+      "subtitle": "Buzón de Autodevolución",
+      "content": "El buzón de 'autodevolución' se ubica sobre el costado que da hacia la carrera 7 de la Biblioteca General. La Comunidad Educativa Javeriana puede ingresar allí los ítems que desea devolver. Esta opción solo aplica para la devolución de libros. Las revistas, discos y películas deberán devolverse en ventanilla.",
+      "link": ""
+    }
+  ]
+}

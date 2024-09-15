@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "publico",
+  "title": "Información General sobre el Campus Universitario",
+  "description": "Información privada sobre el mapa del campus y los puntos de impresión en la Universidad Javeriana.",
+  "details": [
+    {
+      "subtitle": "Mapa del Campus",
+      "content": "En la página de otros servicios de la universidad, se encuentra disponible una imagen que muestra los diversos edificios que posee la universidad.",
+      "link": "https://intranet.javeriana.edu.co/documents/96981/0/Mapa.jpg/cd840345-f3f9-9014-b5ce-cda2020662d7?t=1634948451584"
+    },
+    {
+      "subtitle": "Puntos de Impresión",
+      "content": "En el campus universitario, se encuentran equipos de autoservicio de impresión y copiado. Los estudiantes pueden utilizarlos siguiendo estos pasos: Cargar dinero en su cuenta en cualquier Centro de Copiado o Tienda Javeriana con su carné y nombre de usuario institucional. Luego, acercar el carné al equipo de impresión y seleccionar la opción deseada (impresión, copiado o escáner). El costo de los servicios utilizados se descontará automáticamente de la cuenta, excepto el escáner, que es gratuito.",
+      "link": ""
+    }
+  ]
+}

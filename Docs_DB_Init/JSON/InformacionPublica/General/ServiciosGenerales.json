@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "público",
+  "title": "Servicios Generales",
+  "description": "Información sobre servicios generales disponibles para los estudiantes de la Pontificia Universidad Javeriana.",
+  "details": [
+    {
+      "subtitle": "Cambio de contraseña institucional",
+      "content": "Accede al servicio para cambiar tu contraseña institucional.",
+      "link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+    },
+    {
+      "subtitle": "Consulta de clases programadas por semestre",
+      "content": "Consulta las clases programadas para cada semestre.",
+      "link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+    },
+    {
+      "subtitle": "Cursos de lengua para la movilidad",
+      "content": "Accede a información sobre los cursos de lengua orientados a la movilidad estudiantil.",
+      "link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+    },
+    {
+      "subtitle": "Impresión y pago de matrículas",
+      "content": "Consulta la opción para imprimir y pagar tus matrículas.",
+      "link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+    },
+    {
+      "subtitle": "Movilidad estudiantil",
+      "content": "Obtén información sobre las oportunidades de movilidad estudiantil.",
+      "link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+    },
+    {
+      "subtitle": "Solicitud de abono o devolución",
+      "content": "Realiza solicitudes de abono o devolución.",
+      "link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+    },
+    {
+      "subtitle": "Registro académico",
+      "content": "Accede a tu registro académico.",
+      "link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+    },
+    {
+      "subtitle": "Verificación de credenciales digitales",
+      "content": "Verifica tus credenciales digitales.",
+      "link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+    },
+    {
+      "subtitle": "Verificación del título",
+      "content": "Realiza la verificación de tu título académico.",
+      "link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+    }
+  ]
+}

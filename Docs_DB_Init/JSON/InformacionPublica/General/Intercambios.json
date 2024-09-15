@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "title": "Intercambios",
+  "description": "Información sobre los programas de movilidad internacional ofrecidos por la universidad.",
+  "details": [
+    {
+      "subtitle": "Información General",
+      "content": "La universidad envía invitaciones a principio de semestre para formar parte de los programas de intercambio. Principalmente se envían fechas y enlaces para reuniones informativas. También se envía un archivo Canva con los requisitos para postularse.",
+      "link": "https://www.canva.com/design/DAFn-_-GJog/4Dr46uVy7h9cvcjToZhDkA/view?utm_content=DAFn-_-GJog&utm_campaign=designshare&utm_medium=link&utm_source=viewer"
+    },
+    {
+      "subtitle": "Requisitos para Postulación",
+      "content": "1. Fechas en las cuales el estudiante realizará el intercambio. 2. Ser estudiante activo de la universidad Javeriana tanto en el semestre en el que se realiza la postulación como en el que se desea hacer el intercambio. 3. No estar en periodo de prueba, sanción académica o disciplinar. 4. Estar cursando mínimo quinto semestre en el momento de realizar la postulación en pregrado. 5. Cumplir con el requisito de idioma requerido en el país y la institución destino. 6. Promedio ponderado acumulado igual o superior a 3.75. 7. Se menciona que las asignaturas cursadas serán reconocidas por la Javeriana.",
+      "link": ""
+    },
+    {
+      "subtitle": "Pasos para la Postulación",
+      "content": "1. Asistir a las charlas informativas de la oficina de movilidad (invitaciones llegan por correo). 2. Elegir un destino acorde a lo que el estudiante desea: presupuesto, ubicación geográfica, cultura, nivel académico de la institución destino. 3. Consultar el link asociado a los convenios vigentes.",
+      "link": "https://www.javeriana.edu.co/internacionalizacion/convenios-alianzas"
+    },
+    {
+      "subtitle": "Aplicación al Programa",
+      "content": "Para realizar la aplicación al programa de movilidad javeriana con el usuario y clave de intranet, accede al siguiente enlace para observar detalladamente las universidades disponibles.",
+      "link": "https://movixu.javeriana.edu.co/login"
+    },
+    {
+      "subtitle": "Documentación Necesaria",
+      "content": "1. Escribir a la dirección de carrera para la solicitud de autorización. 2. Completar carta de autorización por los acudientes. 3. Solicitar certificado histórico de calificaciones en intranet. 4. Copia digital de la página de datos personales del pasaporte válido y vigente. 5. Si se va a estudiar en una lengua diferente al español, se debe presentar certificado B2 válido y vigente. 6. Revisar fechas de cierre y horarios de charlas informativas.",
+      "link": ""
+    }
+  ]
+}

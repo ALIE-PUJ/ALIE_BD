@@ -1,0 +1,93 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Servicios Generales",
+      "questions": [
+        {
+          "question": "¿Cómo puedo cambiar mi contraseña institucional?",
+          "subquestions": [
+            "¿Es necesario algún requisito para cambiar la contraseña?",
+            "¿Puedo cambiar mi contraseña desde cualquier dispositivo?"
+          ],
+          "answer": "Puedes cambiar tu contraseña institucional accediendo al servicio disponible en la página de Servicios en Línea de la universidad.",
+          "Link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+        },
+        {
+          "question": "¿Dónde puedo consultar las clases programadas para el semestre?",
+          "subquestions": [
+            "¿Qué información necesito para consultar mis clases?",
+            "¿Puedo ver las clases de semestres anteriores?"
+          ],
+          "answer": "Puedes consultar las clases programadas para el semestre en el portal de Servicios en Línea de la universidad.",
+          "Link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+        },
+        {
+          "question": "¿Cómo puedo inscribirme en cursos de lengua para la movilidad estudiantil?",
+          "subquestions": [
+            "¿Cuáles son los idiomas disponibles?",
+            "¿Hay algún costo asociado a estos cursos?"
+          ],
+          "answer": "Puedes obtener información e inscribirte en los cursos de lengua para la movilidad estudiantil a través del enlace de Servicios en Línea.",
+          "Link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+        },
+        {
+          "question": "¿Cómo puedo imprimir y pagar mis matrículas?",
+          "subquestions": [
+            "¿Puedo pagar mi matrícula en línea?",
+            "¿Dónde puedo imprimir el comprobante de pago?"
+          ],
+          "answer": "Puedes imprimir y pagar tus matrículas accediendo a la opción correspondiente en el portal de Servicios en Línea.",
+          "Link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+        },
+        {
+          "question": "¿Dónde encuentro información sobre movilidad estudiantil?",
+          "subquestions": [
+            "¿Cuáles son los requisitos para la movilidad estudiantil?",
+            "¿Puedo acceder a la movilidad estudiantil en cualquier momento del año?"
+          ],
+          "answer": "La información sobre movilidad estudiantil está disponible en el portal de Servicios en Línea, donde puedes consultar los programas y requisitos.",
+          "Link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+        },
+        {
+          "question": "¿Cómo solicito un abono o devolución?",
+          "subquestions": [
+            "¿Qué documentos necesito para solicitar un abono?",
+            "¿Cuánto tiempo tarda en procesarse una solicitud de devolución?"
+          ],
+          "answer": "Para solicitar un abono o devolución, debes acceder al portal de Servicios en Línea y seguir las instrucciones proporcionadas.",
+          "Link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+        },
+        {
+          "question": "¿Cómo accedo a mi registro académico?",
+          "subquestions": [
+            "¿Qué información contiene el registro académico?",
+            "¿Puedo descargar mi registro académico en formato PDF?"
+          ],
+          "answer": "Puedes acceder a tu registro académico a través del portal de Servicios en Línea, donde también puedes descargar la información si es necesario.",
+          "Link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+        },
+        {
+          "question": "¿Cómo puedo verificar mis credenciales digitales?",
+          "subquestions": [
+            "¿Qué son las credenciales digitales?",
+            "¿Es posible actualizar mis credenciales digitales?"
+          ],
+          "answer": "Para verificar tus credenciales digitales, ingresa al portal de Servicios en Línea y sigue las instrucciones.",
+          "Link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+        },
+        {
+          "question": "¿Cómo realizo la verificación de mi título académico?",
+          "subquestions": [
+            "¿Cuánto tiempo tarda la verificación del título?",
+            "¿Qué documentos son necesarios para la verificación?"
+          ],
+          "answer": "La verificación de tu título académico se realiza a través del portal de Servicios en Línea, donde puedes encontrar más detalles sobre el proceso.",
+          "Link": "https://www.javeriana.edu.co/servicios-en-linea#ESTUDIANTES"
+        }
+      ]
+    }
+  ]
+}

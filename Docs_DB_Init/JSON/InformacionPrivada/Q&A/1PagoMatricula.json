@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Pago de la Matrícula",
+      "questions": [
+        {
+          "question": "¿Cómo realizo el pago de mi matrícula en la Universidad Javeriana?",
+          "subquestions": [
+            "¿Dónde encuentro el recibo de pago?",
+            "¿Qué opciones de pago están disponibles?",
+            "¿Cómo se usa la plataforma Wompi para pagar?"
+          ],
+          "answer": "Para realizar el pago de tu matrícula, debes ingresar con tus credenciales estudiantiles a la intranet de la Universidad. En la página principal, dirígete a la sección de autoservicio - centro alumnado y selecciona la opción 'Realizar pago'. Ingresa tu documento de identidad o ID de estudiante para generar la factura. Puedes pagar en línea a través de la plataforma o de manera presencial en los bancos Itaú, Bancolombia, Davivienda y BBVA. También puedes usar la plataforma Wompi para pagos digitales.",
+          "Link": "https://intranet.javeriana.edu.co/inicio"
+        },
+        {
+          "question": "¿Dónde puedo descargar mi recibo de pago?",
+          "subquestions": [
+            "¿Qué información necesito para descargar el recibo?",
+            "¿Dónde puedo encontrar el enlace para descargar el recibo?"
+          ],
+          "answer": "Puedes descargar tu recibo de pago a través del enlace proporcionado en la intranet utilizando tu ID de estudiante o número de cédula. Una vez descargado el recibo en PDF, podrás realizar el pago en línea o de manera presencial.",
+          "Link": "https://intranet.javeriana.edu.co/inicio"
+        },
+        {
+          "question": "¿Qué opciones de apoyo financiero ofrece la Universidad?",
+          "subquestions": [
+            "¿Cómo se puede acceder a los créditos?",
+            "¿Qué tipos de financiación están disponibles?",
+            "¿Dónde encuentro más información sobre los apoyos financieros?"
+          ],
+          "answer": "La Universidad Javeriana ofrece la posibilidad de pagar la matrícula en varias cuotas a través de un portafolio de apoyos y financiaciones a corto, mediano y largo plazo. Los créditos se otorgan según la capacidad financiera del Fondo de Préstamos, luego de un estudio de cada caso particular. Más información está disponible en el enlace proporcionado.",
+          "Link": "https://www.javeriana.edu.co/financiamiento"
+        }
+      ]
+    }
+  ]
+}

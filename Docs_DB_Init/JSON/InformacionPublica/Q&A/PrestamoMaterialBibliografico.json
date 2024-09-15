@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Préstamo de Material Bibliográfico",
+      "questions": [
+        {
+          "question": "¿Cómo se obtiene un carné para el préstamo de material?",
+          "answer": "Para obtener un carné de préstamo, debes presentar una identificación válida y seguir el proceso de registro en la biblioteca de la universidad. Contacta con el punto de atención de la biblioteca para obtener detalles específicos.",
+          "Link": "https://www.javeriana.edu.co/biblos"
+        },
+        {
+          "question": "¿Cuántos ítems se pueden llevar en préstamo externo?",
+          "answer": "Los javerianos pueden llevar hasta un máximo de 15 ítems en préstamo externo con su carné. No se permite llevar dos copias del mismo ítem.",
+          "Link": "https://www.javeriana.edu.co/biblos"
+        },
+        {
+          "question": "¿Cómo se realiza la renovación de un préstamo?",
+          "answer": "La renovación de un préstamo se puede hacer en línea a través del portal de la biblioteca o en los puntos de atención de la biblioteca. Puedes renovar hasta cinco veces.",
+          "Link": "https://www.javeriana.edu.co/biblos"
+        },
+        {
+          "question": "¿Qué sucede si se pierde o daña un ítem prestado?",
+          "answer": "En caso de pérdida o daño de un ítem, debes reportarlo a la biblioteca. Se te cobrará una multa y es posible que debas pagar el costo de reposición del material.",
+          "Link": "https://www.javeriana.edu.co/biblos"
+        },
+        {
+          "question": "¿Dónde se puede consultar el estado actual de los ítems en préstamo?",
+          "answer": "Puedes consultar el estado de los ítems en préstamo a través del portal en línea de la biblioteca o en los puntos de atención de la biblioteca.",
+          "Link": "https://www.javeriana.edu.co/biblos"
+        },
+        {
+          "question": "¿Cómo se pueden solicitar libros antiguos o valiosos para consulta en sala?",
+          "answer": "Los libros antiguos o valiosos se deben solicitar en el catálogo biblos y solo pueden consultarse en sala. Contacta a la biblioteca para detalles específicos.",
+          "Link": "https://www.javeriana.edu.co/biblos/-/coleccion-de-libros-antiguos-y-valiosos"
+        },
+        {
+          "question": "¿Cómo se puede reservar un cubículo de estudio o un equipo de computadora?",
+          "answer": "La reserva de cubículos de estudio y equipos de computadora se puede hacer a través del módulo de reservas en línea disponible en el sitio web de la biblioteca.",
+          "Link": "https://biblioreservas.javeriana.edu.co/r"
+        },
+        {
+          "question": "¿Qué hacer si se necesita una extensión en el tiempo de préstamo y se ha alcanzado el límite de renovaciones?",
+          "answer": "Si necesitas una extensión y has alcanzado el límite de renovaciones, contacta a la biblioteca para ver si hay opciones adicionales disponibles para extender el préstamo.",
+          "Link": "https://www.javeriana.edu.co/biblos"
+        },
+        {
+          "question": "¿Qué recursos están disponibles para estudiantes con discapacidades en relación con el préstamo de material?",
+          "answer": "La biblioteca ofrece adaptaciones especiales para estudiantes con discapacidades. Contacta con el servicio de atención al usuario para obtener información específica sobre estos recursos.",
+          "Link": "https://www.javeriana.edu.co/biblos"
+        }
+      ]
+    }
+  ]
+}
