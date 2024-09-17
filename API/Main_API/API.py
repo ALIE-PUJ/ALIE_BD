@@ -3,6 +3,12 @@ from flask import Flask, request, jsonify
 # Inicializacion de Flask
 app = Flask(__name__)
 
+# Importe de librerías propias
+from Libraries.DeepTranslator_Translate import *
+from Libraries.Tagging import *
+
+
+
 # ENDPOINTS
 
 # /tag
@@ -11,7 +17,7 @@ app = Flask(__name__)
 {
     "user_message": "¿Qué hora es?",
     "agent_message": "Son las 3 de la tarde.",
-    "state": "pos"
+    "sentiment_tag": "pos"
 }
 '''
 @app.route('/tag', methods=['POST'])
@@ -20,24 +26,32 @@ def tag():
     data = request.json
 
     # Verifica que todos los campos necesarios estén presentes
-    if not all(key in data for key in ('user_message', 'agent_message', 'state')):
+    if not all(key in data for key in ('user_message', 'agent_message', 'sentiment_tag')):
         return jsonify(success=False, message="Faltan campos requeridos"), 400
 
     user_message = data['user_message']
     agent_message = data['agent_message']
-    state = data['state']
+    sentiment_tag = data['sentiment_tag']
 
     # Print payload
-    print("/tag payload. user_message: {}, agent_message: {}, state: {}".format(user_message, agent_message, state))
+    print("/tag payload. user_message: {}, agent_message: {}, sentiment_tag: {}".format(user_message, agent_message, sentiment_tag))
 
     # Verifica que el estado sea 'pos' o 'neg'
-    if state not in ('pos', 'neg'):
+    if sentiment_tag not in ('pos', 'neg'):
         return jsonify(success=False, message="Estado inválido"), 400
 
     # Logica de negocio (Tagging)
-    # TO-DO
-    
-    return jsonify(success=True)
+    user_language = detect_language(user_message) # Detecta el idioma del mensaje del usuario
 
+    tag_document = save_tag_to_mongo(user_message, agent_message, sentiment_tag, user_language)
+
+    if tag_document is None:
+        return jsonify(success=False, message="Error al guardar el documento en MongoDB"), 500
+    else:
+        return jsonify(success=True, message="Documento guardado correctamente", tag_document=tag_document)
+    
+
+
+# Main runner
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
