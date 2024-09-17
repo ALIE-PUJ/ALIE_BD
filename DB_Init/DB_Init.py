@@ -59,6 +59,10 @@ def main():
     execute_sql_from_file('Create_Tables/Init.sql', connection)
     execute_sql_from_file('Insert_Scripts/Inserts.sql', connection)
 
+    # Scripts de la API
+    execute_sql_from_file('Create_Tables/API_Init.sql', connection)
+    execute_sql_from_file('Insert_Scripts/API_Inserts.sql', connection)
+
     print("Available tables: ")
     query_all_tables(connection)
 
