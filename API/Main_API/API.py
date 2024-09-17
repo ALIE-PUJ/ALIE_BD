@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS, cross_origin # CORS for angular
 
 # Inicializacion de Flask
 app = Flask(__name__)
+CORS(app, resources={r"/*": {"origins": ["*"]}}) # Habilita CORS para la APP Flask. Necesario para que funcione adecuadamente con Angular
 
 # Importe de librerías propias
 from Libraries.DeepTranslator_Translate import *
@@ -15,7 +17,7 @@ from Libraries.Tagging import *
 # Example payload: 
 '''
 {
-    "user_message": "¿Qué hora es?",
+    "user_message": "Hola, que hora es?",
     "agent_message": "Son las 3 de la tarde.",
     "sentiment_tag": "pos"
 }
