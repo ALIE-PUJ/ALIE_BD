@@ -14,7 +14,7 @@ COPY . .
 RUN pip install -r requirements.txt
 
 # Define el comando a ejecutar
-CMD ["python", "API.py"]
+CMD ["python", "Front_API.py"]
 
 # Para construir la imagen individualmente, ejecuta el siguiente comando: docker build -t my-db-init-image .
 # Para ejecutar el contenedor, ejecuta el siguiente comando: docker run my-db-init-image
