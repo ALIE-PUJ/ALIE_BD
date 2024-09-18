@@ -40,6 +40,7 @@ connection = psycopg2.connect(
 # Example payload: 
 '''
 {
+    "auth_token": "XXX",
     "user_message": "Hola, que hora es?",
     "agent_message": "Son las 3 de la tarde.",
     "sentiment_tag": "pos"
@@ -51,15 +52,16 @@ def tag():
     data = request.json
 
     # Verifica que todos los campos necesarios estén presentes
-    if not all(key in data for key in ('user_message', 'agent_message', 'sentiment_tag')):
+    if not all(key in data for key in ('auth_token', 'user_message', 'agent_message', 'sentiment_tag')):
         return jsonify(success=False, message="Faltan campos requeridos"), 400
 
+    auth_token = data['auth_token']
     user_message = data['user_message']
     agent_message = data['agent_message']
     sentiment_tag = data['sentiment_tag']
 
     # Print payload
-    print("/tag payload. user_message: {}, agent_message: {}, sentiment_tag: {}".format(user_message, agent_message, sentiment_tag))
+    print("/tag payload. auth_token: {}, user_message: {}, agent_message: {}, sentiment_tag: {}".format(auth_token, user_message, agent_message, sentiment_tag))
 
     # Verifica que el estado sea 'pos' o 'neg'
     if sentiment_tag not in ('pos', 'neg'):
