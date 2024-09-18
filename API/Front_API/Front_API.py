@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin # CORS for angular
+import psycopg2
 
 # Inicializacion de Flask
 app = Flask(__name__)
@@ -8,6 +9,28 @@ CORS(app, resources={r"/*": {"origins": ["*"]}}) # Habilita CORS para la APP Fla
 # Importe de librerías propias
 from Libraries.DeepTranslator_Translate import *
 from Libraries.Tagging import *
+
+
+
+# Database connection
+# Busca la variable de entorno USER; si no existe, asigna "root"
+userDB = os.getenv('COCKROACHDB_USER', 'root')
+# Busca la variable de entorno PASS; si no existe, asigna una cadena vacía
+passw = os.getenv('COCKROACHDB_PASS', 'pass')
+# Busca la variable de entorno HOST; si no existe, asigna postgres
+cdb_host = os.getenv('COCKROACHDB_HOST', 'postgres')
+# Busca el puerto en la variable de entorno
+cdb_port = os.getenv('COCKROACHDB_PORT', 5432)
+# Conexion
+connection = psycopg2.connect(
+    host=cdb_host, # docker-compose service name. Use localhost to run locally
+    port=cdb_port,
+    user=userDB,
+    password=passw,
+    database='alie_db' # lowercase
+)
+
+
 
 
 
