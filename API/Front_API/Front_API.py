@@ -1,6 +1,7 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS, cross_origin # CORS for angular
 import psycopg2
+from io import BytesIO
 
 # Inicializacion de Flask
 app = Flask(__name__)
@@ -77,7 +78,97 @@ def tag():
     else:
         return jsonify(success=True, message="Documento guardado correctamente", tag_document=tag_document)
     
+@app.route('/files/submit', methods=['POST'])
+def submit_file():
+    data = request.form
+    file = request.files.get('file')
+    categoria = data.get('categoria')
 
+    if not categoria or not file:
+        return jsonify(success=False, message="Faltan campos requeridos"), 400
+
+    if not file.filename.lower().endswith('.pdf'):
+        return jsonify(success=False, message="El archivo debe ser un PDF"), 400
+
+    try:
+        archivo_binario = file.read()
+
+        with connection.cursor() as cursor:
+            cursor.execute("""
+                INSERT INTO Archivo (nombre, categoria, archivo)
+                VALUES (%s, %s, %s)
+            """, (file.filename, categoria, archivo_binario))
+
+            connection.commit()
+
+        return jsonify(success=True), 200
+    except Exception as e:
+        connection.rollback()
+        print(f"Error: {e}")
+        return jsonify(success=False, message="Error al guardar el archivo"), 500
+
+
+@app.route('/files/list', methods=['GET'])
+def list_files():
+    try:
+        with connection.cursor() as cursor:
+            cursor.execute("SELECT nombre, categoria FROM Archivo")
+            files = cursor.fetchall()
+
+        file_list = [{'name': file[0], 'category': file[1]} for file in files]
+        return jsonify(success=True, files=file_list), 200
+    except Exception as e:
+        print(f"Error: {e}")
+        return jsonify(success=False, message="Error al obtener los archivos"), 500
+
+@app.route('/files/delete', methods=['DELETE'])
+def delete_file():
+    file_name = request.args.get('name')
+    
+    if not file_name:
+        return jsonify(success=False, message="Falta el nombre del archivo"), 400
+    
+    try:
+        with connection.cursor() as cursor:
+            cursor.execute("DELETE FROM Archivo WHERE nombre = %s", (file_name,))
+            rows_deleted = cursor.rowcount
+            connection.commit()
+
+        if rows_deleted > 0:
+            return jsonify(success=True), 200
+        else:
+            return jsonify(success=False, message="Archivo no encontrado"), 404
+    except Exception as e:
+        connection.rollback()
+        print(f"Error: {e}")
+        return jsonify(success=False, message="Error al eliminar el archivo"), 500
+
+
+@app.route('/files/view', methods=['GET'])
+def view_file():
+    file_name = request.args.get('name')
+
+    if not file_name:
+        return jsonify(success=False, message="Falta el nombre del archivo"), 400
+
+    try:
+        with connection.cursor() as cursor:
+            cursor.execute("SELECT archivo FROM Archivo WHERE nombre = %s", (file_name,))
+            archivo = cursor.fetchone()
+
+        if archivo:
+            pdf_data = archivo[0]
+
+            # Usar el encabezado adecuado para visualización en el navegador
+            return send_file(BytesIO(pdf_data), 
+                             download_name=file_name, 
+                             as_attachment=False, 
+                             mimetype='application/pdf')
+        else:
+            return jsonify(success=False, message="Archivo no encontrado"), 404
+    except Exception as e:
+        print(f"Error: {e}")
+        return jsonify(success=False, message="Error al obtener el archivo"), 500
 
 # Main runner
 if __name__ == '__main__':
