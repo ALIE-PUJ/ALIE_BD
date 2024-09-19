@@ -83,6 +83,10 @@ def submit_file():
     data = request.form
     file = request.files.get('file')
     categoria = data.get('categoria')
+    auth_token = data.get('auth_token')
+
+    if not auth_token:
+        return jsonify(success=False, message="Falta el token de autenticación"), 401
 
     if not categoria or not file:
         return jsonify(success=False, message="Faltan campos requeridos"), 400
@@ -92,13 +96,11 @@ def submit_file():
 
     try:
         archivo_binario = file.read()
-
         with connection.cursor() as cursor:
             cursor.execute("""
                 INSERT INTO Archivo (nombre, categoria, archivo)
                 VALUES (%s, %s, %s)
             """, (file.filename, categoria, archivo_binario))
-
             connection.commit()
 
         return jsonify(success=True), 200
@@ -107,9 +109,12 @@ def submit_file():
         print(f"Error: {e}")
         return jsonify(success=False, message="Error al guardar el archivo"), 500
 
-
 @app.route('/files/list', methods=['GET'])
 def list_files():
+    auth_token = request.args.get('auth_token')
+    if not auth_token:
+        return jsonify(success=False, message="Falta el token de autenticación"), 401
+
     try:
         with connection.cursor() as cursor:
             cursor.execute("SELECT nombre, categoria FROM Archivo")
@@ -124,10 +129,12 @@ def list_files():
 @app.route('/files/delete', methods=['DELETE'])
 def delete_file():
     file_name = request.args.get('name')
-    
+    auth_token = request.args.get('auth_token')
+    if not auth_token:
+        return jsonify(success=False, message="Falta el token de autenticación"), 401
     if not file_name:
         return jsonify(success=False, message="Falta el nombre del archivo"), 400
-    
+
     try:
         with connection.cursor() as cursor:
             cursor.execute("DELETE FROM Archivo WHERE nombre = %s", (file_name,))
@@ -143,11 +150,12 @@ def delete_file():
         print(f"Error: {e}")
         return jsonify(success=False, message="Error al eliminar el archivo"), 500
 
-
 @app.route('/files/view', methods=['GET'])
 def view_file():
     file_name = request.args.get('name')
-
+    auth_token = request.args.get('auth_token')
+    if not auth_token:
+        return jsonify(success=False, message="Falta el token de autenticación"), 401
     if not file_name:
         return jsonify(success=False, message="Falta el nombre del archivo"), 400
 
@@ -158,8 +166,6 @@ def view_file():
 
         if archivo:
             pdf_data = archivo[0]
-
-            # Usar el encabezado adecuado para visualización en el navegador
             return send_file(BytesIO(pdf_data), 
                              download_name=file_name, 
                              as_attachment=False, 
