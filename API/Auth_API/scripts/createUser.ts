@@ -3,6 +3,8 @@ import bcrypt from "bcrypt";
 import { client } from "../src/configs/postgres";
 import type { User } from "../src/model";
 
+// Usage: DB_HOST=localhost DB_USER=root DB_PASSWORD=pass DB_DB=alie_db bun run scripts/createUser.ts
+
 const user: User = {
   id_usuario: "10",
   usuario: "Juan Camilo",
