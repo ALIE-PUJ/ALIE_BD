@@ -1,7 +1,7 @@
 FROM node:alpine
 
 COPY package.json ./
-COPY bun.lockb ./
+COPY package-lock.json ./
 COPY src ./
 
 RUN npm install
