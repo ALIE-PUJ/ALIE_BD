@@ -5,10 +5,10 @@ INSERT INTO Categoria (id_categoria, nombre) VALUES
 
 -- Insertar administradores en la tabla Usuario
 INSERT INTO Usuario (id_usuario, usuario, contrasena, email, id_categoria) VALUES
-(1, 'Luis Bravo', 'contrasena_segura_luis', 'luis.bravo@javeriana.edu.com', 2), -- Admin
-(2, 'Ana Ortegon', 'contrasena_segura_ana', 'ana.ortegon@javeriana.edu.com', 2), -- Admin
-(3, 'Maria Avellaneda', 'contrasena_segura_maria', 'maria.avellaneda@javeriana.edu.com', 2), -- Admin
-(4, 'Juan Sanchez', 'contrasena_segura_juan', 'juan.sanchez@javeriana.edu.com', 2) -- Admin
+(1, 'Luis Bravo', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'luis.bravo@javeriana.edu.com', 2), -- Admin
+(2, 'Ana Ortegon', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'ana.ortegon@javeriana.edu.com', 2), -- Admin
+(3, 'Maria Avellaneda', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'maria.avellaneda@javeriana.edu.com', 2), -- Admin
+(4, 'Juan Sanchez', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'juan.sanchez@javeriana.edu.com', 2) -- Admin
 ON CONFLICT (id_usuario) DO NOTHING;
 
 -- Insertar estudiantes en la tabla Usuario
