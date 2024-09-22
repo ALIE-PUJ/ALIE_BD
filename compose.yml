@@ -83,9 +83,29 @@ services:
       - db_init
       - docs_db_init
     restart: on-failure # Reiniciar en caso de fallo
+
+  # API de autenticación
+  auth-api:
+    image: harbor.alie.javeriana.edu.co/images/auth-api:latest
+    build:
+      context: ./API/Auth_API  # Contexto de construcción en la carpeta Auth_API
+      dockerfile: Dockerfile
+    environment:
+      - DB_USER=root
+      - DB_PASSWORD=pass
+      - DB_DB=alie_db
+      - DB_HOST=postgres
+      - DB_PORT=5432 # Puerto por defecto de PostgreSQL
+      - SECRET=set
+      - PORT=80 # Puerto para la API de autenticación (podría ser cualquier otro)
+    expose:
+      - 80
+    ports:
+      - 2001:80
   
   # Servicio Interno de Autenticación
   auth-service:
+    image: harbor.alie.javeriana.edu.co/images/auth-service:latest
     build:
       context: ./API/Auth  # Contexto de construcción en la carpeta Auth
       dockerfile: Dockerfile
