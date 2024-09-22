@@ -1,4 +1,5 @@
-import { Client } from "pg";
+import pg from "pg";
+const Client = pg.Client
 
 const client = new Client({
     user: process.env.DB_USER || "root",

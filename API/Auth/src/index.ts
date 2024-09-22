@@ -1,6 +1,5 @@
 import express from 'express';
 import { expressjwt, type Request as JWTRequest } from 'express-jwt';
-import { Client } from 'pg';
 import swaggerJSDoc from 'swagger-jsdoc';
 import swaggerUI from 'swagger-ui-express';
 import { client } from './postgres';
