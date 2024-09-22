@@ -10,56 +10,6 @@ const port = process.env.PORT || 2001;
 app.use(express.json());
 app.use('/swagger', swaggerUI.serve, swaggerUI.setup(openAPISpecs));
 
-/**
- * @swagger
- * /login:
- *  post:
- *   description: Autenticar un usuario
- *   requestBody:
- *    required: true
- *    content:
- *     application/json:
- *      schema:
- *       type: object
- *       required:
- *        - email
- *        - contrasena
- *       properties:
- *        email:
- *         type: string
- *        contrasena:
- *         type: string
- *   responses:
- *    200:
- *     description: Usuario autenticado
- *     content:
- *      application/json:
- *       schema:
- *        type: object
- *        required:
- *         - id_usuario
- *         - usuario
- *         - email
- *         - id_categoria
- *        properties:
- *         id_usuario:
- *          type: number
- *         usuario:
- *          type: string
- *         email:
- *          type: string
- *         id_categoria:
- *          type: number
- *    401:
- *     description: Credenciales inválidas
- *     content:
- *      application/json:
- *       schema:
- *        type: object
- *        properties:
- *         message:
- *          type: string
- */
 app.post('/login', async (req, res) => {
   const login_info = req.body as LoginDTO;
 
