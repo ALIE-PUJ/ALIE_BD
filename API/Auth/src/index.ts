@@ -1,11 +1,9 @@
 import express from 'express';
 import { expressjwt, type Request as JWTRequest } from 'express-jwt';
-import { Client } from 'pg';
-import swaggerJSDoc from 'swagger-jsdoc';
 import swaggerUI from 'swagger-ui-express';
-import { client } from './postgres';
-import { openAPISpecs } from './swagger';
-import type { AuthRequest } from './model';
+import { openAPISpecs } from './configs/swagger';
+import type { User } from './model';
+import { UserService } from './services/UserService';
 
 
 console.log("Inicializando express...");
@@ -32,10 +30,20 @@ app.use('/swagger', swaggerUI.serve, swaggerUI.setup(openAPISpecs));
 app.post('/verify', expressjwt({
     secret: secret,
     algorithms: ["HS512"]
-}), (req: JWTRequest, res) => {
-    // client.query("SELECT * FROM usuario u WHERE u.id_usuario=$1::text", [req.auth.id_usuario]);
+}), async (req: JWTRequest, res) => {
+    console.log("Token válido");
 
-    res.status(200).json({ id_usuario: "Token válido" });
+    console.log("Buscando información del usuario");
+    const usuarios = await UserService.findUser(req.auth.id_usuario);
+
+    if (usuarios.length === 0) {
+        console. log("Usuario no encontrado");
+        return res.status(401).json({ error: "Usuario no encontrado" });
+    } else {
+        const user: User = usuarios[0];
+        console.log("Usuario autenticado: " + user.usuario);
+        return res.status(200).json(user);
+    }
 });
 
 app.listen(port, () => {
