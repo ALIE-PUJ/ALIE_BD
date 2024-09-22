@@ -1,26 +1,23 @@
 import swaggerJSDoc from "swagger-jsdoc";
 
 const swagOpts: swaggerJSDoc.Options = {
-    definition: {
-        info: {
-            title: "Auth API",
-            version: "1.0.0",
-            description: "API de autenticación"
-        },
+  swaggerDefinition: {
+    info: {
+      title: "Auth API",
+      version: "1.0.0",
+      description: "API de autenticación"
     },
-    apis: ["./src/index.ts"],
-    authAction: {
-        JWT: {
-            name: "JWT",
-            schema: {
-                type: "apiKey",
-                in: "header",
-                name: "Authorization",
-                description: ""
-            },
-            value: "Bearer <JWT>"
-        }
-    }
+    security: [{ bearerAuth: [] }],
+    securityDefinitions: {
+      bearerAuth: {
+        type: 'apiKey',
+        name: 'x-auth-token',
+        scheme: 'bearer',
+        in: 'header',
+      },
+    },
+  },
+  apis: ["./src/index.ts"],
 };
 const openAPISpecs = swaggerJSDoc(swagOpts);
 
