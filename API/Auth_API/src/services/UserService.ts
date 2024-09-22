@@ -17,7 +17,7 @@ export const UserService = {
       console.log("Se encontraron " + result.rowCount + " usuarios");
 
       if (result.rowCount === 1) {
-        console.log("Usuario encontrado: " + JSON.stringify(result.rows));
+        console.log("Usuario encontrado: "/* + JSON.stringify(result.rows)*/);
       } else if (result.rowCount > 1) {
         console.error("Se encontraron múltiples usuarios con el mismo email");
         return null;
