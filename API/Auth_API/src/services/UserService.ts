@@ -33,7 +33,7 @@ export const UserService = {
   authenticate: async (email: string, password: string) => {
     const user = await UserService.findUserByEmail(email);
     let success;
-    if (user.contrasena) {
+    if (user && user.contrasena) {
       success = bcrypt.compareSync(password, user.contrasena);
     } else {
       success = false;
