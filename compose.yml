@@ -92,4 +92,12 @@ services:
     environment:
       - DB_USER=root
       - DB_PASSWORD=pass
-      - DB_HOST=alie_db
+      - DB_DB=alie_db
+      - DB_HOST=postgres
+      - DB_PORT=5432 # Puerto por defecto de PostgreSQL
+      - SECRET=setsecretink8ssecretforprod
+      - PORT=80 # Puerto para el servicio de autenticación (podría ser cualquier otro)
+    expose:
+      - 80
+    ports:
+      - 80:80
