@@ -11,7 +11,7 @@ const swagOpts: swaggerJSDoc.Options = {
     securityDefinitions: {
       bearerAuth: {
         type: 'apiKey',
-        name: 'x-auth-token',
+        name: 'Authorization',
         scheme: 'bearer',
         in: 'header',
       },
