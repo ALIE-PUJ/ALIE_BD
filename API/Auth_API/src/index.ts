@@ -1,8 +1,8 @@
 import express from "express";
-import type { LoginDTO, User } from "../model";
-import { UserService } from "../services/UserService";
+import type { LoginDTO, User } from "./model";
+import { UserService } from "./services/UserService";
 import swaggerUI from "swagger-ui-express";
-import { openAPISpecs } from "../configs/swagger";
+import { openAPISpecs } from "./configs/swagger";
 
 const app = express()
 const port = process.env.PORT || 2001;
