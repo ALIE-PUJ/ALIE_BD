@@ -100,4 +100,4 @@ services:
     expose:
       - 80
     ports:
-      - 80:80
+      - 2000:80
