@@ -17,7 +17,7 @@ const swagOpts: swaggerJSDoc.Options = {
       },
     },
   },
-  apis: ["./src/index.ts"],
+  apis: ["./index.ts", "./src/index.ts"],
 };
 const openAPISpecs = swaggerJSDoc(swagOpts);
 
