@@ -39,23 +39,35 @@
                 "schema": {
                   "type": "object",
                   "required": [
-                    "id_usuario",
-                    "usuario",
-                    "email",
-                    "id_categoria"
+                    "user",
+                    "token"
                   ],
                   "properties": {
-                    "id_usuario": {
-                      "type": "number"
+                    "user": {
+                      "type": "object",
+                      "required": [
+                        "id_usuario",
+                        "usuario",
+                        "email",
+                        "id_categoria"
+                      ],
+                      "properties": {
+                        "id_usuario": {
+                          "type": "number"
+                        },
+                        "usuario": {
+                          "type": "string"
+                        },
+                        "email": {
+                          "type": "string"
+                        },
+                        "id_categoria": {
+                          "type": "number"
+                        }
+                      }
                     },
-                    "usuario": {
+                    "token": {
                       "type": "string"
-                    },
-                    "email": {
-                      "type": "string"
-                    },
-                    "id_categoria": {
-                      "type": "number"
                     }
                   }
                 }
