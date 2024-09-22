@@ -1,5 +1,5 @@
 import express from 'express';
-import { expressjwt } from 'express-jwt';
+import { expressjwt, type Request as JWTRequest } from 'express-jwt';
 import { Client } from 'pg';
 import swaggerJSDoc from 'swagger-jsdoc';
 import swaggerUI from 'swagger-ui-express';
@@ -31,10 +31,9 @@ app.use('/swagger', swaggerUI.serve, swaggerUI.setup(openAPISpecs));
  */
 app.post('/verify', expressjwt({
     secret: secret,
-    algorithms: ["RS512"]
-}), (req: any, _res) => {
-    let request = req as AuthRequest;
-    client.query("SELECT * FROM usuario u WHERE u.id_usuario=$1::text", [request.auth.id_usuario])
+    algorithms: ["HS512"]
+}), (req: JWTRequest, _res) => {
+    client.query("SELECT * FROM usuario u WHERE u.id_usuario=$1::text", [req.auth.id_usuario])
 });
 
 app.listen(port, () => {
