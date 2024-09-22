@@ -37,7 +37,7 @@ app.post('/verify', expressjwt({
     const usuarios = await UserService.findUser(req.auth.id_usuario);
 
     if (usuarios.length === 0) {
-        console. log("Usuario no encontrado");
+        console.log("Usuario no encontrado");
         return res.status(401).json({ error: "Usuario no encontrado" });
     } else {
         const user: User = usuarios[0];
