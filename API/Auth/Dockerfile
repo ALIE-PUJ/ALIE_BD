@@ -1,9 +1,9 @@
-FROM oven/bun:latest
+FROM node:alpine
 
 COPY package.json ./
 COPY bun.lockb ./
 COPY src ./
 
-RUN bun install
+RUN npm install
 
-CMD [ "bun", "run", "index.ts" ]
+CMD [ "npm", "start" ]

@@ -18,7 +18,7 @@ app.use('/swagger', swaggerUI.serve, swaggerUI.setup(openAPISpecs));
 /**
  * @swagger
  * /verify:
- *   post:
+ *   get:
  *     summary: Verifica si el token es válido
  *     description: Verifica si el token en el header Authorization es válido
  *     produces:
@@ -29,7 +29,7 @@ app.use('/swagger', swaggerUI.serve, swaggerUI.setup(openAPISpecs));
  *        schema:
  *        type: json
  */
-app.post('/verify', expressjwt({
+app.get('/verify', expressjwt({
     secret: secret,
     algorithms: ["HS512"]
 }), (req: JWTRequest, _res) => {
