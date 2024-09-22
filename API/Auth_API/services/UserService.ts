@@ -14,10 +14,18 @@ export const UserService = {
   },
   authenticate: async (email: string, password: string) => {
     const user = await UserService.findUserByEmail(email);
-    const success = bcrypt.compareSync(password, user.contrasena);
+    let success;
+    if (user.contrasena) {
+      success = bcrypt.compareSync(password, user.contrasena);
+    } else {
+      success = false;
+    }
     return {
       success,
-      user: success ? user : null,
+      user: success ? {
+        ...user,
+        contrasena: undefined,
+      } : null,
     };
   }
 };

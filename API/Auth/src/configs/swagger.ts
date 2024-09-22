@@ -3,9 +3,9 @@ import swaggerJSDoc from "swagger-jsdoc";
 const swagOpts: swaggerJSDoc.Options = {
   swaggerDefinition: {
     info: {
-      title: "Auth API",
+      title: "Auth Service API",
       version: "1.0.0",
-      description: "API de autenticación"
+      description: "API del servicio de autenticación"
     },
     security: [{ bearerAuth: [] }],
     securityDefinitions: {
