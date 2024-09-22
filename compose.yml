@@ -85,3 +85,13 @@ services:
       - db_init
       - docs_db_init
     restart: on-failure # Reiniciar en caso de fallo
+  
+  # Servicio Interno de Autenticación
+  auth-service:
+    build:
+      context: ./API/Auth  # Contexto de construcción en la carpeta Auth
+      dockerfile: Dockerfile
+    environment:
+      - DB_USER=root
+      - DB_PASSWORD=pass
+      - DB_HOST=alie_db
