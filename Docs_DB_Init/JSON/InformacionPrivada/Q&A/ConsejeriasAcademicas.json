@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2024-07-28",
+  "last_updated": "2024-08-18",
   "access_control": "privado",
   "categories": [
     {
@@ -23,8 +23,9 @@
             "¿Cuál es el proceso para agendar una consejería académica?",
             "¿Dónde puedo solicitar una cita para una consejería académica?"
           ],
-          "answer": "Para agendar una cita para una consejería académica, revisa el procedimiento en el enlace proporcionado, donde encontrarás información sobre cuándo y cómo solicitarla.",
-          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430%2FConsejeros%202430%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430&p=true&ga=1"
+          "answer": "Para agendar una cita para una consejería académica de forma presencial, se brinda el link a un formulario, en este formulario los estudiantes deben diligenciar sus datos personales y los motivos de esta consejería para que esta pueda ser agendada.",
+          "link": "https://forms.office.com/pages/responsepage.aspx?id=Dpn32j-KnECbdipUdQmAAMVwvnoH8uRIkC_EXuljXgtUNUNHVTZDTDA1Mk5FS040V1lORUdZN1hUNy4u 
+"
         },
         {
           "question": "¿Cuáles son los beneficios de asistir a una consejería académica?",
@@ -34,7 +35,7 @@
             "¿Qué beneficios tiene una consejería académica para mi progreso académico?"
           ],
           "answer": "Asistir a una consejería académica te ofrece numerosos beneficios, como orientación personalizada para mejorar tu rendimiento, apoyo en la toma de decisiones académicas, y estrategias para superar obstáculos en tu educación. Estos beneficios pueden impactar positivamente en tu progreso académico.",
-          "link": "https://livejaverianaedu.sharepoint.com/sites/Ingsis/CISIST/Boletn/Forms/AllItems.aspx?id=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430%2FConsejeros%202430%2Epdf&parent=%2Fsites%2FIngsis%2FCISIST%2FBoletn%2F2024%2FConsejer%C3%ADas%2F2430&p=true&ga=1"
+          "link": "https://forms.office.com/pages/responsepage.aspx?id=Dpn32j-KnECbdipUdQmAAMVwvnoH8uRIkC_EXuljXgtUNUNHVTZDTDA1Mk5FS040V1lORUdZN1hUNy4u"
         }
       ]
     }

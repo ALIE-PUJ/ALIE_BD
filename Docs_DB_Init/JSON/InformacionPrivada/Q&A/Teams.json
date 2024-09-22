@@ -1,37 +1,55 @@
 {
   "version": "1.0",
-  "last_updated": "2024-08-11",
+  "last_updated": "2024-08-26",
   "access_control": "privado",
   "categories": [
     {
-      "category": "Canal de la carrera TEAMS",
+      "category": "Teams",
       "questions": [
         {
-          "question": "¿Qué información puedo encontrar en el canal de TEAMS para mi carrera?",
-          "subquestions": [
-            "¿Qué secciones están disponibles en el canal de TEAMS?",
-            "¿Qué tipo de anuncios se publican en la sección General?"
-          ],
-          "answer": "El canal de TEAMS se divide en cuatro secciones: General, Etapas en la carrera, Tecnología y desarrollo social, y Utilitarios para la carrera. La sección General publica anuncios por parte del director de carrera y del canal de la carrera de ingeniería de sistemas.",
+          "question": "¿Dónde se publican los anuncios importantes de la carrera?",
+          "answer": "Los anuncios importantes de la carrera se publican en la sección 'General' del canal de Teams.",
           "link": ""
         },
         {
-          "question": "¿Con qué frecuencia se actualizan las secciones del canal de TEAMS?",
+          "question": "¿Dónde puedo encontrar los archivos actualizados sobre las electivas?",
           "subquestions": [
-            "¿Con qué frecuencia se actualiza la sección General?",
-            "¿Cómo puedo saber si hay nuevas actualizaciones en el canal de TEAMS?"
+            "¿Qué contiene el archivo 'Electivas ciencias básicas.pdf'?",
+            "¿Qué información se incluye en el archivo 'Electivas y Complementarias.pdf'?"
           ],
-          "answer": "La sección General del canal se actualiza de manera irregular; la última publicación fue el 26 de junio de 2024, y la anterior el 27 de noviembre de 2023. Las otras tres secciones no han tenido actualizaciones desde el año 2021.",
-          "link": ""
+          "answer": "Los archivos actualizados sobre las electivas se encuentran en la sección 'Etapas en la carrera'. El archivo 'Electivas ciencias básicas.pdf' contiene los códigos de las electivas de ciencias básicas disponibles, mientras que 'Electivas y Complementarias.pdf' describe las asignaturas libres del catálogo y las complementarias.",
+          "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/EdGaiVj8HdVDrb09RW67ChkB-XY4gLn55tUB3WU1QmwGdw?e=4uAqZr"
+	  "link":"https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/Eb9CfcfGlpxOmjKPZ_0PQgEBfYcsHMxZMzn9-vwzZx2poA?e=wElZP1"
         },
         {
-          "question": "¿Qué debo hacer si la información en el canal de TEAMS no está actualizada o no encuentro lo que necesito?",
-          "subquestions": [
-            "¿Cómo encuentro información adicional si el canal de TEAMS no tiene lo que busco?",
-            "¿Cuál es el procedimiento alternativo si el formulario en el boletín no está disponible?"
-          ],
-          "answer": "Si la información en el canal de TEAMS no está actualizada o no encuentras lo que necesitas, consulta el boletín de la carrera para obtener el formulario requerido. La última publicación en la sección General recordó que el formulario está en el boletín y es el único medio para atender solicitudes relacionadas con la inscripción de asignaturas.",
-          "link": ""
+          "question": "¿Cómo puedo registrar el Plan Obligatorio de Salud (POS) en el autoservicio del estudiante?",
+          "answer": "Puedes seguir el proceso detallado en el 'Guía de Usuario para registrar el Plan Obligatorio de Salud POS en el autoservicio del estudiante.pdf', disponible en la sección 'Etapas en la carrera'.",
+          "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/Edju6wTYbYBImvS3K1KWW3IBHbKjQkOsdhRz6xy9Y_lxqg?e=zCPG81"
+        },
+        {
+          "question": "¿Dónde puedo encontrar la guía para el informe de avance?",
+          "answer": "La 'Guía Informe de avance.pdf' se encuentra en la sección 'Etapas en la carrera' y te ayudará a conocer el proceso para realizar tu informe de avance en las áreas de tu plan de estudio.",
+          "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/EduwbaAMv5pDvu5E_f8qpwAB09V5PYpWEp9Lu4AD4sSc0A?e=O6wNzq"
+        },
+        {
+          "question": "¿Cómo puedo inscribirme o cambiar asignaturas?",
+          "answer": "Puedes seguir los pasos en la 'GuiaInscripcionClases.pdf', la cual se encuentra en la sección 'Etapas en la carrera'. Esta guía te enseñará cómo inscribirte, cambiar o eliminar asignaturas.",
+          "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/Ec4Qg2ngLlNJkGuX0REHQEUBo4xowAn6zUNzkYo5mw-ztQ?e=yCfJHB"
+        },
+        {
+          "question": "¿Qué información necesito como nuevo estudiante?",
+          "answer": "Toda la información necesaria para un estudiante nuevo está disponible en 'Información Neojaverianos.pdf', la cual incluye el plan de estudios, requisitos de segunda lengua, doble programa, coterminales, y más.",
+          "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/Ee4MB98QBMBDqcnPkOypeSkBlHhCXR6i193Yycj5s1bE1g?e=EXmad2"
+        },
+        {
+          "question": "¿Cómo puedo consultar mis calificaciones?",
+          "answer": "Puedes consultar tus calificaciones y promedio total acumulado siguiendo las instrucciones en 'InstructivoCalificaciones.pdf', disponible en la sección 'Etapas en la carrera'.",
+          "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/EValUKBok61Os1xrK0AbRhsBC1IWhrnvOnGAEej2doy59A?e=6h8ea4"
+        },
+        {
+          "question": "¿Dónde puedo encontrar el plan de estudios de la carrera de ingeniería de sistemas?",
+          "answer": "El plan de estudios de la carrera de ingeniería de sistemas de 8 semestres está disponible en 'Plan_Ing_Sistemas_8 semestres.pdf', que se encuentra en la sección 'Etapas en la carrera'.",
+          "link": "https://livejaverianaedu.sharepoint.com/:b:/s/EstudiantesIngenieradeSistemas77/ESe5mJflOs5MlWn5yiKRTmEBVnDWom1dRpi8b3s4c_QBaw?e=o9WriW"
         }
       ]
     }

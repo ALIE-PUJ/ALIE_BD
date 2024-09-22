@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Centro de Escritura Javeriano",
+      "questions": [
+        {
+          "question": "¿Cuántas tutorías puedo tomar en el Centro de Escritura por semestre?",
+          "answer": "Puedes tomar un máximo de 5 tutorías por semestre.",
+          "Link": ""
+        },
+        {
+          "question": "¿Cuál es la duración de cada tutoría y cuántas se pueden tomar por día?",
+          "answer": "Cada tutoría tiene una duración de una hora y solo se puede tomar una tutoría por día.",
+          "Link": ""
+        },
+        {
+          "question": "¿Qué horarios están disponibles para las tutorías?",
+          "subquestions": [
+            "¿Cuáles son los horarios para tutorías presenciales o virtuales?",
+            "¿Cuáles son los horarios para tutorías únicamente virtuales?"
+          ],
+          "answer": "Los horarios son de 8:00 am a 4:00 pm de manera presencial o virtual, y de 5:00 pm a 8:00 pm únicamente de manera virtual.",
+          "Link": ""
+        },
+        {
+          "question": "¿Cómo puedo agendar una tutoría en el Centro de Escritura?",
+          "answer": "Puedes agendar una tutoría a través del siguiente enlace, donde deberás diligenciar la tutoría que deseas realizar, el horario correspondiente y con qué persona deseas hacer la solicitud.",
+          "Link": "https://outlook.office365.com/book/BookingsCentrodeEscritura@javeriana.edu.co/?ae=true&login_hint"
+        },
+        {
+          "question": "¿Quiénes son los tutores en el Centro de Escritura?",
+          "answer": "Los tutores son pares académicos formados previamente en una asignatura electiva, estudiantes de pregrado con competencias consistentes para apoyar a otros en sus escritos.",
+          "Link": ""
+        },
+        {
+          "question": "¿Dónde puedo encontrar información sobre las temáticas y horarios de los talleres?",
+          "answer": "La información sobre temáticas y horarios de los talleres está disponible en el enlace principal del Centro de Escritura.",
+          "Link": "https://comunicacionylenguaje.javeriana.edu.co/centroescritura"
+        },
+        {
+          "question": "¿Qué recursos adicionales están disponibles en el Centro de Escritura?",
+          "answer": "El Centro de Escritura ofrece una sección de recursos con posters que incluyen consejos e información importante para la elaboración de escritos, como la guía para usar el estilo APA, cómo citar medios audiovisuales, formulación de objetivos, y consejos de puntuación.",
+          "Link": "https://comunicacionylenguaje.javeriana.edu.co/centroescritura"
+        }
+      ]
+    }
+  ]
+}

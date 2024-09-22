@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "JaveSalud - Servicios Médicos y de Salud",
+      "questions": [
+        {
+          "question": "¿Cómo puedo solicitar una cita en medicina general en JaveSalud?",
+          "answer": "Para la primera vez que se desea solicitar una cita de medicina general en JaveSalud, se puede realizar por medio de call center, de manera presencial o por medio de la página web. Puede acceder al siguiente enlace para solicitar una cita general.",
+          "link": "https://www.javesalud.com.co/citas-medicas/"
+        },
+        {
+          "question": "¿Qué debo llevar a mi cita de medicina general en JaveSalud?",
+          "answer": "Debe presentar los resultados de exámenes diagnósticos previos. Si toma medicamentos, por favor presente las fórmulas enviadas e indique al médico horarios y dosis que toma. Es importante llegar 30 minutos antes de su atención, tomar un turno de facturación de cita antes de la atención, y llevar los resultados de exámenes previos.",
+          "link": "https://www.javesalud.com.co/servicios/medicina-general/"
+        },
+        {
+          "question": "¿Qué es una consulta al día en JaveSalud?",
+          "answer": "Una consulta al día en JaveSalud se refiere a citas que se asignan dentro de las primeras 24 horas a su solicitud, para atención médica por presentar síntomas no mayores a 72 horas de aparición y que no pueden esperar una cita médica programada.",
+          "link": "https://www.javesalud.com.co/servicios/medicina-general/"
+        },
+        {
+          "question": "¿Qué servicios ofrece el área de odontología de JaveSalud?",
+          "answer": "JaveSalud ofrece una variedad de tratamientos dentales, incluyendo implantología oral, ortodoncia, periodoncia, endodoncia, estética dental, rehabilitación oral, prótesis, cirugía oral, odontopediatría, y odontología general. Los estudiantes de la Universidad Javeriana tienen un descuento del 5% en tratamientos dentales, mientras que los colaboradores de Javesalud reciben un descuento del 10%.",
+          "link": "https://www.javesalud.com.co/servicios/odontologia/"
+        },
+        {
+          "question": "¿Cómo se realiza la entrega de resultados en el servicio de radiología de JaveSalud?",
+          "answer": "En el servicio de radiología de JaveSalud, las imágenes se entregan en DVD 10 minutos después de la toma del examen, y la lectura de la imagen está disponible en 3 días hábiles. Puede consultar los horarios y ubicaciones de los módulos de servicio en el siguiente enlace.",
+          "link": "https://www.javesalud.com.co/servicios/radiologia/"
+        },
+        {
+          "question": "¿Qué servicios de apoyo terapéutico y rehabilitación ofrece JaveSalud?",
+          "answer": "JaveSalud ofrece servicios de apoyo terapéutico y rehabilitación que incluyen fisioterapia, fonoaudiología, terapia ocupacional, terapia respiratoria y nutrición. Puede solicitar citas a través del call center o de forma presencial en el centro médico de preferencia.",
+          "link": "https://www.javesalud.com.co/"
+        },
+        {
+          "question": "¿Cuál es el proceso para obtener resultados de laboratorio en JaveSalud?",
+          "answer": "El laboratorio clínico de JaveSalud ofrece exámenes sin necesidad de preparación de lunes a viernes desde las 6:00 am hasta las 4:00 pm. Para los exámenes que requieren preparación, el horario de toma de muestras es de lunes a viernes desde las 6:00 am hasta las 10:00 am. La entrega de resultados presenciales se realiza en cada sede correspondiente dentro de los horarios establecidos.",
+          "link": "https://www.javesalud.com.co/servicios/laboratorio-clinico/"
+        }
+      ]
+    }
+  ]
+}

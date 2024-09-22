@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "title": "Préstamo a Domicilio",
+  "description": "Información sobre el servicio de préstamo a domicilio de la Biblioteca General.",
+  "details": [
+    {
+      "subtitle": "Servicio de Préstamo a Domicilio",
+      "content": "El servicio a domicilio permite enviar libros, revistas, videos y discos compactos a la dirección que se indique en Bogotá o a otra ciudad del país. Para solicitar el servicio se debe diligenciar un formulario en donde se debe especificar el nombre completo del solicitante, número de documento, dirección a donde se desea que llegue el libro y un teléfono o celular a donde se le pueda contactar.",
+      "link": ""
+    }
+  ]
+}

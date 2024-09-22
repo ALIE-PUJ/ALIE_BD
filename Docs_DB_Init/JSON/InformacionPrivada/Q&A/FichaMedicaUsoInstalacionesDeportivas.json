@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "privado",
+  "categories": [
+    {
+      "category": "Ficha Médica para Uso de Instalaciones Deportivas",
+      "questions": [
+        {
+          "question": "¿Es obligatorio diligenciar una ficha médica para usar las instalaciones deportivas de la Universidad Javeriana?",
+          "answer": "Sí, es obligatorio diligenciar una ficha médica para utilizar las instalaciones deportivas de la Pontificia Universidad Javeriana, como el gimnasio y las canchas, o para practicar cualquier deporte. Esto asegura que la persona esté físicamente capacitada para realizar actividades deportivas de manera segura.",
+          "link": "https://www.javeriana.edu.co/datos/fm/"
+        },
+        {
+          "question": "¿Qué incluye la ficha médica para uso de instalaciones deportivas?",
+          "answer": "La ficha médica incluye un cuestionario de tamización de pre participación que determina si es necesario realizar una valoración médica antes de iniciar la práctica de actividad física y deporte. Es importante responder cada pregunta con atención.",
+          "link": "https://www.javeriana.edu.co/datos/fm/"
+        },
+        {
+          "question": "¿Dónde puedo diligenciar la ficha médica?",
+          "answer": "Puedes diligenciar la ficha médica a través del siguiente enlace. Asegúrate de completar todos los campos y seguir las indicaciones proporcionadas.",
+          "link": "https://www.javeriana.edu.co/datos/fm/"
+        }
+      ]
+    }
+  ]
+}

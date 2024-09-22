@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Centro Pastoral San Francisco Javier",
+      "questions": [
+        {
+          "question": "¿Dónde puedo encontrar publicaciones sobre espiritualidad ignaciana?",
+          "subquestions": [
+            "¿Están disponibles en línea?",
+            "¿Cómo están organizadas las publicaciones?"
+          ],
+          "answer": "Las publicaciones sobre espiritualidad ignaciana del Centro Pastoral San Francisco Javier están disponibles en línea, organizadas por año y por la plataforma de comunicación utilizada para su divulgación.",
+          "Link": "https://www.javeriana.edu.co/medio-universitario/espiritualidad-sentido-vida/publicaciones"
+        },
+        {
+          "question": "¿Qué es el acompañamiento espiritual ignaciano?",
+          "subquestions": [
+            "¿Qué beneficios tiene?",
+            "¿Cómo me inscribo?"
+          ],
+          "answer": "El acompañamiento espiritual ignaciano es un proceso que permite a cada estudiante explorar su vida espiritual y encontrar orientación. Para inscribirte, puedes acceder al formulario a través del póster disponible en el enlace proporcionado.",
+          "Link": "https://www.javeriana.edu.co/medio-universitario/acompanamiento-espiritual-ignaciano"
+        },
+        {
+          "question": "¿Qué son los ejercicios espirituales ignacianos?",
+          "subquestions": [
+            "¿Cómo ayudan a ordenar la vida?",
+            "¿Dónde puedo encontrar información sobre horarios y lugares?"
+          ],
+          "answer": "Los ejercicios espirituales ignacianos son un proceso que ayuda a las personas a ordenar su vida a través de la experiencia espiritual. La información sobre horarios y lugares de los encuentros está disponible en el enlace proporcionado.",
+          "Link": "https://www.javeriana.edu.co/medio-universitario/ejercicios-espirituales-ignacianos/"
+        },
+        {
+          "question": "¿Qué es 'Bálsamos para el espíritu' y cómo puedo escucharlo?",
+          "subquestions": [
+            "¿En qué horarios se transmite?",
+            "¿De qué trata?"
+          ],
+          "answer": "'Bálsamos para el espíritu' es una experiencia diaria de oración transmitida a través de Javeriana Estéreo, que ofrece reflexiones basadas en el Evangelio. Se transmite todos los días a las 10 a.m., 4 p.m., y 10 p.m.",
+          "Link": "https://javerianaestereo.com/balsamos-para-el-espiritu"
+        }
+      ]
+    }
+  ]
+}

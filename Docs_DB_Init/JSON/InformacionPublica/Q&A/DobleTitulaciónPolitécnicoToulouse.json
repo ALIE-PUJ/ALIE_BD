@@ -1,0 +1,122 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Doble Titulación - Politécnico de Toulouse - ENSEEIHT",
+      "questions": [
+        {
+          "question": "¿Qué carreras de Ingeniería en la PUJ pueden participar en este programa de doble titulación?",
+          "answer": "El programa está dirigido a estudiantes de Ingeniería, con la excepción de Ingeniería Industrial.",
+          "Link": ""
+        },
+        {
+          "question": "¿Cuáles son las principales diferencias entre el Diplôme d’Ingénieur y el título de pregrado de la PUJ?",
+          "answer": "El Diplôme d’Ingénieur es equivalente a una Maestría en el sistema educativo francés, mientras que el título de pregrado de la PUJ es un título de grado. Los estudiantes obtendrán ambos títulos al finalizar el programa.",
+          "Link": ""
+        },
+        {
+          "question": "¿Cuál es la duración total del programa de doble titulación?",
+          "answer": "La duración total del programa es de seis años: cuatro años en la Universidad Javeriana y dos años en el ENSEEIHT.",
+          "Link": ""
+        },
+        {
+          "question": "¿Qué sucede si no he completado el 80% de los créditos al momento de postularme?",
+          "answer": "No serás elegible para postularte al programa. Es necesario haber cursado o estar cursando al menos el 80% de los créditos requeridos para optar al título profesional para poder aplicar.",
+          "Link": ""
+        },
+        {
+          "question": "¿Es obligatorio tener un promedio acumulado igual o superior a 3.8, o es un requisito mínimo?",
+          "answer": "Es un requisito mínimo. Debes tener un promedio acumulado igual o superior a 3.8 para poder postularte al programa.",
+          "Link": ""
+        },
+        {
+          "question": "¿Puedo postularme si estoy en el último semestre de mi pregrado?",
+          "answer": "No, no puedes postularte si has culminado el plan de estudios en la PUJ o lo culminas en el semestre en que postulas. Debes tener créditos pendientes al momento de la postulación y al inicio de los estudios en ENSEEIHT.",
+          "Link": ""
+        },
+        {
+          "question": "¿Qué tipo de antecedentes disciplinarios podrían descalificarme para el programa?",
+          "answer": "Cualquier tipo de antecedente disciplinario puede descalificarte. Se requiere que no tengas antecedentes disciplinarios para poder postularte.",
+          "Link": ""
+        },
+        {
+          "question": "¿Es posible participar en el programa si tengo un nivel de francés B1, pero no B2?",
+          "answer": "No, se requiere un nivel B2 de francés (certificado DELF) para la postulación. Se recomienda alcanzar un nivel C1 antes del viaje, pero el nivel mínimo requerido para la inscripción es B2.",
+          "Link": ""
+        },
+        {
+          "question": "¿Se requiere haber presentado la prueba SABER PRO antes de la postulación, o puede ser después?",
+          "answer": "No es obligatorio haber presentado la prueba SABER PRO antes de la postulación, pero se recomienda hacerlo. La prueba puede ser presentada antes o después de la postulación, pero es un requisito para la obtención del título de la PUJ.",
+          "Link": ""
+        },
+        {
+          "question": "¿Qué tipo de componentes de diseño debe incluir el trabajo de grado realizado en ENSEEIHT?",
+          "answer": "El trabajo de grado debe incluir explícitamente elementos de diseño, manejo de restricciones reales y utilización de estándares de la disciplina. Estos componentes deben ser acordes con lo definido por el currículo de la PUJ.",
+          "Link": ""
+        },
+        {
+          "question": "¿Cómo se envía la descripción del proyecto de trabajo de grado a la Dirección de la carrera para su autorización?",
+          "answer": "La descripción del proyecto debe enviarse en formato digital a la Dirección de la carrera correspondiente para su autorización. La Dirección evaluará la viabilidad del proyecto y su conformidad con los requisitos.",
+          "Link": ""
+        },
+        {
+          "question": "¿Qué ocurre si mi trabajo de grado en ENSEEIHT no cumple con los requisitos de la PUJ?",
+          "answer": "Si el trabajo de grado no cumple con los requisitos de la PUJ, el estudiante deberá traducirlo o hacer los ajustes necesarios para cumplir con los estándares establecidos por la PUJ.",
+          "Link": ""
+        },
+        {
+          "question": "¿Qué costos específicos cubre la matrícula en la PUJ durante el tiempo en que estudio en ENSEEIHT?",
+          "answer": "El estudiante debe pagar un semestre de matrícula en la PUJ al momento de iniciar estudios en ENSEEIHT. A partir del segundo semestre en ENSEEIHT, no se paga matrícula en la PUJ.",
+          "Link": ""
+        },
+        {
+          "question": "¿Existen becas o ayudas financieras disponibles para cubrir los costos de matrícula en ENSEEIHT?",
+          "answer": "No se mencionan becas específicas para cubrir la matrícula en ENSEEIHT en la información proporcionada. Los estudiantes deben cubrir los costos de matrícula y otros gastos asociados a través de recursos propios o financiación externa.",
+          "Link": ""
+        },
+        {
+          "question": "¿Qué tipo de seguro médico es necesario y cómo se contrata?",
+          "answer": "El seguro médico debe ser contratado por el estudiante y debe cubrir aproximadamente 200 euros al año. El tipo de seguro debe cumplir con los requisitos del ENSEEIHT y las normas de inmigración.",
+          "Link": ""
+        },
+        {
+          "question": "¿Qué opciones de alojamiento están disponibles a través del programa en Toulouse?",
+          "answer": "Es recomendable contactar con el ENSEEIHT para obtener información sobre opciones de vivienda.",
+          "Link": ""
+        },
+        {
+          "question": "¿Cómo se maneja el impuesto a estudiantes extranjeros en ENSEEIHT?",
+          "answer": "El impuesto a estudiantes extranjeros es aproximadamente 100 euros al año. Debe ser pagado junto con otros costos asociados al estudio en ENSEEIHT.",
+          "Link": ""
+        },
+        {
+          "question": "¿Dónde puedo encontrar el Formulario de Inscripción y cómo se debe diligenciar?",
+          "answer": "El Formulario de Inscripción debe ser solicitado al Director de programa correspondiente. Debe ser diligenciado siguiendo las instrucciones proporcionadas y enviado en formato digital junto con otros documentos requeridos.",
+          "Link": ""
+        },
+        {
+          "question": "¿Puedo enviar los documentos en diferentes archivos PDF en lugar de un solo archivo?",
+          "answer": "No, los documentos deben ser enviados en formato digital, en un solo archivo PDF por estudiante, en el orden establecido en el cronograma de la convocatoria.",
+          "Link": ""
+        },
+        {
+          "question": "¿Qué información debe incluir la carta de motivación en francés y en español?",
+          "answer": "La carta de motivación en español debe estar dirigida a la Facultad y la carta en francés al ENSEEIHT. Ambas cartas deben ser de máximo una página y explicar por qué el estudiante está interesado en el programa y cómo cumple con los requisitos.",
+          "Link": ""
+        },
+        {
+          "question": "¿Dónde solicito el Certificado DELF y cómo lo incluyo en mi aplicación?",
+          "answer": "El Certificado DELF debe ser solicitado a través de los centros autorizados que ofrecen exámenes de francés. El certificado debe ser incluido en el archivo PDF enviado para la postulación.",
+          "Link": ""
+        },
+        {
+          "question": "¿Qué debo hacer si no puedo obtener la hoja de vida en formato europeo?",
+          "answer": "Si no puedes obtener la hoja de vida en formato europeo, contacta al Director de programa para discutir posibles alternativas o excepciones. El formato europeo es altamente recomendado, pero se debe comunicar cualquier dificultad al respecto.",
+          "Link": ""
+        }
+      ]
+    }
+  ]
+}

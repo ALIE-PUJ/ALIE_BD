@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "title": "Cooperación Internacional",
+  "description": "La Dirección de Asuntos Internacionales apoya en la coordinación y difusión de oportunidades de cooperación internacional.",
+  "details": [
+    {
+      "subtitle": "Coordinación Administrativa",
+      "content": "Apoya en la coordinación administrativa para la ejecución de proyectos de Cooperación Internacional.",
+      "link": "N/A"
+    },
+    {
+      "subtitle": "Oportunidades de Becas y Subvenciones",
+      "content": "Difunde oportunidades de becas para estudios de posgrado en el exterior, subvenciones para proyectos, premios y concursos, entre otros.",
+      "link": "N/A"
+    },
+    {
+      "subtitle": "Formalización de Estancias Internacionales",
+      "content": "Facilita la formalización de estancias internacionales de investigación, en movilidad entrante y saliente.",
+      "link": "N/A"
+    },
+    {
+      "subtitle": "Aplicación a Convocatorias Internacionales",
+      "content": "Brinda apoyo en la aplicación a convocatorias internacionales.",
+      "link": "N/A"
+    }
+  ]
+}

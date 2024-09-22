@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "privado",
+  "title": "Pago de la Matrícula",
+  "description": "Información sobre el proceso de pago de matrícula y opciones de apoyo financiero en la Universidad Javeriana.",
+  "details": [
+    {
+      "subtitle": "Proceso de Pago de Matrícula",
+      "content": "La Universidad tiene abierta la plataforma para que todos los javerianos formalicen su matrícula realizando los pagos de forma electrónica o presencial. Los estudiantes que aún no han descargado su recibo de pago pueden hacerlo a través del enlace con el ID de estudiantes o el número de cédula. En dicho enlace, podrán descargar el recibo en PDF y realizar el pago en línea o de manera presencial en los bancos Itaú, Bancolombia, Davivienda y BBVA. La plataforma ofrece la posibilidad de pagar la matrícula a través de Wompi, la pasarela de pagos que permite hacer transacciones de recaudo de manera digital.",
+      "link": "https://intranet.javeriana.edu.co/inicio"
+    },
+    {
+      "subtitle": "Instrucciones para el Pago de la Matrícula",
+      "content": "El estudiante que desee realizar el pago de su matrícula debe ingresar con sus credenciales estudiantiles a la intranet. Al estar en la página principal, se debe dirigir a la sección de autoservicio - centro alumnado. En la parte inferior izquierda, habrá una sección correspondiente de Finanzas. Si cuenta con un pago a realizar, le aparecerá el valor y el periodo académico correspondiente. Para realizar el pago, se selecciona 'Realizar pago', luego se debe ingresar el documento de identidad o el ID de estudiante para que se genere la factura correspondiente. Después, el estudiante deberá realizar el pago ya sea de manera presencial o virtual.",
+      "link": "https://intranet.javeriana.edu.co/inicio"
+    },
+    {
+      "subtitle": "Apoyo Financiero",
+      "content": "La Universidad Javeriana ofrece la posibilidad de pagar el valor de la matrícula en varias cuotas por medio de un amplio portafolio de apoyos y financiaciones a corto, mediano y largo plazo, a partir del primer semestre de carrera. Los créditos se otorgarán de acuerdo con la capacidad financiera del Fondo de Préstamos, luego de realizar un estudio de cada caso particular. Toda la información para acceder a estos beneficios la puede encontrar en el enlace proporcionado.",
+      "link": "https://www.javeriana.edu.co/financiamiento"
+    }
+  ]
+}

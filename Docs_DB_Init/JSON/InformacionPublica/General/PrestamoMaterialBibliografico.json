@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "title": "Préstamo de Material Bibliográfico - Pontificia Universidad Javeriana",
+  "description": "La Comunidad Educativa Javeriana puede llevar en préstamo externo diversos tipos de material bibliográfico, incluyendo libros, revistas, partituras, películas y videos. Los materiales como periódicos, trabajos de grado en formato físico, acetatos, y libros antiguos y valiosos están disponibles solo para consulta interna.",
+  "details": [
+    {
+      "subtitle": "Colección General",
+      "content": "Número de libros para llevar: 1 a 15. Tiempo de préstamo: Quince días. Renovación: Hasta cinco veces. Multa: 1200$ por día.",
+      "link": "https://www.javeriana.edu.co/biblos/-/prestamo-coleccion-general"
+    },
+    {
+      "subtitle": "Colección de Literatura Infantil y Juvenil",
+      "content": "Número de libros para llevar: 1 a 15. Tiempo de préstamo: Treinta días. Renovación: Hasta cinco veces. Multa: 1200$ por día.",
+      "link": "https://www.javeriana.edu.co/biblos/w/pr%C3%A9stamo-externo-colecci%C3%B3n-de-literatura-infantil-y-juvenil"
+    },
+    {
+      "subtitle": "Colección de Cómics",
+      "content": "Número de libros para llevar: 1 a 15. Tiempo de préstamo: Quince días. Renovación: Hasta cinco veces. Multa: 1200$ por día.",
+      "link": "https://www.javeriana.edu.co/biblos/w/pr%C3%A9stamo-externo-colecci%C3%B3n-de-comics"
+    },
+    {
+      "subtitle": "Colección Audiovisual",
+      "content": "Número de ítems para llevar: 1 a 3. Tiempo de préstamo: Ocho días. Renovación: Hasta cinco veces. Multa: 1200$ por día.",
+      "link": "https://www.javeriana.edu.co/biblos/w/pr%C3%A9stamo-externo-colecci%C3%B3n-audiovisual"
+    },
+    {
+      "subtitle": "Colección de Referencia",
+      "content": "Número de libros para llevar: 1 a 3. Tiempo de préstamo: Quince días. Multa: 1200$ por día.",
+      "link": "https://www.javeriana.edu.co/biblos/-/texto-coleccion-referencia"
+    },
+    {
+      "subtitle": "Hemeroteca",
+      "content": "Número de libros para llevar: 1 a 5. Tiempo de préstamo: Ocho días. Multa: 1200$ por día.",
+      "link": "https://www.javeriana.edu.co/biblos/-/prestamo-externo-hemeroteca"
+    },
+    {
+      "subtitle": "Colección de Tesis y Trabajos de Grado",
+      "content": "Los trabajos disponibles en línea se pueden consultar en el repositorio institucional. Los trabajos en formato físico deben consultarse en sala.",
+      "link": "https://www.javeriana.edu.co/biblos/w/texto-coleccion-de-tesis-y-trabajos-de-grado"
+    },
+    {
+      "subtitle": "Colección de Libros Antiguos y Valiosos",
+      "content": "Los libros antiguos y valiosos solo pueden consultarse en sala.",
+      "link": "https://www.javeriana.edu.co/biblos/-/coleccion-de-libros-antiguos-y-valiosos"
+    },
+    {
+      "subtitle": "Colección de Música",
+      "content": "Incluye discos compactos, partituras, y discos de vinilo.",
+      "link": "https://www.javeriana.edu.co/biblos/-/coleccion-de-musica"
+    }
+  ]
+}

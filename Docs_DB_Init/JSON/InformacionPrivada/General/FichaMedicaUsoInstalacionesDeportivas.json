@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "privado",
+  "title": "Ficha Médica para Uso de Instalaciones Deportivas",
+  "description": "Información sobre la necesidad de diligenciar una ficha médica para hacer uso de las instalaciones deportivas de la Pontificia Universidad Javeriana.",
+  "details": [
+    {
+      "subtitle": "Uso de instalaciones deportivas",
+      "content": "Para utilizar las instalaciones deportivas de la Pontificia Universidad Javeriana, como el gimnasio, las canchas o para practicar cualquier deporte, es necesario diligenciar una ficha médica. Esto garantiza que la persona esté físicamente capacitada para realizar actividades deportivas de manera segura.",
+      "link": "https://www.javeriana.edu.co/datos/fm/"
+    },
+    {
+      "subtitle": "Cuestionario de tamización de pre participación",
+      "content": "Este es el cuestionario que debe completarse para determinar si es necesario realizar una valoración médica antes de iniciar la práctica de actividad física y deporte. Por favor, responda cada pregunta con atención.",
+      "link": "https://www.javeriana.edu.co/datos/fm/"
+    }
+  ]
+}

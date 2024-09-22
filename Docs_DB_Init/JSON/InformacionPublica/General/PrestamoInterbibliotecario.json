@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "title": "Préstamo Interbibliotecario",
+  "description": "La Biblioteca General ofrece servicios de préstamo interbibliotecario para la Comunidad Educativa Javeriana a través de convenios con otras entidades.",
+  "details": [
+    {
+      "subtitle": "Solicitud de Préstamo Interbibliotecario",
+      "content": "Para solicitar un préstamo interbibliotecario, debes acercarte a Circulación y préstamo de la Biblioteca General o ingresar al enlace proporcionado y diligenciar el formulario. Recibirás una confirmación por correo electrónico.",
+      "link": "https://www.javeriana.edu.co/biblos/prestamos#interbibliotecario"
+    },
+    {
+      "subtitle": "Condiciones Generales",
+      "content": "No se deben tener multas pendientes. Se pueden solicitar de uno a tres libros por siete días hábiles. El préstamo solo se realiza para la ciudad de Bogotá. Los retrasos en la entrega de los libros conllevan multas y pueden resultar en la suspensión del servicio.",
+      "link": "N/A"
+    },
+    {
+      "subtitle": "Link a Bibliotecas para Préstamo Interbibliotecario",
+      "content": "Consulta el documento con las instituciones con convenio para el préstamo interbibliotecario.",
+      "link": "https://www.javeriana.edu.co/recursosdb/720941/831833/Instituciones+convenio+prestamo+interbibliotecario.pdf/5de06ca7-631b-c8e2-1ed5-b56573cb0e18?t=1663185337116"
+    },
+    {
+      "subtitle": "Catálogos de Otras Bibliotecas",
+      "content": "Accede a los catálogos de otras bibliotecas para consultar los recursos disponibles.",
+      "link": "https://www.javeriana.edu.co/biblos/catalogos-otras-bibliotecas"
+    }
+  ]
+}

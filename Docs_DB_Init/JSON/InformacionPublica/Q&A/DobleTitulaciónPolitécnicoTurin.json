@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Programa de Doble Titulación con el Politécnico de Turín",
+      "questions": [
+        {
+          "question": "¿Qué requisitos deben cumplir los estudiantes para postularse al programa?",
+          "subquestions": [
+            "¿Cuántos créditos deben haber cursado?",
+            "¿Cuál es el promedio mínimo requerido?",
+            "¿Qué requisitos de idiomas se deben cumplir?"
+          ],
+          "answer": "Los estudiantes deben ser activos al momento de la postulación, haber cursado o estar cursando el 100% de los créditos del núcleo de formación fundamental (excepto asignaturas relacionadas con el trabajo de grado). Deben tener un promedio acumulado igual o superior a 3.8 y no haber perdido más de 21 créditos académicos. También deben presentar exámenes de dominio del idioma italiano e inglés, dependiendo del idioma en que se curse la Laurea Magistrale.",
+          "link": "N/A"
+        },
+        {
+          "question": "¿Cómo se lleva a cabo la inscripción al programa?",
+          "subquestions": [
+            "¿Qué documentos se deben enviar?",
+            "¿En qué formato deben enviarse los documentos?",
+            "¿Cuál es el plazo para la inscripción?"
+          ],
+          "answer": "Los documentos deben enviarse por correo al Director de Programa correspondiente en formato digital, en un solo archivo PDF. Los documentos incluyen el formulario de inscripción, copia del pasaporte, carta de motivación, carta de los padres, hoja de vida, certificado histórico de calificaciones, y certificados de idiomas.",
+          "link": "N/A"
+        },
+        {
+          "question": "¿Cuáles son los aspectos financieros del programa?",
+          "subquestions": [
+            "¿Cuánto debe pagar el estudiante a la PUJ?",
+            "¿Qué costos debe cubrir en el Politécnico de Turín?",
+            "¿Qué gastos adicionales se deben considerar?"
+          ],
+          "answer": "En el semestre en que inician sus estudios en el PoliTo, los estudiantes deben pagar media matrícula si les faltan de cero a 10 créditos, o matrícula completa si les faltan más de 10 créditos. En el Politécnico de Turín, deben cubrir costos de vida de estudio, tiquetes a Turín, vivienda y alimentación, seguro médico, transporte e impuesto a estudiantes extranjeros.",
+          "link": "N/A"
+        },
+        {
+          "question": "¿Qué requisitos específicos debe cumplir el trabajo de grado para ser reconocido en la PUJ?",
+          "subquestions": [
+            "¿Qué componentes debe incluir el trabajo de grado?",
+            "¿Cómo se autoriza el proyecto a desarrollar?"
+          ],
+          "answer": "El trabajo de grado debe contar con componentes de diseño según el currículo definido. La autorización previa del proyecto es requerida; se debe enviar la descripción del proyecto a la Dirección de cada carrera para su aprobación.",
+          "link": "N/A"
+        }
+      ]
+    }
+  ]
+}

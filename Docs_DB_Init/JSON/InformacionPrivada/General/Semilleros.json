@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "privado",
+  "title": "Semilleros",
+  "description": "Información sobre los semilleros disponibles para estudiantes interesados en diversas áreas de tecnología y robótica.",
+  "details": [
+    {
+      "subtitle": "Semillero JAVEX",
+      "content": "Este semillero está relacionado con robótica, redes sociales o desarrollo web. Las personas interesadas en estos temas son bienvenidas a participar. El enlace proporciona acceso a un póster con la información formal y un formulario para unirse al semillero.",
+      "link": "https://livejaverianaedu.sharepoint.com/:b:/r/sites/Ingsis/CISIST/Boletn/2024/Invitaciones/JAVEX%20ROBOTICS.pdf?csf=1&web=1&e=ljt36p"
+    },
+    {
+      "subtitle": "Semillero VCLOUD",
+      "content": "Este semillero está centrado en tecnologías de visualización y computación en la nube. El enlace proporciona acceso a un póster con la invitación formal, horarios, Instagram, correo y un formulario para unirse al semillero.",
+      "link": "https://livejaverianaedu.sharepoint.com/:b:/r/sites/Ingsis/CISIST/Boletn/2024/Invitaciones/Semillero%20VCloud.pdf?csf=1&web=1&e=qeTEVV"
+    },
+    {
+      "subtitle": "Python Orientado a Machine Learning",
+      "content": "Curso ofrecido por el Capítulo Javeriano ACM para aprender Python desde cero con enfoque en Machine Learning. El enlace proporciona acceso al póster con la invitación formal, horarios y perfil de Instagram para registro.",
+      "link": "https://livejaverianaedu.sharepoint.com/:b:/r/sites/Ingsis/CISIST/Boletn/2024/Invitaciones/PYTHON.pdf?csf=1&web=1&e=JvajNY"
+    },
+    {
+      "subtitle": "RAS-IEEE",
+      "content": "El Semillero de investigación RAS - IEEE vincula estudiantes de Ingeniería Electrónica, Mecatrónica, Industrial, Sistemas y Ciencia de Datos interesados en robótica e inteligencia artificial. Ofrece herramientas prácticas en programación de robots y modelos de IA. Para más información sobre actividades y convocatorias, visita Instagram: @rasjaverianaieee.",
+      "link": ""
+    }
+  ]
+}

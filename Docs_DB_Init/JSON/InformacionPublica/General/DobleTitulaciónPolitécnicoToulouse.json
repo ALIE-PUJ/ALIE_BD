@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "title": "Programa de Doble Titulación con el Politécnico de Toulouse - ENSEEIHT",
+  "description": "El programa de doble titulación con el Politécnico de Toulouse - ENSEEIHT permite a los estudiantes de Ingeniería de la Universidad Javeriana obtener títulos tanto de la PUJ como del ENSEEIHT. Los estudiantes deben completar cuatro años en la PUJ y dos años en ENSEEIHT, incluyendo un trabajo de grado. El Diplôme d’Ingénieur de Toulouse es equivalente a una Maestría en el sistema educativo francés.",
+  "details": [
+    {
+      "subtitle": "Descripción General",
+      "content": "El programa está dirigido a estudiantes javerianos de pregrado en Ingeniería (excepto Industrial), que hayan cursado o estén cursando el 80% de los créditos requeridos para el título profesional, incluyendo el 100% del Núcleo de Formación Fundamental. Los estudiantes deben completar cuatro años de pregrado en la PUJ y dos años en el ENSEEIHT, incluyendo el trabajo de grado, que debe incluir elementos de diseño, manejo de restricciones reales y utilización de estándares de la disciplina. Al finalizar, obtendrán el título de pregrado de la PUJ y el Diplôme d’Ingénieur de Toulouse, equivalente a una Maestría.",
+      "link": ""
+    },
+    {
+      "subtitle": "Requisitos para la Inscripción",
+      "content": "1. Ser estudiante activo en el momento de la postulación.\n2. Haber cursado o estar cursando mínimo el 80% de los créditos, incluyendo el 100% del Núcleo de Formación Fundamental, con excepción de las asignaturas relacionadas con el trabajo de grado.\n3. Tener créditos pendientes en la PUJ al momento de la postulación y al iniciar en ENSEEIHT.\n4. Tener un promedio acumulado igual o superior a 3,8.\n5. Dominio del idioma francés (nivel B2, Certificado DELF). Se recomienda un nivel C1 antes del viaje.\n6. Haber cumplido con el requisito de Lengua Extranjera en la PUJ.\n7. No tener antecedentes disciplinarios.\n8. Se recomienda haber presentado la prueba SABER PRO.",
+      "link": ""
+    },
+    {
+      "subtitle": "Requisitos Específicos para la Inscripción",
+      "content": "1. El trabajo de grado en la universidad de destino debe contar con componentes de diseño según el currículo definido por la PUJ. La descripción del proyecto debe ser autorizada por la Dirección de la carrera.\n2. Para obtener el título de Ingeniero de la PUJ, se deben cumplir los siguientes requisitos:\n   - Presentar la prueba SABER PRO.\n   - Cumplir con el requisito de Lengua Extranjera de la PUJ.\n   - Cumplir el acuerdo de aprendizaje con el director del programa antes del viaje.\n   - Entregar y aprobar el trabajo de grado en la universidad de destino.",
+      "link": ""
+    },
+    {
+      "subtitle": "Aspectos Financieros",
+      "content": "1. Pagar un semestre de matrícula en la PUJ (media o completa), correspondiente al semestre en que inician estudios en ENSEEIHT.\n2. En ENSEEIHT, el estudiante pagará el equivalente a lo que paga un estudiante francés (aproximadamente 601 euros por año).\n3. Costos estimados:\n   - Tiquetes a Toulouse: Aproximadamente 1.100 euros.\n   - Vivienda y alimentación: Mínimo 850 euros mensualmente.\n   - Seguro médico: Aproximadamente 200 euros/año.\n   - Transporte: Aproximadamente 450 euros/año.\n   - Impuesto a estudiantes extranjeros: Aproximadamente 100 euros/año.",
+      "link": ""
+    },
+    {
+      "subtitle": "Inscripción al Programa",
+      "content": "Para postularse al programa, se deben enviar los siguientes documentos al Director de programa correspondiente en formato digital (un solo archivo PDF por estudiante), en el orden siguiente:\n1. Formulario de Inscripción diligenciado.\n2. Carta de motivación en español dirigida a la Facultad (máximo una página).\n3. Carta de motivación en francés dirigida al ENSEEIHT (máximo una página).\n4. Carta de los padres o acudientes certificando que conocen los términos, condiciones y costos del programa y apoyan la participación del estudiante.\n5. Hoja de vida en español y francés con foto, según el formato europeo (máximo 2 páginas).\n6. Certificado histórico de calificaciones por grado académico emitido por la Oficina de Admisiones y Registro.\n7. Certificado DELF que acredite el nivel B2 de francés.",
+      "link": ""
+    }
+  ]
+}

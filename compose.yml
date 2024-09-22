@@ -2,16 +2,16 @@ version: '3.8'
 
 services:
 
-  # Servicio de BD Relacional - CockroachDB
-  cockroachdb:
-    image: cockroachdb/cockroach
+  # Servicio de BD Relacional - PostgreSQL
+  postgres:
+    image: postgres:15 # LTS actual de PostgreSQL
     restart: always
     ports:
-      - "26257:26257"
-      - "8070:8080"
-    expose:
-      - 26257
-    command: start-single-node --insecure
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: alie_db # Debe estar en minúsculas.
 
   # Servicio de Administrador de BD Relacional. Docs: https://github.com/vrana/adminer
   adminer:
@@ -27,7 +27,7 @@ services:
       context: ./DB_Init  # Contexto de construcción en la carpeta DB_Init
       dockerfile: Dockerfile
     depends_on:
-      - cockroachdb
+      - postgres
     restart: on-failure
     labels:
       kompose.cronjob.schedule: "0 7 * * *"
@@ -67,3 +67,21 @@ services:
     restart: on-failure
     labels:
       kompose.cronjob.schedule: "0 7 * * *"  # Ejecutar a las 7:00 AM
+
+
+  # API para el front-end
+  front_api:
+    image: harbor.alie.javeriana.edu.co/images/front_api:latest
+    build:
+      context: ./API/Front_API  # Contexto de construcción en la carpeta Main_API
+      dockerfile: Dockerfile
+    environment: # Variables de entorno. Unicamente aplica cuadno se corre en local con docker-compose. En el cluster, aplican las del cluster.
+      MONGO_URI: "mongodb://admin:admin123@mongodb:27017"
+    ports:
+      - "5000:5000"
+    depends_on:
+      - postgres
+      - mongodb
+      - db_init
+      - docs_db_init
+    restart: on-failure # Reiniciar en caso de fallo

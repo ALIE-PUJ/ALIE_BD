@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Apoyo Financiero a Corto Plazo",
+      "questions": [
+        {
+          "question": "¿Cómo puedo solicitar un crédito a corto plazo para el pago de matrícula?",
+          "subquestions": [
+            "¿Dónde realizo la solicitud?",
+            "¿Qué documentos necesito entregar?"
+          ],
+          "answer": "Para solicitar el crédito a corto plazo, debes completar el formulario en el Sistema de Inscripción y Selección de Aspirantes si eres nuevo estudiante, o en el Centro del Alumnado si eres estudiante actual. Necesitarás entregar copias digitales de los documentos de identidad del estudiante y de los deudores solidarios, certificación de ingresos mensuales de los deudores, y firmar electrónicamente un pagaré en blanco y una carta de instrucciones.",
+          "link": "https://www.javeriana.edu.co/guia-solicitud-credito"
+        },
+        {
+          "question": "¿Cuáles son los requisitos para acceder al crédito a corto plazo?",
+          "subquestions": [
+            "¿Qué requisitos debo cumplir como estudiante?",
+            "¿Qué requisitos deben cumplir los deudores solidarios?"
+          ],
+          "answer": "Debes estar a paz y salvo con la universidad y presentar un deudor solidario con ingresos mensuales certificables iguales o superiores a $4.000.000, o dos deudores solidarios que sumen esa cantidad. El deudor solidario no puede ser pensionado a menos que tenga ingresos adicionales. Si eres beneficiario de otros apoyos económicos, debes haber aplicado esos apoyos antes de solicitar el crédito a corto plazo.",
+          "link": "https://www.javeriana.edu.co/financiamiento-corto-plazo"
+        },
+        {
+          "question": "¿Cuáles son los beneficios del crédito a corto plazo?",
+          "subquestions": [],
+          "answer": "El crédito ofrece una tasa de interés preferencial del 1.2% mensual vencida, posibilidad de pagar en cuotas mensuales sin cobros adicionales, y un proceso fácil, rápido y seguro.",
+          "link": "https://www.javeriana.edu.co/financiamiento-corto-plazo"
+        },
+        {
+          "question": "¿Cómo puedo renovar el crédito a corto plazo?",
+          "subquestions": [
+            "¿Qué condiciones debo cumplir para la renovación?",
+            "¿Cómo y dónde realizo la renovación?"
+          ],
+          "answer": "Para renovar el crédito, debes haber tenido un buen comportamiento en los pagos del semestre anterior y no estar en prueba académica. La renovación se realiza siguiendo una guía disponible en el enlace proporcionado. La oficina de Apoyo Financiero informará sobre las fechas de convocatoria para la renovación.",
+          "link": "https://www.javeriana.edu.co/guia-renovacion-credito"
+        },
+        {
+          "question": "¿Dónde puedo simular el crédito a corto plazo?",
+          "subquestions": [],
+          "answer": "Puedes realizar la simulación del crédito o plan de pagos en el enlace proporcionado.",
+          "link": "https://www.javeriana.edu.co/simulador-credito"
+        }
+      ]
+    }
+  ]
+}

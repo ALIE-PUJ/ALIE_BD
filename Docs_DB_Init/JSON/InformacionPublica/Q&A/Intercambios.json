@@ -1,0 +1,138 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-18",
+  "access_control": "público",
+  "categories": [
+    {
+      "category": "Intercambios",
+      "questions": [
+        {
+          "question": "¿Cuándo se envían las invitaciones para los programas de intercambio?",
+          "subquestions": [
+            "¿Las invitaciones se envían al inicio de cada semestre?",
+            "¿Puedo recibir información anticipada sobre los intercambios?"
+          ],
+          "answer": "Las invitaciones se envían normalmente a principio de semestre.",
+          "Link": ""
+        },
+        {
+          "question": "¿Cómo puedo saber las fechas y horarios de las reuniones informativas?",
+          "subquestions": [
+            "¿Las reuniones informativas se notifican por correo?",
+            "¿Dónde encuentro los enlaces para estas reuniones?"
+          ],
+          "answer": "Se envían fechas y enlaces para reuniones informativas por correo electrónico.",
+          "Link": ""
+        },
+        {
+          "question": "¿Dónde se encuentran los requisitos específicos para postularse a un intercambio?",
+          "subquestions": [
+            "¿El archivo Canva incluye todos los requisitos para la postulación?",
+            "¿Dónde puedo consultar estos requisitos?"
+          ],
+          "answer": "Los requisitos se encuentran en un archivo Canva enviado por la universidad.",
+          "Link": "https://www.canva.com/design/DAFn-_-GJog/4Dr46uVy7h9cvcjToZhDkA/view?utm_content=DAFn-_-GJog&utm_campaign=designshare&utm_medium=link&utm_source=viewer"
+        },
+        {
+          "question": "¿Qué documentos específicos debo presentar al momento de la postulación?",
+          "subquestions": [
+            "¿Qué tipo de carta de autorización es necesaria?",
+            "¿Cómo obtengo el certificado histórico de calificaciones?"
+          ],
+          "answer": "Debes presentar una carta de autorización, certificado histórico de calificaciones, copia del pasaporte y, si corresponde, certificado B2.",
+          "Link": ""
+        },
+        {
+          "question": "¿Qué ocurre si no cumplo con alguno de los requisitos?",
+          "subquestions": [
+            "¿Puedo presentar una solicitud a pesar de no cumplir todos los requisitos?",
+            "¿Cómo puedo resolver una falta de requisitos?"
+          ],
+          "answer": "No podrás completar la postulación si no cumples con los requisitos establecidos.",
+          "Link": ""
+        },
+        {
+          "question": "¿Cómo puedo elegir el destino más adecuado para mi intercambio?",
+          "subquestions": [
+            "¿Qué factores deben considerarse al seleccionar un destino?",
+            "¿Dónde encuentro información sobre los destinos disponibles?"
+          ],
+          "answer": "Debes considerar presupuesto, ubicación geográfica, cultura y nivel académico de la institución destino.",
+          "Link": ""
+        },
+        {
+          "question": "¿Qué factores debo considerar al seleccionar una universidad para el intercambio?",
+          "subquestions": [
+            "¿Qué aspectos del presupuesto son importantes?",
+            "¿Cómo influyen la ubicación y la cultura en la elección de la universidad?"
+          ],
+          "answer": "Considera factores como presupuesto, ubicación, cultura, y nivel académico de la institución destino.",
+          "Link": ""
+        },
+        {
+          "question": "¿Dónde encuentro información sobre las universidades disponibles para el intercambio?",
+          "subquestions": [
+            "¿Cómo accedo a la lista de universidades disponibles?",
+            "¿Dónde está la información sobre las universidades?"
+          ],
+          "answer": "La información sobre las universidades disponibles se encuentra en el sistema de postulación de la universidad.",
+          "Link": "https://movixu.javeriana.edu.co/login"
+        },
+        {
+          "question": "¿Qué pasos específicos debo seguir para completar la postulación?",
+          "subquestions": [
+            "¿Qué actividades debo realizar antes de la postulación?",
+            "¿Cómo defino mis opciones de universidades?"
+          ],
+          "answer": "Debes asistir a las charlas informativas, elegir un destino, definir opciones de universidades, y realizar la aplicación a través del sistema de postulación.",
+          "Link": ""
+        },
+        {
+          "question": "¿Cómo accedo al sistema para realizar la aplicación?",
+          "subquestions": [
+            "¿Cómo obtengo el usuario y la clave para acceder al sistema?",
+            "¿Qué hago si tengo problemas para acceder al sistema?"
+          ],
+          "answer": "Accede al sistema con el usuario y clave de intranet en el enlace proporcionado.",
+          "Link": "https://movixu.javeriana.edu.co/login"
+        },
+        {
+          "question": "¿Qué hacer si tengo problemas al acceder al sistema de postulación?",
+          "subquestions": [
+            "¿A quién debo contactar si no puedo acceder al sistema?",
+            "¿Dónde encuentro ayuda técnica para el sistema de postulación?"
+          ],
+          "answer": "Contacta a la oficina de movilidad para asistencia con problemas de acceso.",
+          "Link": ""
+        },
+        {
+          "question": "¿Dónde solicito el certificado histórico de calificaciones?",
+          "subquestions": [
+            "¿Cómo se solicita el certificado a través de la intranet?",
+            "¿Qué información necesito para solicitar el certificado?"
+          ],
+          "answer": "El certificado histórico de calificaciones se solicita a través de la intranet de la universidad.",
+          "Link": ""
+        },
+        {
+          "question": "¿Qué debo hacer si no tengo el pasaporte válido?",
+          "subquestions": [
+            "¿Cómo puedo obtener un pasaporte válido?",
+            "¿Qué hacer si mi pasaporte está vencido?"
+          ],
+          "answer": "Debes obtener un pasaporte válido y vigente antes de realizar la postulación.",
+          "Link": ""
+        },
+        {
+          "question": "¿Cómo obtengo el certificado B2 si voy a estudiar en una lengua diferente al español?",
+          "subquestions": [
+            "¿Dónde y cómo solicito el certificado B2?",
+            "¿Qué pasa si no tengo el certificado B2 en el momento de la aplicación?"
+          ],
+          "answer": "Debes presentar un certificado B2 válido y vigente al momento de la aplicación si el idioma de estudio es diferente al español.",
+          "Link": ""
+        }
+      ]
+    }
+  ]
+}

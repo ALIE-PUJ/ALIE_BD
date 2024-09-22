@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-08-26",
+  "access_control": "publico",
+  "title": "Información General sobre Servicios en el Campus Universitario",
+  "description": "Información privada sobre impresión, la Tienda Javeriana, primeros auxilios y parqueaderos en la Universidad Javeriana.",
+  "details": [
+    {
+      "subtitle": "Servicio de Impresión",
+      "content": "En el enlace proporcionado, se encuentran más detalles sobre el servicio de impresión, incluyendo ubicación, horarios, y preguntas frecuentes.",
+      "link": "https://www.javeriana.edu.co/servicios-generales#IMPRESION"
+    },
+    {
+      "subtitle": "Tienda Javeriana",
+      "content": "La Tienda Javeriana ofrece una variedad de productos, incluyendo libros, papelería, música, películas, uniformes, boletería, y artículos de la marca Javeriana. Los estudiantes pueden acceder a descuentos especiales presentando su carné institucional. La tienda está ubicada en el Edificio 21 Emilio Arango, S.J., piso 1.",
+      "link": "https://www.javeriana.edu.co/tienda/"
+    },
+    {
+      "subtitle": "Primeros Auxilios",
+      "content": "En caso de emergencia dentro del campus universitario, se debe notificar al personal de seguridad más cercano o comunicarse a la línea de emergencias PUJ *123 o al número celular 310 576 30 02. También se pueden usar las torres de emergencia para reportar un accidente o actividad sospechosa.",
+      "link": ""
+    },
+    {
+      "subtitle": "Parqueaderos",
+      "content": "La Universidad Javeriana ofrece servicio de parqueadero para estudiantes. Para consultar tarifas y funcionamiento, se puede visitar la oficina de parqueaderos en el edificio 67, José Rafael Arboleda, S.J., en los horarios indicados.",
+      "link": "https://www.javeriana.edu.co/servicios-generales#PARQUEADEROS"
+    }
+  ]
+}
