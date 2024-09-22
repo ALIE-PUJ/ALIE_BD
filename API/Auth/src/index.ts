@@ -32,8 +32,10 @@ app.use('/swagger', swaggerUI.serve, swaggerUI.setup(openAPISpecs));
 app.post('/verify', expressjwt({
     secret: secret,
     algorithms: ["HS512"]
-}), (req: JWTRequest, _res) => {
-    client.query("SELECT * FROM usuario u WHERE u.id_usuario=$1::text", [req.auth.id_usuario])
+}), (req: JWTRequest, res) => {
+    // client.query("SELECT * FROM usuario u WHERE u.id_usuario=$1::text", [req.auth.id_usuario]);
+
+    res.status(200).json({ id_usuario: "Token válido" });
 });
 
 app.listen(port, () => {
