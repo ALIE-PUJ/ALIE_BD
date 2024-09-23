@@ -4,7 +4,6 @@ Content-Type: application/json
 
 {
     "auth_token": "your_token_here",
-    "nombre": "1234",
     "mensajes_agente": ["{\"texto\": \"Hola, ¿en qué puedo ayudarte hoy?\"}"],
     "mensajes_usuario": ["{\"texto\": \"Estoy buscando información.\"}"],
     "mensajes_supervision": ["{\"texto\": \"Revisar asistencia123.\"}"],
@@ -17,11 +16,11 @@ Content-Type: application/json
 
 {
     "auth_token": "your_token_here",
-    "memory_key": "2cdb5ba6-85c5-4209-9f9c-cf11fa67cb5e",
-    "nombre": "1234",
-    "mensajes_agente": ["{\"texto\": \"Hola, ¿en qué puedo ayudarte hoy?\"}"],
-    "mensajes_usuario": ["{\"texto\": \"Estoy buscando información.\"}"],
-    "mensajes_supervision": ["{\"texto\": \"Revisar asistencia123.\"}"],
+    "memory_key": "chat_12345",
+    "nombre": "Almacenamiento",
+    "mensajes_agente": ["q"],
+    "mensajes_usuario": [],
+    "mensajes_supervision": [],
     "user_id": 1
 }
 
@@ -31,8 +30,8 @@ POST http://localhost:5000/chat/get
 Content-Type: application/json
 
 {
-    "auth_token": "3a551a64-33b1-4df4-9073-10ca3c689774",
-    "memory_key": "2cdb5ba6-85c5-4209-9f9c-cf11fa67cb5e"
+    "auth_token": "chat_12345",
+    "memory_key": "chat_12345"
 }
 
 
@@ -60,7 +59,7 @@ Content-Type: application/json
 
 {
     "auth_token": "your_token_here",
-    "memory_key": "3a551a64-33b1-4df4-9073-10ca3c689774"
+    "memory_key": "9544a435-6a67-4ed4-8448-daf99f38cf2e"
 }
 
 
@@ -70,5 +69,5 @@ Content-Type: application/json
 
 {
     "auth_token": "your_token_here",
-    "memory_key": "2cdb5ba6-85c5-4209-9f9c-cf11fa67cb5e"
+    "memory_key": "9778261c-e833-4a48-bc03-8c45f8a3f0d4"
 }

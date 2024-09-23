@@ -20,7 +20,7 @@ userDB = os.getenv('COCKROACHDB_USER', 'root')
 # Busca la variable de entorno PASS; si no existe, asigna una cadena vacía
 passw = os.getenv('COCKROACHDB_PASS', 'pass')
 # Busca la variable de entorno HOST; si no existe, asigna postgres
-cdb_host = os.getenv('COCKROACHDB_HOST', 'postgres')
+cdb_host = os.getenv('COCKROACHDB_HOST', 'localhost')
 # Busca el puerto en la variable de entorno
 cdb_port = os.getenv('COCKROACHDB_PORT', 5432)
 # Conexion
@@ -182,31 +182,48 @@ def view_file():
 def guardar_chat():
     data = request.get_json()
 
-    if not all(key in data for key in ('auth_token', 'nombre', 'mensajes_agente', 'mensajes_usuario', 'mensajes_supervision', 'user_id')):
+    if not all(key in data for key in ('auth_token', 'mensajes_agente', 'mensajes_usuario', 'mensajes_supervision', 'user_id')):
         return jsonify(success=False, message="Faltan campos requeridos"), 400
 
     auth_token = data['auth_token']
-    nombre = data['nombre']
+    nombre = data.get('nombre')  # El nombre puede estar presente o no
     mensajes_agente = data['mensajes_agente']
     mensajes_usuario = data['mensajes_usuario']
     mensajes_supervision = data['mensajes_supervision']
     user_id = data['user_id']
 
-
+    # Generar un memory_key único si no se proporciona
     memory_key = data.get('memory_key', str(uuid.uuid4()))
 
     try:
         cursor = connection.cursor()
-        cursor.execute("SELECT 1 FROM Chat WHERE memory_key = %s", (memory_key,))
-        exists = cursor.fetchone()
+        cursor.execute("SELECT * FROM Chat WHERE memory_key = %s", (memory_key,))
+        chat = cursor.fetchone()
 
-        if exists:
+        if chat:
+            # Si el chat existe, agregamos los mensajes al array en lugar de sobrescribir
             query = """
-                UPDATE Chat SET nombre=%s, mensajes_agente=%s, mensajes_usuario=%s, mensajes_supervision=%s, user_id=%s
-                WHERE memory_key=%s
+                UPDATE Chat 
+                SET mensajes_agente = array_cat(mensajes_agente, %s), 
+                    mensajes_usuario = array_cat(mensajes_usuario, %s),
+                    mensajes_supervision = array_cat(mensajes_supervision, %s)
             """
-            cursor.execute(query, (nombre, mensajes_agente, mensajes_usuario, mensajes_supervision, user_id, memory_key))
+            if nombre:
+                query += ", nombre = %s"
+                query += " WHERE memory_key = %s"
+                cursor.execute(query, (mensajes_agente, mensajes_usuario, mensajes_supervision, nombre, memory_key))
+            else:
+                query += " WHERE memory_key = %s"
+                cursor.execute(query, (mensajes_agente, mensajes_usuario, mensajes_supervision, memory_key))
+
         else:
+            # Si no existe, creamos un nuevo chat
+            # Si no se proporciona nombre, generar un nombre genérico como "Chat X"
+            if not nombre:
+                cursor.execute("SELECT COUNT(*) FROM Chat")
+                chat_count = cursor.fetchone()[0] + 1
+                nombre = f'Chat {chat_count}'  # Generar nombre genérico
+
             query = """
                 INSERT INTO Chat (memory_key, nombre, mensajes_agente, mensajes_usuario, mensajes_supervision, user_id, archivado, intervenido)
                 VALUES (%s, %s, %s, %s, %s, %s, FALSE, FALSE)
@@ -215,16 +232,18 @@ def guardar_chat():
 
         connection.commit()
         cursor.close()
-        return jsonify(success=True, memory_key=memory_key)
+        return jsonify(success=True, memory_key=memory_key, nombre=nombre)
     except Exception as e:
         print(e)
-        return jsonify(success=False)
+        return jsonify(success=False, message="Error en el servidor")
+
 
 
 @app.route('/chat/get', methods=['POST'])
 def get_chat():
     data = request.get_json()
 
+    # Verificar si el token y el memory_key están presentes
     if not all(key in data for key in ('auth_token', 'memory_key')):
         return jsonify(success=False, message="Faltan campos requeridos"), 400
 
@@ -233,11 +252,13 @@ def get_chat():
 
     try:
         cursor = connection.cursor()
+        # Buscar el chat por memory_key
         cursor.execute("SELECT * FROM Chat WHERE memory_key = %s", (memory_key,))
         chat = cursor.fetchone()
         cursor.close()
 
         if chat:
+            # Devolver el chat en formato JSON
             return jsonify({
                 'memory_key': chat[0],
                 'nombre': chat[1],
@@ -245,13 +266,14 @@ def get_chat():
                 'mensajes_usuario': chat[3],
                 'mensajes_supervision': chat[4],
                 'archivado': chat[5],
-                'intervenido': chat[6]
+                'intervenido': chat[6],
+                'success': True
             })
         else:
             return jsonify(success=False, message="Chat no encontrado"), 404
     except Exception as e:
         print(e)
-        return jsonify(success=False)
+        return jsonify(success=False, message="Error en el servidor")
 
 
 @app.route('/chat/list', methods=['POST'])
