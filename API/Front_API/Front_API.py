@@ -217,12 +217,11 @@ def guardar_chat():
                 cursor.execute(query, (mensajes_agente, mensajes_usuario, mensajes_supervision, memory_key))
 
         else:
-            # Si no existe, creamos un nuevo chat
-            # Si no se proporciona nombre, generar un nombre genérico como "Chat X"
+  
             if not nombre:
                 cursor.execute("SELECT COUNT(*) FROM Chat")
                 chat_count = cursor.fetchone()[0] + 1
-                nombre = f'Chat {chat_count}'  # Generar nombre genérico
+                nombre = f'Chat {chat_count}'  
 
             query = """
                 INSERT INTO Chat (memory_key, nombre, mensajes_agente, mensajes_usuario, mensajes_supervision, user_id, archivado, intervenido)
@@ -243,7 +242,7 @@ def guardar_chat():
 def get_chat():
     data = request.get_json()
 
-    # Verificar si el token y el memory_key están presentes
+
     if not all(key in data for key in ('auth_token', 'memory_key')):
         return jsonify(success=False, message="Faltan campos requeridos"), 400
 
@@ -252,13 +251,13 @@ def get_chat():
 
     try:
         cursor = connection.cursor()
-        # Buscar el chat por memory_key
+
         cursor.execute("SELECT * FROM Chat WHERE memory_key = %s", (memory_key,))
         chat = cursor.fetchone()
         cursor.close()
 
         if chat:
-            # Devolver el chat en formato JSON
+        
             return jsonify({
                 'memory_key': chat[0],
                 'nombre': chat[1],
