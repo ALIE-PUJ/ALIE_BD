@@ -1,5 +1,5 @@
 import express from "express";
-import type { LoginDTO, User } from "./model";
+import type { CategoryDTO, LoginDTO, User } from "./model";
 import { UserService } from "./services/UserService";
 import swaggerUI from "swagger-ui-express";
 import { openAPISpecs } from "./configs/swagger";
@@ -26,6 +26,20 @@ app.post('/login', async (req, res) => {
     res.status(401).json({ message: "Credenciales inválidas" });
   }
 });
+
+app.put('/asignar_rol', async (req, res) => {
+  const userCategory = req.body as CategoryDTO;
+
+  try {
+    UserService.assignRole(userCategory.id_usuario, userCategory.id_categoria);
+  } catch (error) {
+    console.error("Error al asignar rol: " + error);
+    res.status(400).json({ message: "Error al asignar rol" });
+    
+  }
+  
+  res.status(200).json(true);
+})
 
 app.listen(port, () => {
   console.log("Escuchando en el puerto " + port + "...");

@@ -49,7 +49,7 @@ export const UserService = {
     };
   },
 
-  assingRole: async (id_usuario: number, id_categoria: number) => {
+  assignRole: async (id_usuario: number, id_categoria: number) => {
     let user: User = (await UserService.findUser(id_usuario))[0];
     if (!user) {
       throw new Error("Usuario no encontrado");
