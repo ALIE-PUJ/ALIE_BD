@@ -91,6 +91,63 @@
           }
         }
       }
+    },
+    "/asignar_rol": {
+      "put": {
+        "description": "Asigna un rol/categoría a un usuario",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "id_categoria",
+                  "id_usuario"
+                ],
+                "properties": {
+                  "id_categoria": {
+                    "type": "number"
+                  },
+                  "id_usuario": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Se asignó el rol correctamente",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "El usuario o el rol no existen. No se pudo asignar el rol.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "message"
+                  ],
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
