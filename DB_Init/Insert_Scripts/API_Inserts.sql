@@ -1,18 +1,20 @@
 -- Insertar categorías en la tabla Categoria
 INSERT INTO Categoria (id_categoria, nombre) VALUES
 (1, 'Student'),
-(2, 'Admin');
+(2, 'Admin') ON CONFLICT (id_categoria) DO NOTHING;
 
 -- Insertar administradores en la tabla Usuario
-INSERT INTO Usuario (usuario, contrasena, email, id_categoria) VALUES
-('Luis Bravo', 'contrasena_segura_luis', 'luis.bravo@javeriana.edu.com', 2), -- Admin
-('Ana Ortegon', 'contrasena_segura_ana', 'ana.ortegon@javeriana.edu.com', 2), -- Admin
-('Maria Avellaneda', 'contrasena_segura_maria', 'maria.avellaneda@javeriana.edu.com', 2), -- Admin
-('Juan Sanchez', 'contrasena_segura_juan', 'juan.sanchez@javeriana.edu.com', 2); -- Admin
+INSERT INTO Usuario (id_usuario, usuario, contrasena, email, id_categoria) VALUES
+(1, 'Luis Bravo', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'luis.bravo@javeriana.edu.com', 2), -- Admin
+(2, 'Ana Ortegon', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'ana.ortegon@javeriana.edu.com', 2), -- Admin
+(3, 'Maria Avellaneda', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'maria.avellaneda@javeriana.edu.com', 2), -- Admin
+(4, 'Juan Sanchez', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'juan.sanchez@javeriana.edu.com', 2) -- Admin
+ON CONFLICT (id_usuario) DO NOTHING;
 
 -- Insertar estudiantes en la tabla Usuario
-INSERT INTO Usuario (usuario, contrasena, email, id_categoria) VALUES
-('Pepito perez', 'contrasena_segura_pepito', 'pepito@javeriana.edu.com', 1); -- Student
+INSERT INTO Usuario (id_usuario, usuario, contrasena, email, id_categoria) VALUES
+(5, 'Pepito perez', 'contrasena_segura_pepito', 'pepito@javeriana.edu.com', 1) -- Student
+ON CONFLICT (id_usuario) DO NOTHING;
 
 -- Insertar un chat de ejemplo en la tabla Chat
 INSERT INTO Chat (memory_key, nombre, mensajes_agente, mensajes_usuario, mensajes_supervision, user_id, archivado, intervenido) VALUES
@@ -25,4 +27,4 @@ INSERT INTO Chat (memory_key, nombre, mensajes_agente, mensajes_usuario, mensaje
     1,  -- user_id (debe coincidir con un id_usuario válido en la tabla Usuario)
     FALSE,  -- archivado
     FALSE   -- intervenido
-);
+) ON CONFLICT (memory_key) DO NOTHING;
