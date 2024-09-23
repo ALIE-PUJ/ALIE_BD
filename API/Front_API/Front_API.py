@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS, cross_origin # CORS for angular
 import psycopg2
 from io import BytesIO
+import uuid
 
 # Inicializacion de Flask
 app = Flask(__name__)
@@ -175,6 +176,199 @@ def view_file():
     except Exception as e:
         print(f"Error: {e}")
         return jsonify(success=False, message="Error al obtener el archivo"), 500
+
+
+@app.route('/chat/guardar', methods=['POST'])
+def guardar_chat():
+    data = request.get_json()
+
+    if not all(key in data for key in ('auth_token', 'mensajes_agente', 'mensajes_usuario', 'mensajes_supervision', 'user_id')):
+        return jsonify(success=False, message="Faltan campos requeridos"), 400
+
+    auth_token = data['auth_token']
+    nombre = data.get('nombre')  # El nombre puede estar presente o no
+    mensajes_agente = data['mensajes_agente']
+    mensajes_usuario = data['mensajes_usuario']
+    mensajes_supervision = data['mensajes_supervision']
+    user_id = data['user_id']
+
+    # Generar un memory_key único si no se proporciona
+    memory_key = data.get('memory_key', str(uuid.uuid4()))
+
+    try:
+        cursor = connection.cursor()
+        cursor.execute("SELECT * FROM Chat WHERE memory_key = %s", (memory_key,))
+        chat = cursor.fetchone()
+
+        if chat:
+            # Si el chat existe, agregamos los mensajes al array en lugar de sobrescribir
+            query = """
+                UPDATE Chat 
+                SET mensajes_agente = array_cat(mensajes_agente, %s), 
+                    mensajes_usuario = array_cat(mensajes_usuario, %s),
+                    mensajes_supervision = array_cat(mensajes_supervision, %s)
+            """
+            if nombre:
+                query += ", nombre = %s"
+                query += " WHERE memory_key = %s"
+                cursor.execute(query, (mensajes_agente, mensajes_usuario, mensajes_supervision, nombre, memory_key))
+            else:
+                query += " WHERE memory_key = %s"
+                cursor.execute(query, (mensajes_agente, mensajes_usuario, mensajes_supervision, memory_key))
+
+        else:
+  
+            if not nombre:
+                cursor.execute("SELECT COUNT(*) FROM Chat")
+                chat_count = cursor.fetchone()[0] + 1
+                nombre = f'Chat {chat_count}'  
+
+            query = """
+                INSERT INTO Chat (memory_key, nombre, mensajes_agente, mensajes_usuario, mensajes_supervision, user_id, archivado, intervenido)
+                VALUES (%s, %s, %s, %s, %s, %s, FALSE, FALSE)
+            """
+            cursor.execute(query, (memory_key, nombre, mensajes_agente, mensajes_usuario, mensajes_supervision, user_id))
+
+        connection.commit()
+        cursor.close()
+        return jsonify(success=True, memory_key=memory_key, nombre=nombre)
+    except Exception as e:
+        print(e)
+        return jsonify(success=False, message="Error en el servidor")
+
+
+
+@app.route('/chat/get', methods=['POST'])
+def get_chat():
+    data = request.get_json()
+
+
+    if not all(key in data for key in ('auth_token', 'memory_key')):
+        return jsonify(success=False, message="Faltan campos requeridos"), 400
+
+    auth_token = data['auth_token']
+    memory_key = data['memory_key']
+
+    try:
+        cursor = connection.cursor()
+
+        cursor.execute("SELECT * FROM Chat WHERE memory_key = %s", (memory_key,))
+        chat = cursor.fetchone()
+        cursor.close()
+
+        if chat:
+        
+            return jsonify({
+                'memory_key': chat[0],
+                'nombre': chat[1],
+                'mensajes_agente': chat[2],
+                'mensajes_usuario': chat[3],
+                'mensajes_supervision': chat[4],
+                'archivado': chat[5],
+                'intervenido': chat[6],
+                'success': True
+            })
+        else:
+            return jsonify(success=False, message="Chat no encontrado"), 404
+    except Exception as e:
+        print(e)
+        return jsonify(success=False, message="Error en el servidor")
+
+
+@app.route('/chat/list', methods=['POST'])
+def list_chats_by_user():
+    data = request.get_json()
+
+
+    if not all(key in data for key in ('auth_token', 'user_id')):
+        return jsonify(success=False, message="Faltan campos requeridos"), 400
+
+    auth_token = data['auth_token']
+    user_id = data['user_id']
+
+    try:
+        cursor = connection.cursor()
+        cursor.execute("SELECT memory_key, nombre FROM Chat WHERE user_id = %s", (user_id,))
+        chats = cursor.fetchall()
+        cursor.close()
+
+        chat_list = [{'memory_key': chat[0], 'nombre': chat[1]} for chat in chats]
+        return jsonify(chat_list)
+    except Exception as e:
+        print(e)
+        return jsonify(success=False)
+
+
+@app.route('/chat/list_all', methods=['POST'])
+def list_all_chats():
+    data = request.get_json()
+
+
+    if 'auth_token' not in data:
+        return jsonify(success=False, message="Faltan campos requeridos"), 400
+
+    auth_token = data['auth_token']
+
+    try:
+        cursor = connection.cursor()
+        cursor.execute("SELECT memory_key, nombre FROM Chat")
+        chats = cursor.fetchall()
+        cursor.close()
+
+        chat_list = [{'memory_key': chat[0], 'nombre': chat[1]} for chat in chats]
+        return jsonify(chat_list)
+    except Exception as e:
+        print(e)
+        return jsonify(success=False)
+
+@app.route('/chat/delete', methods=['POST'])
+def delete_chat():
+    data = request.get_json()
+
+    if not all(key in data for key in ('auth_token', 'memory_key')):
+        return jsonify(success=False, message="Faltan campos requeridos"), 400
+
+    auth_token = data['auth_token']
+    memory_key = data['memory_key']
+
+    try:
+        cursor = connection.cursor()
+        cursor.execute("DELETE FROM Chat WHERE memory_key = %s", (memory_key,))
+        connection.commit()
+        cursor.close()
+
+        if cursor.rowcount > 0:
+            return jsonify(success=True)
+        else:
+            return jsonify(success=False, message="Chat no encontrado"), 404
+    except Exception as e:
+        print(e)
+        return jsonify(success=False)
+
+@app.route('/chat/archive', methods=['POST'])
+def archive_chat():
+    data = request.get_json()
+
+    if not all(key in data for key in ('auth_token', 'memory_key')):
+        return jsonify(success=False, message="Faltan campos requeridos"), 400
+
+    auth_token = data['auth_token']
+    memory_key = data['memory_key']
+
+    try:
+        cursor = connection.cursor()
+        cursor.execute("UPDATE Chat SET archivado = TRUE WHERE memory_key = %s", (memory_key,))
+        connection.commit()
+        cursor.close()
+
+        if cursor.rowcount > 0:
+            return jsonify(success=True)
+        else:
+            return jsonify(success=False, message="Chat no encontrado"), 404
+    except Exception as e:
+        print(e)
+        return jsonify(success=False)
+
 
 # Main runner
 if __name__ == '__main__':
