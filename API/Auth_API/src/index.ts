@@ -32,13 +32,13 @@ app.put('/asignar_rol', async (req, res) => {
 
   try {
     await UserService.assignRole(userCategory.id_usuario, userCategory.id_categoria);
+
+    res.status(200).json(true);
   } catch (error) {
     console.error("Error al asignar rol: " + error);
-    res.status(400).json({ message: "Error al asignar rol" });
-    
+
+    res.status(400).json({ message: "Error al asignar rol" }); 
   }
-  
-  res.status(200).json(true);
 })
 
 app.listen(port, () => {
