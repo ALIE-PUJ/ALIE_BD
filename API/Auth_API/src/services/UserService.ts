@@ -8,6 +8,7 @@ export const UserService = {
     const result = await client.query("SELECT * FROM usuario u WHERE u.id_usuario = $1", [id_usuario]);
     return result.rows as User[];
   },
+
   findUserByEmail: async (email: string) => {
     console.log("Buscando usuario con email: " + email);
     const result = await client.query("SELECT * FROM usuario u WHERE u.email = $1", [email]);
@@ -30,6 +31,7 @@ export const UserService = {
     console.log("Resultado: " + JSON.stringify(result.rows));
     return result.rows[0] as User;
   },
+
   authenticate: async (email: string, password: string) => {
     const user = await UserService.findUserByEmail(email);
     let success;
@@ -45,5 +47,13 @@ export const UserService = {
         contrasena: undefined,
       } : null,
     };
-  }
+  },
+
+  assingRole: async (id_usuario: number, id_categoria: number) => {
+    let user: User = (await UserService.findUser(id_usuario))[0];
+    if (!user) {
+      throw new Error("Usuario no encontrado");
+    }
+    await client.query("UPDATE usuario SET id_categoria = $1 WHERE id_usuario = $2", [id_categoria, id_usuario]);
+  },
 };

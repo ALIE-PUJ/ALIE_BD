@@ -3,7 +3,7 @@ export interface AuthRequest extends Express.Request {
 }
 
 export interface User {
-  id_usuario: string;
+  id_usuario: number;
   usuario: string;
   contrasena?: string;
   email: string;
@@ -13,4 +13,9 @@ export interface User {
 export interface LoginDTO {
   email: string;
   contrasena: string;
+}
+
+export interface CategoryDTO {
+  id_categoria: number;
+  id_usuario: number;
 }
