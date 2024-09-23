@@ -1,0 +1,74 @@
+### Guardar un chat nuevo
+POST http://localhost:5000/chat/guardar
+Content-Type: application/json
+
+{
+    "auth_token": "your_token_here",
+    "nombre": "1234",
+    "mensajes_agente": ["{\"texto\": \"Hola, ¿en qué puedo ayudarte hoy?\"}"],
+    "mensajes_usuario": ["{\"texto\": \"Estoy buscando información.\"}"],
+    "mensajes_supervision": ["{\"texto\": \"Revisar asistencia123.\"}"],
+    "user_id": 1
+}
+
+### Guardar un chat existente
+POST http://localhost:5000/chat/guardar
+Content-Type: application/json
+
+{
+    "auth_token": "your_token_here",
+    "memory_key": "2cdb5ba6-85c5-4209-9f9c-cf11fa67cb5e",
+    "nombre": "1234",
+    "mensajes_agente": ["{\"texto\": \"Hola, ¿en qué puedo ayudarte hoy?\"}"],
+    "mensajes_usuario": ["{\"texto\": \"Estoy buscando información.\"}"],
+    "mensajes_supervision": ["{\"texto\": \"Revisar asistencia123.\"}"],
+    "user_id": 1
+}
+
+
+### Obtener un chat por memory_key
+POST http://localhost:5000/chat/get
+Content-Type: application/json
+
+{
+    "auth_token": "3a551a64-33b1-4df4-9073-10ca3c689774",
+    "memory_key": "2cdb5ba6-85c5-4209-9f9c-cf11fa67cb5e"
+}
+
+
+### Listar chats por usuario
+POST http://localhost:5000/chat/list
+Content-Type: application/json
+
+{
+    "auth_token": "your_token_here",
+    "user_id": 1
+}
+
+
+### Listar todos los chats
+POST http://localhost:5000/chat/list_all
+Content-Type: application/json
+
+{
+    "auth_token": "your_token_here"
+}
+
+### Eliminar un chat por memory_key
+POST http://localhost:5000/chat/delete
+Content-Type: application/json
+
+{
+    "auth_token": "your_token_here",
+    "memory_key": "3a551a64-33b1-4df4-9073-10ca3c689774"
+}
+
+
+### Archivar un chat por memory_key
+POST http://localhost:5000/chat/archive
+Content-Type: application/json
+
+{
+    "auth_token": "your_token_here",
+    "memory_key": "2cdb5ba6-85c5-4209-9f9c-cf11fa67cb5e"
+}
