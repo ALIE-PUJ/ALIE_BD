@@ -31,7 +31,7 @@ app.put('/asignar_rol', async (req, res) => {
   const userCategory = req.body as CategoryDTO;
 
   try {
-    UserService.assignRole(userCategory.id_usuario, userCategory.id_categoria);
+    await UserService.assignRole(userCategory.id_usuario, userCategory.id_categoria);
   } catch (error) {
     console.error("Error al asignar rol: " + error);
     res.status(400).json({ message: "Error al asignar rol" });
