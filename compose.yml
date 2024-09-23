@@ -96,7 +96,7 @@ services:
       - DB_DB=alie_db
       - DB_HOST=postgres
       - DB_PORT=5432 # Puerto por defecto de PostgreSQL
-      - SECRET=set
+      - SECRET=setsecretink8ssecretforprod
       - PORT=80 # Puerto para la API de autenticación (podría ser cualquier otro)
     expose:
       - 80
