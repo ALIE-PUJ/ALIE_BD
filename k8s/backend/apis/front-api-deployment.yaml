@@ -39,7 +39,7 @@ spec:
                   key: db-host
             - name: COCKROACHDB_PORT
               valueFrom:
-              configMapKeyRef:
+                configMapKeyRef:
                   name: db-config
                   key: db-port
             - name: MONGO_URI
@@ -54,4 +54,11 @@ spec:
           ports:
             - containerPort: 5000
               protocol: TCP
+          resources:
+            limits:
+              memory: "1024Mi"
+              cpu: "1500m"
+            requests:
+              memory: "256Mi"
+              cpu: "250m"
       restartPolicy: Always

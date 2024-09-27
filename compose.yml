@@ -68,7 +68,7 @@ services:
 
 
   # API para el front-end
-  front_api:
+  front-api:
     image: harbor.alie.javeriana.edu.co/images/front_api:latest
     build:
       context: ./API/Front_API  # Contexto de construcción en la carpeta Main_API
