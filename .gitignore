@@ -3,4 +3,6 @@
 k8s/db-secret.yamlk8s/docs-db-secret.yaml
 k8s/db-secret.yaml
 k8s/docs-db-secret.yaml
-node_modules
+node_modulesk8s/init-jobs/documental/docs-db-secret.yaml
+k8s/init-jobs/relational/db-secret.yaml
+k8s/init-jobs/documental/docs-db-secret.yaml
