@@ -11,8 +11,8 @@ import PyPDF2
 from io import BytesIO
 
 # Pinecone Dependencies
-
-
+import requests
+import io
 
 
 # Database connection
@@ -32,6 +32,7 @@ connection = psycopg2.connect(
     password=passw,
     database='alie_db' # lowercase
 )
+
 
 
 # File exports to Pinecone
@@ -84,8 +85,62 @@ def export_files_to_json():
 
 
 
+# Pinecone management
+
+# Listar los archivos existentes en Pinecone
+def list_files_in_pinecone(api_key, base_url):
+    response = requests.get(base_url, headers={"Api-Key": api_key})
+    if response.status_code == 200:
+        files = response.json().get('files', [])
+        print(f"[FILE FETCH] Respuesta completa de la API: {files}")
+        return files
+    else:
+        print(f"Error al listar archivos. Código de estado: {response.status_code}, Respuesta: {response.text}")
+        return []
+
+# Eliminar archivo por ID
+def delete_file_from_pinecone(api_key, base_url, file_id):
+    delete_url = f"{base_url}/{file_id}"
+    response = requests.delete(delete_url, headers={"Api-Key": api_key})
+    if response.status_code == 200:
+        print(f"[DELETE FILE] Archivo {file_id} eliminado exitosamente.")
+    else:
+        print(f"Error al eliminar archivo {file_id}. Código de estado: {response.status_code}, Respuesta: {response.text}")
+
+# Función para verificar si existe un archivo con el nombre dado y eliminarlo
+def delete_file_by_name_if_exists(api_key, base_url, file_name):
+    # Listar todos los archivos existentes en Pinecone
+    files = list_files_in_pinecone(api_key, base_url)
+    
+    # Buscar el archivo por nombre
+    for file_info in files:
+        if isinstance(file_info, dict) and file_info.get('name') == file_name:
+            file_id = file_info.get('id')
+            if file_id:
+                print(f"Archivo encontrado: {file_name} con ID: {file_id}. Procediendo a eliminarlo.")
+                delete_file_from_pinecone(api_key, base_url, file_id)
+                return True  # Archivo encontrado y eliminado
+    print(f"No se encontró ningún archivo con el nombre: {file_name}.")
+    return False  # Archivo no encontrado
+
+# Función para subir un archivo con el nombre dado
+def upload_file_to_pinecone(api_key, base_url, filepath, file_name):
+    try:
+        # Abre el archivo y prepara para la subida
+        with open(filepath, 'r', encoding='utf-8') as file:
+            temp_file = io.StringIO(file.read())
+            temp_file.seek(0)
+        
+        # Subir el archivo a Pinecone
+        response = requests.post(base_url, headers={"Api-Key": api_key}, files={"file": (file_name, temp_file)})
+        
+        if response.status_code == 200:
+            print(f"[UPLOAD FILE] Archivo '{file_name}' subido exitosamente. Respuesta: {response.text}")
+        else:
+            print(f"Error al subir el archivo '{file_name}'. Código de estado: {response.status_code}, Respuesta: {response.text}")
+        
+        temp_file.close()
+    except Exception as e:
+        print(f"Error al intentar subir el archivo '{file_name}': {e}")
 
 
-
-
-export_files_to_json()
