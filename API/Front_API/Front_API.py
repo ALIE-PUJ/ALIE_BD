@@ -12,6 +12,7 @@ CORS(app, resources={r"/*": {"origins": ["*"]}}) # Habilita CORS para la APP Fla
 # Importe de librerías propias
 from Libraries.DeepTranslator_Translate import *
 from Libraries.Tagging import *
+from Libraries.PineconeFiles import *
 
 
 
@@ -114,6 +115,9 @@ def submit_file():
                 VALUES (%s, %s, %s)
             """, (file.filename, categoria, archivo_binario))
             connection.commit()
+
+            # Actualizar pinecone
+            export_and_upload_to_pinecone()
 
         return jsonify(success=True), 200
     except Exception as e:

@@ -23,7 +23,7 @@ userDB = os.getenv('COCKROACHDB_USER', 'root')
 # Busca la variable de entorno PASS; si no existe, asigna una cadena vacía
 passw = os.getenv('COCKROACHDB_PASS', 'pass')
 # Busca la variable de entorno HOST; si no existe, asigna postgres
-cdb_host = os.getenv('COCKROACHDB_HOST', 'localhost')
+cdb_host = os.getenv('COCKROACHDB_HOST', 'postgres')
 # Busca el puerto en la variable de entorno
 cdb_port = os.getenv('COCKROACHDB_PORT', 5432)
 # Conexion
@@ -183,12 +183,14 @@ def create_assistant_if_not_exists(api_key, assistant_name):
 # Función principal para exportar los archivos a JSON y subirlos a Pinecone
 def export_and_upload_to_pinecone():
 
+    print("Iniciando proceso de exportación y subida de archivos a Pinecone...")
+
     # Nombre del archivo
     file_name = 'archivosSubidos_compiled.txt'
 
 
     # Datos de pinecone
-    api_key = os.getenv("PINECONE_API_KEY")
+    api_key = os.getenv("PINECONE_API_KEY", "NoApiKey")
     assistant_name = os.getenv("ASSISTANT_NAME", "alie")
     base_url = f"https://prod-1-data.ke.pinecone.io/assistant/files/{assistant_name}"
 
