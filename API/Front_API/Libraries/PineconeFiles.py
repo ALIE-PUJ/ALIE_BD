@@ -38,6 +38,7 @@ connection = psycopg2.connect(
 
 
 # File exports to Pinecone
+# Only PDF files with embedded text are supported
 
 def export_files_to_json(file_name):
     try:
