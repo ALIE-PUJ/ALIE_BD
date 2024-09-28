@@ -38,7 +38,7 @@ connection = psycopg2.connect(
 
 
 # File exports to Pinecone
-# Only PDF files with embedded text are supported
+# Only for PDF files with text content
 
 def export_files_to_json(file_name):
     try:
@@ -187,7 +187,7 @@ def export_and_upload_to_pinecone():
     print("Iniciando proceso de exportación y subida de archivos a Pinecone...")
 
     # Nombre del archivo
-    file_name = 'archivosSubidos_compiled.txt'
+    file_name = 'ArchivosSubidos_compiled.txt'
 
 
     # Datos de pinecone
@@ -214,4 +214,4 @@ def export_and_upload_to_pinecone():
     print(f"El archivo '{file_name}' ha sido exportado y subido exitosamente a Pinecone.")
 
 
-export_and_upload_to_pinecone()
+# export_and_upload_to_pinecone()

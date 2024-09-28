@@ -4,6 +4,12 @@ import psycopg2
 from io import BytesIO
 import uuid
 import os
+import time
+import threading
+
+# Esperar a que la base de datos esté lista
+print("Esperando a que la base de datos esté lista... 5 segundos")
+time.sleep(5)
 
 # Inicializacion de Flask
 app = Flask(__name__)
@@ -116,9 +122,10 @@ def submit_file():
             """, (file.filename, categoria, archivo_binario))
             connection.commit()
 
-            # Actualizar pinecone
-            export_and_upload_to_pinecone()
-
+            # Actualizar pinecone en un hilo
+            print("Actualizando Pinecone en un hilo...")
+            threading.Thread(target=export_and_upload_to_pinecone, args=()).start()
+            
         return jsonify(success=True), 200
     except Exception as e:
         connection.rollback()
@@ -156,6 +163,11 @@ def delete_file():
             cursor.execute("DELETE FROM Archivo WHERE nombre = %s", (file_name,))
             rows_deleted = cursor.rowcount
             connection.commit()
+
+            # Actualizar pinecone en un hilo
+            print("Actualizando Pinecone en un hilo...")
+            threading.Thread(target=export_and_upload_to_pinecone, args=()).start()
+
 
         if rows_deleted > 0:
             return jsonify(success=True), 200
@@ -392,4 +404,9 @@ def archive_chat():
 
 # Main runner
 if __name__ == '__main__':
+    # Actualizar pinecone en un hilo
+    print("Actualizando Pinecone en un hilo...")
+    threading.Thread(target=export_and_upload_to_pinecone, args=()).start()
+
+    # Iniciar la aplicación flask
     app.run(host='0.0.0.0', port=5000)
