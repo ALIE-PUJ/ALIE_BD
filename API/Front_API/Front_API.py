@@ -3,6 +3,7 @@ from flask_cors import CORS, cross_origin # CORS for angular
 import psycopg2
 from io import BytesIO
 import uuid
+import os
 
 # Inicializacion de Flask
 app = Flask(__name__)
@@ -37,6 +38,10 @@ connection = psycopg2.connect(
 
 
 # ENDPOINTS
+
+
+
+# Tagging
 
 # /tag
 # Example payload: 
@@ -79,6 +84,12 @@ def tag():
     else:
         return jsonify(success=True, message="Documento guardado correctamente", tag_document=tag_document)
     
+
+
+
+
+# Files
+
 @app.route('/files/submit', methods=['POST'])
 def submit_file():
     data = request.form
@@ -177,6 +188,11 @@ def view_file():
         print(f"Error: {e}")
         return jsonify(success=False, message="Error al obtener el archivo"), 500
 
+
+
+
+
+# Chats
 
 @app.route('/chat/guardar', methods=['POST'])
 def guardar_chat():
