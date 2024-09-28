@@ -13,6 +13,8 @@ from io import BytesIO
 # Pinecone Dependencies
 import requests
 import io
+import time
+
 
 
 # Database connection
@@ -37,9 +39,7 @@ connection = psycopg2.connect(
 
 # File exports to Pinecone
 
-file_name = 'archivosSubidos_compiled.json'
-
-def export_files_to_json():
+def export_files_to_json(file_name):
     try:
         # Abrir conexión con la base de datos
         with connection.cursor() as cursor:
@@ -143,4 +143,72 @@ def upload_file_to_pinecone(api_key, base_url, filepath, file_name):
     except Exception as e:
         print(f"Error al intentar subir el archivo '{file_name}': {e}")
 
+# Función para listar todos los asistentes existentes en Pinecone
+def list_assistants(api_key):
+    assistants_url = "https://api.pinecone.io/assistant/assistants"
+    response = requests.get(assistants_url, headers={"Api-Key": api_key})
+    if response.status_code == 200:
+        assistants = response.json().get('assistants', [])
+        print(f"[GET LIST] Asistentes existentes: {assistants}")
+        return assistants
+    else:
+        print(f"Error al listar asistentes. Código de estado: {response.status_code}, Respuesta: {response.text}")
+        return []
 
+# Función para listar todos los asistentes existentes en Pinecone
+def create_assistant_if_not_exists(api_key, assistant_name):
+    assistants_url = "https://api.pinecone.io/assistant/assistants"
+    assistants = list_assistants(api_key)
+    for assistant in assistants:
+        if assistant.get("name") == assistant_name:
+            print(f"[CREATE] El asistente '{assistant_name}' ya existe.")
+            return assistant
+
+    print(f"[CREATE] '{assistant_name}' no existe. Creando asistente '{assistant_name}'...")
+    create_assistant_url = assistants_url
+    payload = {"name": assistant_name, "metadata": {}}
+    response = requests.post(create_assistant_url, headers={"Api-Key": api_key, "Content-Type": "application/json"}, json=payload)
+    if response.status_code == 200:
+        new_assistant = response.json()
+        print(f"[CREATE] Asistente '{assistant_name}' creado exitosamente: {new_assistant}")
+        print("Esperando 30 segundos para que el asistente se active...")
+        time.sleep(30)
+        return new_assistant
+    else:
+        print(f"Error al crear el asistente '{assistant_name}'. Código de estado: {response.status_code}, Respuesta: {response.text}")
+        return None
+
+# Main function
+
+# Función principal para exportar los archivos a JSON y subirlos a Pinecone
+def export_and_upload_to_pinecone():
+
+    # Nombre del archivo
+    file_name = 'archivosSubidos_compiled.txt'
+
+
+    # Datos de pinecone
+    api_key = os.getenv("PINECONE_API_KEY")
+    assistant_name = os.getenv("ASSISTANT_NAME", "alie")
+    base_url = f"https://prod-1-data.ke.pinecone.io/assistant/files/{assistant_name}"
+
+    # Paso 1: Exportar los archivos a JSON
+    export_files_to_json(file_name)  # Esta función genera el archivo `archivosSubidos_compiled.txt`
+    
+    # Paso 2: Obtener la ruta del archivo JSON generado
+    script_dir = os.path.dirname(os.path.abspath(__file__))  # Directorio donde está el script
+    json_file_path = os.path.join(script_dir, file_name)  # Ruta completa del archivo generado
+    
+    # Paso X: Crear el asistente en Pinecone si no existe
+    create_assistant_if_not_exists(api_key, assistant_name)
+
+    # Paso 3: Verificar si el archivo ya existe en Pinecone y eliminarlo si es necesario
+    delete_file_by_name_if_exists(api_key, base_url, file_name)  # Elimina el archivo si ya existe
+    
+    # Paso 4: Subir el archivo JSON a Pinecone
+    upload_file_to_pinecone(api_key, base_url, json_file_path, file_name)  # Sube el archivo generado
+
+    print(f"El archivo '{file_name}' ha sido exportado y subido exitosamente a Pinecone.")
+
+
+export_and_upload_to_pinecone()
