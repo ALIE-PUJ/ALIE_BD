@@ -4,6 +4,7 @@ import swaggerUI from 'swagger-ui-express';
 import { openAPISpecs } from './configs/swagger';
 import type { User } from './model';
 import { UserService } from './services/UserService';
+import cors from 'cors';
 
 
 console.log("Inicializando express...");
@@ -11,6 +12,7 @@ const app = express();
 const port = process.env.PORT || 2000;
 const secret = process.env.SECRET || "superdupersecretsetanenvvarforprod";
 
+app.use(cors());
 app.use('/swagger', swaggerUI.serve, swaggerUI.setup(openAPISpecs));
 
 /**
