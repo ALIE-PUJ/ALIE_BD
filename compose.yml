@@ -107,6 +107,7 @@ services:
       - 80
     ports:
       - 2001:80
+    restart: always
   
   # Servicio Interno de Autenticación
   auth-service:
@@ -126,3 +127,4 @@ services:
       - 80
     ports:
       - 2000:80
+    restart: always
