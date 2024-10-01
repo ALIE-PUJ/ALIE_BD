@@ -2,12 +2,15 @@ import express from "express";
 import type { CategoryDTO, LoginDTO, User } from "./model";
 import { UserService } from "./services/UserService";
 import swaggerUI from "swagger-ui-express";
+import cors from "cors";
+
 import { openAPISpecs } from "./configs/swagger";
 import { generateToken } from "./configs/jwt";
 
 const app = express()
 const port = process.env.PORT || 2001;
 
+app.use(cors())
 app.use(express.json());
 app.use('/swagger', swaggerUI.serve, swaggerUI.setup(openAPISpecs));
 
