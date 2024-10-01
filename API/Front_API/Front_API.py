@@ -3,6 +3,13 @@ from flask_cors import CORS, cross_origin # CORS for angular
 import psycopg2
 from io import BytesIO
 import uuid
+import os
+import time
+import threading
+
+# Esperar a que la base de datos esté lista
+print("Esperando a que la base de datos esté lista... 5 segundos")
+time.sleep(5)
 
 # Inicializacion de Flask
 app = Flask(__name__)
@@ -11,6 +18,7 @@ CORS(app, resources={r"/*": {"origins": ["*"]}}) # Habilita CORS para la APP Fla
 # Importe de librerías propias
 from Libraries.DeepTranslator_Translate import *
 from Libraries.Tagging import *
+from Libraries.PineconeFiles import *
 
 
 
@@ -37,6 +45,10 @@ connection = psycopg2.connect(
 
 
 # ENDPOINTS
+
+
+
+# Tagging
 
 # /tag
 # Example payload: 
@@ -79,6 +91,12 @@ def tag():
     else:
         return jsonify(success=True, message="Documento guardado correctamente", tag_document=tag_document)
     
+
+
+
+
+# Files
+
 @app.route('/files/submit', methods=['POST'])
 def submit_file():
     data = request.form
@@ -104,6 +122,10 @@ def submit_file():
             """, (file.filename, categoria, archivo_binario))
             connection.commit()
 
+            # Actualizar pinecone en un hilo
+            print("Actualizando Pinecone en un hilo...")
+            threading.Thread(target=export_and_upload_to_pinecone, args=()).start()
+            
         return jsonify(success=True), 200
     except Exception as e:
         connection.rollback()
@@ -142,6 +164,11 @@ def delete_file():
             rows_deleted = cursor.rowcount
             connection.commit()
 
+            # Actualizar pinecone en un hilo
+            print("Actualizando Pinecone en un hilo...")
+            threading.Thread(target=export_and_upload_to_pinecone, args=()).start()
+
+
         if rows_deleted > 0:
             return jsonify(success=True), 200
         else:
@@ -177,6 +204,11 @@ def view_file():
         print(f"Error: {e}")
         return jsonify(success=False, message="Error al obtener el archivo"), 500
 
+
+
+
+
+# Chats
 
 @app.route('/chat/guardar', methods=['POST'])
 def guardar_chat():
@@ -372,4 +404,9 @@ def archive_chat():
 
 # Main runner
 if __name__ == '__main__':
+    # Actualizar pinecone en un hilo
+    print("Actualizando Pinecone en un hilo...")
+    threading.Thread(target=export_and_upload_to_pinecone, args=()).start()
+
+    # Iniciar la aplicación flask
     app.run(host='0.0.0.0', port=5000)

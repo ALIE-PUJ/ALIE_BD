@@ -1,7 +1,17 @@
-psycopg2-binary==2.9.9
+# Flask
 Flask==3.0.2
 Flask-Cors==4.0.0
+
+# Requests 
 requests==2.32.3
+
+# Bases de datos
+psycopg2-binary==2.9.9
+pymongo==4.8.0
+
+# Otros
 deep-translator==1.11.4
 langdetect==1.0.9
-pymongo==4.8.0
+
+# Pinecone y PDFs
+PyPDF2==3.0.1
