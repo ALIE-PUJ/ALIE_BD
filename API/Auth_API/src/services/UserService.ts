@@ -28,7 +28,7 @@ export const UserService = {
       }
     }
 
-    console.log("Resultado: " + JSON.stringify(result.rows));
+    // console.log("Resultado: " + JSON.stringify(result.rows));
     return result.rows[0] as User;
   },
 
