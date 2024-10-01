@@ -42,7 +42,8 @@ app.post('/verify', expressjwt({
         console.log("Usuario no encontrado");
         return res.status(401).json({ error: "Usuario no encontrado" });
     } else {
-        const user: User = usuarios[0];
+        let user: User = usuarios[0];
+        user.contrasena = undefined;
         console.log("Usuario autenticado: " + user.usuario);
         return res.status(200).json(user);
     }
