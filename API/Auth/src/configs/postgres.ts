@@ -13,7 +13,7 @@ client.connect()
         console.log("Connected to PostgreSQL database")
     })
     .catch((e) => {
-        console.error("Error connecting to PostgreSQL database", e)
+        throw new Error("Error connecting to PostgreSQL database: " + e.message)
     });
 
 export { client };
