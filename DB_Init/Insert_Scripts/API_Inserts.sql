@@ -13,7 +13,7 @@ ON CONFLICT (id_usuario) DO NOTHING;
 
 -- Insertar estudiantes en la tabla Usuario
 INSERT INTO Usuario (id_usuario, usuario, contrasena, email, id_categoria) VALUES
-(5, 'Pepito perez', 'contrasena_segura_pepito', 'pepito@javeriana.edu.com', 1) -- Student
+(5, 'Pepito perez', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'pepito@javeriana.edu.com', 1) -- Student
 ON CONFLICT (id_usuario) DO NOTHING;
 
 -- Insertar un chat de ejemplo en la tabla Chat
