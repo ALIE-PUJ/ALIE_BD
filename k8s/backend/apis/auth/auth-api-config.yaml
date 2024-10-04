@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: auth-api-config
+data:
+  db-name: alie_db
+  port: "80"

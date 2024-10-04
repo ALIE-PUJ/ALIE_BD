@@ -23,7 +23,10 @@ spec:
       containers:
         - env:
             - name: DB_DB
-              value: alie_db
+              valueFrom:
+                configMapKeyRef:
+                  name: auth-api-config
+                  key: db-name
             - name: DB_HOST
               valueFrom:
                 configMapKeyRef:
@@ -45,7 +48,10 @@ spec:
                   name: db-config
                   key: db-user
             - name: PORT
-              value: "80"
+              valueFrom:
+                configMapKeyRef:
+                  name: auth-api-config
+                  key: port
             - name: SECRET
               value: setsecretink8ssecretforprod
           image: harbor.alie.javeriana.edu.co/images/auth-api:latest
