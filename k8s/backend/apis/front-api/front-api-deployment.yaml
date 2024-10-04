@@ -55,7 +55,7 @@ spec:
             - name: AUTH_SRV_URL
               valueFrom:
                 configMapKeyRef:
-                  name: auth-service-config
+                  name: auth-config
                   key: url
           image: harbor.alie.javeriana.edu.co/images/front_api:latest
           name: front-api

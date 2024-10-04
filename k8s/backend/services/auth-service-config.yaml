@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: auth-service-config
-data: 
-  url: "http://auth-service.alie-backend.svc.cluster.local"
