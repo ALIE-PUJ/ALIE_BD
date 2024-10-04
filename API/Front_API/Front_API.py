@@ -223,6 +223,7 @@ def guardar_chat():
     mensajes_usuario = data['mensajes_usuario']
     mensajes_supervision = data['mensajes_supervision']
     user_id = data['user_id']
+    intervenido = data.get('intervenido', False)  # Nuevo campo para indicar intervención
 
     # Generar un memory_key único si no se proporciona
     memory_key = data.get('memory_key', str(uuid.uuid4()))
@@ -233,23 +234,24 @@ def guardar_chat():
         chat = cursor.fetchone()
 
         if chat:
-            # Si el chat existe, agregamos los mensajes al array en lugar de sobrescribir
+            # Si el chat existe, actualizamos los campos
             query = """
                 UPDATE Chat 
                 SET mensajes_agente = array_cat(mensajes_agente, %s), 
                     mensajes_usuario = array_cat(mensajes_usuario, %s),
-                    mensajes_supervision = array_cat(mensajes_supervision, %s)
+                    mensajes_supervision = array_cat(mensajes_supervision, %s),
+                    intervenido = %s
             """
             if nombre:
                 query += ", nombre = %s"
                 query += " WHERE memory_key = %s"
-                cursor.execute(query, (mensajes_agente, mensajes_usuario, mensajes_supervision, nombre, memory_key))
+                cursor.execute(query, (mensajes_agente, mensajes_usuario, mensajes_supervision, intervenido, nombre, memory_key))
             else:
                 query += " WHERE memory_key = %s"
-                cursor.execute(query, (mensajes_agente, mensajes_usuario, mensajes_supervision, memory_key))
+                cursor.execute(query, (mensajes_agente, mensajes_usuario, mensajes_supervision, intervenido, memory_key))
 
         else:
-  
+            # Nuevo chat
             if not nombre:
                 cursor.execute("SELECT COUNT(*) FROM Chat")
                 chat_count = cursor.fetchone()[0] + 1
@@ -257,9 +259,9 @@ def guardar_chat():
 
             query = """
                 INSERT INTO Chat (memory_key, nombre, mensajes_agente, mensajes_usuario, mensajes_supervision, user_id, archivado, intervenido)
-                VALUES (%s, %s, %s, %s, %s, %s, FALSE, FALSE)
+                VALUES (%s, %s, %s, %s, %s, %s, FALSE, %s)
             """
-            cursor.execute(query, (memory_key, nombre, mensajes_agente, mensajes_usuario, mensajes_supervision, user_id))
+            cursor.execute(query, (memory_key, nombre, mensajes_agente, mensajes_usuario, mensajes_supervision, user_id, intervenido))
 
         connection.commit()
         cursor.close()
@@ -270,10 +272,10 @@ def guardar_chat():
 
 
 
+
 @app.route('/chat/get', methods=['POST'])
 def get_chat():
     data = request.get_json()
-
 
     if not all(key in data for key in ('auth_token', 'memory_key')):
         return jsonify(success=False, message="Faltan campos requeridos"), 400
@@ -289,7 +291,6 @@ def get_chat():
         cursor.close()
 
         if chat:
-        
             return jsonify({
                 'memory_key': chat[0],
                 'nombre': chat[1],
@@ -297,7 +298,7 @@ def get_chat():
                 'mensajes_usuario': chat[3],
                 'mensajes_supervision': chat[4],
                 'archivado': chat[5],
-                'intervenido': chat[6],
+                'intervenido': chat[6],  # Return intervention status
                 'success': True
             })
         else:
@@ -305,6 +306,30 @@ def get_chat():
     except Exception as e:
         print(e)
         return jsonify(success=False, message="Error en el servidor")
+
+
+@app.route('/chat/list_intervention', methods=['POST'])
+def list_intervention_chats():
+    data = request.get_json()
+
+    if 'auth_token' not in data:
+        return jsonify(success=False, message="Faltan campos requeridos"), 400
+
+    auth_token = data['auth_token']
+
+    try:
+        cursor = connection.cursor()
+        # Filter for only the chats marked as intervenido
+        cursor.execute("SELECT memory_key, nombre FROM Chat WHERE intervenido = TRUE")
+        chats = cursor.fetchall()
+        cursor.close()
+
+        chat_list = [{'memory_key': chat[0], 'nombre': chat[1]} for chat in chats]
+        return jsonify(chat_list)
+    except Exception as e:
+        print(e)
+        return jsonify(success=False)
+
 
 
 @app.route('/chat/list', methods=['POST'])
@@ -335,7 +360,6 @@ def list_chats_by_user():
 def list_all_chats():
     data = request.get_json()
 
-
     if 'auth_token' not in data:
         return jsonify(success=False, message="Faltan campos requeridos"), 400
 
@@ -343,15 +367,17 @@ def list_all_chats():
 
     try:
         cursor = connection.cursor()
-        cursor.execute("SELECT memory_key, nombre FROM Chat")
+        cursor.execute("SELECT memory_key, nombre, intervenido FROM Chat")
         chats = cursor.fetchall()
         cursor.close()
 
-        chat_list = [{'memory_key': chat[0], 'nombre': chat[1]} for chat in chats]
+       
+        chat_list = [{'memory_key': chat[0], 'nombre': chat[1], 'intervenido': chat[2]} for chat in chats]
         return jsonify(chat_list)
     except Exception as e:
         print(e)
         return jsonify(success=False)
+
 
 @app.route('/chat/delete', methods=['POST'])
 def delete_chat():
@@ -400,6 +426,30 @@ def archive_chat():
     except Exception as e:
         print(e)
         return jsonify(success=False)
+
+
+@app.route('/chat/update_intervention', methods=['POST'])
+def update_intervention_status():
+    data = request.get_json()
+
+    if not all(key in data for key in ('auth_token', 'memory_key', 'intervenido')):
+        return jsonify(success=False, message="Faltan campos requeridos"), 400
+
+    auth_token = data['auth_token']
+    memory_key = data['memory_key']
+    intervenido = data['intervenido']  
+
+    try:
+        cursor = connection.cursor()
+        query = "UPDATE Chat SET intervenido = %s WHERE memory_key = %s"
+        cursor.execute(query, (intervenido, memory_key))
+        connection.commit()
+        cursor.close()
+
+        return jsonify(success=True)
+    except Exception as e:
+        print(e)
+        return jsonify(success=False, message="Error en el servidor")
 
 
 # Main runner

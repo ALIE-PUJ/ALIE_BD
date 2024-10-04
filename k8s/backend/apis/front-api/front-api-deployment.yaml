@@ -48,7 +48,15 @@ spec:
                   name: connection-str
                   key: connectionString.standard
             - name: PINECONE_API_KEY
-              value: "Placeholder"
+              valueFrom:
+                secretKeyRef:
+                  name: external-apis-secret
+                  key: pinecone-key
+            - name: AUTH_SRV_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: auth-config
+                  key: url
           image: harbor.alie.javeriana.edu.co/images/front_api:latest
           name: front-api
           ports:
