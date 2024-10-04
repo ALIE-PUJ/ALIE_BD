@@ -25,7 +25,7 @@ spec:
             - name: DB_DB
               valueFrom:
                 configMapKeyRef:
-                  name: auth-api-config
+                  name: auth-config
                   key: db-name
             - name: DB_HOST
               valueFrom:
@@ -50,7 +50,7 @@ spec:
             - name: PORT
               valueFrom:
                 configMapKeyRef:
-                  name: auth-api-config
+                  name: auth-config
                   key: port
             - name: SECRET
               valueFrom:

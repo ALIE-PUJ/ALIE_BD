@@ -23,7 +23,10 @@ spec:
       containers:
         - env:
             - name: DB_DB
-              value: alie_db
+              valueFrom:
+                configMapKeyRef:
+                  name: auth-config
+                  key: db-name
             - name: DB_HOST
               value: postgres
             - name: DB_PASSWORD
