@@ -52,6 +52,11 @@ spec:
                 secretKeyRef:
                   name: external-apis-secret
                   key: pinecone-key
+            - name: AUTH_SRV_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: auth-service-config
+                  key: url
           image: harbor.alie.javeriana.edu.co/images/front_api:latest
           name: front-api
           ports:
