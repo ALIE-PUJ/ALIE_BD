@@ -1,3 +1,7 @@
+# pip install pytest requests
+
+# To run: pytest API\Tests\Chat_Tests.py
+
 import unittest
 import requests
 

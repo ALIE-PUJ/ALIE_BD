@@ -1,3 +1,7 @@
+# pip install pytest requests
+
+# To run: pytest API\Tests\Files_Tests.py
+
 import unittest
 import requests
 from io import BytesIO
