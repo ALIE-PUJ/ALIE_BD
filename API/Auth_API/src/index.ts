@@ -6,15 +6,20 @@ import cors from "cors";
 
 import { openAPISpecs } from "./configs/swagger";
 import { generateToken } from "./configs/jwt";
+import { expressjwt } from "express-jwt";
 
 const app = express()
 const port = process.env.PORT || 2001;
 
-app.use(cors())
-app.use(express.json());
-app.use('/swagger', swaggerUI.serve, swaggerUI.setup(openAPISpecs));
+// Configures /api/auth as the base path for the API
+const router = express.Router();
+app.use('/api/auth', router);
 
-app.post('/login', async (req, res) => {
+router.use(cors())
+router.use(express.json());
+router.use('/swagger', swaggerUI.serve, swaggerUI.setup(openAPISpecs));
+
+router.post('/login', async (req, res) => {
   const login_info = req.body as LoginDTO;
 
   let result = await UserService.authenticate(login_info.email, login_info.contrasena);
@@ -30,7 +35,12 @@ app.post('/login', async (req, res) => {
   }
 });
 
-app.put('/asignar_rol', async (req, res) => {
+const secret = process.env.SECRET || 'secret';
+
+router.put('/asignar_rol', expressjwt({
+  secret: secret,
+  algorithms: ["HS512"]
+}), async (req, res) => {
   const userCategory = req.body as CategoryDTO;
 
   try {
