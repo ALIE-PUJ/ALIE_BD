@@ -53,7 +53,10 @@ spec:
                   name: auth-api-config
                   key: port
             - name: SECRET
-              value: setsecretink8ssecretforprod
+              valueFrom:
+                secretKeyRef:
+                  name: auth-api-secret
+                  key: secret
           image: harbor.alie.javeriana.edu.co/images/auth-api:latest
           name: auth-api
           ports:
