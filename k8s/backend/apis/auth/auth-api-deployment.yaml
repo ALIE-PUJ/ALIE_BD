@@ -55,7 +55,7 @@ spec:
             - name: SECRET
               valueFrom:
                 secretKeyRef:
-                  name: auth-api-secret
+                  name: auth-secret
                   key: secret
           image: harbor.alie.javeriana.edu.co/images/auth-api:latest
           name: auth-api

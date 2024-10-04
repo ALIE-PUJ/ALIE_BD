@@ -35,7 +35,10 @@ spec:
             - name: PORT
               value: "80"
             - name: SECRET
-              value: setsecretink8ssecretforprod
+              valueFrom:
+                secretKeyRef:
+                  name: auth-secret
+                  key: secret
           image: harbor.alie.javeriana.edu.co/images/auth-service:latest
           name: auth-service
           ports:
