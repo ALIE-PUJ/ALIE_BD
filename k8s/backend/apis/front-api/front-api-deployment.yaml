@@ -50,7 +50,7 @@ spec:
             - name: PINECONE_API_KEY
               valueFrom:
                 secretKeyRef:
-                  name: front-api-secret
+                  name: external-apis-secret
                   key: pinecone-key
           image: harbor.alie.javeriana.edu.co/images/front_api:latest
           name: front-api
