@@ -6,6 +6,7 @@ import cors from "cors";
 
 import { openAPISpecs } from "./configs/swagger";
 import { generateToken } from "./configs/jwt";
+import { expressjwt } from "express-jwt";
 
 const app = express()
 const port = process.env.PORT || 2001;
@@ -34,7 +35,12 @@ router.post('/login', async (req, res) => {
   }
 });
 
-router.put('/asignar_rol', async (req, res) => {
+const secret = process.env.SECRET || 'secret';
+
+router.put('/asignar_rol', expressjwt({
+  secret: secret,
+  algorithms: ["HS512"]
+}), async (req, res) => {
   const userCategory = req.body as CategoryDTO;
 
   try {

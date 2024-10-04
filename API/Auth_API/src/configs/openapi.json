@@ -6,7 +6,7 @@
     "version": "1.0.0"
   },
   "paths": {
-    "/login": {
+    "/api/auth/login": {
       "post": {
         "description": "Autenticar un usuario",
         "requestBody": {
@@ -92,7 +92,7 @@
         }
       }
     },
-    "/asignar_rol": {
+    "/api/auth/asignar_rol": {
       "put": {
         "description": "Asigna un rol/categoría a un usuario",
         "requestBody": {
