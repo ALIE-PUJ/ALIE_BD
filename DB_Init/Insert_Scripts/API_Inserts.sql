@@ -5,15 +5,15 @@ INSERT INTO Categoria (id_categoria, nombre) VALUES
 
 -- Insertar administradores en la tabla Usuario
 INSERT INTO Usuario (id_usuario, usuario, contrasena, email, id_categoria) VALUES
-(1, 'Luis Bravo', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'luis.bravo@javeriana.edu.com', 2), -- Admin
-(2, 'Ana Ortegon', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'ana.ortegon@javeriana.edu.com', 2), -- Admin
-(3, 'Maria Avellaneda', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'maria.avellaneda@javeriana.edu.com', 2), -- Admin
-(4, 'Juan Sanchez', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'juan.sanchez@javeriana.edu.com', 2) -- Admin
+(1, 'Luis Bravo', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'luis.bravo@javeriana.edu.com', 2), -- Admin. Password: 123456
+(2, 'Ana Ortegon', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'ana.ortegon@javeriana.edu.com', 2), -- Admin. Password: 123456
+(3, 'Maria Avellaneda', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'maria.avellaneda@javeriana.edu.com', 2), -- Admin. Password: 123456
+(4, 'Juan Sanchez', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'juan.sanchez@javeriana.edu.com', 2) -- Admin. Password: 123456
 ON CONFLICT (id_usuario) DO NOTHING;
 
 -- Insertar estudiantes en la tabla Usuario
 INSERT INTO Usuario (id_usuario, usuario, contrasena, email, id_categoria) VALUES
-(5, 'Pepito perez', 'contrasena_segura_pepito', 'pepito@javeriana.edu.com', 1) -- Student
+(5, 'Pepito perez', '$2b$10$0c1YL6li13Fwp0vSw67Z7.Cqvpi1BOPw.D4MTYufJOBo5fGaBCwVS', 'pepito@javeriana.edu.com', 1) -- Student. Password: 123456
 ON CONFLICT (id_usuario) DO NOTHING;
 
 -- Insertar un chat de ejemplo en la tabla Chat
