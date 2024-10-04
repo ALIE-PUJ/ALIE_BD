@@ -6,3 +6,5 @@ k8s/docs-db-secret.yaml
 node_modulesk8s/init-jobs/documental/docs-db-secret.yaml
 k8s/init-jobs/relational/db-secret.yaml
 k8s/init-jobs/documental/docs-db-secret.yaml
+k8s/backend/apis/auth/auth-api-secret.yaml
+k8s/backend/apis/front-api/front-api-secret.yaml
