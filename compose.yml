@@ -80,6 +80,7 @@ services:
       COCKROACHDB_HOST: "postgres" # Valor unicamente para pruebas locales
       COCKROACHDB_PORT: "5432" # Valor unicamente para pruebas locales
       PINECONE_API_KEY: ${PINECONE_API_KEY} # Toma la variable de entorno del sistema para Pinecone
+      AUTH_SRV_URL: "http://auth-service:80" # URL del servicio de autenticación
     ports:
       - "5000:5000"
     depends_on:
