@@ -8,14 +8,14 @@ spec:
       http:
         paths:
           - path: /api/auth
-            pathType: Exact
+            pathType: Prefix
             backend:
               service:
                 name:  auth-api
                 port:
                   number: 80
           - path: /api/front
-            pathType: Exact
+            pathType: Prefix
             backend:
               service:
                 name:  front-api
