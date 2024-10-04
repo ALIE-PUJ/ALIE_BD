@@ -23,19 +23,40 @@ spec:
       containers:
         - env:
             - name: DB_DB
-              value: alie_db
+              valueFrom:
+                configMapKeyRef:
+                  name: auth-config
+                  key: db-name
             - name: DB_HOST
-              value: postgres
+              valueFrom:
+                configMapKeyRef:
+                  name: db-config
+                  key: db-host
             - name: DB_PASSWORD
-              value: pass
+              valueFrom:
+                secretKeyRef:
+                  name: db-secret
+                  key: db-pass
             - name: DB_PORT
-              value: "5432"
+              valueFrom:
+                configMapKeyRef:
+                  name: db-config
+                  key: db-port
             - name: DB_USER
-              value: root
+              valueFrom:
+                configMapKeyRef:
+                  name: db-config
+                  key: db-user
             - name: PORT
-              value: "80"
+              valueFrom:
+                configMapKeyRef:
+                  name: auth-config
+                  key: port
             - name: SECRET
-              value: setsecretink8ssecretforprod
+              valueFrom:
+                secretKeyRef:
+                  name: auth-secret
+                  key: secret
           image: harbor.alie.javeriana.edu.co/images/auth-service:latest
           name: auth-service
           ports:
