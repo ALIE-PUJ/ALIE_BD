@@ -6,7 +6,7 @@ import unittest
 import requests
 from io import BytesIO
 
-BASE_URL = 'http://localhost:5000/files'
+BASE_URL = 'http://localhost:5000/api/front/files'
 
 class FileEndpointTestCase(unittest.TestCase):
 
@@ -19,7 +19,6 @@ class FileEndpointTestCase(unittest.TestCase):
         # Define el payload para la solicitud
         payload = {
             'categoria': 'Publico General',
-            'auth_token': 'XXX'
         }
 
         # Hacer POST al endpoint /files/submit
@@ -30,6 +29,7 @@ class FileEndpointTestCase(unittest.TestCase):
         response_data = response.json()
         assert response_data['success'] is True
 
+    '''
     def test_submit_file_missing_auth_token(self):
         # Simula un archivo PDF
         file_data = BytesIO(b'%PDF-1.4 simulated pdf content')
@@ -48,6 +48,7 @@ class FileEndpointTestCase(unittest.TestCase):
         response_data = response.json()
         assert response_data['success'] is False
         assert 'Falta el token de autenticación' in response_data['message']
+    '''
 
     def test_submit_file_invalid_format(self):
         # Simula un archivo que no es PDF
@@ -57,7 +58,6 @@ class FileEndpointTestCase(unittest.TestCase):
         # Define el payload para la solicitud
         payload = {
             'categoria': 'Publico General',
-            'auth_token': 'XXX'
         }
 
         # Hacer POST al endpoint /files/submit
@@ -74,7 +74,6 @@ class FileEndpointTestCase(unittest.TestCase):
     def test_list_files_success(self):
         # Define el parámetro auth_token
         params = {
-            'auth_token': 'XXX'
         }
 
         # Hacer GET al endpoint /files/list
@@ -86,6 +85,7 @@ class FileEndpointTestCase(unittest.TestCase):
         assert response_data['success'] is True
         assert isinstance(response_data['files'], list)
 
+    '''
     def test_list_files_missing_auth_token(self):
         # Hacer GET al endpoint /files/list sin auth_token
         response = requests.get(f'{BASE_URL}/list')
@@ -95,6 +95,7 @@ class FileEndpointTestCase(unittest.TestCase):
         response_data = response.json()
         assert response_data['success'] is False
         assert 'Falta el token de autenticación' in response_data['message']
+    '''
 
 #Eliminar los archivos
     def test_delete_file_success(self):
@@ -103,13 +104,11 @@ class FileEndpointTestCase(unittest.TestCase):
         file_data.name = 'test_file.pdf'
         payload = {
             'categoria': 'Publico General',
-            'auth_token': 'XXX'
         }
         requests.post(f'{BASE_URL}/submit', files={'file': file_data}, data=payload)
 
         # Define los parámetros
         params = {
-            'auth_token': 'XXX',
             'name': 'test_file.pdf'
         }
 
@@ -124,7 +123,6 @@ class FileEndpointTestCase(unittest.TestCase):
     def test_delete_file_not_found(self):
         # Define los parámetros
         params = {
-            'auth_token': 'XXX',
             'name': 'non_existent_file.pdf'
         }
 
@@ -139,7 +137,7 @@ class FileEndpointTestCase(unittest.TestCase):
 
     def test_delete_file_no_name(self):
         # Define los parámetros sin el nombre del archivo
-        params = {'auth_token': 'XXX'}
+        params = {}
 
         # Hacer DELETE al endpoint /files/delete
         response = requests.delete(f'{BASE_URL}/delete', params=params)
@@ -150,6 +148,7 @@ class FileEndpointTestCase(unittest.TestCase):
         assert response_data['success'] is False
         assert 'Falta el nombre del archivo' in response_data['message']
 
+    '''
     def test_delete_file_missing_auth_token(self):
         # Intentar eliminar un archivo sin token de autorización
         params = {'name': 'test_file.pdf'}
@@ -162,7 +161,7 @@ class FileEndpointTestCase(unittest.TestCase):
         response_data = response.json()
         assert response_data['success'] is False
         assert 'Falta el token de autenticación' in response_data['message']
-
+    '''
 
 #Visualizar los archivos
     def test_view_file_success(self):
@@ -171,13 +170,11 @@ class FileEndpointTestCase(unittest.TestCase):
         file_data.name = 'test_file.pdf'
         payload = {
             'categoria': 'Publico General',
-            'auth_token': 'XXX'
         }
         requests.post(f'{BASE_URL}/submit', files={'file': file_data}, data=payload)
 
         # Define los parámetros
         params = {
-            'auth_token': 'XXX',
             'name': 'test_file.pdf'
         }
 
@@ -191,7 +188,6 @@ class FileEndpointTestCase(unittest.TestCase):
     def test_view_file_not_found(self):
         # Define los parámetros
         params = {
-            'auth_token': 'XXX',
             'name': 'non_existent_file.pdf'
         }
 
@@ -206,7 +202,7 @@ class FileEndpointTestCase(unittest.TestCase):
 
     def test_view_file_no_name(self):
         # Define los parámetros sin nombre de archivo
-        params = {'auth_token': 'XXX'}
+        params = {}
 
         # Hacer GET al endpoint /files/view
         response = requests.get(f'{BASE_URL}/view', params=params)
@@ -217,6 +213,7 @@ class FileEndpointTestCase(unittest.TestCase):
         assert response_data['success'] is False
         assert 'Falta el nombre del archivo' in response_data['message']
 
+    '''
     def test_view_file_missing_auth_token(self):
         # Intentar visualizar un archivo sin token de autorización
         params = {'name': 'test_file.pdf'}
@@ -229,7 +226,7 @@ class FileEndpointTestCase(unittest.TestCase):
         response_data = response.json()
         assert response_data['success'] is False
         assert 'Falta el token de autenticación' in response_data['message']
-
+    '''
 
 if __name__ == '__main__':
     unittest.main()

@@ -5,7 +5,7 @@
 import unittest
 import requests
 
-BASE_URL = 'http://localhost:5000/chat'
+BASE_URL = 'http://localhost:5000/api/front/chat'
 
 class TestChatEndpoint(unittest.TestCase):
 
@@ -13,7 +13,6 @@ class TestChatEndpoint(unittest.TestCase):
     def setUpClass(cls):
         """Crea un chat en la base de datos y almacena su memory_key para usar en las pruebas."""
         payload = {
-            'auth_token': 'XXX',
             'mensajes_agente': ['Hola, cómo estás?'],
             'mensajes_usuario': ['Estoy bien, gracias.'],
             'mensajes_supervision': ['Todo en orden.'],
@@ -28,7 +27,6 @@ class TestChatEndpoint(unittest.TestCase):
     def test_guardar_chat_success(self):
         """Prueba de éxito para guardar un chat con todos los campos requeridos."""
         payload = {
-            'auth_token': 'XXX',
             'mensajes_agente': ['Hola, cómo estás?'],
             'mensajes_usuario': ['Estoy bien, gracias.'],
             'mensajes_supervision': ['Todo en orden.'],
@@ -45,7 +43,6 @@ class TestChatEndpoint(unittest.TestCase):
     def test_guardar_chat_missing_fields(self):
         """Prueba de error cuando faltan campos requeridos en el payload."""
         payload = {
-            'auth_token': 'XXX',
             'mensajes_agente': ['Hola'],
             'user_id': 1
         }
@@ -61,7 +58,6 @@ class TestChatEndpoint(unittest.TestCase):
     def test_get_chat_not_found(self):
         """Prueba de error cuando se intenta obtener un chat inexistente."""
         payload = {
-            'auth_token': 'XXX',
             'memory_key': 'INVALID_MEMORY_KEY'
         }
 
@@ -75,7 +71,6 @@ class TestChatEndpoint(unittest.TestCase):
     def test_list_intervention_chats(self):
         """Prueba de éxito para listar todos los chats intervenidos."""
         payload = {
-            'auth_token': 'XXX'
         }
 
         response = requests.post(f'{BASE_URL}/list_intervention', json=payload)
@@ -88,7 +83,6 @@ class TestChatEndpoint(unittest.TestCase):
     def test_list_chats_by_user_success(self):
         """Prueba de éxito para listar todos los chats de un usuario específico."""
         payload = {
-            'auth_token': 'XXX',
             'user_id': 1
         }
 
@@ -101,7 +95,6 @@ class TestChatEndpoint(unittest.TestCase):
     def test_list_chats_by_user_not_found(self):
         """Prueba de error para listar chats de un usuario que no existe."""
         payload = {
-            'auth_token': 'XXX',
             'user_id': 9999  # ID de usuario que no existe
         }
 
@@ -115,7 +108,6 @@ class TestChatEndpoint(unittest.TestCase):
     def test_list_all_chats(self):
         """Prueba de éxito para listar todos los chats en la base de datos."""
         payload = {
-            'auth_token': 'XXX'
         }
 
         response = requests.post(f'{BASE_URL}/list_all', json=payload)
@@ -128,7 +120,6 @@ class TestChatEndpoint(unittest.TestCase):
     def test_delete_chat_success(self):
         """Prueba de éxito para eliminar un chat existente."""
         payload = {
-            'auth_token': 'XXX',
             'memory_key': self.memory_key
         }
 
@@ -140,7 +131,6 @@ class TestChatEndpoint(unittest.TestCase):
     def test_delete_chat_not_found(self):
         """Prueba de error cuando se intenta eliminar un chat inexistente."""
         payload = {
-            'auth_token': 'XXX',
             'memory_key': 'INVALID_MEMORY_KEY'
         }
 
@@ -154,7 +144,6 @@ class TestChatEndpoint(unittest.TestCase):
     def test_archivar_chat_success(self):
         """Prueba de éxito para archivar un chat existente."""
         payload = {
-            'auth_token': 'XXX',
             'memory_key': self.memory_key
         }
 
@@ -166,7 +155,6 @@ class TestChatEndpoint(unittest.TestCase):
     def test_archivar_chat_not_found(self):
         """Prueba de error cuando se intenta archivar un chat inexistente."""
         payload = {
-            'auth_token': 'XXX',
             'memory_key': 'INVALID_MEMORY_KEY'
         }
 
@@ -180,7 +168,6 @@ class TestChatEndpoint(unittest.TestCase):
     def test_update_intervention_status_success(self):
         """Prueba de éxito para actualizar el estado de intervención de un chat existente."""
         payload = {
-            'auth_token': 'XXX',
             'memory_key': self.memory_key,
             'intervenido': True
         }
@@ -194,7 +181,6 @@ class TestChatEndpoint(unittest.TestCase):
         """Prueba de error cuando se intenta actualizar el estado de intervención de un chat inexistente."""
         # Aquí usamos un chat existente para la prueba
         payload = {
-            'auth_token': 'XXX',
             'memory_key': self.memory_key,
             'intervenido': False  
         }

@@ -5,7 +5,7 @@
 import unittest
 import requests
 
-BASE_URL = 'http://localhost:2001'  # The live API URL
+BASE_URL = 'http://localhost:2001/api/auth'  # The live API URL
 
 class UserAuthEndpointTestCase(unittest.TestCase):
 
@@ -46,8 +46,8 @@ class UserAuthEndpointTestCase(unittest.TestCase):
         assert response_data['message'] == "Credenciales inválidas"
 
 
-    # Roles
-
+    # Roles. Funcionalidad interna de la API
+    '''
     def test_asignar_rol_success(self):
         # Define payload for assigning a role successfully
         payload = {
@@ -93,6 +93,7 @@ class UserAuthEndpointTestCase(unittest.TestCase):
         response_data = response.json()
         assert 'message' in response_data
         assert response_data['message'] == "Error al asignar rol"
+        '''
 
 if __name__ == '__main__':
     unittest.main()

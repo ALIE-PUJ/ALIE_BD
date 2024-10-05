@@ -5,7 +5,7 @@
 import unittest
 import requests
 
-BASE_URL = 'http://localhost:5000/tag'  # The live API URL
+BASE_URL = 'http://localhost:5000/api/front/tag'  # The live API URL
 
 class TagLiveEndpointTestCase(unittest.TestCase):
     

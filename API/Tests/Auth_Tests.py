@@ -11,7 +11,7 @@ class VerifyTokenTestCase(unittest.TestCase):
 
     def test_verify_token_success(self):
         # Token válido (Ejemplo de token valido. Recuerde que cambia constantemente. Debe obtener un token valido de la API. Puede hacerlo en http://localhost:2001/swagger/#/default/post_login)
-        valid_token = "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZF91c3VhcmlvIjoxLCJ1c3VhcmlvIjoiTHVpcyBCcmF2byIsImVtYWlsIjoibHVpcy5icmF2b0BqYXZlcmlhbmEuZWR1LmNvbSIsImlkX2NhdGVnb3JpYSI6MiwiaWF0IjoxNzI3ODQ2MTEzLCJleHAiOjE3Mjc4NDk3MTN9.4hCKixEL6dnDwDflhnWRf-m8XefEJKyxxefYyLMXvx32u7nbGlfPlkUqUG_BKfiYvIDP6AYtImN1p0W_OTFdAA"
+        valid_token = "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZF91c3VhcmlvIjoxLCJ1c3VhcmlvIjoiTHVpcyBCcmF2byIsImVtYWlsIjoibHVpcy5icmF2b0BqYXZlcmlhbmEuZWR1LmNvbSIsImlkX2NhdGVnb3JpYSI6MiwiaWF0IjoxNzI4MTA4ODIyLCJleHAiOjE3MjgxMTI0MjJ9.buFGZ9yxtycUY9WHTHmMdjDtSbLFVkNQtgxNbs5hBNsK4VPwTKB0TmizM9cm-JdBXWrdLIfAmxbMPZVPipkXdg"
         
         headers = {
             'Authorization': f'Bearer {valid_token}',  # Agregar "Bearer" antes del token
