@@ -19,7 +19,7 @@ CORS(app, resources={r"/*": {"origins": ["*"]}}) # Habilita CORS para la APP Fla
 from Libraries.DeepTranslator_Translate import *
 from Libraries.Tagging import *
 from Libraries.PineconeFiles import *
-
+from InternalAuth import *
 
 
 # Database connection
@@ -41,9 +41,6 @@ connection = psycopg2.connect(
 )
 
 
-
-
-
 # ENDPOINTS
 
 
@@ -61,6 +58,16 @@ connection = psycopg2.connect(
 '''
 @app.route('/api/front/tag', methods=['POST'])
 def tag():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     # Obtén los datos del cuerpo de la solicitud
     data = request.json
 
@@ -97,6 +104,16 @@ def tag():
 
 @app.route('/api/front/files/submit', methods=['POST'])
 def submit_file():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.form
     file = request.files.get('file')
     categoria = data.get('categoria')
@@ -129,6 +146,15 @@ def submit_file():
 @app.route('/api/front/files/list', methods=['GET'])
 def list_files():
     
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     try:
         with connection.cursor() as cursor:
             cursor.execute("SELECT nombre, categoria FROM Archivo")
@@ -142,6 +168,16 @@ def list_files():
 
 @app.route('/api/front/files/delete', methods=['DELETE'])
 def delete_file():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     file_name = request.args.get('name')
     
     if not file_name:
@@ -169,6 +205,16 @@ def delete_file():
 
 @app.route('/api/front/files/view', methods=['GET'])
 def view_file():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     file_name = request.args.get('name')
 
     if not file_name:
@@ -199,6 +245,16 @@ def view_file():
 
 @app.route('/api/front/chat/guardar', methods=['POST'])
 def guardar_chat():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
     if not all(key in data for key in ('mensajes_agente', 'mensajes_usuario', 'mensajes_supervision', 'user_id')):
@@ -261,6 +317,16 @@ def guardar_chat():
 
 @app.route('/api/front/chat/get', methods=['POST'])
 def get_chat():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
     print("data: ", data)
@@ -297,6 +363,16 @@ def get_chat():
 
 @app.route('/api/front/chat/list_intervention', methods=['POST'])
 def list_intervention_chats():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
     try:
@@ -316,6 +392,16 @@ def list_intervention_chats():
 
 @app.route('/api/front/chat/list', methods=['POST'])
 def list_chats_by_user():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
     if 'user_id' not in data:
@@ -338,6 +424,16 @@ def list_chats_by_user():
 
 @app.route('/api/front/chat/list_all', methods=['POST'])
 def list_all_chats():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
     try:
@@ -356,6 +452,16 @@ def list_all_chats():
 
 @app.route('/api/front/chat/delete', methods=['POST'])
 def delete_chat():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
     if 'memory_key' not in data:
@@ -379,6 +485,16 @@ def delete_chat():
 
 @app.route('/api/front/chat/archive', methods=['POST'])
 def archive_chat():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
     if 'memory_key' not in data:
@@ -403,6 +519,16 @@ def archive_chat():
 
 @app.route('/api/front/chat/update_intervention', methods=['POST'])
 def update_intervention_status():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
     if not all(key in data for key in ('memory_key', 'intervenido')):
@@ -431,4 +557,4 @@ if __name__ == '__main__':
     threading.Thread(target=export_and_upload_to_pinecone, args=()).start()
 
     # Iniciar la aplicación flask
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, threaded=True, debug=True)
