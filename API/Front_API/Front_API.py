@@ -206,13 +206,14 @@ def delete_file():
 @app.route('/api/front/files/view', methods=['GET'])
 def view_file():
 
-
+    '''
     # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
     auth_header = request.headers.get('Authorization')
     if not validate_auth_header(auth_header):
         return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
     else:
         print("Token de autorización válido. Continuando con la lógica de negocio...")
+    '''
 
 
     file_name = request.args.get('name')
