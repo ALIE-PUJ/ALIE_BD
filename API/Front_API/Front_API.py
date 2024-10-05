@@ -54,7 +54,6 @@ connection = psycopg2.connect(
 # Example payload: 
 '''
 {
-    "auth_token": "XXX",
     "user_message": "Hola, que hora es?",
     "agent_message": "Son las 3 de la tarde.",
     "sentiment_tag": "pos"
@@ -66,16 +65,15 @@ def tag():
     data = request.json
 
     # Verifica que todos los campos necesarios estén presentes
-    if not all(key in data for key in ('auth_token', 'user_message', 'agent_message', 'sentiment_tag')):
+    if not all(key in data for key in ('user_message', 'agent_message', 'sentiment_tag')):
         return jsonify(success=False, message="Faltan campos requeridos"), 400
 
-    auth_token = data['auth_token']
     user_message = data['user_message']
     agent_message = data['agent_message']
     sentiment_tag = data['sentiment_tag']
 
     # Print payload
-    print("/tag payload. auth_token: {}, user_message: {}, agent_message: {}, sentiment_tag: {}".format(auth_token, user_message, agent_message, sentiment_tag))
+    print("/tag payload: user_message: {}, agent_message: {}, sentiment_tag: {}".format(user_message, agent_message, sentiment_tag))
 
     # Verifica que el estado sea 'pos' o 'neg'
     if sentiment_tag not in ('pos', 'neg'):
@@ -102,10 +100,6 @@ def submit_file():
     data = request.form
     file = request.files.get('file')
     categoria = data.get('categoria')
-    auth_token = data.get('auth_token')
-
-    if not auth_token:
-        return jsonify(success=False, message="Falta el token de autenticación"), 401
 
     if not categoria or not file:
         return jsonify(success=False, message="Faltan campos requeridos"), 400
@@ -134,10 +128,7 @@ def submit_file():
 
 @app.route('/api/front/files/list', methods=['GET'])
 def list_files():
-    auth_token = request.args.get('auth_token')
-    if not auth_token:
-        return jsonify(success=False, message="Falta el token de autenticación"), 401
-
+    
     try:
         with connection.cursor() as cursor:
             cursor.execute("SELECT nombre, categoria FROM Archivo")
@@ -152,9 +143,7 @@ def list_files():
 @app.route('/api/front/files/delete', methods=['DELETE'])
 def delete_file():
     file_name = request.args.get('name')
-    auth_token = request.args.get('auth_token')
-    if not auth_token:
-        return jsonify(success=False, message="Falta el token de autenticación"), 401
+    
     if not file_name:
         return jsonify(success=False, message="Falta el nombre del archivo"), 400
 
@@ -181,9 +170,7 @@ def delete_file():
 @app.route('/api/front/files/view', methods=['GET'])
 def view_file():
     file_name = request.args.get('name')
-    auth_token = request.args.get('auth_token')
-    if not auth_token:
-        return jsonify(success=False, message="Falta el token de autenticación"), 401
+
     if not file_name:
         return jsonify(success=False, message="Falta el nombre del archivo"), 400
 
@@ -214,10 +201,9 @@ def view_file():
 def guardar_chat():
     data = request.get_json()
 
-    if not all(key in data for key in ('auth_token', 'mensajes_agente', 'mensajes_usuario', 'mensajes_supervision', 'user_id')):
+    if not all(key in data for key in ('mensajes_agente', 'mensajes_usuario', 'mensajes_supervision', 'user_id')):
         return jsonify(success=False, message="Faltan campos requeridos"), 400
 
-    auth_token = data['auth_token']
     nombre = data.get('nombre')  # El nombre puede estar presente o no
     mensajes_agente = data['mensajes_agente']
     mensajes_usuario = data['mensajes_usuario']
@@ -277,10 +263,11 @@ def guardar_chat():
 def get_chat():
     data = request.get_json()
 
-    if not all(key in data for key in ('auth_token', 'memory_key')):
-        return jsonify(success=False, message="Faltan campos requeridos"), 400
+    print("data: ", data)
 
-    auth_token = data['auth_token']
+    if 'memory_key' not in data:
+        return jsonify(success=False, message="Falta el campo requerido: memory_key"), 400
+
     memory_key = data['memory_key']
 
     try:
@@ -312,11 +299,6 @@ def get_chat():
 def list_intervention_chats():
     data = request.get_json()
 
-    if 'auth_token' not in data:
-        return jsonify(success=False, message="Faltan campos requeridos"), 400
-
-    auth_token = data['auth_token']
-
     try:
         cursor = connection.cursor()
         # Filter for only the chats marked as intervenido
@@ -336,11 +318,9 @@ def list_intervention_chats():
 def list_chats_by_user():
     data = request.get_json()
 
+    if 'user_id' not in data:
+        return jsonify(success=False, message="Faltan campos requeridos: user_id"), 400
 
-    if not all(key in data for key in ('auth_token', 'user_id')):
-        return jsonify(success=False, message="Faltan campos requeridos"), 400
-
-    auth_token = data['auth_token']
     user_id = data['user_id']
 
     try:
@@ -360,11 +340,6 @@ def list_chats_by_user():
 def list_all_chats():
     data = request.get_json()
 
-    if 'auth_token' not in data:
-        return jsonify(success=False, message="Faltan campos requeridos"), 400
-
-    auth_token = data['auth_token']
-
     try:
         cursor = connection.cursor()
         cursor.execute("SELECT memory_key, nombre, intervenido FROM Chat")
@@ -383,10 +358,9 @@ def list_all_chats():
 def delete_chat():
     data = request.get_json()
 
-    if not all(key in data for key in ('auth_token', 'memory_key')):
-        return jsonify(success=False, message="Faltan campos requeridos"), 400
+    if 'memory_key' not in data:
+        return jsonify(success=False, message="Falta el campo requerido: memory_key"), 400
 
-    auth_token = data['auth_token']
     memory_key = data['memory_key']
 
     try:
@@ -407,10 +381,9 @@ def delete_chat():
 def archive_chat():
     data = request.get_json()
 
-    if not all(key in data for key in ('auth_token', 'memory_key')):
-        return jsonify(success=False, message="Faltan campos requeridos"), 400
+    if 'memory_key' not in data:
+        return jsonify(success=False, message="Falta el campo requerido: memory_key"), 400
 
-    auth_token = data['auth_token']
     memory_key = data['memory_key']
 
     try:
@@ -432,10 +405,9 @@ def archive_chat():
 def update_intervention_status():
     data = request.get_json()
 
-    if not all(key in data for key in ('auth_token', 'memory_key', 'intervenido')):
+    if not all(key in data for key in ('memory_key', 'intervenido')):
         return jsonify(success=False, message="Faltan campos requeridos"), 400
 
-    auth_token = data['auth_token']
     memory_key = data['memory_key']
     intervenido = data['intervenido']  
 
