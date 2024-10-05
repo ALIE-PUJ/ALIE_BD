@@ -19,7 +19,7 @@ CORS(app, resources={r"/*": {"origins": ["*"]}}) # Habilita CORS para la APP Fla
 from Libraries.DeepTranslator_Translate import *
 from Libraries.Tagging import *
 from Libraries.PineconeFiles import *
-
+from InternalAuth import *
 
 
 # Database connection
@@ -41,9 +41,6 @@ connection = psycopg2.connect(
 )
 
 
-
-
-
 # ENDPOINTS
 
 
@@ -54,28 +51,36 @@ connection = psycopg2.connect(
 # Example payload: 
 '''
 {
-    "auth_token": "XXX",
     "user_message": "Hola, que hora es?",
     "agent_message": "Son las 3 de la tarde.",
     "sentiment_tag": "pos"
 }
 '''
-@app.route('/tag', methods=['POST'])
+@app.route('/api/front/tag', methods=['POST'])
 def tag():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     # Obtén los datos del cuerpo de la solicitud
     data = request.json
 
     # Verifica que todos los campos necesarios estén presentes
-    if not all(key in data for key in ('auth_token', 'user_message', 'agent_message', 'sentiment_tag')):
+    if not all(key in data for key in ('user_message', 'agent_message', 'sentiment_tag')):
         return jsonify(success=False, message="Faltan campos requeridos"), 400
 
-    auth_token = data['auth_token']
     user_message = data['user_message']
     agent_message = data['agent_message']
     sentiment_tag = data['sentiment_tag']
 
     # Print payload
-    print("/tag payload. auth_token: {}, user_message: {}, agent_message: {}, sentiment_tag: {}".format(auth_token, user_message, agent_message, sentiment_tag))
+    print("/tag payload: user_message: {}, agent_message: {}, sentiment_tag: {}".format(user_message, agent_message, sentiment_tag))
 
     # Verifica que el estado sea 'pos' o 'neg'
     if sentiment_tag not in ('pos', 'neg'):
@@ -97,15 +102,21 @@ def tag():
 
 # Files
 
-@app.route('/files/submit', methods=['POST'])
+@app.route('/api/front/files/submit', methods=['POST'])
 def submit_file():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.form
     file = request.files.get('file')
     categoria = data.get('categoria')
-    auth_token = data.get('auth_token')
-
-    if not auth_token:
-        return jsonify(success=False, message="Falta el token de autenticación"), 401
 
     if not categoria or not file:
         return jsonify(success=False, message="Faltan campos requeridos"), 400
@@ -132,11 +143,17 @@ def submit_file():
         print(f"Error: {e}")
         return jsonify(success=False, message="Error al guardar el archivo"), 500
 
-@app.route('/files/list', methods=['GET'])
+@app.route('/api/front/files/list', methods=['GET'])
 def list_files():
-    auth_token = request.args.get('auth_token')
-    if not auth_token:
-        return jsonify(success=False, message="Falta el token de autenticación"), 401
+    
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
 
     try:
         with connection.cursor() as cursor:
@@ -149,12 +166,20 @@ def list_files():
         print(f"Error: {e}")
         return jsonify(success=False, message="Error al obtener los archivos"), 500
 
-@app.route('/files/delete', methods=['DELETE'])
+@app.route('/api/front/files/delete', methods=['DELETE'])
 def delete_file():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     file_name = request.args.get('name')
-    auth_token = request.args.get('auth_token')
-    if not auth_token:
-        return jsonify(success=False, message="Falta el token de autenticación"), 401
+    
     if not file_name:
         return jsonify(success=False, message="Falta el nombre del archivo"), 400
 
@@ -178,12 +203,21 @@ def delete_file():
         print(f"Error: {e}")
         return jsonify(success=False, message="Error al eliminar el archivo"), 500
 
-@app.route('/files/view', methods=['GET'])
+@app.route('/api/front/files/view', methods=['GET'])
 def view_file():
+
+    '''
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+    '''
+
+
     file_name = request.args.get('name')
-    auth_token = request.args.get('auth_token')
-    if not auth_token:
-        return jsonify(success=False, message="Falta el token de autenticación"), 401
+
     if not file_name:
         return jsonify(success=False, message="Falta el nombre del archivo"), 400
 
@@ -210,14 +244,23 @@ def view_file():
 
 # Chats
 
-@app.route('/chat/guardar', methods=['POST'])
+@app.route('/api/front/chat/guardar', methods=['POST'])
 def guardar_chat():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
-    if not all(key in data for key in ('auth_token', 'mensajes_agente', 'mensajes_usuario', 'mensajes_supervision', 'user_id')):
+    if not all(key in data for key in ('mensajes_agente', 'mensajes_usuario', 'mensajes_supervision', 'user_id')):
         return jsonify(success=False, message="Faltan campos requeridos"), 400
 
-    auth_token = data['auth_token']
     nombre = data.get('nombre')  # El nombre puede estar presente o no
     mensajes_agente = data['mensajes_agente']
     mensajes_usuario = data['mensajes_usuario']
@@ -273,14 +316,25 @@ def guardar_chat():
 
 
 
-@app.route('/chat/get', methods=['POST'])
+@app.route('/api/front/chat/get', methods=['POST'])
 def get_chat():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
-    if not all(key in data for key in ('auth_token', 'memory_key')):
-        return jsonify(success=False, message="Faltan campos requeridos"), 400
+    print("data: ", data)
 
-    auth_token = data['auth_token']
+    if 'memory_key' not in data:
+        return jsonify(success=False, message="Falta el campo requerido: memory_key"), 400
+
     memory_key = data['memory_key']
 
     try:
@@ -308,14 +362,19 @@ def get_chat():
         return jsonify(success=False, message="Error en el servidor")
 
 
-@app.route('/chat/list_intervention', methods=['POST'])
+@app.route('/api/front/chat/list_intervention', methods=['POST'])
 def list_intervention_chats():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
-
-    if 'auth_token' not in data:
-        return jsonify(success=False, message="Faltan campos requeridos"), 400
-
-    auth_token = data['auth_token']
 
     try:
         cursor = connection.cursor()
@@ -332,15 +391,23 @@ def list_intervention_chats():
 
 
 
-@app.route('/chat/list', methods=['POST'])
+@app.route('/api/front/chat/list', methods=['POST'])
 def list_chats_by_user():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
+    if 'user_id' not in data:
+        return jsonify(success=False, message="Faltan campos requeridos: user_id"), 400
 
-    if not all(key in data for key in ('auth_token', 'user_id')):
-        return jsonify(success=False, message="Faltan campos requeridos"), 400
-
-    auth_token = data['auth_token']
     user_id = data['user_id']
 
     try:
@@ -356,14 +423,19 @@ def list_chats_by_user():
         return jsonify(success=False)
 
 
-@app.route('/chat/list_all', methods=['POST'])
+@app.route('/api/front/chat/list_all', methods=['POST'])
 def list_all_chats():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
-
-    if 'auth_token' not in data:
-        return jsonify(success=False, message="Faltan campos requeridos"), 400
-
-    auth_token = data['auth_token']
 
     try:
         cursor = connection.cursor()
@@ -379,14 +451,23 @@ def list_all_chats():
         return jsonify(success=False)
 
 
-@app.route('/chat/delete', methods=['POST'])
+@app.route('/api/front/chat/delete', methods=['POST'])
 def delete_chat():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
-    if not all(key in data for key in ('auth_token', 'memory_key')):
-        return jsonify(success=False, message="Faltan campos requeridos"), 400
+    if 'memory_key' not in data:
+        return jsonify(success=False, message="Falta el campo requerido: memory_key"), 400
 
-    auth_token = data['auth_token']
     memory_key = data['memory_key']
 
     try:
@@ -403,14 +484,23 @@ def delete_chat():
         print(e)
         return jsonify(success=False)
 
-@app.route('/chat/archive', methods=['POST'])
+@app.route('/api/front/chat/archive', methods=['POST'])
 def archive_chat():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
-    if not all(key in data for key in ('auth_token', 'memory_key')):
-        return jsonify(success=False, message="Faltan campos requeridos"), 400
+    if 'memory_key' not in data:
+        return jsonify(success=False, message="Falta el campo requerido: memory_key"), 400
 
-    auth_token = data['auth_token']
     memory_key = data['memory_key']
 
     try:
@@ -428,14 +518,23 @@ def archive_chat():
         return jsonify(success=False)
 
 
-@app.route('/chat/update_intervention', methods=['POST'])
+@app.route('/api/front/chat/update_intervention', methods=['POST'])
 def update_intervention_status():
+
+
+    # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+    else:
+        print("Token de autorización válido. Continuando con la lógica de negocio...")
+
+
     data = request.get_json()
 
-    if not all(key in data for key in ('auth_token', 'memory_key', 'intervenido')):
+    if not all(key in data for key in ('memory_key', 'intervenido')):
         return jsonify(success=False, message="Faltan campos requeridos"), 400
 
-    auth_token = data['auth_token']
     memory_key = data['memory_key']
     intervenido = data['intervenido']  
 
@@ -459,4 +558,4 @@ if __name__ == '__main__':
     threading.Thread(target=export_and_upload_to_pinecone, args=()).start()
 
     # Iniciar la aplicación flask
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, threaded=True, debug=True)
