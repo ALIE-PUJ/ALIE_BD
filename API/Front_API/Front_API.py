@@ -60,7 +60,7 @@ connection = psycopg2.connect(
     "sentiment_tag": "pos"
 }
 '''
-@app.route('/tag', methods=['POST'])
+@app.route('/api/front/tag', methods=['POST'])
 def tag():
     # Obtén los datos del cuerpo de la solicitud
     data = request.json
@@ -97,7 +97,7 @@ def tag():
 
 # Files
 
-@app.route('/files/submit', methods=['POST'])
+@app.route('/api/front/files/submit', methods=['POST'])
 def submit_file():
     data = request.form
     file = request.files.get('file')
@@ -132,7 +132,7 @@ def submit_file():
         print(f"Error: {e}")
         return jsonify(success=False, message="Error al guardar el archivo"), 500
 
-@app.route('/files/list', methods=['GET'])
+@app.route('/api/front/files/list', methods=['GET'])
 def list_files():
     auth_token = request.args.get('auth_token')
     if not auth_token:
@@ -149,7 +149,7 @@ def list_files():
         print(f"Error: {e}")
         return jsonify(success=False, message="Error al obtener los archivos"), 500
 
-@app.route('/files/delete', methods=['DELETE'])
+@app.route('/api/front/files/delete', methods=['DELETE'])
 def delete_file():
     file_name = request.args.get('name')
     auth_token = request.args.get('auth_token')
@@ -178,7 +178,7 @@ def delete_file():
         print(f"Error: {e}")
         return jsonify(success=False, message="Error al eliminar el archivo"), 500
 
-@app.route('/files/view', methods=['GET'])
+@app.route('/api/front/files/view', methods=['GET'])
 def view_file():
     file_name = request.args.get('name')
     auth_token = request.args.get('auth_token')
@@ -210,7 +210,7 @@ def view_file():
 
 # Chats
 
-@app.route('/chat/guardar', methods=['POST'])
+@app.route('/api/front/chat/guardar', methods=['POST'])
 def guardar_chat():
     data = request.get_json()
 
@@ -273,7 +273,7 @@ def guardar_chat():
 
 
 
-@app.route('/chat/get', methods=['POST'])
+@app.route('/api/front/chat/get', methods=['POST'])
 def get_chat():
     data = request.get_json()
 
@@ -308,7 +308,7 @@ def get_chat():
         return jsonify(success=False, message="Error en el servidor")
 
 
-@app.route('/chat/list_intervention', methods=['POST'])
+@app.route('/api/front/chat/list_intervention', methods=['POST'])
 def list_intervention_chats():
     data = request.get_json()
 
@@ -332,7 +332,7 @@ def list_intervention_chats():
 
 
 
-@app.route('/chat/list', methods=['POST'])
+@app.route('/api/front/chat/list', methods=['POST'])
 def list_chats_by_user():
     data = request.get_json()
 
@@ -356,7 +356,7 @@ def list_chats_by_user():
         return jsonify(success=False)
 
 
-@app.route('/chat/list_all', methods=['POST'])
+@app.route('/api/front/chat/list_all', methods=['POST'])
 def list_all_chats():
     data = request.get_json()
 
@@ -379,7 +379,7 @@ def list_all_chats():
         return jsonify(success=False)
 
 
-@app.route('/chat/delete', methods=['POST'])
+@app.route('/api/front/chat/delete', methods=['POST'])
 def delete_chat():
     data = request.get_json()
 
@@ -403,7 +403,7 @@ def delete_chat():
         print(e)
         return jsonify(success=False)
 
-@app.route('/chat/archive', methods=['POST'])
+@app.route('/api/front/chat/archive', methods=['POST'])
 def archive_chat():
     data = request.get_json()
 
@@ -428,7 +428,7 @@ def archive_chat():
         return jsonify(success=False)
 
 
-@app.route('/chat/update_intervention', methods=['POST'])
+@app.route('/api/front/chat/update_intervention', methods=['POST'])
 def update_intervention_status():
     data = request.get_json()
 
