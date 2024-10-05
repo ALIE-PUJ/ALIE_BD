@@ -5,18 +5,15 @@
 import unittest
 import requests
 
+# Auth Headers
+from Others.Auth_Token_Getter import *
+headers = {} # Encabezados de la solicitud. Vacío por ahora
+
 BASE_URL = 'http://localhost:2000'  # La URL de la API
 
 class VerifyTokenTestCase(unittest.TestCase):
 
     def test_verify_token_success(self):
-        # Token válido (Ejemplo de token valido. Recuerde que cambia constantemente. Debe obtener un token valido de la API. Puede hacerlo en http://localhost:2001/swagger/#/default/post_login)
-        valid_token = "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZF91c3VhcmlvIjoxLCJ1c3VhcmlvIjoiTHVpcyBCcmF2byIsImVtYWlsIjoibHVpcy5icmF2b0BqYXZlcmlhbmEuZWR1LmNvbSIsImlkX2NhdGVnb3JpYSI6MiwiaWF0IjoxNzI3ODQ2MTEzLCJleHAiOjE3Mjc4NDk3MTN9.4hCKixEL6dnDwDflhnWRf-m8XefEJKyxxefYyLMXvx32u7nbGlfPlkUqUG_BKfiYvIDP6AYtImN1p0W_OTFdAA"
-        
-        headers = {
-            'Authorization': f'Bearer {valid_token}',  # Agregar "Bearer" antes del token
-            'accept': 'application/json'
-        }
 
         # Hacer la solicitud POST al endpoint /verify
         response = requests.post(f'{BASE_URL}/verify', headers=headers)
@@ -36,13 +33,13 @@ class VerifyTokenTestCase(unittest.TestCase):
         # Token inválido
         invalid_token = "invalid_token"
 
-        headers = {
+        headers_specific = {
             'Authorization': f'Bearer {invalid_token}',  # Agregar "Bearer" antes del token
             'accept': 'application/json'
         }
 
         # Hacer la solicitud POST al endpoint /verify
-        response = requests.post(f'{BASE_URL}/verify', headers=headers)
+        response = requests.post(f'{BASE_URL}/verify', headers=headers_specific)
 
         # Imprimir la respuesta
         print(f"Response Status Code (Invalid Token): {response.status_code}")
@@ -61,4 +58,6 @@ class VerifyTokenTestCase(unittest.TestCase):
                 print(response.text)  # Imprimir el contenido de la respuesta en caso de error
 
 if __name__ == '__main__':
+
+    headers = login_and_get_header() # Get the auth header
     unittest.main()

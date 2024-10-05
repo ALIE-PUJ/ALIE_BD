@@ -5,21 +5,24 @@
 import unittest
 import requests
 
-BASE_URL = 'http://localhost:5000/tag'  # The live API URL
+# Auth Headers
+from Others.Auth_Token_Getter import *
+headers = {} # Encabezados de la solicitud. Vacío por ahora
+
+BASE_URL = 'http://localhost:5000/api/front/tag'  # The live API URL
 
 class TagLiveEndpointTestCase(unittest.TestCase):
     
     def test_tag_endpoint_success(self):
         # Define payload for the request
         payload = {
-            "auth_token": "XXX",
             "user_message": "Hola, que hora es?",
             "agent_message": "Son las 3 de la tarde.",
             "sentiment_tag": "pos"
         }
 
         # Make POST request to the live /tag endpoint
-        response = requests.post(BASE_URL, json=payload)
+        response = requests.post(BASE_URL, json=payload, headers=headers)
 
         # Assertions
         assert response.status_code == 200
@@ -37,14 +40,13 @@ class TagLiveEndpointTestCase(unittest.TestCase):
     def test_tag_endpoint_invalid_tag(self):
         # Define payload with invalid sentiment_tag
         payload = {
-            "auth_token": "XXX",
             "user_message": "Hola, que hora es?",
             "agent_message": "Son las 3 de la tarde.",
             "sentiment_tag": "invalid"  # Invalid sentiment_tag
         }
 
         # Make POST request to the live /tag endpoint
-        response = requests.post(BASE_URL, json=payload)
+        response = requests.post(BASE_URL, json=payload, headers=headers)
 
         # Parse response data
         response_data = response.json()
@@ -57,13 +59,12 @@ class TagLiveEndpointTestCase(unittest.TestCase):
     def test_tag_endpoint_missing_fields(self):
         # Define payload with missing fields
         payload = {
-            "auth_token": "XXX",
             "user_message": "Hola, que hora es?",
             # Missing 'agent_message' and 'sentiment_tag'
         }
 
         # Make POST request to the live /tag endpoint
-        response = requests.post(BASE_URL, json=payload)
+        response = requests.post(BASE_URL, json=payload, headers=headers)
 
         # Parse response data
         response_data = response.json()
@@ -73,26 +74,32 @@ class TagLiveEndpointTestCase(unittest.TestCase):
         assert response_data['success'] is False
         assert 'Faltan campos requeridos' in response_data['message']
 
-    ''' # Only for testing purposes, Once the token validation is implemented
     def test_tag_endpoint_save_tag_failure(self):
         # Define payload with invalid data
         payload = {
-            "auth_token": "INVALID_TOKEN",  # Simulate an invalid token
             "user_message": "Hola, que hora es?",
             "agent_message": "Son las 3 de la tarde.",
             "sentiment_tag": "pos"
         }
 
+        # Create a new header without the auth_token, but an invalid token
+        invalid_token = "invalid_token"
+        headers_specific = {
+            'Authorization': f'Bearer {invalid_token}',  # Agregar "Bearer" antes del token
+            'accept': 'application/json'
+        }
+
         # Make POST request to the live /tag endpoint
-        response = requests.post(BASE_URL, json=payload)
+        response = requests.post(BASE_URL, json=payload, headers=headers_specific)
 
         # Assertions - checking for failure (400 or 500)
-        assert response.status_code in [400, 500]
+        assert response.status_code == 401
         response_data = response.json()
         assert response_data['success'] is False
-        # Optionally check for an error message, depending on the API response
-    '''
+        assert 'Token de autorización inválido o faltante' in response_data['message']
 
 
 if __name__ == '__main__':
+
+    headers = login_and_get_header() # Get the auth header
     unittest.main()
