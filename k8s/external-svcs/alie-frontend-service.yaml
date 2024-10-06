@@ -8,9 +8,7 @@ metadata:
     io.kompose.service: alie-frontend
   name: alie-frontend
 spec:
-  ports:
-    - name: "4200"
-      port: 4200
-      targetPort: 4000
+  type: ExternalName
+  ExternalName: alie-frontend.alie-frontend.svc.cluster.local
   selector:
     io.kompose.service: alie-frontend

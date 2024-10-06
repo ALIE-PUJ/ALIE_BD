@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: backend-ingress
+  name: user-ingress
 spec:
   rules:
     - host: alie.javeriana.edu.co
@@ -21,6 +21,13 @@ spec:
                 name:  front-api
                 port:
                   number: 5000
+          - path: /api/ia
+            pathType: Prefix
+            backend:
+              service:
+                name:  alie-ia
+                port:
+                  number: 3000
           - path: /
             pathType: Prefix
             backend:
