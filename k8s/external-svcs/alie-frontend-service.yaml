@@ -12,3 +12,7 @@ spec:
   externalName: alie-frontend.alie-frontend.svc.cluster.local
   selector:
     io.kompose.service: alie-frontend
+  ports:
+    - name: "4200"
+      port: 4200
+      targetPort: 4200
