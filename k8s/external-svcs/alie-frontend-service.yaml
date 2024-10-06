@@ -9,6 +9,6 @@ metadata:
   name: alie-frontend
 spec:
   type: ExternalName
-  ExternalName: alie-frontend.alie-frontend.svc.cluster.local
+  externalName: alie-frontend.alie-frontend.svc.cluster.local
   selector:
     io.kompose.service: alie-frontend
