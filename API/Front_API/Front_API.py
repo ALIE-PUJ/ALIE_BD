@@ -379,11 +379,11 @@ def list_intervention_chats():
     try:
         cursor = connection.cursor()
         # Filter for only the chats marked as intervenido
-        cursor.execute("SELECT memory_key, nombre FROM Chat WHERE intervenido = TRUE")
+        cursor.execute("SELECT memory_key, nombre, archivado FROM Chat WHERE intervenido = TRUE")
         chats = cursor.fetchall()
         cursor.close()
 
-        chat_list = [{'memory_key': chat[0], 'nombre': chat[1]} for chat in chats]
+        chat_list = [{'memory_key': chat[0], 'nombre': chat[1], 'archivado': chat[2]}for chat in chats]
         return jsonify(chat_list)
     except Exception as e:
         print(e)
@@ -425,8 +425,6 @@ def list_chats_by_user():
 
 @app.route('/api/front/chat/list_all', methods=['POST'])
 def list_all_chats():
-
-
     # Verificar token. Si no es válido, devolver un error 401. Si es válido, continuar con la lógica de negocio
     auth_header = request.headers.get('Authorization')
     if not validate_auth_header(auth_header):
@@ -434,21 +432,55 @@ def list_all_chats():
     else:
         print("Token de autorización válido. Continuando con la lógica de negocio...")
 
-
     data = request.get_json()
 
     try:
         cursor = connection.cursor()
-        cursor.execute("SELECT memory_key, nombre, intervenido FROM Chat")
+        # Incluir 'archivado' en la consulta SELECT
+        cursor.execute("SELECT memory_key, nombre, intervenido, archivado FROM Chat")
         chats = cursor.fetchall()
         cursor.close()
 
-       
-        chat_list = [{'memory_key': chat[0], 'nombre': chat[1], 'intervenido': chat[2]} for chat in chats]
+        # Incluir 'archivado' en el diccionario que devuelve cada chat
+        chat_list = [{'memory_key': chat[0], 'nombre': chat[1], 'intervenido': chat[2], 'archivado': chat[3]} for chat in chats]
+
         return jsonify(chat_list)
     except Exception as e:
         print(e)
         return jsonify(success=False)
+
+@app.route('/api/front/chat/intervention_status', methods=['POST'])
+def get_intervention_status():
+    # Verificar token. Si no es válido, devolver un error 401
+    auth_header = request.headers.get('Authorization')
+    if not validate_auth_header(auth_header):
+        return jsonify(success=False, message="Token de autorización inválido o faltante"), 401
+
+    data = request.get_json()
+
+ 
+    if 'memory_key' not in data:
+        return jsonify(success=False, message="Falta el campo requerido: memory_key"), 400
+
+    memory_key = data['memory_key']
+
+    try:
+        cursor = connection.cursor()
+        cursor.execute("SELECT intervenido FROM Chat WHERE memory_key = %s", (memory_key,))
+        chat = cursor.fetchone()
+        cursor.close()
+
+        if chat:
+            return jsonify({
+                'memory_key': memory_key,
+                'intervenido': chat[0],  
+                'success': True
+            })
+        else:
+            return jsonify(success=False, message="Chat no encontrado"), 404
+    except Exception as e:
+        print(e)
+        return jsonify(success=False, message="Error en el servidor")
 
 
 @app.route('/api/front/chat/delete', methods=['POST'])
