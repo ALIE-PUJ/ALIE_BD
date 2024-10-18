@@ -85,3 +85,11 @@ CREATE TABLE IF NOT EXISTS Horario_Clase (
     FOREIGN KEY (id_clase) REFERENCES Clase(id_clase)
 );
 
+-- Tabla Semestre_Sugerido
+CREATE TABLE IF NOT EXISTS Semestre_Sugerido (
+    id_curso INT NOT NULL,
+    semestre INT NOT NULL,
+    tipo_curso VARCHAR(50) NOT NULL CHECK (tipo_curso IN ('Núcleo de Formación Fundamental', 'Énfasis', 'Complementaria', 'Electiva')),
+    PRIMARY KEY (id_curso, semestre),
+    FOREIGN KEY (id_curso) REFERENCES Curso(id_curso)
+);
