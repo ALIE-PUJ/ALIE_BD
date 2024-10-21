@@ -3518,7 +3518,7 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (206, 7941),
 (207, 7944),
 (208, 7946),
-(1, 6182), --estudiante 1
+(1, 6182), --estudiante 1. Octavo semestre
 (1, 4590),
 (1, 1464),
 (1, 1536),
@@ -3556,7 +3556,7 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (1, 1512),
 (1, 8082),
 (1, 7946),
-(2, 6180),-- estudiante 2
+(2, 6180),-- estudiante 2. Septimo semestre
 (2, 4561),
 (2, 1447),
 (2, 1535),
@@ -3589,7 +3589,7 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (2, 1594),
 (2, 1680),
 (2, 7877),
-(3, 6175),
+(3, 6175), -- estudiante 3. Sexto semestre
 (3, 4543),
 (3, 1465),
 (3, 14906),
@@ -3616,7 +3616,7 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (3, 1590),
 (3, 1660),
 (3, 2355),
-(4, 6175),
+(4, 6175), -- estudiante 4. Quinto semestre
 (4, 4543),
 (4, 1465),
 (4, 14906),
@@ -3636,7 +3636,7 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (4, 1567),
 (4, 1526),
 (4, 12503),
-(5, 6175),
+(5, 6175), -- estudiante 5. Cuarto semestre
 (5, 4543),
 (5, 1465),
 (5, 14906),
@@ -3652,7 +3652,7 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (5, 1552),
 (5, 1587),
 (5, 1664),
-(6, 6182),
+(6, 6182), -- estudiante 6. Tercer semestre
 (6, 4590),
 (6, 1464),
 (6, 1536),
@@ -3663,12 +3663,12 @@ INSERT INTO Estudiante_Clase (id_estudiante, id_clase) VALUES
 (6, 1584),
 (6, 1474),
 (6, 2296),
-(7, 6182),
+(7, 6182), -- estudiante 7. Segundo semestre
 (7, 4590),
 (7, 1464),
 (7, 1536),
 (7, 3868),
-(7, 3823)
+(7, 3823) -- El estudiante con ID 8 esta en primer semestre.
 ON CONFLICT (id_estudiante, id_clase) DO NOTHING;
 
 -- Prerrequisitos de cursos
