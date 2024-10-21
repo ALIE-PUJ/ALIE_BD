@@ -31,6 +31,7 @@ CREATE TABLE IF NOT EXISTS Profesor (
 CREATE TABLE IF NOT EXISTS Curso (
     id_curso SERIAL PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
+    creditos INT NOT NULL,
     descripcion TEXT
 );
 
