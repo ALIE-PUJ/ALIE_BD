@@ -9,7 +9,7 @@ INSERT INTO Estudiante (id_estudiante, nombres, apellidos, fecha_nacimiento, id_
 (2, 'Ana', 'Ortegon', '2003-10-30', 1, 'ana.ortegon@javeriana.edu.com', '3072520625', 'Cl. 97 # 5-6 Este, Casa 62, 522890, Sapuyes, Nariño'),
 (3, 'Maria', 'Avellaneda', '2001-10-17', 1, 'maria.avellaneda@javeriana.edu.com', '+573248329102', 'Cr. 70W # 84K-54, Local 30, 813804, Arauca'),
 (4, 'Juan', 'Sanchez', '2001-12-16', 1, 'juan.sanchez@javeriana.edu.com', '6011783521', 'Avenida calle 4ª # 7U-10 Este, 276397, El Litoral del San Juan, Chocó'),
-(5, 'Paola', 'Arévalo', '2001-09-29', 1, 'londonorosa@example.org', '+57 606 759 06 60', 'Avenida carrera 18 # 43-10, 053140, Gómez Plata, Antioquia'),
+(5, 'Pepito', 'Perez', '2001-09-29', 1, 'pepito@javeriana.edu.com', '+57 606 759 06 60', 'Avenida carrera 18 # 43-10, 053140, Gómez Plata, Antioquia'),
 (6, 'Fabián', 'Ramírez', '2004-06-21', 1, 'robinson16@example.org', '573237742369', 'Avenida Alexandra Restrepo # 5-6 Este, 158862, Tununguá, Boyacá'),
 (7, 'Jesús', 'Arroyo', '2003-04-07', 1, 'nellyerazo@example.org', '57 325 167 63 61', 'Avenida calle 58 # 80-7 Este, Bodega 1, 151453, San Mateo, Boyacá'),
 (8, 'Orlando', 'Vanegas', '2000-03-24', 1, 'heidy99@example.com', '(+57) 608 864 04 31', 'Carrera 3ª # 8Z-6 Este, Casa 4, 547209, Villa del Rosario, Norte de Santander'),
