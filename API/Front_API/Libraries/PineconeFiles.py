@@ -14,6 +14,7 @@ from io import BytesIO
 import requests
 import io
 import time
+import random
 
 
 
@@ -108,21 +109,27 @@ def delete_file_from_pinecone(api_key, base_url, file_id):
     else:
         print(f"Error al eliminar archivo {file_id}. Código de estado: {response.status_code}, Respuesta: {response.text}")
 
-# Función para verificar si existe un archivo con el nombre dado y eliminarlo
-def delete_file_by_name_if_exists(api_key, base_url, file_name):
+# Función para verificar si existen archivos con el nombre dado y eliminarlos
+def delete_files_by_name_if_exists(api_key, base_url, file_name):
     # Listar todos los archivos existentes en Pinecone
     files = list_files_in_pinecone(api_key, base_url)
-    
-    # Buscar el archivo por nombre
+    found = False  # Bandera para indicar si se encontró al menos un archivo
+
+    # Buscar y eliminar todos los archivos con el nombre especificado
     for file_info in files:
         if isinstance(file_info, dict) and file_info.get('name') == file_name:
             file_id = file_info.get('id')
             if file_id:
                 print(f"Archivo encontrado: {file_name} con ID: {file_id}. Procediendo a eliminarlo.")
+
+                time.sleep(5)  # Esperar 5 segundos antes de eliminar el archivo para evitar saturar la API
                 delete_file_from_pinecone(api_key, base_url, file_id)
-                return True  # Archivo encontrado y eliminado
-    print(f"No se encontró ningún archivo con el nombre: {file_name}.")
-    return False  # Archivo no encontrado
+                found = True  # Cambia la bandera a True si se elimina un archivo
+
+    if not found:
+        print(f"No se encontró ningún archivo con el nombre: {file_name}.")
+    
+    return found  # Retorna True si se encontró y eliminó al menos un archivo, False si no
 
 # Función para subir un archivo con el nombre dado
 def upload_file_to_pinecone(api_key, base_url, filepath, file_name):
@@ -205,8 +212,14 @@ def export_and_upload_to_pinecone():
     # Paso X: Crear el asistente en Pinecone si no existe
     create_assistant_if_not_exists(api_key, assistant_name)
 
+    # Espera un tiempo aleatorio entre 1 y 10 segundos por si otro asistente esta creando el archivo.
+    wait_time = random.randint(1, 10)
+    time.sleep(wait_time)
+
+    print(f"Esperó {wait_time} segundos.")
+
     # Paso 3: Verificar si el archivo ya existe en Pinecone y eliminarlo si es necesario
-    delete_file_by_name_if_exists(api_key, base_url, file_name)  # Elimina el archivo si ya existe
+    delete_files_by_name_if_exists(api_key, base_url, file_name)  # Elimina el archivo si ya existe
     
     # Paso 4: Subir el archivo JSON a Pinecone
     upload_file_to_pinecone(api_key, base_url, json_file_path, file_name)  # Sube el archivo generado

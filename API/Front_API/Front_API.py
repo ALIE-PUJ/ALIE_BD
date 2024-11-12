@@ -134,8 +134,9 @@ def submit_file():
             connection.commit()
 
             # Actualizar pinecone en un hilo
-            print("Actualizando Pinecone en un hilo...")
-            threading.Thread(target=export_and_upload_to_pinecone, args=()).start()
+            if auth_header is not None:
+                print("Actualizando Pinecone en un hilo... [UPLOAD]")
+                threading.Thread(target=export_and_upload_to_pinecone, args=()).start()
             
         return jsonify(success=True), 200
     except Exception as e:
@@ -190,8 +191,9 @@ def delete_file():
             connection.commit()
 
             # Actualizar pinecone en un hilo
-            print("Actualizando Pinecone en un hilo...")
-            threading.Thread(target=export_and_upload_to_pinecone, args=()).start()
+            if auth_header is not None:
+                print("Actualizando Pinecone en un hilo... [DELETE]")
+                threading.Thread(target=export_and_upload_to_pinecone, args=()).start()
 
 
         if rows_deleted > 0:
